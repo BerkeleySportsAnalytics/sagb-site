@@ -1631,7 +1631,11 @@ input, select, textarea {
   }
 
     .box.excerpt header {
-      margin: 0 0 1em 0;
+      margin: 0 0 0.5em 0;
+    }
+
+    .box.excerpt a {
+      width: 30%;
     }
 
     .box.excerpt .image, .box.excerpt p {
