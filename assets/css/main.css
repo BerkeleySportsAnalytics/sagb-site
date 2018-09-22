@@ -1228,6 +1228,11 @@ input, select, textarea {
     margin-bottom: 0;
   }
 
+  article > ul {
+    list-style-type: disc;
+    padding-left: 5%;
+  }
+
   header {
     margin: 0 0 2em 0;
   }
@@ -1257,6 +1262,11 @@ input, select, textarea {
   header.major {
     border-bottom: solid 1px #dbdbdb;
     margin: 0 0 3em 0;
+  }
+
+  header.minor {
+    border-bottom: solid 1px #dbdbdb;
+    margin: 0 0 2em 0;
   }
 
   article h4 a{
@@ -1833,6 +1843,31 @@ input, select, textarea {
   #sidebar h2 {
     font-size: 1.5em;
   }
+
+  #sidebar-sticky {
+    position: sticky;
+    top: 30px;
+    position: -webkit-sticky;
+  }
+
+  #sidebar-sticky h2{
+    font-size: 1.5em;
+  }
+
+  #sidebar > section > .sidebar-list{
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+    #sidebar > section > .sidebar-list > li{
+      padding: 5px 0px;
+      color: #404248;
+    }
+      #sidebar > section > .sidebar-list > li > a{
+        text-decoration: none;
+      }
+       #sidebar > section > .sidebar-list > li > a:hover{
+        text-decoration: underline;
+      }
 
 /* Wrappers */
 
@@ -2416,12 +2451,6 @@ input, select, textarea {
         #banner h2 {
           font-size: 18pt !important;
         }
-
-    /* Sidebar */
-
-      #sidebar {
-        display: none;
-      }
 
     /* Footer */
 
