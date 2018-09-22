@@ -191,7 +191,7 @@ input, select, textarea {
   }
 
   p, ul, ol, dl, table {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   .date {
@@ -1259,6 +1259,10 @@ input, select, textarea {
     margin: 0 0 3em 0;
   }
 
+  article h4 a{
+  	text-decoration: underline;
+  }
+
     header.major:after {
       content: '';
       display: block;
@@ -1392,7 +1396,6 @@ input, select, textarea {
       position: absolute;
       left: 0;
       top: 0;
-      background: url("images/bg01.png");
       width: 100%;
       height: 100%;
       opacity: 0.75;
@@ -1414,14 +1417,25 @@ input, select, textarea {
       margin: 0 2em 2em 0;
     }
 
+    .image.half-left {
+      float: left;
+      width: 45%;
+      margin: 0 1.5em 1.5em 0;
+    }
+
+    .image.half-right {
+      float: right;
+      width: 45%;
+      margin: 0 0 1.5em 1.5em;
+    }
+
     .image.centered {
       display: block;
-      margin: 0 0 2.5em 0;
+      margin: 0 0 1em 0;
     }
 
       .image.centered img {
         margin: 0 auto;
-        width: auto;
       }
 
 /* Button */
@@ -1782,6 +1796,7 @@ input, select, textarea {
       font-weight: 700;
       line-height: 1.3em;
       margin: 0 0 1.5em 0;
+      padding: 0 10%;
     }
 
       #banner h2 strong {
@@ -1821,14 +1836,16 @@ input, select, textarea {
 
 /* Wrappers */
 
-  #header-wrapper {
-    background: url("images/bg01.png"), url("../../images/header.jpg");
-    background-position: top left, center center;
-    background-size: auto, cover;
-    padding: 3em 0;
-  }
-
-
+    body.homepage #header-wrapper {
+      height: 100vh;
+      background: linear-gradient(
+        rgba(0, 0, 0, 0.15), 
+        rgba(0, 0, 0, 0.15)
+      ),url("../../images/main-banner-image.jpg");
+      background-position: top left, center center;
+      background-size: cover;
+      filter: brightness(90%);
+    }
 
   #header-wrapper {
     background: url("images/bg01.png"), url("../../images/header.jpg");
@@ -1992,17 +2009,6 @@ input, select, textarea {
 
       #header-wrapper {
         padding: 2em 0;
-      }
-
-      body.homepage #header-wrapper {
-        height: 100vh;
-        background: linear-gradient(
-		      rgba(0, 0, 0, 0.15), 
-		      rgba(0, 0, 0, 0.15)
-		    ),url("../../images/main-banner-image.jpg");
-        background-position: top left, center center;
-        background-size: cover;
-        filter: brightness(90%);
       }
 
       #footer-wrapper {
@@ -2288,6 +2294,9 @@ input, select, textarea {
   @media screen and (max-width: 736px) {
 
     /* Basic */
+      body.homepage #header-wrapper {
+        height: auto;
+      }
 
       body, input, select, textarea {
         line-height: 1.75em;
@@ -2303,6 +2312,10 @@ input, select, textarea {
         line-height: 1.5em;
       }
 
+      .hide-mobile {
+        display: none !important;
+      }
+
     /* Section/Article */
 
       section, article {
@@ -2313,6 +2326,16 @@ input, select, textarea {
 
       .image.left {
         width: 25%;
+      }
+
+      .image.half-left {
+        float: left;
+        width: 100%;
+      }
+
+      .image.half-right {
+        float: right;
+        width: 100%;
       }
 
     /* Button */
@@ -2397,7 +2420,7 @@ input, select, textarea {
     /* Sidebar */
 
       #sidebar {
-        margin-top: 2em;
+        display: none;
       }
 
     /* Footer */
