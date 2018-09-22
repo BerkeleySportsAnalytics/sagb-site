@@ -1686,8 +1686,8 @@ input, select, textarea {
 
   .box.article-list article {
     border-bottom: solid 1px #dbdbdb;
-    margin: 0 0 2.75em 0;
-    padding: 0 0 2.75em 0;
+    margin: 0 0 2.25em 0;
+    padding: 0 0 2.25em 0;
   }
 
     .box.article-list article:last-child {
@@ -2413,7 +2413,7 @@ input, select, textarea {
       }
 
       .box.excerpt header {
-        margin-left: 32%;
+        margin-left: 38%;
       }
 
       .box.excerpt p {
@@ -2426,6 +2426,10 @@ input, select, textarea {
 
       .box.spotlight {
         margin-top: 2em;
+      }
+
+      .box.article-list article {
+      	padding: 0 0 1em 0;
       }
 
     /* Wrappers */
