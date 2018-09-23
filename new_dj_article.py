@@ -4,7 +4,7 @@ import os
 f= open("articles/"+sys.argv[1]+".html","w+")
 os.mkdir("images/dj-pics/"+sys.argv[1])
 
-title = input("Enter Title")
+title = input("Enter Title: ")
 
 f.write("""
   <!DOCTYPE HTML>
