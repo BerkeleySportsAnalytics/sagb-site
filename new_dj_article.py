@@ -74,7 +74,7 @@ f.write("""
                             <h2>"""+title+"""</h2>
                             <h4>By <a href="https://google.com" target="_blank">Rohan Narayan</a> | September 11, 2018</h4>
                           </header>
-                          <span class="image featured"><img src="../images/dj-pics/"""+sys.argv[1]+"""/main.png" alt="" /></span>
+                          <span class="image featured"><img src="../images/dj-pics/"""+sys.argv[1]+"""/main.jpg" alt="" /></span>
                         </article>
 
                     </div>

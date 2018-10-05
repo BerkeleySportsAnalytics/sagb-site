@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html><head>
+    <title>To Start or Sit: Squad Rotation in Soccer | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="../assets/css/main.css" rel="stylesheet"/>
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo">SAGB</a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                      <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../data-journalism.html">Data Journalism</a></li>
+                        <li><a href="../right-sidebar.html">Projects</a></li>
+                        <li><a href="../no-sidebar.html">Blog</a></li>
+                        <li>
+                          <a href="#">About</a>
+                          <ul>
+                            <li><a href="#">More About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Leadership</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>To Start or Sit: Squad Rotation in Soccer</h2>
+                            <h4>By Isaac Schmidt | October 20, 2017</h4>
+                          </header>
+                          <span class="image featured"><img alt="" src="../images/dj-pics/soccer-squad-rotation/main.jpg"/></span>
+                          <p>On June 1, 2013, Bayern Munich lifted the DFB-Pokal trophy, after beating VfB Stuttgart 3-2 in the final. This was the third major trophy Bayern won that year. One week earlier, Bayern had beat fellow Bundesliga team Borussia Dortmund 2-1 to win the UEFA Champions League. More than six weeks earlier, they clinched the Bundesliga title, constituting a treble season. Bayern’s navigated through a congested fixture list over the season to successfully clinch three titles. However, playing deep into multiple competitions often leads to struggling performances for many teams. Multiple games a week means players must be rested and starting the same team every game in every competition would be impossible, which is why squad rotation is necessary. The extent to which a team should rotate their players has always been a contentious topic amongst fans. Sitting a team’s best player on the bench can lead to harsh criticism, as shown when Arsenal recently lost 4-0 to Liverpool after sitting out star player Alexis Sánchez. Chelsea notably won the 2016-17 Premier League with a very consistent starting lineup, especially after a change in formation early in the season. In this article, I’ll examine whether squad rotation is really necessary, whether teams who make fewer changes win more games, and if consistency should be desired.</p>
+                          <p>What we want to find out is if changes in a soccer team’s starting lineup from game to game have anything to do with any change in performance. Fortunately, there exists a nice numerical correspondence to a soccer team’s result—points. It is possible to look at all the games for a given team over the course of a season, and for each one, check how many changes they made to their starting eleven from the last game, and how many points they gained or lost compared to their last result. For example, if a team loses a game, makes three changes the next time out and wins, those three changes led to a difference of three points. For this test, along with all of the others, I’ve looked at all of the 98 different teams in the “Top 5” European domestic leagues over the 2016-17 season. The results are shown in the chart below.</p>
+                          <iframe height="400" src="https://plot.ly/~Ike348/1.embed?link=false&amp;modebar=false" width="100%"></iframe>
+                          <p>The results don’t seem to point to much of a trend. Remember, we’re looking to see if lineup changes affect a result, not if they improve or worsen it, so moving from a draw to a win is measured the same as going from a win to a draw. As shown on the graph, the decreasing line of best fit means that conceivably, making more changes in a lineup leads to smaller differences in its results, which means more consistent performances—either good or bad. However, this “trend” is far from statistically significant. A T-test for slope can check to see if there is in fact a relationship between two variables—in this case, lineup changes and differences in results. The result of such a T-test is the p-value, and the smaller that p-value is, the more likely a trend actually exists. For this data, the p-value is .359, which means that there is no way we can say that changes in lineup lead to differences in result. The low r2 value of .106, where 1 would represent perfect correlation, also supports this notion. In short, it’s highly unlikely that the number of changes a team makes to its starting XI has anything to do with a change in performance.</p>
+                          <p>We’ve seen that changing a team won’t affect a change in result, but we can take another approach. Over the course of a season, does a team that makes more changes score more points? Once again, we can take a look at all 98 teams in the Top 5 leagues, count how many changes each one made to its lineup from league game to league game, and count how many points they earned. The results are shown in the scatterplot below.</p>
+                          <iframe height="450" src="https://plot.ly/~Ike348/3.embed?link=false&amp;modebar=false" width="100%"></iframe>
+                          <p>As one can see, there isn’t much of a correlation at all. Chelsea, who didn’t play in the Champions League last season and were able to focus on domestic competitions, scored 93 points and ran away with the Premier League, while making the second fewest changes per game out of any team in the set. Real Madrid, juggling not only the Champions League but the Club World Cup, made the most changes by far—and also won their league with 93 points. Celta Vigo also made more than four changes per game, but finished a measly 13th in La Liga with just 45 points. West Bromwich Albion also finished with just 45 points, but made only 1.29 changes from game to game. The r<sup>2</sup> value below .01 means that there is not even a point to running a significance test—it is clear there is no correlation. This test, along with the previous one, might suggest that rotating a squad or not has absolutely no effect on team performance. Unfortunately, it’s not that simple. Looking only at domestic league games ignores vital context, namely, other competitions a team might be forced to juggle. Chelsea and Real Madrid’s situations have been made clear, and Celta Vigo’s case might be explained by a deep Europa League run. West Brom is coached by Tony Pulis, a manager with a known reputation of having a strict system that is drilled into his team. Changing the starting lineup too often might have an adverse effect on the system and thus, performance. Unfortunately, trying to eliminate or even just account for such context could easily lead to subjectivity, or a very small sample size, which would render any statistical analysis irrelevant. To conclude, it doesn’t seem like the extent of squad rotation has any general effect on a team’s performance or consistency level. Squad rotation shouldn’t be utilized by managers as a generic tool to increase point total, but should be relied upon on a case-by-case basis.</p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul class="style2">
+                            <li><a href="college-game-goodness.html">The "College Game Goodness Index"</a></li><li><a href="nba-evolution.html">Evolution of the NBA</a></li><li><a href="lou-williams-6th-man.html">6th Man like Lou Williams</a></li><li><a href="save-run.html">How To Save a Run</a></li><li><a href="thursday-night.html">How Good (or Bad) are the Thursday Night NFL Games?</a></li><li><a href="nfl-draft-trends.html">Trench Warfare: Accuracy of NFL Draft Trends</a></li><li><a href="kobe-lebron-debate.html">Kobe vs Lebron</a></li><li><a href="mlb-names.html">Finding the Most "Baseball Sounding" Name, Analytically</a></li><li><a href="mlb-names.html">Finding the Most "Baseball Sounding" Name, Analytically</a></li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                          </ul>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+
+                    <!-- Article list -->
+                      <section class="box article-list">
+                        <h2 class="icon fa-file-text-o">Recent Posts</h2>
+
+                        <!-- Excerpt -->
+                          <article class="box excerpt">
+                            <a class="image left" href="#"><img alt="" src="images/pic04.jpg"/></a>
+                            <div>
+                              <header>
+                                <span class="date">July 24</span>
+                                <h3><a href="#">Repairing a hyperspace window</a></h3>
+                              </header>
+                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+                            </div>
+                          </article>
+
+                        <!-- Excerpt -->
+                          <article class="box excerpt">
+                            <a class="image left" href="#"><img alt="" src="images/pic05.jpg"/></a>
+                            <div>
+                              <header>
+                                <span class="date">July 18</span>
+                                <h3><a href="#">Adventuring with a knee injury</a></h3>
+                              </header>
+                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+                            </div>
+                          </article>
+
+                        <!-- Excerpt -->
+                          <article class="box excerpt">
+                            <a class="image left" href="#"><img alt="" src="images/pic06.jpg"/></a>
+                            <div>
+                              <header>
+                                <span class="date">July 14</span>
+                                <h3><a href="#">Preparing for Y2K38</a></h3>
+                              </header>
+                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+                            </div>
+                          </article>
+
+                      </section>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a class="image featured" href="#"><img alt="" src="images/pic07.jpg"/></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a class="button alt icon fa-file-o" href="#">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+        <div id="footer-wrapper">
+          <footer class="container" id="footer">
+            <div class="row">
+              <div class="col-6 col-12-medium imp-medium">
+
+                <!-- Contact -->
+                  <section>
+                    <h2>Get in touch</h2>
+                    <div>
+                      <div class="row">
+                        <div class="col-6 col-12-small">
+                          <dl class="contact">
+                            <dt>Twitter</dt>
+                            <dd><a href="https://twitter.com/sagberkeley">@sagberkeley</a></dd>
+                            <dt>Facebook</dt>
+                            <dd><a href="https://facebook.com/SportsAnalyticsBerkeley">facebook.com/SportsAnalyticsBerkeley</a></dd>
+                            <dt>WWW</dt>
+                            <dd><a href="../index.html">berkeleysportsanalytics.org</a></dd>
+                            <dt>Email</dt>
+                            <dd><a>sagberkeley@gmail.com</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+              </div>
+              <div class="col-12">
+                <div id="copyright">
+                  <ul class="menu">
+                    <li>© Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  
+
+</body></html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html><head>
+    <title>Finding the Most "Baseball Sounding" Name, Analytically | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="../assets/css/main.css" rel="stylesheet"/>
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo">SAGB</a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                      <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../data-journalism.html">Data Journalism</a></li>
+                        <li><a href="../right-sidebar.html">Projects</a></li>
+                        <li><a href="../no-sidebar.html">Blog</a></li>
+                        <li>
+                          <a href="#">About</a>
+                          <ul>
+                            <li><a href="#">More About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Leadership</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Finding the Most "Baseball Sounding" Name, Analytically</h2>
+                            <h4>By Eric Herrmann | February 5, 2018</h4>
+                          </header>
+                          <span class="image featured"><img alt="" src="../images/dj-pics/mlb-names/main.jpg"/></span>
+                          <p>“Oh, I'll tell you their names, but you know it seems to me they give these ball players now-a-days very peculiar names.” - Bud Abbott</p>
+                          <p>There are so many things to talk about for each player, but I have just one thing in mind. Their names.</p>
+                          <p>Baseball players have always had peculiar names as Abbott puts it in “Who’s on First,” and I set out to find the most classically “baseball” name of 2017, armed with statistics on my side.</p>
+                          <p>There are a lot of names in baseball. In fact there are over one-thousand, seven hundred “active” players (players who were on rosters and made their debut prior to the postseason), and each of those players own a first and last name. There was a lot of data to go through.</p>
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-names/graph1.png"/></span>
+                          <p>Before I began, I anticipated that the most common names would be foreign, given the influx of international and foreign born players to the sport. In general, there has been a sharp rise in minorities in the MLB since the 1950s (as shown in the chart to the right).</p>
+                          <p>However, contrary to my initial hypothesis, but perhaps unsurprising, “Smith” remains the most common last name in baseball. On the other end, “Matt” was the most common first name. Your typical baseball role-player might have the name “Matt Smith,” and would perhaps hope for a career better than that of the former Phillies lefty reliever Matt Smith (11.25 ERA in 9 GP). This seemed like a rather boring and not-so-analytical conclusion to my quest to find a name that was uniquely baseball sounding.</p>
+
+                          <iframe height="500" src="https://plot.ly/~rrnarayan1/3.embed?link=false&amp;modebar=false" width="100%"></iframe>
+                          <p>The chart above represent the rankings of how common a first was with respect to both the league median, and with respect to every other name in the league. Each data point gives a bit of perspective about the similarity relationships between names: names clustered close together are more similar than names very spread out.</p>
+                          <p>Enter phonetic similarity scoring. After testing out a few algorithms, I stumbled upon Soundex, a hashing technique which transforms words and names into 4 digit alphanumeric codes corresponding to how the word or name sounds when spoken in English, and each code begins with the first letter of the name it’s supposed to represent. This might sound a bit complicated, but basically, all you need to know is that Soundex codes that are relatively similar should correspond to relatively similar sounding words. For example, the name “Austen” corresponds to the code “A235,” and the name “Dustin” corresponds to the code “D235.” As you can see, two phonetically similar names have very similar codes. In fact, these codes differ by only one digit. The smaller the difference between two Soundex codes, the closer they would be phonetically.</p>
+                          <p>I took this theory and applied it to all three-thousand, five-hundred and three names I had in my data set and minimized the total digit differences between codes for both the first and last name data sets. The name codes with the most in common with all other name codes would be the ones with the least amount of “distance” between it and every other point. Several thousand lines of code later, I had arrived at my Mecca, I had found the most “baseball” name in baseball…</p>
+                          <p>Jose Morris. Jose Morris? That’s right. Jose. Morris. The most perfect combination of names that definitely did signify the current multi-racial diversity of baseball, while also solidly capturing the slight absurdity that make great baseball names great. The absurdity which lies in the fact that you can’t get much more “American” than Jose Morris. It’s pure, simple, unadulterated Americana, just like the game itself.</p>
+                          <p>While I’m sure there are wackier, more peculiar, or simply more well-known names in baseball, in a game now dominated by advanced analytics (to a degree matched by no other sport), it’s entirely fitting to regard the phonetic codes “J2 0, M620” as the centerpiece of America’s pastime. And while there are no players in the league currently bearing that name, the name now permanently has a special place in my heart. As the sport continues to grow and becomes ever more diverse, there is no doubt in my mind that there will be a pro player named Jose Morris. Inevitably, one day, a young prospect named Jose Morris will make his debut in the majors, and on that day, I will be his number one biggest fan. Naturally.</p>
+                          <p>Edited by Neil Sharma</p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul class="style2">
+                            <li><a href="college-game-goodness.html">The "College Game Goodness Index"</a></li><li><a href="nba-evolution.html">Evolution of the NBA</a></li><li><a href="lou-williams-6th-man.html">6th Man like Lou Williams</a></li><li><a href="save-run.html">How To Save a Run</a></li><li><a href="thursday-night.html">How Good (or Bad) are the Thursday Night NFL Games?</a></li><li><a href="nfl-draft-trends.html">Trench Warfare: Accuracy of NFL Draft Trends</a></li><li><a href="kobe-lebron-debate.html">Kobe vs Lebron</a></li><li><a href="mlb-names.html">Finding the Most "Baseball Sounding" Name, Analytically</a></li><li><a href="mlb-names.html">Finding the Most "Baseball Sounding" Name, Analytically</a></li>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                          </ul>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+
+                    <!-- Article list -->
+                      <section class="box article-list">
+                        <h2 class="icon fa-file-text-o">Recent Posts</h2>
+
+                        <!-- Excerpt -->
+                          <article class="box excerpt">
+                            <a class="image left" href="#"><img alt="" src="images/pic04.jpg"/></a>
+                            <div>
+                              <header>
+                                <span class="date">July 24</span>
+                                <h3><a href="#">Repairing a hyperspace window</a></h3>
+                              </header>
+                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+                            </div>
+                          </article>
+
+                        <!-- Excerpt -->
+                          <article class="box excerpt">
+                            <a class="image left" href="#"><img alt="" src="images/pic05.jpg"/></a>
+                            <div>
+                              <header>
+                                <span class="date">July 18</span>
+                                <h3><a href="#">Adventuring with a knee injury</a></h3>
+                              </header>
+                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+                            </div>
+                          </article>
+
+                        <!-- Excerpt -->
+                          <article class="box excerpt">
+                            <a class="image left" href="#"><img alt="" src="images/pic06.jpg"/></a>
+                            <div>
+                              <header>
+                                <span class="date">July 14</span>
+                                <h3><a href="#">Preparing for Y2K38</a></h3>
+                              </header>
+                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
+                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
+                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
+                            </div>
+                          </article>
+
+                      </section>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a class="image featured" href="#"><img alt="" src="images/pic07.jpg"/></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a class="button alt icon fa-file-o" href="#">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+        <div id="footer-wrapper">
+          <footer class="container" id="footer">
+            <div class="row">
+              <div class="col-6 col-12-medium imp-medium">
+
+                <!-- Contact -->
+                  <section>
+                    <h2>Get in touch</h2>
+                    <div>
+                      <div class="row">
+                        <div class="col-6 col-12-small">
+                          <dl class="contact">
+                            <dt>Twitter</dt>
+                            <dd><a href="https://twitter.com/sagberkeley">@sagberkeley</a></dd>
+                            <dt>Facebook</dt>
+                            <dd><a href="https://facebook.com/SportsAnalyticsBerkeley">facebook.com/SportsAnalyticsBerkeley</a></dd>
+                            <dt>WWW</dt>
+                            <dd><a href="../index.html">berkeleysportsanalytics.org</a></dd>
+                            <dt>Email</dt>
+                            <dd><a>sagberkeley@gmail.com</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+              </div>
+              <div class="col-12">
+                <div id="copyright">
+                  <ul class="menu">
+                    <li>© Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  
+
+</body></html>

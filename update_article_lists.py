@@ -19,7 +19,7 @@ def move_to_next_page(article, page_num):
       <html>
        <head>
         <title>
-         Data Journalism – Sports Analytics Group at Berkeley
+         Data Journalism, Sports Analytics Group at Berkeley
         </title>
         <meta charset="utf-8"/>
         <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
@@ -168,7 +168,7 @@ def move_to_next_page(article, page_num):
              <div id="copyright">
               <ul class="menu">
                <li>
-                © Untitled. All rights reserved
+                Untitled. All rights reserved
                </li>
                <li>
                 Design:
@@ -241,7 +241,7 @@ date = byline[byline.find("|")+2:]
 title = str(article_soup.findAll("h2")[0])[4:-5]
 
 article_parsed = BeautifulSoup("""
-<a href='"""+filename+"""' class='image left'><img src='images/dj-pics/"""+article_name+"""/main.png' alt='' /></a>
+<a href='"""+filename+"""' class='image left'><img src='images/dj-pics/"""+article_name+"""/main.jpg' alt='' /></a>
 <div>
   <header>
     <span class='date'>"""+date+"""</span>
@@ -255,14 +255,10 @@ article_new.append(article_parsed)
 
 
 list_articles_soup.section.article.insert_before(article_new) 
-list_articles_result = str(list_articles_soup.prettify())
+list_articles_result = list_articles_soup.prettify()
 
 with open("all-articles-1.html","w") as list_articles_file:
   list_articles_file.write(list_articles_result)
-
-if ("--with-recent" in sys.argv): 
-  #with open()
-  print("h")
 
 
 
