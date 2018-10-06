@@ -160,6 +160,10 @@ f.write("""
                             </div>
                           </article>
 
+                        <footer>
+                          <a class="button alt icon fa-file-o" href="../all-articles-1.html">View All Articles</a>
+                        </footer>
+
                       </section>
                   </div>
                   <div class="col-4 col-12-medium">
