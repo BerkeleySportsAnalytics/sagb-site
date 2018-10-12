@@ -1774,7 +1774,7 @@ input, select, textarea {
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
     padding: 1.5em;
     line-height: 2.5em;
-    min-width: 15em;
+    min-width: 9em;
   }
 
     .dropotron.level-0 {
@@ -1810,10 +1810,10 @@ input, select, textarea {
 
     #banner h2 {
       color: #fff;
-      font-size: 2.35em;
+      font-size: 5em;
       font-weight: 700;
       line-height: 1.3em;
-      margin: 0 0 1.5em 0;
+      margin: 0 0 1em 0;
       padding: 0 10%;
     }
 
@@ -1840,8 +1840,7 @@ input, select, textarea {
       line-height: 1.3em;
       letter-spacing: 0.04em;
       float: left;
-      text-align: right;
-      width: 60%;
+      text-align: center;
       line-height: 1.5em;
       margin: 0;
     }
@@ -2322,6 +2321,11 @@ input, select, textarea {
 
         #banner br {
           display: none;
+        }
+
+        #banner h2 {
+          font-size: 2.35em;
+          margin: 0 0 1.5em 0;
         }
 
     /* Sidebar */
