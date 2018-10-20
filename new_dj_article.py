@@ -39,12 +39,12 @@ f.write("""
                       <ul>
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="../data-journalism.html">Data Journalism</a></li>
-                        <li><a href="../right-sidebar.html">Projects</a></li>
-                        <li><a href="../no-sidebar.html">Blog</a></li>
+                        <li><a href="../projects.html">Projects</a></li>
+                        <li><a href="../blog.html">Blog</a></li>
                         <li>
                           <a href="#">About</a>
                           <ul>
-                            <li><a href="#">More About Us</a></li>
+                            <li><a href="../about-us.html">About Us</a></li>
                             <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Leadership</a></li>
                           </ul>

@@ -53,12 +53,12 @@ def move_to_next_page(article, page_num):
                 </a>
                </li>
                <li>
-                <a href="right-sidebar.html">
+                <a href="projects.html">
                  Projects
                 </a>
                </li>
                <li>
-                <a href="no-sidebar.html">
+                <a href="blog.html">
                  Blog
                 </a>
                </li>
@@ -68,8 +68,8 @@ def move_to_next_page(article, page_num):
                 </a>
                 <ul>
                  <li>
-                  <a href="#">
-                   More About Us
+                  <a href="about-us.html">
+                   About Us
                   </a>
                  </li>
                  <li>
