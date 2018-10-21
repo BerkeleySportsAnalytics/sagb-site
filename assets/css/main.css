@@ -241,6 +241,12 @@ input, select, textarea {
 
     }
 
+    #twitter-widget-0 {
+      display: block !important;
+      margin: 3em auto !important;
+      
+    }
+
 /* Row */
 
   .row {
