@@ -1706,6 +1706,14 @@ input, select, textarea {
       padding-bottom: 0;
     }
 
+  .box.card-list article {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 23px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 3em;
+  }
+
 /* Icons */
 
   .icon {

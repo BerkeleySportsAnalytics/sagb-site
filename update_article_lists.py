@@ -166,18 +166,19 @@ def move_to_next_page(article, page_num):
             </div>
             <div class="col-12">
              <div id="copyright">
-              <ul class="menu">
-               <li>
-                Untitled. All rights reserved
-               </li>
-               <li>
-                Design:
-                <a href="http://html5up.net">
-                 HTML5 UP
-                </a>
-               </li>
-              </ul>
-             </div>
+                  <ul class="menu">
+                    <li>All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>
+                      <a href="https://www.ocf.berkeley.edu">
+                        <img src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
+                            alt="Hosted by the OCF" style="border: 0; height: 30px" />
+                      </a>
+                    </li>
+                    <li>
+                      We are a student group acting independently of the University of California. We take full responsibility for our organization and this web site.
+                    </li>
+                  </ul>
+                </div>
             </div>
            </div>
           </footer>
