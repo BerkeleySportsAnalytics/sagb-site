@@ -2114,6 +2114,10 @@ input, select, textarea {
         overflow-x: hidden;
       }
 
+      .hide-mobile {
+        display: none !important;
+      }
+
     /* Box */
 
       .box.feature2 section {
