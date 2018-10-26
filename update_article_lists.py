@@ -36,7 +36,7 @@ def move_to_next_page(article, page_num):
              <!-- Logo -->
              <h1>
               <a href="index.html" id="logo">
-               SAGB
+               <img src="images/logo1.png" />
               </a>
              </h1>
              <!-- Nav -->
@@ -164,8 +164,14 @@ def move_to_next_page(article, page_num):
               </div>
              </section>
             </div>
-            <div class="col-12">
-             <div id="copyright">
+              <div class="col-1 col-12-small hide-mobile">
+                <span> </span>
+              </div>
+              <div class="col-4 col-12-small hide-mobile">
+                <img class="footer-image" src="images/logo1.png" />
+              </div>
+              <div class="col-12">
+                <div id="copyright">
                   <ul class="menu">
                     <li>All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     <li>

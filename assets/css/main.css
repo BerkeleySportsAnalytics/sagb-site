@@ -1457,6 +1457,14 @@ input, select, textarea {
       .image.centered img {
         margin: 0 auto;
       }
+      
+  .footer-image {
+    display: block;
+    width: 100%;
+    position: relative;
+    top: -15px;
+    
+  }
 
 /* Button */
 
@@ -1981,11 +1989,18 @@ input, select, textarea {
 
     #header h1 {
       position: absolute;
-      left: 1.75em;
-      top: 50%;
-      margin-top: -0.65em;
+      left: 1em;
+      top: 9%;
       font-size: 1.5em;
       color: #fff;
+    }
+
+    #logo img {
+      max-height: 3em;
+    }
+
+    .title img {
+      max-height: 40px;
     }
 
 /* Footer */
