@@ -175,49 +175,9 @@ f.write("""
         </div>
 
       <!-- Footer Wrapper -->
-        <div id="footer-wrapper">
-          <footer id="footer" class="container">
-            <div class="row">
-              <div class="col-6 col-12-medium imp-medium">
-
-                <!-- Contact -->
-                  <section>
-                    <h2>Get in touch</h2>
-                    <div>
-                      <div class="row">
-                        <div class="col-6 col-12-small">
-                          <dl class="contact">
-                            <dt>Twitter</dt>
-                            <dd><a href="https://twitter.com/sagberkeley">@sagberkeley</a></dd>
-                            <dt>Facebook</dt>
-                            <dd><a href="https://facebook.com/SportsAnalyticsBerkeley">facebook.com/SportsAnalyticsBerkeley</a></dd>
-                            <dt>WWW</dt>
-                            <dd><a href="../index.html">berkeleysportsanalytics.org</a></dd>
-                            <dt>Email</dt>
-                            <dd><a>sagberkeley@gmail.com</a></dd>
-                          </dl>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
-              </div>
-              <div class="col-1 col-12-small hide-mobile">
-                <span> </span>
-              </div>
-              <div class="col-4 col-12-small hide-mobile">
-                <img class="footer-image" src="images/logo1.png" />
-              </div>
-              <div class="col-12">
-                <div id="copyright">
-                  <ul class="menu">
-                    <li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </footer>
-        </div>
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
 
     </div>
 
