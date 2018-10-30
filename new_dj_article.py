@@ -75,17 +75,9 @@ f.write("""
                           <header class="major">
                             <h2>Related Articles</h2>
                           </header>
-                          <ul class="style2">
-                            <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                            <li><a href="#">Ornare in hendrerit in lectus</a></li>
-                            <li><a href="#">Semper mod quis eget mi dolore</a></li>
-                            <li><a href="#">Quam turpis feugiat sit dolor</a></li>
-                            <li><a href="#">Amet ornare in hendrerit in lectus</a></li>
-                            <li><a href="#">Semper mod quisturpis nisi</a></li>
-                            <li><a href="#">Consequat etiam lorem phasellus</a></li>
-                            <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-                            <li><a href="#">Semper mod quisturpis nisi</a></li>
+                          <ul id="recent-articles" class="style2">
                           </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
                         </section>
 
                     </div>
