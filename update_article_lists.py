@@ -40,52 +40,9 @@ def move_to_next_page(article, page_num):
               </a>
              </h1>
              <!-- Nav -->
-             <nav id="nav">
-              <ul>
-               <li>
-                <a href="index.html">
-                 Home
-                </a>
-               </li>
-               <li class="current_page_item">
-                <a href="data-journalism.html">
-                 Data Journalism
-                </a>
-               </li>
-               <li>
-                <a href="projects.html">
-                 Projects
-                </a>
-               </li>
-               <li>
-                <a href="blog.html">
-                 Blog
-                </a>
-               </li>
-               <li>
-                <a href="#">
-                 About
-                </a>
-                <ul>
-                 <li>
-                  <a href="about-us.html">
-                   About Us
-                  </a>
-                 </li>
-                 <li>
-                  <a href="#">
-                   Contact Us
-                  </a>
-                 </li>
-                 <li>
-                  <a href="#">
-                   Leadership
-                  </a>
-                 </li>
-                </ul>
-               </li>
-              </ul>
-             </nav>
+              <nav id="nav">
+              </nav>
+              <script id="nav-src" curr="dj" src="shared/nav.js"></script>
             </div>
            </header>
           </div>
