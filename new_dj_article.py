@@ -91,58 +91,10 @@ f.write("""
               <div class="container">
                 <div class="row">
                   <div class="col-8 col-12-medium">
-
                     <!-- Article list -->
-                      <section class="box article-list">
-                        <h2 class="icon fa-file-text-o">Recent Posts</h2>
-
-                        <!-- Excerpt -->
-                          <article class="box excerpt">
-                            <a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-                            <div>
-                              <header>
-                                <span class="date">July 24</span>
-                                <h3><a href="#">Repairing a hyperspace window</a></h3>
-                              </header>
-                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
-                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
-                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
-                            </div>
-                          </article>
-
-                        <!-- Excerpt -->
-                          <article class="box excerpt">
-                            <a href="#" class="image left"><img src="images/pic05.jpg" alt="" /></a>
-                            <div>
-                              <header>
-                                <span class="date">July 18</span>
-                                <h3><a href="#">Adventuring with a knee injury</a></h3>
-                              </header>
-                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
-                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
-                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
-                            </div>
-                          </article>
-
-                        <!-- Excerpt -->
-                          <article class="box excerpt">
-                            <a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
-                            <div>
-                              <header>
-                                <span class="date">July 14</span>
-                                <h3><a href="#">Preparing for Y2K38</a></h3>
-                              </header>
-                              <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus
-                              semper mod quisturpis nisi consequat etiam lorem. Phasellus quam turpis,
-                              feugiat et sit amet ornare in, hendrerit in lectus semper mod quis eget mi dolore.</p>
-                            </div>
-                          </article>
-
-                        <footer>
-                          <a class="button alt icon fa-file-o" href="../all-articles-1.html">View All Articles</a>
-                        </footer>
-
-                      </section>
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
                   </div>
                   <div class="col-4 col-12-medium">
 

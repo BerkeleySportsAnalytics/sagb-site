@@ -15,11 +15,11 @@ with open("shared/recent-articles.js", "r") as f:
 
 for i in list(range(3,12))[::-1]:
   if(i==3):
-    sup[3] = """article1 = " """+article_name+""".html";\n"""
-    sup[13] = """title1 = " """+title+"""";\n"""
+    sup[3] = """article1 = \""""+article_name+""".html";\n"""
+    sup[13] = """title1 = \""""+title+"""";\n"""
   else:
     sup[i] = sup[i][:10] + sup[i-1][10:]
-    sup[i+10] = sup[i+10][:10] + sup[i+9][10:]
+    sup[i+10] = sup[i+10][:8] + sup[i+9][8:]
 
 with open("shared/recent-articles.js", "w") as f:
   f.write("".join(sup))

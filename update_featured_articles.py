@@ -8,65 +8,38 @@ filename1 = article_name+".html"
 
 excerpt = input("Enter Excerpt: ")
 
+if(len(excerpt) > 120):
+  print("Excerpt must be less than 120 characters.")
+  sys.exit(2)
+
 with open(filename) as article:
     article_soup = BeautifulSoup(article, "html5lib")
 
-with open("data-journalism.html") as dj:
-  dj_soup = BeautifulSoup(dj, "html5lib")
-
-featured_list = dj_soup.findAll("section", {"class": "article-list"})[0]
-
-print(featured_list.findAll("article"))
 title = str(article_soup.findAll("h2")[0])[4:-5]
 
 byline = str(article_soup.findAll("h4")[0])[4:-5]
 author = byline[:byline.find("|")]
 date = byline[byline.find("|")+2:]
 
-new_entry = BeautifulSoup("""
-  <article class="box excerpt">
-    <a class="image left" href='""" +  filename + """'><img alt="" src='images/dj-pics/""" +article_name+ """/main.png'/></a>
-    <div>
-      <header>
-        <span class="date">"""+date+"""</span>
-        <h3><a href='""" +  filename + """'>"""+ title +"""</a></h3>
-      </header>
-      <p>"""+ excerpt +"""</p>
-    </div>
-  </article>""", "html.parser")
+with open("shared/featured-articles.js", "r") as f:
+  sup = f.readlines()
 
+for i in list(range(3,5))[::-1]:
+  if(i==3):
+    sup[3] = """article1 = \""""+article_name+""".html";\n"""
+    sup[7] = """title1 = \""""+title+"""\";\n"""
+    sup[11] = """date1 = \""""+date+"""\";\n"""
+    sup[15] = """excerpt1 = \""""+excerpt+"""\";\n"""
 
-featured_list.findAll("article")[0].insert_before(new_entry)
-featured_list.findAll("article")[-1].extract()
+  else:
+    sup[i] = sup[i][:10] + sup[i-1][10:]
+    sup[i+4] = sup[i+4][:8] + sup[i+3][8:]
+    sup[i+8] = sup[i+8][:7] + sup[i+7][7:]
+    sup[i+12] = sup[i+12][:10] + sup[i+11][10:]
 
-print(featured_list)
-
-dj_soup_str = str(dj_soup)
-
-with open("data-journalism.html","w") as dj1:
-  dj1.write(dj_soup_str)
-
-for f in os.listdir("articles"):
-  fn = "articles/"+f
-  with open(fn) as article:
-    article_soup = BeautifulSoup(article, "html5lib")
-  featured_list = article_soup.findAll("section", {"class": "article-list"})[0]
-  new_entry = BeautifulSoup("""
-  <article class="box excerpt">
-    <a class="image left" href='""" +  filename1 + """'><img alt="" src='../images/dj-pics/""" +article_name+ """/main.png'/></a>
-    <div>
-      <header>
-        <span class="date">"""+date+"""</span>
-        <h3><a href='""" +  filename1 + """'>"""+ title +"""</a></h3>
-      </header>
-      <p>"""+ excerpt +"""</p>
-    </div>
-  </article>""", "html.parser")
-  featured_list.findAll("article")[0].insert_before(new_entry)
-  featured_list.findAll("article")[-1].extract()
-
-  with open(fn,"w") as file1:
-    file1.write(str(article_soup))
+print(sup)
+with open("shared/featured-articles.js", "w") as f:
+  f.write("".join(sup))
 
 
 
