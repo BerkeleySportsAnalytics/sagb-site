@@ -61,6 +61,7 @@ f.write("""
                             <h4>By <a href="https://google.com" target="_blank">Rohan Narayan</a> | September 11, 2018</h4>
                           </header>
                           <span class="image featured"><img src="../images/dj-pics/"""+sys.argv[1]+"""/main.jpg" alt="" /></span>
+                          *Article goes here*
                         </article>
 
                     </div>
