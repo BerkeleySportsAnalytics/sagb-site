@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "college-nba-success.html";
-article2 = "nba-kd-team.html";
-article3 = "college-game-goodness.html";
-article4 = "nba-evolution.html";
-article5 = "lou-williams-6th-man.html";
-article6 = "save-run.html";
-article7 = "thursday-night.html";
-article8 = "nfl-draft-trends.html";
-article9 = "kobe-lebron-debate.html";
+article1 = "pass-and-passnots.html";
+article2 = "college-nba-success.html";
+article3 = "nba-kd-team.html";
+article4 = "college-game-goodness.html";
+article5 = "nba-evolution.html";
+article6 = "lou-williams-6th-man.html";
+article7 = "save-run.html";
+article8 = "thursday-night.html";
+article9 = "nfl-draft-trends.html";
 
-title1 = "Which College Basketball Program Provides the Best Chance for NBA Success?";
-title2 = "There's No KD in Team";
-title3 = "The 'College Game Goodness Index'";
-title4 = "Evolution of the NBA";
-title5 = "6th Man like Lou Williams";
-title6 = "How To Save a Run";
-title7 = "How Good (or Bad) are the Thursday Night NFL Games?";
-title8 = "Trench Warfare: Accuracy of NFL Draft Trends";
-title9 = "Kobe vs Lebron";
+title1 = "The Pass and the Pass Nots";
+title2 = "Which College Basketball Program Provides the Best Chance for NBA Success?";
+title3 = "There's No KD in Team";
+title4 = "The 'College Game Goodness Index'";
+title5 = "Evolution of the NBA";
+title6 = "6th Man like Lou Williams";
+title7 = "How To Save a Run";
+title8 = "How Good (or Bad) are the Thursday Night NFL Games?";
+title9 = "Trench Warfare: Accuracy of NFL Draft Trends";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;

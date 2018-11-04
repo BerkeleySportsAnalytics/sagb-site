@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html><head>
+    <title>The Pass and the Pass Nots | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="../assets/css/main.css" rel="stylesheet"/>
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png"/></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                      <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../data-journalism.html">Data Journalism</a></li>
+                        <li><a href="../projects.html">Projects</a></li>
+                        <li><a href="../blog.html">Blog</a></li>
+                        <li>
+                          <a href="#">About</a>
+                          <ul>
+                            <li><a href="../about-us.html">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Leadership</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>The Pass and the Pass Nots</h2>
+                            <h4>By Jack Melin | November 3, 2018</h4>
+                          </header>
+                          <span class="image featured"><img alt="" src="../images/dj-pics/pass-and-passnots/main.png"/></span>
+                          <p>
+There’s a common refrain about NFL offenses nowadays: it’s a passing league. With each season, it seems that the collection of offenses employing run-heavy schemes dwindles as teams employing more pass-heavy offenses continue to seemingly vastly outmatch them in efficiency. Is there truth to this hunch? If so, why does this evolution toward passing the ball continue to march on so consistently? Perhaps most importantly, how can NFL teams take advantage of this observation? These are the questions which this analysis will attempt to answer.
+</p>
+
+<p>
+In order to perform this analysis, we will need a measurement called Expected Points Added, or EPA. EPA is a synthetic stat which seeks to judge the productive contribution of an offensive play in football by comparing the game situation before the play is run and after the play is run. Using historical data, expected points yielded on a drive from a given situation (say, 1st down and 10 at midfield) may be assessed. By comparing the expected point yield for the new situation after a play is run (for instance, 2nd down and 5 at the 45, after rushing for 5 yards in the original situation) to the original expected point yield, we may assess the expected points added to the drive by that particular play.
+</p>
+
+<p>
+The NFL has been publishing EPA data as part of its large-scale play-by-play data since 2009. The reason that we will use EPA as opposed to other more common measurements such as yards gained is that football is too situational to effectively approximate play utility in yards. After all, gaining a yard on 4th and 1 is much, much more beneficial than the same 1-yard gain on 4th and 10. By using historical evidence, EPA circumvents this problem.
+</p>
+
+<p>
+Before we address the historical evolution of the NFL offensive landscape into what it is today, there are some significant insights to be had from simply looking at the 2017 season. First of all, the EPA data is clear: passing is far, far more efficient than rushing. The figure below shows a histogram of average EPA yield by type of play (rushing is blue, passing is orange) for every team in the 2017 NFL season.
+</p>
+
+<div>
+  <span class="image centered"><img alt="" src="../images/dj-pics/pass-and-passnots/graph1.png"/></span>
+</div>
+
+<p>
+The disparity is striking: while teams averaged .13 EPA when passing, they averaged -.07 EPA while rushing. On average, rushing the ball actually put most offenses in a worse position than before! Incidentally, this discovery is a good example of the importance of EPA vs. yards gained as a metric; even if a team gains a couple yards on a rushing play, they often end up in a worse situation (2nd and 8 versus 1st and 10, for instance).
+</p>
+
+<p>
+As an aside, it may not be obvious why teams would continue to rush at all if their rush EPA is negative. Depending on some additional factors (most importantly, the fact that the rate at which you call a certain type of play affects how much the defense gears toward stopping it, and therefore changes its effectiveness) there actually does exist the potential for such an odd equilibrium to arise, although whether or not the NFL actually operates at such an equilibrium is a pretty complex economic question. In any case, the formalized math goes a bit outside the scope of this article, and so it will not be covered.
+</p>
+
+<p>
+A related look at the difference between a team’s average passing EPA and that team’s average rushing EPA (representing how much better the team is at passing than rushing, and henceforth referred to as ΔEPA) reveals another important insight: ΔEPA is a strong indicator of team success. The figure below shows a scatter plot of 2017 team wins versus ΔEPA along with the associated trendline for the data; though it is a loose correlation, it is nonetheless telling. In today’s NFL, EPA yield from passing is more important than EPA yield from rushing. Teams with better-than-average passing offenses and worse-than-average rushing offenses generally outperform those with the opposite bias.
+</p>
+
+<div>
+    <span class="image centered"><img alt="" src="../images/dj-pics/pass-and-passnots/graph2.png"/></span>
+</div>
+
+<p>
+If our hunch about NFL evolution toward the pass is correct, this insight provides a possible driving factor for the ongoing shift: in a collection of teams trying to win, anyone observing this trend will actively work to develop their passing offenses. These individual changes then create a leaguewide shift in resource investment toward developing better passing offenses. Before moving on, we may recap our findings from the 2017 EPA data as follows:
+NFL offenses are overwhelmingly more efficient on a per-play basis when they pass the ball versus when they rush the ball.
+Compared to their peers, NFL teams win more games when their offensive strength is biased toward the pass.
+</p>
+
+<p>
+In order to expand our analysis further and approach our remaining unanswered questions (what is the nature of the NFL’s offensive evolution, and how can teams take advantage of it?) historical data is necessary. As it turns out, there is substantial truth to the hunch that the NFL is moving over time toward passing the ball more; one needs look no further than the average pass play percentage to confirm this fact. As can be seen in the figure below, which compares the average pass play rates of each year in our EPA data set, the years since 2009 have seen a substantial run-up in the average pass rate, increasing from just over 55% in 2009 to a peak of 58.5% in 2016. 
+</p> 
+
+<div>
+    <span class="image centered"><img alt="" src="../images/dj-pics/pass-and-passnots/graph3.png"/></span>
+</div>
+
+<p>
+There is, however, a glaring anomaly: 2017, the subject of all of our analysis so far! Passing rate plummeted by almost 2 full percentage points last year, bucking the trend set in place by previous years of consistent growth. Perhaps this is a sign of a seismic shift to come; however, it seems highly unlikely in light of simpler explanations. In particular, the fact that an absurd eight starting quarterbacks--a full quarter of the league--suffered season-ending injuries last year is an unavoidable anomaly which likely had a massive effect on the large-scale state of the league’s offenses. In light of this, I believe it is fair to largely ignore 2017’s dip when identifying trends in the data.
+</p>
+
+<p>
+The 2017 dip also affected average rush and pass EPA yields across the league; up until the dip, however, pass EPA increased steadily like passing rate, while rush EPA stayed mostly stagnant over time. In order to better understand this evolution, we return now to our ΔEPA calculation. The figure below is a scatter plot of ΔEPA by year, with each data point representing a team’s season. The data are color-coded into three groups by win total in that season:
+11-16 wins (green, the “good” teams)
+6-10 wins (blue, the “middling” teams)
+0-5 wins (red, the “bad” teams)
+Additionally, correspondingly colored lines are included which represent the average ΔEPA of each group of teams in each year.
+</p>
+
+<div>
+    <span class="image centered"><img alt="" src="../images/dj-pics/pass-and-passnots/graph4.png"/></span>
+</div>
+
+<p>
+This long-term analysis allows us to immediately confirm that our observations about the 2017 season were not flukes. ΔEPA is almost always positive, confirming that passing has, at least over the time frame presented, always been substantially more efficient than rushing. Additionally, the correlation we observed between win total and ΔEPA holds: in every single year, the average ΔEPA of the good teams is substantially larger than the average ΔEPA of the middling teams, which is in turn substantially larger than the average ΔEPA of the bad teams.
+</p>
+
+<p>
+This latter point is one which is a bit more nuanced than our initial one-year analysis suggested, however. Parsing out average ΔEPA into the three groups of teams as we have reveals an interesting phenomenon: the groups are not experiencing symmetrical ΔEPA change over time. Bad teams have seen a large increase in their average ΔEPA, while middling teams have had their ΔEPA increase by a smaller amount and good teams have effectively stayed the same. The good teams of 2017 still have higher ΔEPA values than the bad teams, but the difference is half as large as it was in 2009! With the exception of the anomaly of 2017, the middling and bad groups both appear to be squarely on track to converge with the good teams.
+</p>
+
+<p>
+Stepping away from the math for a moment and thinking qualitatively, this makes sense. Given the large spread present in the initial year of our sample, each consecutive year would likely see the league model itself off of the most successful teams in recent history, closing the gap over time toward whatever value of ΔEPA the “good” teams settle on. Barring any further disturbances to the system, we would expect to see the three groups continuing to converge.
+</p>
+
+<p>
+There remains an important unanswered question, however: how did the league get into the situation of massive ΔEPA disparity present in 2009? Such a situation of disparity is evidently unstable--we just showed that it converges over time--so something must have happened recently beforehand to disturb the situation.
+</p>
+
+<p>
+It’s impossible to know for sure, but that doesn’t mean we can’t conjecture, and there is a prime suspect: the passing rule changes of 2007, which made it substantially more difficult to play physical defense against receivers. The change was one of the most significant in recent NFL history, and its effect was immediate and obvious (one needs look no further than the undefeated 2007 New England Patriots team, headlined by a historically deadly passing offense, for evidence). Under the new rules change, passing efficiency spiked, and teams that made the most of that spike became enormously successful--in the context of our model, this shake-up could account for the state of extreme disparity between the ΔEPA of the good teams and the bad teams which we observe in 2009.
+</p>
+
+<p>
+Finally, there is one final lingering unknown: when will the system next get disturbed? Is it already happening? The long-term effects of this past offseason’s change to the roughing-the-passer rule are as of yet unclear, but there is a real possibility that, like the rule changes of 2007, it will shock the league into passing even more. If this is the case, we may get another state of disparity akin to that of 2009, and a similar process of convergence will occur over the following years. At the end of the day, we just don’t know yet--only time will tell.
+</p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul class="style2">
+                            <li><a href="pass-and-pass-nots.html">The Pass and the Pass Nots</a></li><li><a href="nba-kd-team.html">There's No KD in Team</a></li><li><a href="college-game-goodness.html">The "College Game Goodness Index"</a></li><li><a href="nba-evolution.html">Evolution of the NBA</a></li><li><a href="lou-williams-6th-man.html">6th Man like Lou Williams</a></li><li><a href="save-run.html">How To Save a Run</a></li><li><a href="thursday-night.html">How Good (or Bad) are the Thursday Night NFL Games?</a></li><li><a href="nfl-draft-trends.html">Trench Warfare: Accuracy of NFL Draft Trends</a></li><li><a href="kobe-lebron-debate.html">Kobe vs Lebron</a></li>
+                        </ul></section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+
+                    <!-- Article list -->
+                      <section class="box article-list">
+                        <h2 class="icon fa-file-text-o">Recent Posts</h2>
+
+                        <!-- Excerpt -->
+                         <article class="box excerpt">
+<a class="image left" href="college-game-goodness.html"><img alt="" src="../images/dj-pics/college-game-goodness/main.png"/></a>
+<div>
+<header>
+<span class="date">September 11, 2018</span>
+<h3><a href="college-game-goodness.html">The "College Game Goodness Index"</a></h3>
+</header>
+<p>We present a metric that measures how "good" any Division 1 College Football game was to watch.</p>
+</div>
+</article><article class="box excerpt">
+<a class="image left" href="nba-evolution.html"><img alt="" src="../images/dj-pics/nba-evolution/main.png"/></a>
+<div>
+<header>
+<span class="date">August 18, 2018</span>
+<h3><a href="nba-evolution.html">Evolution of the NBA</a></h3>
+</header>
+<p>We reflect on the evolution of basketball from its merger with the ABA to the cultural juggernaut it is today.</p>
+</div>
+</article><article class="box excerpt">
+<a class="image left" href="mlb-names.html"><img alt="" src="../images/dj-pics/mlb-names/main.jpg"/></a>
+<div>
+<header>
+<span class="date">February 5, 2018</span>
+<h3><a href="mlb-names.html">Finding the Most "Baseball Sounding" Name, Analytically</a></h3>
+</header>
+<p>There are so many things to talk about for each player, but I have just one thing in mind. Their names.</p>
+</div>
+</article>
+
+                        <footer>
+                          <a class="button alt icon fa-file-o" href="../all-articles-1.html">View All Articles</a>
+                        </footer>
+
+                      </section>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+<a class="image featured" href="nhl-overtime.html"><img alt="" src="../images/dj-pics/nhl-overtime/main.jpg"/></a>
+<header>
+<h3><a href="#">The Winners and Losers from NHL's 3v3 Overtime System</a></h3>
+<p>By Eric Herrmann | March 26, 2017</p>
+</header>
+<p>When a game goes to overtime in the NHL, the total number of skaters on the ice is cut down by four and the two teams play five minutes of 3-on-3 sudden death. The aim of the rule change was to cut down on boring, unfair and unpopular shootouts and increase the amount of overtime scoring to make that part of the game more fast paced and exciting. Halfway through the second season of its implementation, the question remains, has it achieved these aims or not?</p>
+<footer>
+<a class="button alt icon fa-file-o" href="nhl-overtime.html">Continue Reading</a>
+</footer>
+</article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+        <div id="footer-wrapper">
+          <footer class="container" id="footer">
+            <div class="row">
+              <div class="col-6 col-12-medium imp-medium">
+
+                <!-- Contact -->
+                  <section>
+                    <h2>Get in touch</h2>
+                    <div>
+                      <div class="row">
+                        <div class="col-6 col-12-small">
+                          <dl class="contact">
+                            <dt>Twitter</dt>
+                            <dd><a href="https://twitter.com/sagberkeley">@sagberkeley</a></dd>
+                            <dt>Facebook</dt>
+                            <dd><a href="https://facebook.com/SportsAnalyticsBerkeley">facebook.com/SportsAnalyticsBerkeley</a></dd>
+                            <dt>WWW</dt>
+                            <dd><a href="../index.html">berkeleysportsanalytics.org</a></dd>
+                            <dt>Email</dt>
+                            <dd><a>sagberkeley@gmail.com</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+              </div>
+              <div class="col-1 col-12-small hide-mobile">
+                <span> </span>
+              </div>
+              <div class="col-4 col-12-small hide-mobile">
+                <img class="footer-image" src="images/logo1.png"/>
+              </div>
+              <div class="col-12">
+                <div id="copyright">
+                  <ul class="menu">
+                    <li>© Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  
+
+</body></html>
