@@ -1,20 +1,20 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "college-game-goodness";
-article2 = "nba-evolution";
+article1 = "pass-and-passnots";
+article2 = "college-game-goodness";
 article3 = "mlb-names";
 
-title1 = "The \"College Game Goodness Index\"";
-title2 = "Evolution of the NBA";
+title1 = "The Pass and the Pass Nots";
+title2 = "The \"College Game Goodness Index\"";
 title3 = "Finding the Most \"Baseball Sounding\" Name, Analytically";
 
-date1 = "September 11, 2018";
-date2 = "August 18, 2018";
+date1 = "November 3, 2018";
+date2 = "September 11, 2018";
 date3 = "February 5, 2018";
 
-excerpt1 = "We present a metric that measures how \"good\" any Division 1 College Football game was to watch.";
-excerpt2 = "We reflect on the evolution of basketball from its merger with the ABA to the cultural juggernaut it is today.";
+excerpt1 = "Is it true that the NFL is becoming a passing league? If so, how can NFL teams take advantage of this observation?";
+excerpt2 = "We present a metric that measures how \"good\" any Division 1 College Football game was to watch.";
 excerpt3 = "There are so many things to talk about for each player, but I have just one thing in mind. Their names.";
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";

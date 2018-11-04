@@ -21,26 +21,12 @@
                 <div class="inner">
 
                   <!-- Logo -->
-                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png"/></a></h1>
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
 
                   <!-- Nav -->
                     <nav id="nav">
-                      <ul>
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="../data-journalism.html">Data Journalism</a></li>
-                        <li><a href="../projects.html">Projects</a></li>
-                        <li><a href="../blog.html">Blog</a></li>
-                        <li>
-                          <a href="#">About</a>
-                          <ul>
-                            <li><a href="../about-us.html">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Leadership</a></li>
-                          </ul>
-                        </li>
-                      </ul>
                     </nav>
-
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
                 </div>
               </header>
 
@@ -168,9 +154,10 @@ Finally, there is one final lingering unknown: when will the system next get dis
                           <header class="major">
                             <h2>Related Articles</h2>
                           </header>
-                          <ul class="style2">
-                            <li><a href="pass-and-pass-nots.html">The Pass and the Pass Nots</a></li><li><a href="nba-kd-team.html">There's No KD in Team</a></li><li><a href="college-game-goodness.html">The "College Game Goodness Index"</a></li><li><a href="nba-evolution.html">Evolution of the NBA</a></li><li><a href="lou-williams-6th-man.html">6th Man like Lou Williams</a></li><li><a href="save-run.html">How To Save a Run</a></li><li><a href="thursday-night.html">How Good (or Bad) are the Thursday Night NFL Games?</a></li><li><a href="nfl-draft-trends.html">Trench Warfare: Accuracy of NFL Draft Trends</a></li><li><a href="kobe-lebron-debate.html">Kobe vs Lebron</a></li>
-                        </ul></section>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
 
                     </div>
                   </div>
@@ -183,46 +170,10 @@ Finally, there is one final lingering unknown: when will the system next get dis
               <div class="container">
                 <div class="row">
                   <div class="col-8 col-12-medium">
-
                     <!-- Article list -->
-                      <section class="box article-list">
-                        <h2 class="icon fa-file-text-o">Recent Posts</h2>
-
-                        <!-- Excerpt -->
-                         <article class="box excerpt">
-<a class="image left" href="college-game-goodness.html"><img alt="" src="../images/dj-pics/college-game-goodness/main.png"/></a>
-<div>
-<header>
-<span class="date">September 11, 2018</span>
-<h3><a href="college-game-goodness.html">The "College Game Goodness Index"</a></h3>
-</header>
-<p>We present a metric that measures how "good" any Division 1 College Football game was to watch.</p>
-</div>
-</article><article class="box excerpt">
-<a class="image left" href="nba-evolution.html"><img alt="" src="../images/dj-pics/nba-evolution/main.png"/></a>
-<div>
-<header>
-<span class="date">August 18, 2018</span>
-<h3><a href="nba-evolution.html">Evolution of the NBA</a></h3>
-</header>
-<p>We reflect on the evolution of basketball from its merger with the ABA to the cultural juggernaut it is today.</p>
-</div>
-</article><article class="box excerpt">
-<a class="image left" href="mlb-names.html"><img alt="" src="../images/dj-pics/mlb-names/main.jpg"/></a>
-<div>
-<header>
-<span class="date">February 5, 2018</span>
-<h3><a href="mlb-names.html">Finding the Most "Baseball Sounding" Name, Analytically</a></h3>
-</header>
-<p>There are so many things to talk about for each player, but I have just one thing in mind. Their names.</p>
-</div>
-</article>
-
-                        <footer>
-                          <a class="button alt icon fa-file-o" href="../all-articles-1.html">View All Articles</a>
-                        </footer>
-
+                      <section id="featured-articles" class="box article-list">
                       </section>
+                      <script id="featured-article-src" src="../shared/featured-articles.js"></script>
                   </div>
                   <div class="col-4 col-12-medium">
 
@@ -230,17 +181,17 @@ Finally, there is one final lingering unknown: when will the system next get dis
                       <section class="box spotlight">
                         <h2 class="icon fa-file-text-o">Spotlight</h2>
                         <article>
-<a class="image featured" href="nhl-overtime.html"><img alt="" src="../images/dj-pics/nhl-overtime/main.jpg"/></a>
-<header>
-<h3><a href="#">The Winners and Losers from NHL's 3v3 Overtime System</a></h3>
-<p>By Eric Herrmann | March 26, 2017</p>
-</header>
-<p>When a game goes to overtime in the NHL, the total number of skaters on the ice is cut down by four and the two teams play five minutes of 3-on-3 sudden death. The aim of the rule change was to cut down on boring, unfair and unpopular shootouts and increase the amount of overtime scoring to make that part of the game more fast paced and exciting. Halfway through the second season of its implementation, the question remains, has it achieved these aims or not?</p>
-<footer>
-<a class="button alt icon fa-file-o" href="nhl-overtime.html">Continue Reading</a>
-</footer>
-</article>
-                      </section>
+                          <a class="image featured" href="nhl-overtime.html"><img alt="" src="../images/dj-pics/nhl-overtime/main.jpg"/></a>
+                          <header>
+                          <h3><a href="#">The Winners and Losers from NHL's 3v3 Overtime System</a></h3>
+                          <p>By Eric Herrmann | March 26, 2017</p>
+                          </header>
+                          <p>When a game goes to overtime in the NHL, the total number of skaters on the ice is cut down by four and the two teams play five minutes of 3-on-3 sudden death. The aim of the rule change was to cut down on boring, unfair and unpopular shootouts and increase the amount of overtime scoring to make that part of the game more fast paced and exciting. Halfway through the second season of its implementation, the question remains, has it achieved these aims or not?</p>
+                          <footer>
+                          <a class="button alt icon fa-file-o" href="nhl-overtime.html">Continue Reading</a>
+                          </footer>
+                          </article>
+                    </section>
 
                   </div>
                 </div>
@@ -250,49 +201,9 @@ Finally, there is one final lingering unknown: when will the system next get dis
         </div>
 
       <!-- Footer Wrapper -->
-        <div id="footer-wrapper">
-          <footer class="container" id="footer">
-            <div class="row">
-              <div class="col-6 col-12-medium imp-medium">
-
-                <!-- Contact -->
-                  <section>
-                    <h2>Get in touch</h2>
-                    <div>
-                      <div class="row">
-                        <div class="col-6 col-12-small">
-                          <dl class="contact">
-                            <dt>Twitter</dt>
-                            <dd><a href="https://twitter.com/sagberkeley">@sagberkeley</a></dd>
-                            <dt>Facebook</dt>
-                            <dd><a href="https://facebook.com/SportsAnalyticsBerkeley">facebook.com/SportsAnalyticsBerkeley</a></dd>
-                            <dt>WWW</dt>
-                            <dd><a href="../index.html">berkeleysportsanalytics.org</a></dd>
-                            <dt>Email</dt>
-                            <dd><a>sagberkeley@gmail.com</a></dd>
-                          </dl>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-
-              </div>
-              <div class="col-1 col-12-small hide-mobile">
-                <span> </span>
-              </div>
-              <div class="col-4 col-12-small hide-mobile">
-                <img class="footer-image" src="images/logo1.png"/>
-              </div>
-              <div class="col-12">
-                <div id="copyright">
-                  <ul class="menu">
-                    <li>© Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </footer>
-        </div>
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
 
     </div>
 

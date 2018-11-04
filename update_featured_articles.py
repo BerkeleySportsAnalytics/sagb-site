@@ -26,7 +26,7 @@ with open("shared/featured-articles.js", "r") as f:
 
 for i in list(range(3,5))[::-1]:
   if(i==3):
-    sup[3] = """article1 = \""""+article_name+""".html";\n"""
+    sup[3] = """article1 = \""""+article_name+"""\";\n"""
     sup[7] = """title1 = \""""+title+"""\";\n"""
     sup[11] = """date1 = \""""+date+"""\";\n"""
     sup[15] = """excerpt1 = \""""+excerpt+"""\";\n"""
