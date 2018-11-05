@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "powerplay-in-cricket.html";
-article2 = "pass-and-passnots.html";
-article3 = "college-nba-success.html";
-article4 = "nba-kd-team.html";
-article5 = "college-game-goodness.html";
-article6 = "nba-evolution.html";
-article7 = "lou-williams-6th-man.html";
-article8 = "save-run.html";
-article9 = "thursday-night.html";
+article1 = "pat-mahomes-hof.html";
+article2 = "powerplay-in-cricket.html";
+article3 = "pass-and-passnots.html";
+article4 = "college-nba-success.html";
+article5 = "nba-kd-team.html";
+article6 = "college-game-goodness.html";
+article7 = "nba-evolution.html";
+article8 = "lou-williams-6th-man.html";
+article9 = "save-run.html";
 
-title1 = "Optimal PowerPlay Strategies in Limited Overs Cricket";
-title2 = "The Pass and the Pass Nots";
-title3 = "Which College Basketball Program Provides the Best Chance for NBA Success?";
-title4 = "There's No KD in Team";
-title5 = "The 'College Game Goodness Index'";
-title6 = "Evolution of the NBA";
-title7 = "6th Man like Lou Williams";
-title8 = "How To Save a Run";
-title9 = "How Good (or Bad) are the Thursday Night NFL Games?";
+title1 = "Why Patrick Mahomes has an Early Claim to the Hall of Fame";
+title2 = "Optimal PowerPlay Strategies in Limited Overs Cricket";
+title3 = "The Pass and the Pass Nots";
+title4 = "Which College Basketball Program Provides the Best Chance for NBA Success?";
+title5 = "There's No KD in Team";
+title6 = "The 'College Game Goodness Index'";
+title7 = "Evolution of the NBA";
+title8 = "6th Man like Lou Williams";
+title9 = "How To Save a Run";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
