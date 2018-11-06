@@ -25,6 +25,8 @@ im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/main.png` : `../image
 im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/main.png` : `../images/dj-pics/`+article2+`/main.png`;
 im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/main.jpg` : `../images/dj-pics/`+article3+`/main.jpg`;
 
+all_articles = folder == "down" ? `all-articles-1.html` : `../all-articles-1.html`
+
 string = `
 <h2 class="icon fa-file-text-o">Featured Posts</h2>
 
@@ -62,7 +64,7 @@ string = `
 </article>
 
 <footer>
-  <a class="button alt icon fa-file-o" href="all-articles-1.html">View All Articles</a>
+  <a class="button alt icon fa-file-o" href="`+all_articles+`">View All Articles</a>
 </footer>
 `;
 
