@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "saban-best-team.html";
-article2 = "lebron-versus-ronaldo.html";
-article3 = "wizards-woes-datta.html";
-article4 = "leveon-bell-garrity.html";
-article5 = "kawhi-and-danny.html";
-article6 = "pat-mahomes-hof.html";
-article7 = "powerplay-in-cricket.html";
-article8 = "pass-and-passnots.html";
-article9 = "college-nba-success.html";
+article1 = "nba-threes.html";
+article2 = "saban-best-team.html";
+article3 = "lebron-versus-ronaldo.html";
+article4 = "wizards-woes-datta.html";
+article5 = "leveon-bell-garrity.html";
+article6 = "kawhi-and-danny.html";
+article7 = "pat-mahomes-hof.html";
+article8 = "powerplay-in-cricket.html";
+article9 = "pass-and-passnots.html";
 
-title1 = "Is This Nick Saban's Best Alabama Team Yet";
-title2 = "Lebron Vs. Ronaldo";
-title3 = "The Wizard Woes";
-title4 = "Are the Steelers Better Without Le'Veon Bell?";
-title5 = "The Raptor Rapture";
-title6 = "Why Patrick Mahomes has an Early Claim to the Hall of Fame";
-title7 = "Optimal PowerPlay Strategies in Limited Overs Cricket";
-title8 = "The Pass and the Pass Nots";
-title9 = "Which College Basketball Program Provides the Best Chance for NBA Success?";
+title1 = "Three is Greater Than Two";
+title2 = "Is This Nick Saban's Best Alabama Team Yet";
+title3 = "Lebron Vs. Ronaldo";
+title4 = "The Wizard Woes";
+title5 = "Are the Steelers Better Without Le'Veon Bell?";
+title6 = "The Raptor Rapture";
+title7 = "Why Patrick Mahomes has an Early Claim to the Hall of Fame";
+title8 = "Optimal PowerPlay Strategies in Limited Overs Cricket";
+title9 = "The Pass and the Pass Nots";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
