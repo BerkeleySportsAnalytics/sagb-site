@@ -2159,6 +2159,10 @@ input, select, textarea {
         padding-bottom: 1px;
       }
 
+      #top-banner {
+        margin-top: 44px;
+      }
+
       #titleBar {
         -moz-backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
