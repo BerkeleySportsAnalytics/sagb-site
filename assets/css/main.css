@@ -1822,6 +1822,12 @@ input, select, textarea {
 
 /* Banner */
 
+  #top-banner {
+    text-align: center;
+    padding: 1em 0 1em 0;
+    color: white;
+  }
+
   #banner {
     text-align: center;
     width: 940px;
