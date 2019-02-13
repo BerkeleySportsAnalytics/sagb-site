@@ -14,6 +14,7 @@ var dj_file = folder == "up" ? "../data-journalism.html" : "data-journalism.html
 var projects_file = folder == "up" ? "../projects.html" : "projects.html"
 var blog_file = folder == "up" ? "../blog.html" : "blog.html"
 var about_file = folder == "up" ? "../about-us.html" : "about-us.html"
+var board_file = folder == "up" ? "../board.html" : "board.html"
 var contact_file = folder == "up" ? "../contact-us.html" : "contact-us.html"
 
 var string =
@@ -25,9 +26,9 @@ var string =
 "    <li "+about+">"+
 "      <a href='#'>About</a>"+
 "      <ul>"+
-"        <li><a href="+about_file+">About Us</a></li>"+
+"        <li><a href="+about_file+">Our Mission</a></li>"+
+"        <li><a href="+board_file+">Our Board</a></li>"+
 "        <li><a href="+contact_file+">Contact Us</a></li>"+
-//"        <li><a href='#'>Leadership</a></li>"+
 "      </ul>"+
 "    </li>"+
 "  </ul>"
