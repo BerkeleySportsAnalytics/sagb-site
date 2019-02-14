@@ -32,6 +32,24 @@ footer, header, hgroup, menu, nav, section {
 figcaption {
   text-align: center;
 }
+figcaption.name {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    color: #404248;
+}
+figcaption.role {
+    font-weight: bold;
+    font-size: 14px;
+    color: #404248;
+  }
+
+figcaption.bio {
+    font-size: 14px;
+    color: #404248;
+  }
 
 body {
   line-height: 1;
