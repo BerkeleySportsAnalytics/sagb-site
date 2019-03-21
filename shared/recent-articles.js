@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "what-it-takes-to-win-in-march.html";
-article2 = "trash-or-treasure.html";
-article3 = "rich-hill.html";
-article4 = "sexist-not-economics.html";
-article5 = "serves-in-tennis.html";
-article6 = "nba-threes.html";
-article7 = "saban-best-team.html";
-article8 = "lebron-versus-ronaldo.html";
-article9 = "wizards-woes-datta.html";
+article1 = "bracket-hack-it.html";
+article2 = "what-it-takes-to-win-in-march.html";
+article3 = "trash-or-treasure.html";
+article4 = "rich-hill.html";
+article5 = "sexist-not-economics.html";
+article6 = "serves-in-tennis.html";
+article7 = "nba-threes.html";
+article8 = "saban-best-team.html";
+article9 = "lebron-versus-ronaldo.html";
 
-title1 = "Stop the Madness: What it Takes to Win in March";
-title2 = "Trash or Treasure? An Analysis of NBA Second Round Picks";
-title3 = "The Rich Hill Fiasco";
-title4 = "It's Not Sexist, It's Economics";
-title5 = "Servin' Up Dubs";
-title6 = "Three is Greater Than Two";
-title7 = "Is This Nick Saban's Best Alabama Team Yet";
-title8 = "Lebron Vs. Ronaldo";
-title9 = "The Wizard Woes";
+title1 = "Bracket Hack-it: Statistical Guide to March Madness";
+title2 = "Stop the Madness: What it Takes to Win in March";
+title3 = "Trash or Treasure? An Analysis of NBA Second Round Picks";
+title4 = "The Rich Hill Fiasco";
+title5 = "It's Not Sexist, It's Economics";
+title6 = "Servin' Up Dubs";
+title7 = "Three is Greater Than Two";
+title8 = "Is This Nick Saban's Best Alabama Team Yet";
+title9 = "Lebron Vs. Ronaldo";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
