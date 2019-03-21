@@ -32,3 +32,10 @@ How to Edit The Actual Article:
 		4. Images that take up half the screen on desktop with text wrapping can have a class of "image half-right" or "image half-left"
 		5. What does the `alt=""` do? If the image doesn't load for some reason, it'll display this text.
 	4. If you want to do more complicated stuff, go for it! Make sure stuff stays consistent though.
+
+Update the Site (OCF):
+	1. `ssh sportsanalytics@ssh.ocf.berkeley.edu`. Enter Password.
+	2. `cd public_html`
+	3. `git pull origin master`
+	4. NOTE: This should be changed such that the OCF website automatically pulls when someone pushes to the repository
+
