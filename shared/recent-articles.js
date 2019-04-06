@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "bracket-hack-it.html";
-article2 = "what-it-takes-to-win-in-march.html";
-article3 = "trash-or-treasure.html";
-article4 = "rich-hill.html";
-article5 = "sexist-not-economics.html";
-article6 = "serves-in-tennis.html";
-article7 = "nba-threes.html";
-article8 = "saban-best-team.html";
-article9 = "lebron-versus-ronaldo.html";
+article1 = "draft-eligibility.html";
+article2 = "bracket-hack-it.html";
+article3 = "what-it-takes-to-win-in-march.html";
+article4 = "trash-or-treasure.html";
+article5 = "rich-hill.html";
+article6 = "sexist-not-economics.html";
+article7 = "serves-in-tennis.html";
+article8 = "nba-threes.html";
+article9 = "saban-best-team.html";
 
-title1 = "Bracket Hack-it: Statistical Guide to March Madness";
-title2 = "Stop the Madness: What it Takes to Win in March";
-title3 = "Trash or Treasure? An Analysis of NBA Second Round Picks";
-title4 = "The Rich Hill Fiasco";
-title5 = "It's Not Sexist, It's Economics";
-title6 = "Servin' Up Dubs";
-title7 = "Three is Greater Than Two";
-title8 = "Is This Nick Saban's Best Alabama Team Yet";
-title9 = "Lebron Vs. Ronaldo";
+title1 = "Draft Eligibility: One-and-Done or High School?";
+title2 = "Bracket Hack-it: Statistical Guide to March Madness";
+title3 = "Stop the Madness: What it Takes to Win in March";
+title4 = "Trash or Treasure? An Analysis of NBA Second Round Picks";
+title5 = "The Rich Hill Fiasco";
+title6 = "It's Not Sexist, It's Economics";
+title7 = "Servin' Up Dubs";
+title8 = "Three is Greater Than Two";
+title9 = "Is This Nick Saban's Best Alabama Team Yet";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
