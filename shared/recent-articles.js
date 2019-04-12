@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "draft-eligibility.html";
-article2 = "park-effects-in-mlb.html";
+article1 = "park-effects-in-mlb.html";
+article2 = "need-for-speed.html";
 article3 = "ice-in-their-veins.html";
 article4 = "playoff-lebron.html";
 article5 = "draft-eligibility.html";
-article6 = "bracket-hack-it.html";
-article7 = "what-it-takes-to-win-in-march.html";
-article8 = "trash-or-treasure.html";
-article9 = "rich-hill.html";
+article6 = "park-effects-in-mlb.html";
+article7 = "ice-in-their-veins.html";
+article8 = "playoff-lebron.html";
+article9 = "draft-eligibility.html";
 
-title1 = "Draft Eligibility: One-and-Done or High School?";
-title2 = "Park Effects in the MLB: How Teams are Built by their Stadiums";
+title1 = "Park Effects in the MLB: How Teams are Built by their Stadiums";
+title2 = "Need for Speed: How an Increased Pace is Paying Dividends for the Sacramento Kings";
 title3 = "Ice In Their Veins: Explaining the Resurgence of the Brooklyn Nets";
 title4 = "Playoff LeBron: Fact of Fiction?";
 title5 = "Draft Eligibility: One-and-Done or High School?";
-title6 = "Bracket Hack-it: Statistical Guide to March Madness";
-title7 = "Stop the Madness: What it Takes to Win in March";
-title8 = "Trash or Treasure? An Analysis of NBA Second Round Picks";
-title9 = "The Rich Hill Fiasco";
+title6 = "Park Effects in the MLB: How Teams are Built by their Stadiums";
+title7 = "Ice In Their Veins: Explaining the Resurgence of the Brooklyn Nets";
+title8 = "Playoff LeBron: Fact of Fiction?";
+title9 = "Draft Eligibility: One-and-Done or High School?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
