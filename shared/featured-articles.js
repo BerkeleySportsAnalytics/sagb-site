@@ -1,28 +1,28 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "pass-and-passnots";
-article2 = "college-game-goodness";
+article1 = "greatest-duke-team";
+article2 = "impact-of-ronaldo";
 article3 = "mlb-names";
 
-title1 = "The Pass and the Pass Nots";
-title2 = "The \"College Game Goodness Index\"";
+title1 = "The Greatest Duke Team of All Time?";
+title2 = "Analyzing the Impact of Cristiano Ronaldo";
 title3 = "Finding the Most \"Baseball Sounding\" Name, Analytically";
 
-date1 = "November 3, 2018";
-date2 = "September 11, 2018";
+date1 = "September 9, 2019";
+date2 = "April 28, 2019";
 date3 = "February 5, 2018";
 
-excerpt1 = "Is it true that the NFL is becoming a passing league? If so, how can NFL teams take advantage of this observation?";
-excerpt2 = "We present a metric that measures how \"good\" any Division 1 College Football game was to watch.";
+excerpt1 = "Was the 2018-19 Duke team really deserving of the “best Duke team” and “could beat the Cavaliers” label?";
+excerpt2 = "It’s hard to believe but there was once a time when many questioned the managerial proficiency of Sir Alex Ferguson, the legendary Manchester United manager, but this was the case in the early 2000’s...";
 excerpt3 = "There are so many things to talk about for each player, but I have just one thing in mind. Their names.";
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";
 file2 = folder == "down" ? "articles/"+article2+".html" : article2+".html";
 file3 = folder == "down" ? "articles/"+article3+".html" : article3+".html";
 
-im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/main.png` : `../images/dj-pics/`+article1+`/main.png`;
-im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/main.png` : `../images/dj-pics/`+article2+`/main.png`;
+im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/main.jpg` : `../images/dj-pics/`+article1+`/main.jpg`;
+im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/main.jpg` : `../images/dj-pics/`+article2+`/main.jpg`;
 im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/main.jpg` : `../images/dj-pics/`+article3+`/main.jpg`;
 
 all_articles = folder == "down" ? `all-articles-1.html` : `../all-articles-1.html`
