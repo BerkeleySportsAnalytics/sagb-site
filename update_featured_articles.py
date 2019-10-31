@@ -8,8 +8,8 @@ filename1 = article_name+".html"
 
 excerpt = input("Enter Excerpt: ")
 
-if(len(excerpt) > 120):
-  print("Excerpt must be less than 120 characters.")
+if(len(excerpt) > 250):
+  print("Excerpt must be less than 250 characters.")
   sys.exit(2)
 
 with open(filename) as article:

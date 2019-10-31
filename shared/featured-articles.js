@@ -1,20 +1,20 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "greatest-duke-team";
-article2 = "impact-of-ronaldo";
+article1 = "nba-free-agency-2016";
+article2 = "patriots-historical-domination";
 article3 = "mlb-names";
 
-title1 = "The Greatest Duke Team of All Time?";
-title2 = "Analyzing the Impact of Cristiano Ronaldo";
+title1 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
+title2 = "The New England Patriots: Historical Domination";
 title3 = "Finding the Most \"Baseball Sounding\" Name, Analytically";
 
-date1 = "September 9, 2019";
-date2 = "April 28, 2019";
+date1 = "October 31, 2019";
+date2 = "October 31, 2019";
 date3 = "February 5, 2018";
 
-excerpt1 = "Was the 2018-19 Duke team really deserving of the “best Duke team” and “could beat the Cavaliers” label?";
-excerpt2 = "It’s hard to believe but there was once a time when many questioned the managerial proficiency of Sir Alex Ferguson, the legendary Manchester United manager, but this was the case in the early 2000’s...";
+excerpt1 = "Looking back on the 2016 NBA summer free agency, it is obvious that there were some ridiculous contractual overvaluations...";
+excerpt2 = "In 2007, the New England Patriots had one of the most historic football seasons ever going 16-0 in the regular season.";
 excerpt3 = "There are so many things to talk about for each player, but I have just one thing in mind. Their names.";
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";
