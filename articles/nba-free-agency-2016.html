@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+--><html><head>
+    <title>Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="../assets/css/main.css" rel="stylesheet"/>
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png"/></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script curr="dj" folder="up" id="nav-src" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency</h2>
+                            <h4>By Kunal Dutta, Liam Grah, Riley Henderson | October 31, 2019</h4>
+                          </header>
+                          <span class="image featured"><img alt="" src="../images/dj-pics/nba-free-agency-2016/main.jpg"/></span>
+                          <p>
+                              Looking back on the 2016 NBA summer free agency, it is obvious that there were some ridiculous contractual 
+                              overvaluations of average and below-average players. However, there were also some additions and extensions 
+                              that proved to be amazing bargains for their teams. In trying to analyze this relatively subjective and 
+                              complex set of data, I tasked myself with devising a metric that could compare the LeBrons and KDs of the 
+                              world to the Bobans. Seeking to quantify the biggest steals and busts, or equivalently, the best and worst 
+                              General Manager decisions of the summer, I computed a ratio for each signee that represented the Win Shares 
+                              that they contributed to their team divided by the number of millions of dollars in their contract. For 
+                              example, Russell Westbrook contributed a total of 30 Win Shares to the Thunder during the 2016-2017, 2017-2018, 
+                              and 2018-2019 seasons. The extension he signed in the 2016 offseason was for 3 years and $85 million. So, his 
+                              calculated ratio was 30 WS/$85 Million = 0.35 WS/$ Million. Irrespective of playoff woes, this was a solid 
+                              re-signing by GM Sam Presti. Nevertheless, Westbrook’s ratio was not high enough to crack the top 10, even despite 
+                              his 2017 MVP campaign.
+                          </p>
+                          <p>
+                            While computing these ratios, it became clear to me that it would be prudent to impose a minimum contract 
+                            qualification, as players signing for $1 million for a single season only needed to amass 1 Win Share to shoot 
+                            all the way up to the top of the list, something I discovered was actually quite common. Thus, I set this 
+                            contract minimum at a cumulative total of at least $10 million to narrow the scope of reference to players that 
+                            are at least somewhat recognizable to the average NBA fan. Of the 137 signees, 71 met this criteria. The distribution 
+                            of the ratios of these eligible players is shown below and something that is immediately noticeable is that the curve 
+                            is skewed to the left, showing that a significant percentage of signees underperformed their salary. Moreover, the mean 
+                            ratio of Win Shares/$ million in the summer of 2016 was 0.24 and the median was 0.21. 
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/signees.jpg"/></span>
+                          </div>
+                          <p>
+                            As seen in the bar graph below, the top 10 encompassed Hall of Famers (Harden, Durant, James) as well as a number 
+                            of undervalued role players.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/top10.jpg"/></span>
+                          </div>
+                          <p>
+                            Looking at the bottom 10, we see a different trend with the worst calls being made on players ranging from aging veterans 
+                            to inexperienced prospects. Along with expected names (Deng, Parsons, Mozgov), the busts on this list reflect a general 
+                            sense of unwarranted optimism, likely due to the financial surplus and urgency in claiming players before competitors could.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/bottom10.jpg"/></span>
+                          </div>
+                          <div>
+                            <span class="image half-right"><img alt="" src="../images/dj-pics/nba-free-agency-2016/largest-contracts.jpg"/></span>
+                          </div>
+                          <br/>
+                          <p>
+                            In 2016, the amount of spending for NBA teams was astronomical compared to the preceding seasons, coming with a $24 million 
+                            increase in the salary cap.
+                          </p>
+                          <p>
+                            Some individual players definitely underachieved following their payday. However, did the teams who spent grandly fare better 
+                            than those who didn’t?
+                          </p>
+                          <p>
+                            Here were the 10 largest contracts given that season and the teams that signed the (quite massive) checks.
+                          </p>
+                          <br/>
+                          <p>
+                            And here are the win percentage of those 10 teams that season.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/scatter1.jpg"/></span>
+                          </div>
+                          <p>
+                            With a wide range and an average of only 56.21% (compared to the average win percentage for a playoff team of 60.06%), higher 
+                            spending clearly did not equate to better team performance in the 2016-17 season.
+                          </p>
+                          <p>
+                            However, many of these top contracts were in the interest of long-term development (with the notable exceptions of LeBron James 
+                            and Kevin Durant). Let’s see how those teams fared in the 2018-19 season, compared to the rest of the league (teams highlighted 
+                            in yellow).
+                          </p>
+                          <div>
+                            <span class="image centered"><a href="https://www.basketball-reference.com/leagues/NBA_2019_standings.html"><img alt="" src="../images/dj-pics/nba-free-agency-2016/standings.jpg"/></a></span>
+                          </div>
+                          <p>
+                              Yikes. With a combined 48.78% win percentage, the performance of the big spenders was slightly below average only 3 years later, 
+                              with just 3 playoff teams remaining out of the crop. Even then, the Toronto Raptors won the 2019 title after trading their 2016 
+                              resigning of DeMar DeRozan, for the individually cheaper contracts of Kawhi Leonard ($18.8 million yearly) and Danny Green 
+                              ($11.25 million yearly).
+                          </p>
+                          <p>
+                              Why did these teams perform relatively poorly, given their large financial commitments? If we compare the actual salary of the 
+                              players to the projected using the <a href="https://projects.fivethirtyeight.com/carmelo-2016-17/">CARMELO player projections by FiveThirtyEight</a>, here’s what we get.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/scatter2.jpg"/></span>
+                          </div>
+                          <div>
+                            <span class="image half-left"><img alt="" src="../images/dj-pics/nba-free-agency-2016/scatter3.jpg"/></span>
+                          </div>
+                          <br/>
+                          <p>
+                            As shown, there is no obvious correlation with the data, although ideally, there should be a rough trend present between a player performance metric and salary. 
+                          </p>
+                          <p>
+                            However, if the players who did not re-sign with their original team (Horford, Durant, Batum), there is a more clear trend, with the exception of LeBron James.
+                          </p>
+                          <br/><br/>
+                          <p>
+                            Under the NBA salary cap rules, players can re-sign with a team for a higher price and duration than other teams. This rule may be to protect smaller or less 
+                            successful teams from losing talent, but based on the 2016 contracts, the rule may cripple teams that do not sign generational superstars like LeBron James 
+                            or Kevin Durant, as it pays them to the same scale with a clearly worse result. 
+                          </p>
+                          <p>
+                            Similarly, in 2015, the top 5 largest annual contracts awarded were to returning players (Anthony Davis - Pelicans, LeBron James - Cavaliers, Kawhi Leonard - 
+                            Spurs, Damian Lillard - Trailblazers, Kevin Love - Cavaliers). A brief look into contract history shows that this is the case for the majority of recent years - 
+                            a display of how returning players can leverage the NBA rules to earn bigger, sometimes-undeserved paydays. 
+                          </p>
+                          <p>
+                            Through these trends, the 2016 offseason will go down in history as a goldmine for players with expiring contracts, but with the high number of regrettable 
+                            deals, a shot in the chest for overall team performance.
+                          </p>
+                          <p>
+                            Sources:
+                            </p><ul>
+                              <li><a href="https://www.basketball-reference.com/leagues/NBA_2019_standings.html">2018-19 NBA Standings</a></li>
+                              <li><a href="https://projects.fivethirtyeight.com/carmelo-2016-17/">2016-17 CARMELO NBA Player Projections</a></li>
+                              <li><a href="https://www.basketball-reference.com/leagues/NBA_2017_standings.html">2016-17 NBA Standings</a></li>
+                              <li><a href="https://www.hoopsrumors.com/2016/07/largest-nba-free-agent-contracts-2016.html">Largest NBA Free Agent Contracts of 2016</a></li>
+                              <li><a href="https://www.spotrac.com/nba/los-angeles-lakers/lebron-james-2257/cash-earnings/">Lebron Estimated Career Earnings</a></li>
+                              <li><a href="https://www.si.com/nba/2015/nba-free-agency-grades-analysis-signings">Roundup: 2015 NBA Free Agent Grades</a></li>
+                            </ul>
+                            <a href="https://github.com/kdutta9/sagbfa19">Github Code</a>
+                          <p></p>
+                          <p>
+                            Now that we’ve looked at some of the questionable decisions made during this fateful summer on a macro-level, is there anything that we can gleam from a micro-level 
+                            analysis of a single decision made by a team? In this pursuit, I have chosen one of the most infamous and unreasonable contracts produced by the cap spike: Timofey 
+                            Mozgov’s four-year, $64 million deal with the Los Angeles Lakers.
+                          </p>
+                          <p>
+                            To begin, we should first compare who the Lakers were replacing with Mozgov, Roy Hibbert. A two-time All-Star with the Indiana Pacers, Hibbert distinguished himself 
+                            as a defensive presence, anchoring the Indiana frontcourt during his tenure. On the last year of his deal, he was traded to the Lakers, and went on to have a middling 
+                            season, providing little of note for the 17-win squad. Despite having one of his worst statistical seasons of his career in 2015-16, his numbers hold up well to 
+                            Mozgov’s.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/multi-bar.jpg"/></span>
+                          </div>
+                          <p>
+                            Outpacing Mozgov in assists, rebounds, and blocks, there seems to be little reason for why the Lakers would cast Hibbert aside for a similarly performing player. Why 
+                            would the Lakers dish out $64 million for a horizontal move? The discrepancy in win shares seems to indicate something that Mozgov offers in the way of team success, 
+                            but you must remember that Hibbert played with one of the worst teams in NBA history, which prioritized the fanfare of Kobe’s last run rather than actual winning, 
+                            explaining his lack of win shares. Mozgov, on the other hand, enjoyed riding along with the 57-win Cavaliers, playing alongside the likes of Kyrie Irving and a resurgent LeBron.
+                          </p>
+                          <p>
+                            So, is there something about playing in Cleveland that contributed to Mozgov’s façade as a legitimate NBA center? A look into the distribution of assists on Mozgov’s made 
+                            field goals reveals an interesting answer.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/movgov-bar.jpg"/></span>
+                          </div>
+                          <p>
+                            Huh. Who would’ve guessed that having one of the greatest playmakers of all time feeding you passes and creating plays boosts your value? 30% of all Mozgov’s field goals 
+                            were dished out by LeBron, and his reliance on LeBron’s passing did not translate well to a Lakers team bereft of strong passers. Additionally, only 12.7% of Mozgov’s makes 
+                            were unassisted. Although it’s not necessarily a mark for a player to rely on assists to generate points, it does show cracks in Mozgov’s ability to function outside of the 
+                            system in Cleveland. In comparison, Hibbert scored 38.2% of his shots on unassisted plays, demonstrating some ability to create for himself.
+                          </p>
+                          <p>
+                            For our final exploration, let’s compare the shot distribution of Mozgov and Hibbert by distance from the hoop.
+                          </p>
+                          <div>
+                            <span class="image centered"><img alt="" src="../images/dj-pics/nba-free-agency-2016/lineplot.jpg"/></span>
+                          </div>
+                          <p>
+                            Although the chart seems to show more similarities than not between these two players, the importance is in the subtlety. The majority of Mozgov’s shots were made within 3 
+                            feet of the basket, illustrating his heavy reliance on dunks and layups to touch the ball in around the paint. Hibbert also relied on the traditional scoring distribution, with 
+                            a healthy portion of his makes placed within the paint as well. However, unlike Mozgov’s distribution, Hibbert shows aptitudes for hitting midrange jumpers, stretching the floor 
+                            to some degree. I am in no way suggesting that Hibbert was a sniper for the Lakers, or even that he should be considered a stretch-five. However, as Marc Gasol and Joel Embiid 
+                            have displayed in recent seasons, even the slight ability to make distance jumpers forces defenses to stray out from the paint. Hibbert’s jumpers were far from a potent scoring 
+                            force, but he provided spacing for cutters and drivers. In this respect, Hibbert’s game fared better for the future of the league than Mozgov, making the Lakers look even dumber.
+                          </p>
+                          <p>
+                            There are certainly other factors that went into the Laker’s decision to exchange Hibbert for Mozgov during the 2016 offseason. Schematic fit, performance projections for multiple 
+                            years out, and differences in demeanor all could have pushed the Lakers to sign Mozgov to that monstrous deal. Who knows? However, in retrospect, the data shows that moving from 
+                            Mozgov to Hibbert was a statistical horizontal move, and the Lakers now regret their decision.
+                          </p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul class="style2" id="recent-articles">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section class="box article-list" id="featured-articles">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        
+
+
+
+
+<article>
+<a class="image featured" href="to-hit-or-not-to-hit.html"><img alt="" src="../images/dj-pics/to-hit-or-not-to-hit/main.jpg"/></a>
+<header>
+<h3><a href="#">To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis</a></h3>
+<p>By Ashwin Kumar | October 30, 2019</p>
+</header>
+<p>In the modern day of tennis, where analytics rules supreme, there still exials and coaches alike. In particular, a time-tested mantra endorsed by many is 'when in doubt, hit to the backhand.'</p>
+<footer>
+<a class="button alt icon fa-file-o" href="to-hit-or-not-to-hit.html">Continue Reading</a>
+</footer>
+</article>
+
+
+
+
+
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script folder="up" id="footer-src" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  
+
+</body></html>
