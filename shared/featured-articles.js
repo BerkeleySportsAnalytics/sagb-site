@@ -13,7 +13,7 @@ date1 = "October 31, 2019";
 date2 = "October 31, 2019";
 date3 = "February 5, 2018";
 
-excerpt1 = "Looking back on the 2016 NBA summer free agency, it is obvious that there were some ridiculous contractual overvaluations...";
+excerpt1 = "Looking back on the 2016 NBA summer free agency...";
 excerpt2 = "In 2007, the New England Patriots had one of the most historic football seasons ever going 16-0 in the regular season.";
 excerpt3 = "There are so many things to talk about for each player, but I have just one thing in mind. Their names.";
 
