@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "weight-theres-more.html";
-article2 = "new-age-moneyball.html";
-article3 = "point-centers.html";
-article4 = "patriots-historical-domination.html";
-article5 = "nba-free-agency-2016.html";
-article6 = "to-hit-or-not-to-hit.html";
-article7 = "decoding-the-draft.html";
-article8 = "which-pick-is-the-best.html";
-article9 = "greatest-duke-team.html";
+article1 = "speed-kills.html";
+article2 = "weight-theres-more.html";
+article3 = "new-age-moneyball.html";
+article4 = "point-centers.html";
+article5 = "patriots-historical-domination.html";
+article6 = "nba-free-agency-2016.html";
+article7 = "to-hit-or-not-to-hit.html";
+article8 = "decoding-the-draft.html";
+article9 = "which-pick-is-the-best.html";
 
-title1 = "But Weight, There’s More";
-title2 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
-title3 = "Point Centers, a New Breed in the NBA";
-title4 = "The New England Patriots: Historical Domination";
-title5 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
-title6 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis";
-title7 = "Decoding The Draft: From Lottery to Lackluster";
-title8 = "Which Pick is the Best?";
-title9 = "The Greatest Duke Team of All Time?";
+title1 = "Speed Kills?";
+title2 = "But Weight, There’s More";
+title3 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
+title4 = "Point Centers, a New Breed in the NBA";
+title5 = "The New England Patriots: Historical Domination";
+title6 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
+title7 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis";
+title8 = "Decoding The Draft: From Lottery to Lackluster";
+title9 = "Which Pick is the Best?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
