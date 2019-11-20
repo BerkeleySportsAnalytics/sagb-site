@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "speed-kills.html";
-article2 = "weight-theres-more.html";
-article3 = "new-age-moneyball.html";
-article4 = "point-centers.html";
-article5 = "patriots-historical-domination.html";
-article6 = "nba-free-agency-2016.html";
-article7 = "to-hit-or-not-to-hit.html";
-article8 = "decoding-the-draft.html";
-article9 = "which-pick-is-the-best.html";
+article1 = "jeopardy-to-vegas.html";
+article2 = "speed-kills.html";
+article3 = "weight-theres-more.html";
+article4 = "new-age-moneyball.html";
+article5 = "point-centers.html";
+article6 = "patriots-historical-domination.html";
+article7 = "nba-free-agency-2016.html";
+article8 = "to-hit-or-not-to-hit.html";
+article9 = "decoding-the-draft.html";
 
-title1 = "Speed Kills?";
-title2 = "But Weight, There’s More";
-title3 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
-title4 = "Point Centers, a New Breed in the NBA";
-title5 = "The New England Patriots: Historical Domination";
-title6 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
-title7 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis";
-title8 = "Decoding The Draft: From Lottery to Lackluster";
-title9 = "Which Pick is the Best?";
+title1 = "America's Game Goes to Vegas: How to bet on the Jeoparty! GOAT";
+title2 = "Speed Kills?";
+title3 = "But Weight, There’s More";
+title4 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
+title5 = "Point Centers, a New Breed in the NBA";
+title6 = "The New England Patriots: Historical Domination";
+title7 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
+title8 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis";
+title9 = "Decoding The Draft: From Lottery to Lackluster";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
