@@ -11,7 +11,7 @@ article7 = "nba-free-agency-2016.html";
 article8 = "to-hit-or-not-to-hit.html";
 article9 = "decoding-the-draft.html";
 
-title1 = "America's Game Goes to Vegas: How to bet on the Jeoparty! GOAT";
+title1 = "America's Game Goes to Vegas: How to bet on the Jeopardy! GOAT";
 title2 = "Speed Kills?";
 title3 = "But Weight, There’s More";
 title4 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
