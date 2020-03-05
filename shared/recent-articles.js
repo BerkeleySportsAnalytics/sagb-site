@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "jeopardy-to-vegas.html";
-article2 = "speed-kills.html";
-article3 = "weight-theres-more.html";
-article4 = "new-age-moneyball.html";
-article5 = "point-centers.html";
-article6 = "patriots-historical-domination.html";
-article7 = "nba-free-agency-2016.html";
-article8 = "to-hit-or-not-to-hit.html";
-article9 = "decoding-the-draft.html";
+article1 = "clayton-kershaw-playoff-choker.html";
+article2 = "jeopardy-to-vegas.html";
+article3 = "speed-kills.html";
+article4 = "weight-theres-more.html";
+article5 = "new-age-moneyball.html";
+article6 = "point-centers.html";
+article7 = "patriots-historical-domination.html";
+article8 = "nba-free-agency-2016.html";
+article9 = "to-hit-or-not-to-hit.html";
 
-title1 = "America's Game Goes to Vegas: How to bet on the Jeopardy! GOAT";
-title2 = "Speed Kills?";
-title3 = "But Weight, There’s More";
-title4 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
-title5 = "Point Centers, a New Breed in the NBA";
-title6 = "The New England Patriots: Historical Domination";
-title7 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
-title8 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis";
-title9 = "Decoding The Draft: From Lottery to Lackluster";
+title1 = "Clayton Kershaw: Playoff Choker?";
+title2 = "America's Game Goes to Vegas: How to bet on the Jeopardy! GOAT";
+title3 = "Speed Kills?";
+title4 = "But Weight, There’s More";
+title5 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
+title6 = "Point Centers, a New Breed in the NBA";
+title7 = "The New England Patriots: Historical Domination";
+title8 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
+title9 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis"
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
