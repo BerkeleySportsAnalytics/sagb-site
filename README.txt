@@ -8,7 +8,7 @@ How to Set Up Website:
 
 How to Add a New Article:
 	1. `python new_dj_article.py article-file-name`
-		1. Enter Title of Article: `"The Evolution of the NBA"`
+		1. Enter Title of Article: `The Evolution of the NBA`
 	2. This creates a new html file and a folder for images: `open articles/article-file-name.html`
 	3. Edit HTML file to put in the article!
 	4. As of now, make sure you copy over "Spotlight" Article from a previous article. "Recent Articles" and "Featured Articles" should be loaded already.
@@ -17,7 +17,7 @@ How to Add a New Article:
 		1. Make sure the DATE, AUTHOR, and TITLE are final before you run this!
 		1. If you see a `html5lib` error, you may need to `pip install html5lib`
 		2. If you see a `pip` error, you may need to `sudo brew install pip`
-	7. Add to Recent Articles Lists: `python update_recent_article_list.py article-file-name`
+	7. Add to Recent Articles Lists: `python update_recent_articles_list.py article-file-name`
 	8. OPTIONAL: add to featured articles: `python update_featured_articles.py article-file-name`
 	9. OPTIONAL: change the spotlight article: `python update_spotlight_article.py article-file-name`
 	
