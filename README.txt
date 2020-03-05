@@ -17,7 +17,7 @@ How to Add a New Article:
 		1. Make sure the DATE, AUTHOR, and TITLE are final before you run this!
 		1. If you see a `html5lib` error, you may need to `pip install html5lib`
 		2. If you see a `pip` error, you may need to `sudo brew install pip`
-	7. Add to Recent Articles Lists: `python update_recent_article_list.py article-file-name`
+	7. Add to Recent Articles Lists: `python update_recent_articles_list.py article-file-name`
 	8. OPTIONAL: add to featured articles: `python update_featured_articles.py article-file-name`
 	9. OPTIONAL: change the spotlight article: `python update_spotlight_article.py article-file-name`
 	
