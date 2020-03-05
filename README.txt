@@ -8,7 +8,7 @@ How to Set Up Website:
 
 How to Add a New Article:
 	1. `python new_dj_article.py article-file-name`
-		1. Enter Title of Article: `"The Evolution of the NBA"`
+		1. Enter Title of Article: `The Evolution of the NBA`
 	2. This creates a new html file and a folder for images: `open articles/article-file-name.html`
 	3. Edit HTML file to put in the article!
 	4. As of now, make sure you copy over "Spotlight" Article from a previous article. "Recent Articles" and "Featured Articles" should be loaded already.
