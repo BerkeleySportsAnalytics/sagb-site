@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "clayton-kershaw-playoff-choker.html";
-article2 = "jeopardy-to-vegas.html";
-article3 = "speed-kills.html";
-article4 = "weight-theres-more.html";
-article5 = "new-age-moneyball.html";
-article6 = "point-centers.html";
-article7 = "patriots-historical-domination.html";
-article8 = "nba-free-agency-2016.html";
-article9 = "to-hit-or-not-to-hit.html";
+article1 = "is-injury-prediction-the-next-moneyball.html";
+article2 = "clayton-kershaw-playoff-choker.html";
+article3 = "jeopardy-to-vegas.html";
+article4 = "speed-kills.html";
+article5 = "weight-theres-more.html";
+article6 = "new-age-moneyball.html";
+article7 = "point-centers.html";
+article8 = "patriots-historical-domination.html";
+article9 = "nba-free-agency-2016.html";
 
-title1 = "Clayton Kershaw: Playoff Choker?";
-title2 = "America's Game Goes to Vegas: How to bet on the Jeopardy! GOAT";
-title3 = "Speed Kills?";
-title4 = "But Weight, There’s More";
-title5 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
-title6 = "Point Centers, a New Breed in the NBA";
-title7 = "The New England Patriots: Historical Domination";
-title8 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
-title9 = "To Hit or Not to Hit: Determining Ideal Shot Locations in Tennis"
+title1 = "Is Injury Prediction the Next Moneyball?";
+title2 = "Clayton Kershaw: Playoff Choker?";
+title3 = "America's Game Goes to Vegas: How to bet on the Jeopardy! GOAT";
+title4 = "Speed Kills?";
+title5 = "But Weight, There’s More";
+title6 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
+title7 = "Point Centers, a New Breed in the NBA";
+title8 = "The New England Patriots: Historical Domination";
+title9 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
