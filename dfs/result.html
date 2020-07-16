@@ -1,4 +1,14 @@
-<table border="1" class="dataframe">
+<head>
+<script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+</head>
+
+<body>
+<div id="filter">
+<input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
+<input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
+</div>
+
+<table border="1" id="tbl" class="sortable">
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -106,3 +116,6 @@
     </tr>
   </tbody>
 </table>
+
+<script src="main.js"></script>
+</body>
