@@ -1,0 +1,1083 @@
+<head>
+<script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+</head>
+
+<body>
+<div id="filter">
+<input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
+<input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
+</div>
+
+<table border="1" id="tbl" class="sortable">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Game</th>
+      <th>Team</th>
+      <th>Minutes</th>
+      <th>2PT FG</th>
+      <th>3PT FG</th>
+      <th>FTM</th>
+      <th>Rebounds</th>
+      <th>Assists</th>
+      <th>Blocks</th>
+      <th>Steals</th>
+      <th>Turnovers</th>
+      <th>Injury Indicator</th>
+      <th>Injury Details</th>
+      <th>Picture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>LeBron James</td>
+      <td>SF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>39.71</td>
+      <td>6.36</td>
+      <td>1.69</td>
+      <td>2.66</td>
+      <td>9.54</td>
+      <td>9.98</td>
+      <td>0.42</td>
+      <td>1.57</td>
+      <td>2.87</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Anthony Davis</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>32.79</td>
+      <td>5.35</td>
+      <td>1.20</td>
+      <td>8.46</td>
+      <td>7.97</td>
+      <td>4.41</td>
+      <td>1.45</td>
+      <td>1.94</td>
+      <td>2.19</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/davisan02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Kawhi Leonard</td>
+      <td>SF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>31.32</td>
+      <td>6.01</td>
+      <td>4.19</td>
+      <td>6.10</td>
+      <td>7.13</td>
+      <td>4.74</td>
+      <td>0.16</td>
+      <td>0.86</td>
+      <td>1.76</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Jrue Holiday</td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>32.45</td>
+      <td>5.46</td>
+      <td>0.61</td>
+      <td>1.29</td>
+      <td>6.02</td>
+      <td>7.64</td>
+      <td>0.39</td>
+      <td>1.14</td>
+      <td>3.59</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/holidjr01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Rudy Gobert</td>
+      <td>C</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>27.02</td>
+      <td>0.94</td>
+      <td>0.00</td>
+      <td>2.95</td>
+      <td>10.34</td>
+      <td>1.86</td>
+      <td>2.01</td>
+      <td>1.05</td>
+      <td>1.72</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/goberru01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Lonzo Ball</td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>32.33</td>
+      <td>2.07</td>
+      <td>1.07</td>
+      <td>1.05</td>
+      <td>8.26</td>
+      <td>7.90</td>
+      <td>1.05</td>
+      <td>1.63</td>
+      <td>3.32</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/balllo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Paul George</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>24.28</td>
+      <td>4.48</td>
+      <td>1.95</td>
+      <td>1.60</td>
+      <td>4.06</td>
+      <td>3.77</td>
+      <td>0.27</td>
+      <td>1.25</td>
+      <td>1.22</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/georgpa01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Brandon Ingram</td>
+      <td>SF</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>31.59</td>
+      <td>4.04</td>
+      <td>3.91</td>
+      <td>3.66</td>
+      <td>8.08</td>
+      <td>3.70</td>
+      <td>0.14</td>
+      <td>0.84</td>
+      <td>2.46</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/ingrabr01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Donovan Mitchell</td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>30.24</td>
+      <td>5.74</td>
+      <td>3.68</td>
+      <td>3.31</td>
+      <td>2.73</td>
+      <td>3.05</td>
+      <td>0.00</td>
+      <td>0.67</td>
+      <td>1.27</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Zion Williamson</td>
+      <td>PF</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>28.60</td>
+      <td>7.95</td>
+      <td>0.00</td>
+      <td>4.71</td>
+      <td>6.80</td>
+      <td>0.77</td>
+      <td>0.60</td>
+      <td>0.14</td>
+      <td>3.08</td>
+      <td>GTD</td>
+      <td>Personal</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Montrezl Harrell</td>
+      <td>C</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>22.60</td>
+      <td>5.26</td>
+      <td>0.00</td>
+      <td>3.01</td>
+      <td>6.99</td>
+      <td>1.38</td>
+      <td>1.28</td>
+      <td>0.51</td>
+      <td>1.96</td>
+      <td>GTD</td>
+      <td>Personal</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/harremo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Mike Conley</td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>26.39</td>
+      <td>2.45</td>
+      <td>3.57</td>
+      <td>0.76</td>
+      <td>2.28</td>
+      <td>3.59</td>
+      <td>0.06</td>
+      <td>0.58</td>
+      <td>1.16</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/conlemi01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Joe Ingles</td>
+      <td>SF</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>27.35</td>
+      <td>0.16</td>
+      <td>1.20</td>
+      <td>0.20</td>
+      <td>3.21</td>
+      <td>5.20</td>
+      <td>0.76</td>
+      <td>0.96</td>
+      <td>1.39</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/inglejo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Derrick Favors</td>
+      <td>C</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>20.88</td>
+      <td>2.76</td>
+      <td>0.28</td>
+      <td>0.95</td>
+      <td>11.16</td>
+      <td>0.02</td>
+      <td>1.41</td>
+      <td>0.19</td>
+      <td>2.29</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/favorde01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Royce O'Neale</td>
+      <td>PF</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>24.09</td>
+      <td>0.00</td>
+      <td>2.50</td>
+      <td>1.74</td>
+      <td>3.99</td>
+      <td>1.79</td>
+      <td>0.78</td>
+      <td>0.87</td>
+      <td>0.58</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/onealro01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Lou Williams</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>28.18</td>
+      <td>5.26</td>
+      <td>1.40</td>
+      <td>1.87</td>
+      <td>4.21</td>
+      <td>5.24</td>
+      <td>0.49</td>
+      <td>1.23</td>
+      <td>2.10</td>
+      <td>GTD</td>
+      <td>Calf</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/willilo02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Kyle Kuzma</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.73</td>
+      <td>4.20</td>
+      <td>1.16</td>
+      <td>1.15</td>
+      <td>3.70</td>
+      <td>2.44</td>
+      <td>0.50</td>
+      <td>0.73</td>
+      <td>1.27</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/kuzmaky01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Patrick Beverley</td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>23.69</td>
+      <td>1.65</td>
+      <td>1.27</td>
+      <td>0.00</td>
+      <td>4.72</td>
+      <td>3.35</td>
+      <td>0.80</td>
+      <td>1.05</td>
+      <td>1.29</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/beverpa01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Ivica Zubac</td>
+      <td>C</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>20.51</td>
+      <td>3.10</td>
+      <td>0.40</td>
+      <td>1.05</td>
+      <td>7.42</td>
+      <td>1.40</td>
+      <td>1.40</td>
+      <td>0.45</td>
+      <td>1.65</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/zubaciv01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>JaVale McGee</td>
+      <td>C</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>20.77</td>
+      <td>2.33</td>
+      <td>1.40</td>
+      <td>0.60</td>
+      <td>7.12</td>
+      <td>0.78</td>
+      <td>1.32</td>
+      <td>0.52</td>
+      <td>1.09</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgeeja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Josh Hart</td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>23.69</td>
+      <td>0.81</td>
+      <td>2.28</td>
+      <td>1.56</td>
+      <td>8.60</td>
+      <td>0.80</td>
+      <td>0.56</td>
+      <td>0.63</td>
+      <td>1.31</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/hartjo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Jordan Clarkson</td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>22.13</td>
+      <td>3.51</td>
+      <td>3.73</td>
+      <td>0.00</td>
+      <td>1.63</td>
+      <td>0.75</td>
+      <td>0.05</td>
+      <td>0.10</td>
+      <td>1.23</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/clarkjo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Marcus Morris</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>21.02</td>
+      <td>3.16</td>
+      <td>0.75</td>
+      <td>1.34</td>
+      <td>2.71</td>
+      <td>1.43</td>
+      <td>0.40</td>
+      <td>1.01</td>
+      <td>0.95</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/morrima03.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Danny Green</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>22.81</td>
+      <td>0.67</td>
+      <td>2.47</td>
+      <td>0.35</td>
+      <td>2.59</td>
+      <td>2.24</td>
+      <td>0.68</td>
+      <td>1.07</td>
+      <td>0.75</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenda02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Jaxson Hayes</td>
+      <td>C</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>19.08</td>
+      <td>1.53</td>
+      <td>0.00</td>
+      <td>0.80</td>
+      <td>3.52</td>
+      <td>0.00</td>
+      <td>0.82</td>
+      <td>0.28</td>
+      <td>1.53</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Dwight Howard</td>
+      <td>C</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>24.88</td>
+      <td>1.23</td>
+      <td>0.00</td>
+      <td>2.29</td>
+      <td>8.10</td>
+      <td>1.81</td>
+      <td>1.73</td>
+      <td>0.85</td>
+      <td>1.51</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Avery Bradley</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>21.99</td>
+      <td>2.26</td>
+      <td>3.31</td>
+      <td>0.59</td>
+      <td>2.20</td>
+      <td>1.59</td>
+      <td>0.28</td>
+      <td>0.69</td>
+      <td>0.62</td>
+      <td>O</td>
+      <td>Personal</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/bradlav01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Tony Bradley</td>
+      <td>C</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>17.97</td>
+      <td>0.68</td>
+      <td>0.98</td>
+      <td>0.00</td>
+      <td>1.61</td>
+      <td>0.00</td>
+      <td>0.96</td>
+      <td>0.00</td>
+      <td>0.96</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Reggie Jackson</td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>24.66</td>
+      <td>2.35</td>
+      <td>0.54</td>
+      <td>0.01</td>
+      <td>2.24</td>
+      <td>4.12</td>
+      <td>0.42</td>
+      <td>0.78</td>
+      <td>1.50</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jacksre01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Rajon Rondo</td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>25.50</td>
+      <td>2.69</td>
+      <td>1.87</td>
+      <td>0.40</td>
+      <td>3.41</td>
+      <td>4.11</td>
+      <td>0.80</td>
+      <td>0.83</td>
+      <td>1.62</td>
+      <td>O</td>
+      <td>Thumb</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/rondora01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Kentavious Caldwell-Pope</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>24.06</td>
+      <td>1.75</td>
+      <td>3.22</td>
+      <td>1.50</td>
+      <td>2.51</td>
+      <td>1.62</td>
+      <td>0.36</td>
+      <td>0.82</td>
+      <td>0.83</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/caldwke01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>JaMychal Green</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>19.70</td>
+      <td>1.43</td>
+      <td>1.54</td>
+      <td>0.91</td>
+      <td>5.74</td>
+      <td>0.84</td>
+      <td>0.84</td>
+      <td>0.69</td>
+      <td>0.69</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Markieff Morris</td>
+      <td>SF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>19.22</td>
+      <td>0.73</td>
+      <td>0.63</td>
+      <td>0.30</td>
+      <td>1.51</td>
+      <td>0.35</td>
+      <td>0.57</td>
+      <td>0.46</td>
+      <td>0.59</td>
+      <td>GTD</td>
+      <td>Undisclosed</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/morrima02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Rodney McGruder</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>16.54</td>
+      <td>2.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.91</td>
+      <td>0.00</td>
+      <td>0.64</td>
+      <td>0.34</td>
+      <td>0.54</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgruro01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Amir Coffey</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>16.79</td>
+      <td>2.05</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>2.10</td>
+      <td>0.36</td>
+      <td>0.70</td>
+      <td>0.34</td>
+      <td>0.64</td>
+      <td>O</td>
+      <td>Coach's decision</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Mfiondu Kabengele</td>
+      <td>SF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>22.61</td>
+      <td>0.74</td>
+      <td>1.28</td>
+      <td>1.36</td>
+      <td>1.93</td>
+      <td>0.75</td>
+      <td>0.40</td>
+      <td>1.01</td>
+      <td>0.67</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Emmanuel Mudiay</td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>20.82</td>
+      <td>1.93</td>
+      <td>0.00</td>
+      <td>0.99</td>
+      <td>0.34</td>
+      <td>0.41</td>
+      <td>0.66</td>
+      <td>0.44</td>
+      <td>0.70</td>
+      <td>GTD</td>
+      <td>Illness</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mudiaem01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Nickeil Alexander-Walker</td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>18.67</td>
+      <td>1.07</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>3.20</td>
+      <td>0.00</td>
+      <td>0.76</td>
+      <td>0.45</td>
+      <td>1.42</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Juwan Morgan</td>
+      <td>PF</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>17.65</td>
+      <td>0.48</td>
+      <td>0.65</td>
+      <td>0.00</td>
+      <td>0.72</td>
+      <td>0.00</td>
+      <td>0.66</td>
+      <td>0.02</td>
+      <td>0.45</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Alex Caruso</td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.26</td>
+      <td>2.16</td>
+      <td>1.08</td>
+      <td>1.06</td>
+      <td>3.48</td>
+      <td>2.92</td>
+      <td>0.86</td>
+      <td>0.80</td>
+      <td>1.09</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/carusal01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Patrick Patterson</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>18.88</td>
+      <td>1.34</td>
+      <td>0.30</td>
+      <td>0.14</td>
+      <td>2.36</td>
+      <td>0.28</td>
+      <td>0.76</td>
+      <td>0.62</td>
+      <td>0.60</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/pattepa01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Frank Jackson</td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>19.85</td>
+      <td>1.61</td>
+      <td>0.00</td>
+      <td>0.30</td>
+      <td>2.68</td>
+      <td>0.00</td>
+      <td>0.53</td>
+      <td>0.41</td>
+      <td>1.43</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jacksfr01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Jared Dudley</td>
+      <td>SF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>19.73</td>
+      <td>1.30</td>
+      <td>0.87</td>
+      <td>0.00</td>
+      <td>2.40</td>
+      <td>0.30</td>
+      <td>0.90</td>
+      <td>0.56</td>
+      <td>0.55</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/dudleja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Ed Davis</td>
+      <td>PF</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>18.37</td>
+      <td>0.71</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.51</td>
+      <td>0.00</td>
+      <td>0.94</td>
+      <td>0.18</td>
+      <td>0.70</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/davised01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Rayjon Tucker</td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>16.99</td>
+      <td>0.58</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.62</td>
+      <td>0.09</td>
+      <td>0.32</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>E'Twaun Moore</td>
+      <td>SF</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>18.41</td>
+      <td>1.92</td>
+      <td>0.28</td>
+      <td>0.41</td>
+      <td>2.86</td>
+      <td>0.00</td>
+      <td>0.57</td>
+      <td>0.35</td>
+      <td>1.41</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mooreet01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Quinn Cook</td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>19.83</td>
+      <td>1.94</td>
+      <td>0.69</td>
+      <td>0.00</td>
+      <td>1.06</td>
+      <td>0.23</td>
+      <td>0.65</td>
+      <td>0.54</td>
+      <td>0.59</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/cookqu01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Jahlil Okafor</td>
+      <td>C</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>15.18</td>
+      <td>2.03</td>
+      <td>0.00</td>
+      <td>0.15</td>
+      <td>3.58</td>
+      <td>0.00</td>
+      <td>0.69</td>
+      <td>0.00</td>
+      <td>1.22</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/okafoja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Jarrell Brantley</td>
+      <td>SF</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>21.47</td>
+      <td>0.35</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.44</td>
+      <td>0.00</td>
+      <td>0.81</td>
+      <td>0.30</td>
+      <td>0.63</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Terance Mann</td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>17.86</td>
+      <td>1.73</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.98</td>
+      <td>0.67</td>
+      <td>0.80</td>
+      <td>0.54</td>
+      <td>0.67</td>
+      <td>O</td>
+      <td>Hand</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Georges Niang</td>
+      <td>PF</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>18.60</td>
+      <td>0.13</td>
+      <td>1.79</td>
+      <td>0.00</td>
+      <td>1.52</td>
+      <td>0.00</td>
+      <td>0.43</td>
+      <td>0.30</td>
+      <td>0.11</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/niangge01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Landry Shamet</td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>21.97</td>
+      <td>1.10</td>
+      <td>2.18</td>
+      <td>1.32</td>
+      <td>1.85</td>
+      <td>1.41</td>
+      <td>0.14</td>
+      <td>0.95</td>
+      <td>0.34</td>
+      <td>GTD</td>
+      <td>Illness</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/shamela01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Miye Oni</td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Justin Wright-Foreman</td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>20.62</td>
+      <td>0.56</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.75</td>
+      <td>0.26</td>
+      <td>0.54</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Johnathan Motley</td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>16.95</td>
+      <td>1.96</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>2.31</td>
+      <td>0.00</td>
+      <td>0.76</td>
+      <td>0.27</td>
+      <td>0.66</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/motlejo01.jpg" width="60" ></td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="main.js"></script>
+</body>

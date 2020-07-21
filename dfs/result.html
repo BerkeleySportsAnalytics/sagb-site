@@ -6,6 +6,14 @@
 <div id="filter">
 <input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
 <input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
+<select id="pos" name="pos">
+  <option value="all">Filter by position</option>
+  <option value="pg">PG</option>
+  <option value="sg">SG</option>
+  <option value="sf">SF</option>
+  <option value="pf">PF</option>
+  <option value="c">C</option>
+</select>
 </div>
 
 <table border="1" id="tbl" class="sortable">

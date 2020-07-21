@@ -1,0 +1,1195 @@
+<head>
+<script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+</head>
+
+<body>
+<div id="filter">
+<input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
+<input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
+</div>
+
+<table border="1" id="tbl" class="sortable">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Salary</th>
+      <th>Game</th>
+      <th>Team</th>
+      <th>Projected Fanduel Points</th>
+      <th>Projected Fanduel Value</th>
+      <th>Value above Fanduel Value</th>
+      <th>Projected Draftkings Points</th>
+      <th>Projected Draftkings Value</th>
+      <th>FPPG</th>
+      <th>10 Game Average (Fanduel)</th>
+      <th>3 Game Average (Fanduel)</th>
+      <th>Injury Indicator</th>
+      <th>Injury Details</th>
+      <th>Hot</th>
+      <th>Cold</th>
+      <th>Picture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>LeBron James</td>
+      <td>SF</td>
+      <td>11400</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>49.97</td>
+      <td>9994</td>
+      <td>-1406</td>
+      <td>52.23</td>
+      <td>8705</td>
+      <td>52.124592</td>
+      <td>50.17</td>
+      <td>51.93</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Anthony Davis</td>
+      <td>PF</td>
+      <td>10400</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>46.92</td>
+      <td>9384</td>
+      <td>-1016</td>
+      <td>47.12</td>
+      <td>7853</td>
+      <td>51.923213</td>
+      <td>52.18</td>
+      <td>51.37</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/davisan02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Kawhi Leonard</td>
+      <td>SF</td>
+      <td>9500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>47.66</td>
+      <td>9531</td>
+      <td>31</td>
+      <td>51.47</td>
+      <td>8578</td>
+      <td>47.634615</td>
+      <td>46.24</td>
+      <td>44.10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Jrue Holiday</td>
+      <td>SG</td>
+      <td>8300</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>33.72</td>
+      <td>6745</td>
+      <td>-1555</td>
+      <td>36.09</td>
+      <td>6016</td>
+      <td>39.546430</td>
+      <td>37.92</td>
+      <td>41.93</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/holidjr01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Rudy Gobert</td>
+      <td>C</td>
+      <td>8200</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>27.49</td>
+      <td>5498</td>
+      <td>-2702</td>
+      <td>25.81</td>
+      <td>4301</td>
+      <td>40.106348</td>
+      <td>34.73</td>
+      <td>32.57</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/goberru01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Lonzo Ball</td>
+      <td>PG</td>
+      <td>7900</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>34.88</td>
+      <td>6976</td>
+      <td>-924</td>
+      <td>34.81</td>
+      <td>5801</td>
+      <td>32.607017</td>
+      <td>35.28</td>
+      <td>35.83</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/balllo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Paul George</td>
+      <td>SG</td>
+      <td>7400</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>30.28</td>
+      <td>6055</td>
+      <td>-1345</td>
+      <td>32.05</td>
+      <td>5341</td>
+      <td>36.361904</td>
+      <td>32.54</td>
+      <td>25.27</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.266844</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/georgpa01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Brandon Ingram</td>
+      <td>SF</td>
+      <td>7300</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>39.20</td>
+      <td>7839</td>
+      <td>539</td>
+      <td>43.31</td>
+      <td>7217</td>
+      <td>38.813792</td>
+      <td>37.18</td>
+      <td>42.13</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/ingrabr01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Donovan Mitchell</td>
+      <td>SG</td>
+      <td>7200</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>34.42</td>
+      <td>6884</td>
+      <td>-316</td>
+      <td>37.86</td>
+      <td>6310</td>
+      <td>36.095384</td>
+      <td>35.61</td>
+      <td>46.13</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.987174</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Zion Williamson</td>
+      <td>PF</td>
+      <td>7100</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>29.07</td>
+      <td>5813</td>
+      <td>-1287</td>
+      <td>31.71</td>
+      <td>5284</td>
+      <td>33.485715</td>
+      <td>38.14</td>
+      <td>38.23</td>
+      <td>GTD</td>
+      <td>Personal</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Montrezl Harrell</td>
+      <td>C</td>
+      <td>6300</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>27.40</td>
+      <td>5480</td>
+      <td>-820</td>
+      <td>28.44</td>
+      <td>4739</td>
+      <td>33.233333</td>
+      <td>29.91</td>
+      <td>30.77</td>
+      <td>GTD</td>
+      <td>Personal</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/harremo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Mike Conley</td>
+      <td>PG</td>
+      <td>5700</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>25.25</td>
+      <td>5050</td>
+      <td>-650</td>
+      <td>28.59</td>
+      <td>4765</td>
+      <td>24.347618</td>
+      <td>25.93</td>
+      <td>21.60</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/conlemi01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Joe Ingles</td>
+      <td>SF</td>
+      <td>5500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>19.54</td>
+      <td>3908</td>
+      <td>-1592</td>
+      <td>19.28</td>
+      <td>3213</td>
+      <td>23.464062</td>
+      <td>18.90</td>
+      <td>15.60</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/inglejo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Derrick Favors</td>
+      <td>C</td>
+      <td>5400</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>23.24</td>
+      <td>4648</td>
+      <td>-752</td>
+      <td>23.48</td>
+      <td>3914</td>
+      <td>26.467391</td>
+      <td>23.63</td>
+      <td>25.93</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/favorde01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Royce O'Neale</td>
+      <td>PF</td>
+      <td>4900</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>21.08</td>
+      <td>4217</td>
+      <td>-683</td>
+      <td>21.17</td>
+      <td>3529</td>
+      <td>18.866155</td>
+      <td>19.48</td>
+      <td>26.33</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.391914</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/onealro01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Lou Williams</td>
+      <td>SG</td>
+      <td>4900</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>32.56</td>
+      <td>6512</td>
+      <td>1612</td>
+      <td>34.30</td>
+      <td>5717</td>
+      <td>30.603333</td>
+      <td>28.35</td>
+      <td>22.30</td>
+      <td>GTD</td>
+      <td>Calf</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/willilo02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Kyle Kuzma</td>
+      <td>PF</td>
+      <td>4700</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.55</td>
+      <td>4710</td>
+      <td>10</td>
+      <td>25.22</td>
+      <td>4203</td>
+      <td>20.535186</td>
+      <td>21.41</td>
+      <td>20.03</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/kuzmaky01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Patrick Beverley</td>
+      <td>PG</td>
+      <td>4600</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>22.06</td>
+      <td>4412</td>
+      <td>-188</td>
+      <td>21.73</td>
+      <td>3621</td>
+      <td>23.506251</td>
+      <td>20.81</td>
+      <td>14.40</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/beverpa01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Ivica Zubac</td>
+      <td>C</td>
+      <td>4500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>23.35</td>
+      <td>4671</td>
+      <td>171</td>
+      <td>22.90</td>
+      <td>3817</td>
+      <td>20.839062</td>
+      <td>21.60</td>
+      <td>17.07</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/zubaciv01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>JaVale McGee</td>
+      <td>C</td>
+      <td>4400</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.60</td>
+      <td>4721</td>
+      <td>321</td>
+      <td>23.36</td>
+      <td>3894</td>
+      <td>19.865575</td>
+      <td>15.07</td>
+      <td>15.70</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgeeja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Josh Hart</td>
+      <td>SG</td>
+      <td>4400</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>23.80</td>
+      <td>4760</td>
+      <td>360</td>
+      <td>26.34</td>
+      <td>4389</td>
+      <td>23.491228</td>
+      <td>25.25</td>
+      <td>16.63</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>1.607648</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/hartjo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Jordan Clarkson</td>
+      <td>SG</td>
+      <td>4300</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>20.51</td>
+      <td>4102</td>
+      <td>-198</td>
+      <td>24.42</td>
+      <td>4070</td>
+      <td>22.704762</td>
+      <td>27.97</td>
+      <td>22.93</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/clarkjo01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Marcus Morris</td>
+      <td>PF</td>
+      <td>4200</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>18.59</td>
+      <td>3717</td>
+      <td>-483</td>
+      <td>18.16</td>
+      <td>3027</td>
+      <td>27.758181</td>
+      <td>24.61</td>
+      <td>24.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/morrima03.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Danny Green</td>
+      <td>SG</td>
+      <td>4100</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>20.07</td>
+      <td>4014</td>
+      <td>-86</td>
+      <td>20.06</td>
+      <td>3343</td>
+      <td>18.659016</td>
+      <td>17.36</td>
+      <td>13.97</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenda02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Jaxson Hayes</td>
+      <td>C</td>
+      <td>3900</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>9.85</td>
+      <td>1971</td>
+      <td>-1929</td>
+      <td>9.70</td>
+      <td>1616</td>
+      <td>16.983928</td>
+      <td>8.38</td>
+      <td>6.23</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Dwight Howard</td>
+      <td>C</td>
+      <td>3900</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.41</td>
+      <td>4683</td>
+      <td>783</td>
+      <td>22.00</td>
+      <td>3666</td>
+      <td>21.216129</td>
+      <td>21.08</td>
+      <td>23.83</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Avery Bradley</td>
+      <td>SG</td>
+      <td>3800</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>22.36</td>
+      <td>4471</td>
+      <td>671</td>
+      <td>24.96</td>
+      <td>4160</td>
+      <td>15.357143</td>
+      <td>19.30</td>
+      <td>12.47</td>
+      <td>O</td>
+      <td>Personal</td>
+      <td>0.000000</td>
+      <td>0.508678</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/bradlav01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Tony Bradley</td>
+      <td>C</td>
+      <td>3800</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>8.15</td>
+      <td>1630</td>
+      <td>-2170</td>
+      <td>8.24</td>
+      <td>1374</td>
+      <td>11.876471</td>
+      <td>10.16</td>
+      <td>13.13</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Reggie Jackson</td>
+      <td>PG</td>
+      <td>3800</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>17.30</td>
+      <td>3460</td>
+      <td>-340</td>
+      <td>17.23</td>
+      <td>2872</td>
+      <td>23.082610</td>
+      <td>25.57</td>
+      <td>22.87</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jacksre01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Rajon Rondo</td>
+      <td>PG</td>
+      <td>3800</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>24.92</td>
+      <td>4983</td>
+      <td>1183</td>
+      <td>26.70</td>
+      <td>4450</td>
+      <td>18.904167</td>
+      <td>19.63</td>
+      <td>21.57</td>
+      <td>O</td>
+      <td>Thumb</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/rondora01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Kentavious Caldwell-Pope</td>
+      <td>SG</td>
+      <td>3700</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>22.81</td>
+      <td>4562</td>
+      <td>862</td>
+      <td>25.28</td>
+      <td>4214</td>
+      <td>16.823810</td>
+      <td>16.29</td>
+      <td>19.33</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/caldwke01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>JaMychal Green</td>
+      <td>PF</td>
+      <td>3600</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>20.44</td>
+      <td>4088</td>
+      <td>488</td>
+      <td>20.31</td>
+      <td>3385</td>
+      <td>16.874545</td>
+      <td>15.10</td>
+      <td>20.10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Markieff Morris</td>
+      <td>SF</td>
+      <td>3600</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>8.49</td>
+      <td>1697</td>
+      <td>-1903</td>
+      <td>8.14</td>
+      <td>1357</td>
+      <td>17.842307</td>
+      <td>18.02</td>
+      <td>16.20</td>
+      <td>GTD</td>
+      <td>Undisclosed</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/morrima02.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Rodney McGruder</td>
+      <td>SG</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>8.69</td>
+      <td>1738</td>
+      <td>-1762</td>
+      <td>8.08</td>
+      <td>1346</td>
+      <td>8.592000</td>
+      <td>6.23</td>
+      <td>2.40</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgruro01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Amir Coffey</td>
+      <td>PF</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>9.64</td>
+      <td>1928</td>
+      <td>-1572</td>
+      <td>9.02</td>
+      <td>1504</td>
+      <td>4.715385</td>
+      <td>6.21</td>
+      <td>4.60</td>
+      <td>O</td>
+      <td>Coach's decision</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Mfiondu Kabengele</td>
+      <td>SF</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>13.68</td>
+      <td>2736</td>
+      <td>-764</td>
+      <td>13.34</td>
+      <td>2224</td>
+      <td>5.683333</td>
+      <td>11.55</td>
+      <td>11.55</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Emmanuel Mudiay</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>8.47</td>
+      <td>1695</td>
+      <td>-1805</td>
+      <td>7.74</td>
+      <td>1290</td>
+      <td>13.989583</td>
+      <td>10.47</td>
+      <td>15.63</td>
+      <td>GTD</td>
+      <td>Illness</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mudiaem01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Nickeil Alexander-Walker</td>
+      <td>SG</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>8.19</td>
+      <td>1638</td>
+      <td>-1862</td>
+      <td>7.85</td>
+      <td>1308</td>
+      <td>10.723809</td>
+      <td>6.84</td>
+      <td>1.53</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Juwan Morgan</td>
+      <td>PF</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>5.36</td>
+      <td>1073</td>
+      <td>-2427</td>
+      <td>5.27</td>
+      <td>878</td>
+      <td>2.800000</td>
+      <td>3.77</td>
+      <td>3.83</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Alex Caruso</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>21.07</td>
+      <td>4213</td>
+      <td>713</td>
+      <td>20.66</td>
+      <td>3444</td>
+      <td>13.593104</td>
+      <td>15.37</td>
+      <td>18.30</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/carusal01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Patrick Patterson</td>
+      <td>PF</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>10.51</td>
+      <td>2102</td>
+      <td>-1398</td>
+      <td>9.70</td>
+      <td>1617</td>
+      <td>8.523530</td>
+      <td>4.92</td>
+      <td>3.07</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/pattepa01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Frank Jackson</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>8.13</td>
+      <td>1625</td>
+      <td>-1875</td>
+      <td>8.04</td>
+      <td>1339</td>
+      <td>8.739216</td>
+      <td>7.12</td>
+      <td>3.63</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jacksfr01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Jared Dudley</td>
+      <td>SF</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>12.37</td>
+      <td>2474</td>
+      <td>-1026</td>
+      <td>11.74</td>
+      <td>1957</td>
+      <td>4.427500</td>
+      <td>4.18</td>
+      <td>3.10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/dudleja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Ed Davis</td>
+      <td>PF</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>4.69</td>
+      <td>938</td>
+      <td>-2562</td>
+      <td>3.95</td>
+      <td>658</td>
+      <td>8.120000</td>
+      <td>4.80</td>
+      <td>5.13</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/davised01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Rayjon Tucker</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>2.97</td>
+      <td>594</td>
+      <td>-2906</td>
+      <td>2.42</td>
+      <td>403</td>
+      <td>2.685714</td>
+      <td>2.43</td>
+      <td>1.87</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>E'Twaun Moore</td>
+      <td>SF</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>9.87</td>
+      <td>1974</td>
+      <td>-1526</td>
+      <td>9.94</td>
+      <td>1657</td>
+      <td>15.100000</td>
+      <td>10.40</td>
+      <td>9.43</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mooreet01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Quinn Cook</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>10.55</td>
+      <td>2109</td>
+      <td>-1391</td>
+      <td>10.05</td>
+      <td>1675</td>
+      <td>7.947368</td>
+      <td>8.46</td>
+      <td>4.47</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/cookqu01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Jahlil Okafor</td>
+      <td>C</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>9.36</td>
+      <td>1871</td>
+      <td>-1629</td>
+      <td>9.45</td>
+      <td>1576</td>
+      <td>16.171428</td>
+      <td>13.94</td>
+      <td>6.57</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>1.720854</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/okafoja01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Jarrell Brantley</td>
+      <td>SF</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>3.93</td>
+      <td>786</td>
+      <td>-2714</td>
+      <td>3.16</td>
+      <td>526</td>
+      <td>2.300000</td>
+      <td>1.20</td>
+      <td>1.20</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Terance Mann</td>
+      <td>SG</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>10.19</td>
+      <td>2038</td>
+      <td>-1462</td>
+      <td>9.29</td>
+      <td>1547</td>
+      <td>5.074286</td>
+      <td>3.84</td>
+      <td>0.40</td>
+      <td>O</td>
+      <td>Hand</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>Georges Niang</td>
+      <td>PF</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>9.53</td>
+      <td>1907</td>
+      <td>-1593</td>
+      <td>9.83</td>
+      <td>1638</td>
+      <td>9.436207</td>
+      <td>8.20</td>
+      <td>8.27</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/niangge01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>Landry Shamet</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>17.33</td>
+      <td>3465</td>
+      <td>-35</td>
+      <td>19.09</td>
+      <td>3181</td>
+      <td>15.755319</td>
+      <td>17.75</td>
+      <td>15.57</td>
+      <td>GTD</td>
+      <td>Illness</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/shamela01.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Miye Oni</td>
+      <td>SG</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>-3500</td>
+      <td>0.00</td>
+      <td>0</td>
+      <td>0.280000</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Justin Wright-Foreman</td>
+      <td>PG</td>
+      <td>3500</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>3.61</td>
+      <td>722</td>
+      <td>-2778</td>
+      <td>2.87</td>
+      <td>478</td>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Johnathan Motley</td>
+      <td>PF</td>
+      <td>3500</td>
+      <td>LAC@LAL</td>
+      <td>LAC</td>
+      <td>9.12</td>
+      <td>1824</td>
+      <td>-1676</td>
+      <td>8.54</td>
+      <td>1423</td>
+      <td>4.307692</td>
+      <td>4.76</td>
+      <td>4.20</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/motlejo01.jpg" width="60" ></td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="main.js"></script>
+</body>
