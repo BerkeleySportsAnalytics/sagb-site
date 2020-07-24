@@ -1,0 +1,191 @@
+<head>
+<script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+<link rel="stylesheet" href="df_styles.css">
+</head>
+
+<body>
+<div id="filter">
+<input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
+<input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
+<input type="text" id="position" onkeyup="posSearch()" placeholder="Search for position...">
+</div>
+
+<table border="1" id="tbl" class="sortable">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Picture</th>
+      <th>Position</th>
+      <th>Game</th>
+      <th>Team</th>
+      <th>Projected Fanduel Points</th>
+      <th>Projected Fanduel Value</th>
+      <th>Fanduel Salary</th>
+      <th>Value above Fanduel Value</th>
+      <th>FPPG (Fanduel)</th>
+      <th>Injury Indicator</th>
+      <th>Injury Details</th>
+      <th>Hot</th>
+      <th>Cold</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>Dwight Howard</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+      <td>C</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.41</td>
+      <td>4683</td>
+      <td>3900</td>
+      <td>783</td>
+      <td>21.22</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Anthony Davis</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/davisan02.jpg" width="60" ></td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>46.92</td>
+      <td>9384</td>
+      <td>10400</td>
+      <td>-1016</td>
+      <td>51.92</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Kyle Kuzma</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/kuzmaky01.jpg" width="60" ></td>
+      <td>PF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>23.55</td>
+      <td>4710</td>
+      <td>4700</td>
+      <td>10</td>
+      <td>20.54</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Lonzo Ball</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/balllo01.jpg" width="60" ></td>
+      <td>PG</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>34.88</td>
+      <td>6976</td>
+      <td>7900</td>
+      <td>-924</td>
+      <td>32.61</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Alex Caruso</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/carusal01.jpg" width="60" ></td>
+      <td>PG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>21.07</td>
+      <td>4213</td>
+      <td>3500</td>
+      <td>713</td>
+      <td>13.59</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>LeBron James</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60" ></td>
+      <td>SF</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>49.97</td>
+      <td>9994</td>
+      <td>11400</td>
+      <td>-1406</td>
+      <td>52.12</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Brandon Ingram</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/ingrabr01.jpg" width="60" ></td>
+      <td>SF</td>
+      <td>UTA@NO</td>
+      <td>NO</td>
+      <td>39.20</td>
+      <td>7839</td>
+      <td>7300</td>
+      <td>539</td>
+      <td>38.81</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Donovan Mitchell</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60" ></td>
+      <td>SG</td>
+      <td>UTA@NO</td>
+      <td>UTA</td>
+      <td>34.42</td>
+      <td>6884</td>
+      <td>7200</td>
+      <td>-316</td>
+      <td>36.10</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.987174</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Kentavious Caldwell-Pope</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/caldwke01.jpg" width="60" ></td>
+      <td>SG</td>
+      <td>LAC@LAL</td>
+      <td>LAL</td>
+      <td>22.81</td>
+      <td>4562</td>
+      <td>3700</td>
+      <td>862</td>
+      <td>16.82</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="main.js"></script>
+</body>

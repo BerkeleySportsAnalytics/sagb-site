@@ -1,0 +1,174 @@
+<head>
+<script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+<link rel="stylesheet" href="df_styles.css">
+</head>
+
+<body>
+<div id="filter">
+<input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
+<input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
+<input type="text" id="position" onkeyup="posSearch()" placeholder="Search for position...">
+</div>
+
+<table border="1" id="tbl" class="sortable">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Picture</th>
+      <th>Position</th>
+      <th>Game</th>
+      <th>Team</th>
+      <th>Projected Draftkings Points</th>
+      <th>Projected Draftkings Value</th>
+      <th>Draftkings Salary</th>
+      <th>Value above Draftkings Value</th>
+      <th>FPPG</th>
+      <th>Injury Indicator</th>
+      <th>Injury Details</th>
+      <th>Hot</th>
+      <th>Cold</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>JaVale McGee</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgeeja01.jpg" width="60" ></td>
+      <td>C</td>
+      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
+      <td>LAL</td>
+      <td>23.36</td>
+      <td>4381</td>
+      <td>3600</td>
+      <td>781</td>
+      <td>18.60</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Dwight Howard</td>
+      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
+      <td>C</td>
+      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
+      <td>LAL</td>
+      <td>22.00</td>
+      <td>4124</td>
+      <td>3200</td>
+      <td>924</td>
+      <td>20.73</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>JaMychal Green</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60" ></td>
+      <td>PF</td>
+      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
+      <td>LAC</td>
+      <td>20.31</td>
+      <td>3808</td>
+      <td>3500</td>
+      <td>308</td>
+      <td>17.64</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>LeBron James</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60" ></td>
+      <td>PG/SF</td>
+      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
+      <td>LAL</td>
+      <td>52.23</td>
+      <td>9794</td>
+      <td>10700</td>
+      <td>-906</td>
+      <td>55.77</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Donovan Mitchell</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60" ></td>
+      <td>PG/SG</td>
+      <td>UTA@NO 07/30/2020 06:30PM ET</td>
+      <td>UTA</td>
+      <td>37.86</td>
+      <td>7099</td>
+      <td>7000</td>
+      <td>99</td>
+      <td>38.38</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.987174</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Jordan Clarkson</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/clarkjo01.jpg" width="60" ></td>
+      <td>PG/SG</td>
+      <td>UTA@NO 07/30/2020 06:30PM ET</td>
+      <td>UTA</td>
+      <td>24.42</td>
+      <td>4579</td>
+      <td>4200</td>
+      <td>379</td>
+      <td>23.60</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Kawhi Leonard</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60" ></td>
+      <td>SF</td>
+      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
+      <td>LAC</td>
+      <td>51.47</td>
+      <td>9650</td>
+      <td>9200</td>
+      <td>450</td>
+      <td>48.42</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Brandon Ingram</td>
+      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/ingrabr01.jpg" width="60" ></td>
+      <td>SF/PF</td>
+      <td>UTA@NO 07/30/2020 06:30PM ET</td>
+      <td>NO</td>
+      <td>43.31</td>
+      <td>8120</td>
+      <td>8300</td>
+      <td>-180</td>
+      <td>41.75</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table>
+
+<script src="main.js"></script>
+</body>
