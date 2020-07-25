@@ -2,7 +2,7 @@
 <script src="https://kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <link rel="stylesheet" href="df_styles.css">
 </head>
-Last Updated: Jul 25, 2020 12:03 AM
+Last Updated: Jul 25, 2020 12:08 AM
 
 <body>
 <div id="filter">
@@ -11,165 +11,369 @@ Last Updated: Jul 25, 2020 12:03 AM
 <input type="text" id="position" onkeyup="posSearch()" placeholder="Search for position...">
 </div>
 
-<table border="1" id="tbl" class="sortable">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Name</th>
-      <th>Picture</th>
-      <th>Position</th>
-      <th>Game</th>
-      <th>Team</th>
-      <th>Projected Draftkings Points</th>
-      <th>Projected Draftkings Value</th>
-      <th>Draftkings Salary</th>
-      <th>Value above Draftkings Value</th>
-      <th>FPPG</th>
-      <th>Injury Indicator</th>
-      <th>Injury Details</th>
-      <th>Hot</th>
-      <th>Cold</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td>JaVale McGee</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgeeja01.jpg" width="60" ></td>
-      <td>C</td>
-      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
-      <td>LAL</td>
-      <td>23.36</td>
-      <td>4381</td>
-      <td>3600</td>
-      <td>781</td>
-      <td>18.60</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Dwight Howard</td>
-      <td><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60" ></td>
-      <td>C</td>
-      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
-      <td>LAL</td>
-      <td>22.00</td>
-      <td>4124</td>
-      <td>3200</td>
-      <td>924</td>
-      <td>20.73</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>JaMychal Green</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60" ></td>
-      <td>PF</td>
-      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
-      <td>LAC</td>
-      <td>20.31</td>
-      <td>3808</td>
-      <td>3500</td>
-      <td>308</td>
-      <td>17.64</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>LeBron James</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60" ></td>
-      <td>PG/SF</td>
-      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
-      <td>LAL</td>
-      <td>52.23</td>
-      <td>9794</td>
-      <td>10700</td>
-      <td>-906</td>
-      <td>55.77</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Donovan Mitchell</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60" ></td>
-      <td>PG/SG</td>
-      <td>UTA@NO 07/30/2020 06:30PM ET</td>
-      <td>UTA</td>
-      <td>37.86</td>
-      <td>7099</td>
-      <td>7000</td>
-      <td>99</td>
-      <td>38.38</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.987174</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Jordan Clarkson</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/clarkjo01.jpg" width="60" ></td>
-      <td>PG/SG</td>
-      <td>UTA@NO 07/30/2020 06:30PM ET</td>
-      <td>UTA</td>
-      <td>24.42</td>
-      <td>4579</td>
-      <td>4200</td>
-      <td>379</td>
-      <td>23.60</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Kawhi Leonard</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60" ></td>
-      <td>SF</td>
-      <td>LAC@LAL 07/30/2020 09:00PM ET</td>
-      <td>LAC</td>
-      <td>51.47</td>
-      <td>9650</td>
-      <td>9200</td>
-      <td>450</td>
-      <td>48.42</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Brandon Ingram</td>
-      <td><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/ingrabr01.jpg" width="60" ></td>
-      <td>SF/PF</td>
-      <td>UTA@NO 07/30/2020 06:30PM ET</td>
-      <td>NO</td>
-      <td>43.31</td>
-      <td>8120</td>
-      <td>8300</td>
-      <td>-180</td>
-      <td>41.75</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>0.000000</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
+<style  type="text/css" >
+    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col13 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col13 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col13 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col13 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col0 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col1 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col2 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col3 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col4 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col5 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col6 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col7 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col8 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col9 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col10 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col11 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col12 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col13 {
+            background-color:  #ff6666;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col13 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col13 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col0 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col1 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col2 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col3 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col4 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col5 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col6 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col7 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col8 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col9 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col10 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col11 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col12 {
+            background-color:  white;
+        }    #T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col13 {
+            background-color:  white;
+        }</style><table id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Name</th>        <th class="col_heading level0 col1" >Picture</th>        <th class="col_heading level0 col2" >Position</th>        <th class="col_heading level0 col3" >Game</th>        <th class="col_heading level0 col4" >Team</th>        <th class="col_heading level0 col5" >Projected Draftkings Points</th>        <th class="col_heading level0 col6" >Projected Draftkings Value</th>        <th class="col_heading level0 col7" >Draftkings Salary</th>        <th class="col_heading level0 col8" >Value above Draftkings Value</th>        <th class="col_heading level0 col9" >FPPG</th>        <th class="col_heading level0 col10" >Injury Indicator</th>        <th class="col_heading level0 col11" >Injury Details</th>        <th class="col_heading level0 col12" >Hot</th>        <th class="col_heading level0 col13" >Cold</th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row0" class="row_heading level0 row0" >1</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col0" class="data row0 col0" >JaVale McGee</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col1" class="data row0 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mcgeeja01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col2" class="data row0 col2" >C</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col3" class="data row0 col3" >LAC@LAL 07/30/2020 09:00PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col4" class="data row0 col4" >LAL</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col5" class="data row0 col5" >23.360000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col6" class="data row0 col6" >4381</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col7" class="data row0 col7" >3600</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col8" class="data row0 col8" >781</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col9" class="data row0 col9" >18.600000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col10" class="data row0 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col11" class="data row0 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col12" class="data row0 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row0_col13" class="data row0 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row1" class="row_heading level0 row1" >2</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col0" class="data row1 col0" >Dwight Howard</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col1" class="data row1 col1" ><img src="https://thumbs.dreamstime.com/b/creative-illustration-default-avatar-profile-placeholder-isolated-background-art-design-grey-photo-blank-template-mockup-144849704.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col2" class="data row1 col2" >C</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col3" class="data row1 col3" >LAC@LAL 07/30/2020 09:00PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col4" class="data row1 col4" >LAL</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col5" class="data row1 col5" >22.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col6" class="data row1 col6" >4124</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col7" class="data row1 col7" >3200</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col8" class="data row1 col8" >924</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col9" class="data row1 col9" >20.730000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col10" class="data row1 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col11" class="data row1 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col12" class="data row1 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row1_col13" class="data row1 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row2" class="row_heading level0 row2" >3</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col0" class="data row2 col0" >JaMychal Green</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col1" class="data row2 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col2" class="data row2 col2" >PF</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col3" class="data row2 col3" >LAC@LAL 07/30/2020 09:00PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col4" class="data row2 col4" >LAC</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col5" class="data row2 col5" >20.310000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col6" class="data row2 col6" >3808</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col7" class="data row2 col7" >3500</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col8" class="data row2 col8" >308</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col9" class="data row2 col9" >17.640000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col10" class="data row2 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col11" class="data row2 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col12" class="data row2 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row2_col13" class="data row2 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row3" class="row_heading level0 row3" >4</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col0" class="data row3 col0" >LeBron James</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col1" class="data row3 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col2" class="data row3 col2" >PG/SF</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col3" class="data row3 col3" >LAC@LAL 07/30/2020 09:00PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col4" class="data row3 col4" >LAL</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col5" class="data row3 col5" >52.230000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col6" class="data row3 col6" >9794</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col7" class="data row3 col7" >10700</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col8" class="data row3 col8" >-906</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col9" class="data row3 col9" >55.770000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col10" class="data row3 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col11" class="data row3 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col12" class="data row3 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row3_col13" class="data row3 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row4" class="row_heading level0 row4" >5</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col0" class="data row4 col0" >Donovan Mitchell</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col1" class="data row4 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col2" class="data row4 col2" >PG/SG</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col3" class="data row4 col3" >UTA@NO 07/30/2020 06:30PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col4" class="data row4 col4" >UTA</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col5" class="data row4 col5" >37.860000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col6" class="data row4 col6" >7099</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col7" class="data row4 col7" >7000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col8" class="data row4 col8" >99</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col9" class="data row4 col9" >38.380000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col10" class="data row4 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col11" class="data row4 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col12" class="data row4 col12" >0.987174</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row4_col13" class="data row4 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row5" class="row_heading level0 row5" >6</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col0" class="data row5 col0" >Jordan Clarkson</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col1" class="data row5 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/clarkjo01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col2" class="data row5 col2" >PG/SG</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col3" class="data row5 col3" >UTA@NO 07/30/2020 06:30PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col4" class="data row5 col4" >UTA</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col5" class="data row5 col5" >24.420000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col6" class="data row5 col6" >4579</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col7" class="data row5 col7" >4200</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col8" class="data row5 col8" >379</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col9" class="data row5 col9" >23.600000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col10" class="data row5 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col11" class="data row5 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col12" class="data row5 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row5_col13" class="data row5 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row6" class="row_heading level0 row6" >7</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col0" class="data row6 col0" >Kawhi Leonard</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col1" class="data row6 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col2" class="data row6 col2" >SF</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col3" class="data row6 col3" >LAC@LAL 07/30/2020 09:00PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col4" class="data row6 col4" >LAC</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col5" class="data row6 col5" >51.470000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col6" class="data row6 col6" >9650</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col7" class="data row6 col7" >9200</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col8" class="data row6 col8" >450</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col9" class="data row6 col9" >48.420000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col10" class="data row6 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col11" class="data row6 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col12" class="data row6 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row6_col13" class="data row6 col13" >0.000000</td>
+            </tr>
+            <tr>
+                        <th id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218level0_row7" class="row_heading level0 row7" >8</th>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col0" class="data row7 col0" >Brandon Ingram</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col1" class="data row7 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/ingrabr01.jpg" width="60"></td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col2" class="data row7 col2" >SF/PF</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col3" class="data row7 col3" >UTA@NO 07/30/2020 06:30PM ET</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col4" class="data row7 col4" >NO</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col5" class="data row7 col5" >43.310000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col6" class="data row7 col6" >8120</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col7" class="data row7 col7" >8300</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col8" class="data row7 col8" >-180</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col9" class="data row7 col9" >41.750000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col10" class="data row7 col10" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col11" class="data row7 col11" >nan</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col12" class="data row7 col12" >0.000000</td>
+                        <td id="T_b68ab590_ce45_11ea_8b9f_f40f242e6218row7_col13" class="data row7 col13" >0.000000</td>
+            </tr>
+    </tbody></table>
 
 <script src="main.js"></script>
 </body>
