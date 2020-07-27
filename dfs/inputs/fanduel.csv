@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-25,Dwight Howard,C,LAC@LAL,LAL,23.41,4683,3900,783,21.22,,,0.0,0.0
-1,Anthony Davis,PF,LAC@LAL,LAL,46.92,9384,10400,-1016,51.92,,,0.0,0.0
-15,Kyle Kuzma,PF,LAC@LAL,LAL,23.55,4710,4700,10,20.54,,,0.0,0.0
-5,Lonzo Ball,PG,UTA@NO,NO,34.88,6976,7900,-924,32.61,,,0.0,0.0
-36,Alex Caruso,PG,LAC@LAL,LAL,21.07,4213,3500,713,13.59,,,0.0,0.0
-0,LeBron James,SF,LAC@LAL,LAL,49.97,9994,11400,-1406,52.12,,,0.0,0.0
-7,Brandon Ingram,SF,UTA@NO,NO,39.2,7839,7300,539,38.81,,,0.0,0.0
-8,Donovan Mitchell,SG,UTA@NO,UTA,34.42,6884,7200,-316,36.1,,,0.9871741040844296,0.0
-28,Kentavious Caldwell-Pope,SG,LAC@LAL,LAL,22.81,4562,3700,862,16.82,,,0.0,0.0
+6,Paul George,SG,LAC@LAL,LAC,40.72,$8144,$7400,$744,36.36, , ,0.19043259257573536,0.0
+8,Donovan Mitchell,SG,UTA@NO,UTA,38.43,$7686,$7200,$486,36.1, , ,0.0,1.1507989525389994
+0,LeBron James,SF,LAC@LAL,LAL,73.85,$14771,$11400,$3371,52.12, , ,0.0,0.0
+2,Kawhi Leonard,SF,LAC@LAL,LAC,50.96,$10192,$9500,$692,47.63, , ,0.0,0.0
+10,Mike Conley,PG,UTA@NO,UTA,28.15,$5631,$5700,-$69,24.35, , ,0.0,0.0
+27,Reggie Jackson,PG,LAC@LAL,LAC,19.75,$3949,$3800,$149,23.08, , ,0.0,0.0
+13,Royce O'Neale,PF,UTA@NO,UTA,30.66,$6133,$4900,$1233,18.87, , ,0.0,0.0
+29,JaMychal Green,PF,LAC@LAL,LAC,20.56,$4112,$3600,$512,16.87, , ,0.0,0.0
+9,Montrezl Harrell,C,LAC@LAL,LAC,39.07,$7814,$6300,$1514,33.23,GTD,Personal,0.0,0.0
