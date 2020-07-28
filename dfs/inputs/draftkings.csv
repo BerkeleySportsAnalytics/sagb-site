@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Injury Indicator,Injury Details,Hot,Cold
-14,Royce O'Neale,SF/PF,UTA@NO ,UTA,30.6,$5738,$4900,$838,19.33, , ,0.0,0.0
+13,Royce O'Neale,SF/PF,UTA@NO ,UTA,30.6,$5738,$4900,$838,19.33, , ,0.0,0.0
 7,Paul George,SF,LAC@LAL,LAC,42.44,$7958,$7200,$758,37.95, , ,0.19043259257573536,0.0
 9,Donovan Mitchell,PG/SG,UTA@NO ,UTA,38.9,$7295,$7000,$295,38.38, , ,0.0,1.1507989525389994
 0,LeBron James,PG/SF,LAC@LAL,LAL,78.12,$14648,$10700,$3948,55.77, , ,0.0,0.0
-6,Lonzo Ball,PG,UTA@NO ,NO,38.71,$7258,$7400,-$142,34.8, , ,0.0,0.0
-27,JaMychal Green,PF,LAC@LAL,LAC,20.53,$3850,$3500,$350,17.64, , ,0.0,0.0
-11,Montrezl Harrell,C,LAC@LAL,LAC,40.6,$7613,$5900,$1713,32.95,GTD,Personal,0.0,0.0
-31,Dwight Howard,C,LAC@LAL,LAL,17.77,$3331,$3200,$131,20.73, , ,0.0,3.1867994010447926
+10,Mike Conley,PG,UTA@NO ,UTA,29.96,$5618,$6200,-$582,26.15, , ,0.0,0.0
+26,JaMychal Green,PF,LAC@LAL,LAC,20.53,$3850,$3500,$350,17.64, , ,0.0,0.0
+8,Rudy Gobert,C,UTA@NO ,UTA,34.52,$6472,$7100,-$628,40.09, , ,0.0,0.0
+30,Dwight Howard,C,LAC@LAL,LAL,17.77,$3331,$3200,$131,20.73,GTD,Knee,0.0,3.1867994010447926
