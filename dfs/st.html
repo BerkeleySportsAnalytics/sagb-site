@@ -2,13 +2,21 @@
 <script src="sorttable.js"></script>
 <link rel="stylesheet" href="df_styles.css">
 </head>
-Last Updated: Jul 27, 2020 05:49 PM
+Last Updated: Jul 27, 2020 06:33 PM
 
 <body>
 <div id="filter">
 <input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
 <input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
-<input type="text" id="position" onkeyup="posSearch()" placeholder="Search for position...">
+<label for="pos">Search by position:</label>
+<select id="pos" onchange="posSearch()" class='form-control'>
+<option></option>
+<option>PG</option>
+<option>SG</option>
+<option>SF</option>
+<option>PF</option>
+<option>C</option>
+</select>
 </div>
 
 <table id="tbl" class="sortable" border="1" class="dataframe">

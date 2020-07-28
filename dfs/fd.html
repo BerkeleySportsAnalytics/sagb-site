@@ -2,270 +2,278 @@
 <script src="sorttable.js"></script>
 <link rel="stylesheet" href="df_styles.css">
 </head>
-Last Updated: Jul 27, 2020 05:49 PM
+Last Updated: Jul 27, 2020 06:33 PM
 
 <body>
 <div id="filter">
 <input type="text" id="name" onkeyup="nameSearch()" placeholder="Search for name...">
 <input type="text" id="team" onkeyup="teamSearch()" placeholder="Search for team...">
-<input type="text" id="position" onkeyup="posSearch()" placeholder="Search for position...">
+<label for="pos">Search by position:</label>
+<select id="pos" onchange="posSearch()" class='form-control'>
+<option></option>
+<option>PG</option>
+<option>SG</option>
+<option>SF</option>
+<option>PF</option>
+<option>C</option>
+</select>
 </div>
 
 <style  type="text/css" >
-    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col0 {
+    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col0 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col1 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col2 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col3 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col4 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col5 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col6 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col7 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col8 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col9 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col10 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col11 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col12 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col13 {
             background-color:  #ff9999;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col0 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col1 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col2 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col3 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col4 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col5 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col6 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col7 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col8 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col9 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col10 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col11 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col12 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col13 {
             background-color:  #33ccff;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col13 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col13 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col13 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col13 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col13 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col13 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col0 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col0 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col1 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col1 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col2 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col2 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col3 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col3 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col4 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col4 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col5 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col5 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col6 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col6 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col7 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col7 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col8 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col8 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col9 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col9 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col10 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col10 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col11 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col11 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col12 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col12 {
             background-color:  white;
-        }    #T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col13 {
+        }    #T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col13 {
             background-color:  white;
         }</style>  
-<table id="tbl" class="sortable" ignore="T_3cce7078_d06c_11ea_83ea_3052cb81606c" > 
+<table id="tbl" class="sortable" ignore="T_654d24d2_d072_11ea_99c1_3052cb81606c" > 
 <thead>    <tr> 
         <th class="blank level0" ></th> 
         <th class="col_heading level0 col0" >Name</th> 
@@ -282,133 +290,133 @@ Last Updated: Jul 27, 2020 05:49 PM
         <th class="col_heading level0 col11" >Injury Details</th> 
     </tr></thead> 
 <tbody>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row0" class="row_heading level0 row0" >1</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col0" class="data row0 col0" >Paul George
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row0" class="row_heading level0 row0" >1</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col0" class="data row0 col0" >Paul George
 🔥</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col1" class="data row0 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/georgpa01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col2" class="data row0 col2" >SG</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col3" class="data row0 col3" >LAC@LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col4" class="data row0 col4" >LAC</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col5" class="data row0 col5" >40.72</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col6" class="data row0 col6" >$8144</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col7" class="data row0 col7" >$7400</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col8" class="data row0 col8" >$744</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col9" class="data row0 col9" >36.36</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col10" class="data row0 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow0_col11" class="data row0 col11" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col1" class="data row0 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/georgpa01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col2" class="data row0 col2" >SG</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col3" class="data row0 col3" >LAC@LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col4" class="data row0 col4" >LAC</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col5" class="data row0 col5" >40.72</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col6" class="data row0 col6" >$8144</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col7" class="data row0 col7" >$7400</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col8" class="data row0 col8" >$744</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col9" class="data row0 col9" >36.36</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col10" class="data row0 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow0_col11" class="data row0 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row1" class="row_heading level0 row1" >2</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col0" class="data row1 col0" >Donovan Mitchell
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row1" class="row_heading level0 row1" >2</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col0" class="data row1 col0" >Donovan Mitchell
 ❄️❄️</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col1" class="data row1 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col2" class="data row1 col2" >SG</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col3" class="data row1 col3" >UTA@NO</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col4" class="data row1 col4" >UTA</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col5" class="data row1 col5" >38.43</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col6" class="data row1 col6" >$7686</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col7" class="data row1 col7" >$7200</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col8" class="data row1 col8" >$486</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col9" class="data row1 col9" >36.1</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col10" class="data row1 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow1_col11" class="data row1 col11" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col1" class="data row1 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/mitchdo01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col2" class="data row1 col2" >SG</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col3" class="data row1 col3" >UTA@NO</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col4" class="data row1 col4" >UTA</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col5" class="data row1 col5" >38.43</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col6" class="data row1 col6" >$7686</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col7" class="data row1 col7" >$7200</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col8" class="data row1 col8" >$486</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col9" class="data row1 col9" >36.1</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col10" class="data row1 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow1_col11" class="data row1 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row2" class="row_heading level0 row2" >3</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col0" class="data row2 col0" >LeBron James</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col1" class="data row2 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col2" class="data row2 col2" >SF</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col3" class="data row2 col3" >LAC@LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col4" class="data row2 col4" >LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col5" class="data row2 col5" >73.85</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col6" class="data row2 col6" >$14771</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col7" class="data row2 col7" >$11400</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col8" class="data row2 col8" >$3371</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col9" class="data row2 col9" >52.12</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col10" class="data row2 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow2_col11" class="data row2 col11" > </td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row2" class="row_heading level0 row2" >3</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col0" class="data row2 col0" >LeBron James</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col1" class="data row2 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jamesle01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col2" class="data row2 col2" >SF</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col3" class="data row2 col3" >LAC@LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col4" class="data row2 col4" >LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col5" class="data row2 col5" >73.85</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col6" class="data row2 col6" >$14771</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col7" class="data row2 col7" >$11400</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col8" class="data row2 col8" >$3371</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col9" class="data row2 col9" >52.12</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col10" class="data row2 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow2_col11" class="data row2 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row3" class="row_heading level0 row3" >4</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col0" class="data row3 col0" >Kawhi Leonard</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col1" class="data row3 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col2" class="data row3 col2" >SF</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col3" class="data row3 col3" >LAC@LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col4" class="data row3 col4" >LAC</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col5" class="data row3 col5" >50.96</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col6" class="data row3 col6" >$10192</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col7" class="data row3 col7" >$9500</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col8" class="data row3 col8" >$692</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col9" class="data row3 col9" >47.63</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col10" class="data row3 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow3_col11" class="data row3 col11" > </td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row3" class="row_heading level0 row3" >4</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col0" class="data row3 col0" >Kawhi Leonard</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col1" class="data row3 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/leonaka01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col2" class="data row3 col2" >SF</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col3" class="data row3 col3" >LAC@LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col4" class="data row3 col4" >LAC</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col5" class="data row3 col5" >50.96</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col6" class="data row3 col6" >$10192</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col7" class="data row3 col7" >$9500</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col8" class="data row3 col8" >$692</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col9" class="data row3 col9" >47.63</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col10" class="data row3 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow3_col11" class="data row3 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row4" class="row_heading level0 row4" >5</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col0" class="data row4 col0" >Mike Conley</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col1" class="data row4 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/conlemi01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col2" class="data row4 col2" >PG</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col3" class="data row4 col3" >UTA@NO</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col4" class="data row4 col4" >UTA</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col5" class="data row4 col5" >28.15</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col6" class="data row4 col6" >$5631</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col7" class="data row4 col7" >$5700</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col8" class="data row4 col8" >-$69</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col9" class="data row4 col9" >24.35</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col10" class="data row4 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow4_col11" class="data row4 col11" > </td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row4" class="row_heading level0 row4" >5</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col0" class="data row4 col0" >Mike Conley</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col1" class="data row4 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/conlemi01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col2" class="data row4 col2" >PG</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col3" class="data row4 col3" >UTA@NO</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col4" class="data row4 col4" >UTA</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col5" class="data row4 col5" >28.15</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col6" class="data row4 col6" >$5631</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col7" class="data row4 col7" >$5700</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col8" class="data row4 col8" >-$69</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col9" class="data row4 col9" >24.35</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col10" class="data row4 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow4_col11" class="data row4 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row5" class="row_heading level0 row5" >6</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col0" class="data row5 col0" >Reggie Jackson</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col1" class="data row5 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jacksre01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col2" class="data row5 col2" >PG</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col3" class="data row5 col3" >LAC@LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col4" class="data row5 col4" >LAC</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col5" class="data row5 col5" >19.75</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col6" class="data row5 col6" >$3949</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col7" class="data row5 col7" >$3800</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col8" class="data row5 col8" >$149</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col9" class="data row5 col9" >23.08</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col10" class="data row5 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow5_col11" class="data row5 col11" > </td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row5" class="row_heading level0 row5" >6</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col0" class="data row5 col0" >Reggie Jackson</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col1" class="data row5 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/jacksre01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col2" class="data row5 col2" >PG</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col3" class="data row5 col3" >LAC@LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col4" class="data row5 col4" >LAC</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col5" class="data row5 col5" >19.75</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col6" class="data row5 col6" >$3949</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col7" class="data row5 col7" >$3800</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col8" class="data row5 col8" >$149</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col9" class="data row5 col9" >23.08</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col10" class="data row5 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow5_col11" class="data row5 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row6" class="row_heading level0 row6" >7</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col0" class="data row6 col0" >Royce O'Neale</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col1" class="data row6 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/onealro01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col2" class="data row6 col2" >PF</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col3" class="data row6 col3" >UTA@NO</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col4" class="data row6 col4" >UTA</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col5" class="data row6 col5" >30.66</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col6" class="data row6 col6" >$6133</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col7" class="data row6 col7" >$4900</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col8" class="data row6 col8" >$1233</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col9" class="data row6 col9" >18.87</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col10" class="data row6 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow6_col11" class="data row6 col11" > </td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row6" class="row_heading level0 row6" >7</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col0" class="data row6 col0" >Royce O'Neale</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col1" class="data row6 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/onealro01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col2" class="data row6 col2" >PF</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col3" class="data row6 col3" >UTA@NO</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col4" class="data row6 col4" >UTA</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col5" class="data row6 col5" >30.66</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col6" class="data row6 col6" >$6133</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col7" class="data row6 col7" >$4900</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col8" class="data row6 col8" >$1233</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col9" class="data row6 col9" >18.87</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col10" class="data row6 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow6_col11" class="data row6 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row7" class="row_heading level0 row7" >8</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col0" class="data row7 col0" >JaMychal Green</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col1" class="data row7 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col2" class="data row7 col2" >PF</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col3" class="data row7 col3" >LAC@LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col4" class="data row7 col4" >LAC</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col5" class="data row7 col5" >20.56</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col6" class="data row7 col6" >$4112</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col7" class="data row7 col7" >$3600</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col8" class="data row7 col8" >$512</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col9" class="data row7 col9" >16.87</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col10" class="data row7 col10" > </td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow7_col11" class="data row7 col11" > </td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row7" class="row_heading level0 row7" >8</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col0" class="data row7 col0" >JaMychal Green</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col1" class="data row7 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/greenja01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col2" class="data row7 col2" >PF</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col3" class="data row7 col3" >LAC@LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col4" class="data row7 col4" >LAC</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col5" class="data row7 col5" >20.56</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col6" class="data row7 col6" >$4112</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col7" class="data row7 col7" >$3600</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col8" class="data row7 col8" >$512</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col9" class="data row7 col9" >16.87</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col10" class="data row7 col10" > </td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow7_col11" class="data row7 col11" > </td> 
     </tr>    <tr> 
-        <th id="T_3cce7078_d06c_11ea_83ea_3052cb81606clevel0_row8" class="row_heading level0 row8" >9</th> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col0" class="data row8 col0" >Montrezl Harrell</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col1" class="data row8 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/harremo01.jpg" width="60"></td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col2" class="data row8 col2" >C</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col3" class="data row8 col3" >LAC@LAL</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col4" class="data row8 col4" >LAC</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col5" class="data row8 col5" >39.07</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col6" class="data row8 col6" >$7814</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col7" class="data row8 col7" >$6300</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col8" class="data row8 col8" >$1514</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col9" class="data row8 col9" >33.23</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col10" class="data row8 col10" >GTD</td> 
-        <td id="T_3cce7078_d06c_11ea_83ea_3052cb81606crow8_col11" class="data row8 col11" >Personal</td> 
+        <th id="T_654d24d2_d072_11ea_99c1_3052cb81606clevel0_row8" class="row_heading level0 row8" >9</th> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col0" class="data row8 col0" >Montrezl Harrell</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col1" class="data row8 col1" ><img src="https://d2cwpp38twqe55.cloudfront.net/req/202005142/images/players/harremo01.jpg" width="60"></td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col2" class="data row8 col2" >C</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col3" class="data row8 col3" >LAC@LAL</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col4" class="data row8 col4" >LAC</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col5" class="data row8 col5" >39.07</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col6" class="data row8 col6" >$7814</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col7" class="data row8 col7" >$6300</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col8" class="data row8 col8" >$1514</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col9" class="data row8 col9" >33.23</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col10" class="data row8 col10" >GTD</td> 
+        <td id="T_654d24d2_d072_11ea_99c1_3052cb81606crow8_col11" class="data row8 col11" >Personal</td> 
     </tr></tbody> 
 </table> 
 
