@@ -1,9 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-32,Duncan Robinson,SG,MIA@DEN,MIA,29.79,$5957,$4900,$1057,20.68, , ,0.7678299176219829,0.0
+6,Jimmy Butler,SG,MIA@DEN,MIA,46.72,$9345,$8000,$1345,41.42, , ,0.0,0.0
+31,Duncan Robinson,SG,MIA@DEN,MIA,29.79,$5957,$4900,$1057,20.68, , ,0.7678299176219829,0.0
 0,LeBron James,SF,LAL@TOR,LAL,65.2,$13040,$10900,$2140,51.94,GTD,Groin,0.0,0.0
-59,Dion Waiters,SF,LAL@TOR,LAL,27.07,$5415,$3900,$1515,17.33, , ,0.0,0.0
+40,Jae Crowder,SF,MIA@DEN,MIA,29.55,$5911,$4400,$1511,25.07, , ,0.0,0.0
 5,Ben Simmons,PG,PHI@IND,PHI,48.21,$9642,$8000,$1642,42.95, , ,0.0,0.0
 12,Kyle Lowry,PG,LAL@TOR,TOR,52.7,$10539,$7400,$3139,39.33, , ,0.0,0.0
-1,Anthony Davis,PF,LAL@TOR,LAL,57.47,$11494,$10000,$1494,51.81,GTD,Eye,0.0,0.0
-35,Kyle Kuzma,PF,LAL@TOR,LAL,30.97,$6193,$4700,$1493,20.7,GTD,Ankle,0.0,0.0
+32,Royce O'Neale,PF,UTA@OKC,UTA,28.93,$5785,$4900,$885,19.02, , ,0.0,0.0
+34,Kyle Kuzma,PF,LAL@TOR,LAL,30.97,$6193,$4700,$1493,20.7,GTD,Ankle,0.0,0.0
 19,Myles Turner,C,PHI@IND,IND,38.68,$7736,$6600,$1136,28.95, , ,0.0,0.0
