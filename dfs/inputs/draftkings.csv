@@ -1,9 +1,9 @@
-,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Injury Indicator,Injury Details,Hot,Cold
-94,Dion Waiters,SG/SF,LAL@UTA,LAL,23.84,$4470,$3200,$1270,18.85, , ,0.0,0.0
-60,Kyle Kuzma,SF/PF,LAL@UTA,LAL,28.6,$5362,$4400,$962,21.72,GTD,Ankle,0.0,0.0
-24,Shai Gilgeous-Alexander,PG/SG,DEN@OKC,OKC,34.79,$6523,$6000,$523,35.49, , ,0.0,0.0
-0,LeBron James,PG/SF,LAL@UTA,LAL,58.82,$11028,$10700,$328,55.37,GTD,Groin,0.0,0.0
-15,Ja Morant,PG,MEM@NO ,MEM,37.39,$7011,$7300,-$289,34.38, , ,0.0,0.0
-49,Jerami Grant,PF,DEN@OKC,DEN,24.71,$4633,$4700,-$67,21.15, , ,0.0,0.0
-1,Joel Embiid,C,SA@PHI ,PHI,51.88,$9728,$10300,-$572,48.25, , ,0.0,0.0
-84,Nerlens Noel,C,DEN@OKC,OKC,20.3,$3806,$3400,$406,19.89, , ,0.0,0.0
+,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
+44,Bogdan Bogdanovic,SG/SF,DAL@SAC,SAC,28.56,$5355,$5200,$155,26.56,0.0,0.0, , 
+77,Kent Bazemore,SG/SF,DAL@SAC,SAC,27.68,$5190,$4100,$1090,19.57,0.0,0.0, , 
+27,Marcus Smart,PG/SG,BOS@MIA,BOS,35.97,$6744,$6300,$444,30.17,0.0,0.0, , 
+24,Ricky Rubio,PG,PHO@LAC,PHO,39.16,$7342,$6700,$642,35.58,0.0,0.0, , 
+1,Giannis Antetokounmpo,PF,BKN@MIL,MIL,58.6,$10988,$10900,$88,60.46,0.0,0.0, , 
+62,Jae Crowder,PF,BOS@MIA,MIA,27.96,$5242,$4600,$642,25.57,0.0,0.0, , 
+15,Bam Adebayo,C,BOS@MIA,MIA,39.79,$7461,$7700,-$239,41.45,0.0,0.0, , 
+68,P.J. Tucker,C,HOU@POR,HOU,21.7,$4070,$4400,-$330,21.69,0.0,0.0, , 

@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-8,DeMar DeRozan,SG,SA@PHI,SA,40.25,$8049,$8000,$49,38.62, , ,0.0,0.0
-151,Kentavious Caldwell-Pope,SG,LAL@UTA,LAL,19.2,$3841,$3500,$341,16.6, , ,0.0,0.0
-0,LeBron James,SF,LAL@UTA,LAL,55.9,$11180,$10000,$1180,51.73,GTD,Groin,0.0,0.0
-19,T.J. Warren,SF,IND@WAS,IND,37.29,$7457,$6700,$757,29.71, , ,0.0,0.0
-6,Ben Simmons,PG,SA@PHI,PHI,45.16,$9032,$8100,$932,42.89, , ,0.0,0.0
-24,Malcolm Brogdon,PG,IND@WAS,IND,34.25,$6851,$6500,$351,32.87,GTD,Neck,0.0,0.0
-34,Al Horford,PF,SA@PHI,PHI,34.56,$6912,$5500,$1412,30.47, , ,0.0,0.0
-36,Serge Ibaka,PF,TOR@MIA,TOR,31.64,$6327,$5200,$1127,29.75, , ,0.0,0.0
-23,Myles Turner,C,IND@WAS,IND,31.88,$6376,$6500,-$124,28.73, , ,0.0,0.0
+2,Luka Doncic,SG,DAL@SAC,DAL,51.97,$10394,$11000,-$606,51.71, , ,0.0,0.0
+26,Marcus Smart,SG,BOS@MIA,BOS,34.36,$6872,$5500,$1372,30.01, , ,0.0,0.0
+53,Jae Crowder,SF,BOS@MIA,MIA,27.06,$5412,$4100,$1312,25.08, , ,0.0,0.0
+69,Kent Bazemore,SF,DAL@SAC,SAC,28.0,$5600,$3900,$1700,19.75, , ,0.0,0.0
+4,Russell Westbrook,PG,HOU@POR,HOU,46.86,$9372,$9600,-$228,48.6, , ,0.0,0.0
+23,Ricky Rubio,PG,PHO@LAC,PHO,38.99,$7799,$6000,$1799,34.47, , ,0.0,0.0
+7,Jayson Tatum,PF,BOS@MIA,BOS,43.1,$8620,$8100,$520,40.84, , ,0.0,0.2945192219593872
+25,Aaron Gordon,PF,ORL@IND,ORL,35.94,$7188,$5600,$1588,31.74, , ,0.0,0.0
+19,Myles Turner,C,ORL@IND,IND,32.04,$6409,$6200,$209,28.82, , ,0.0,0.0
