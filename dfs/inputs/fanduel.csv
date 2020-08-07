@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Victor Oladipo,SG,IND@PHO,IND,29.87,$5974,$5600,$374,23.61, , ,1.1313570742871468,0.0
-72,Delon Wright,SG,LAC@DAL,DAL,24.39,$4879,$3600,$1279,20.19, , ,0.0,0.0
-0,Giannis Antetokounmpo,SF,MIA@MIL,MIL,59.71,$11943,$11000,$943,57.12, , ,0.0,0.0
-4,LeBron James,SF,LAL@HOU,LAL,61.25,$12250,$10100,$2150,51.54, , ,0.0,0.0
-19,Malcolm Brogdon,PG,IND@PHO,IND,31.29,$6258,$6400,-$142,32.94,GTD,Neck,0.0,0.0
-20,Ricky Rubio,PG,IND@PHO,PHO,43.27,$8655,$6000,$2655,34.32, , ,0.0,0.0
-12,Bam Adebayo,PF,MIA@MIL,MIA,44.66,$8932,$7800,$1132,40.55, , ,0.0,0.0
-31,Kyle Kuzma,PF,LAL@HOU,LAL,28.07,$5614,$4700,$914,20.48, , ,0.0,0.0
-32,Hassan Whiteside,C,POR@DEN,POR,29.77,$5953,$4700,$1253,42.38, , ,0.0,1.9241909813556888
+6,Jrue Holiday,SG,WAS@NO,NO,34.51,$6902,$7700,-$798,38.76, , ,0.0,0.0
+27,Marcus Smart,SG,BOS@TOR,BOS,33.61,$6722,$5500,$1222,29.68, , ,0.0,0.0
+9,Pascal Siakam,SF,BOS@TOR,TOR,36.72,$7344,$7500,-$156,40.58, , ,0.0,0.0
+24,Gordon Hayward,SF,BOS@TOR,BOS,33.38,$6676,$5900,$776,33.12, , ,0.9097804533045688,0.0
+16,Lonzo Ball,PG,WAS@NO,NO,34.91,$6981,$6900,$81,32.14, , ,0.0,0.0
+47,Markelle Fultz,PG,ORL@PHI,ORL,25.2,$5040,$4400,$640,25.66, , ,0.0,0.0
+11,Jayson Tatum,PF,BOS@TOR,BOS,39.14,$7828,$7500,$328,40.49, , ,0.0,0.2945192219593872
+42,Al Horford,PF,ORL@PHI,PHI,33.64,$6728,$4800,$1928,30.22, , ,0.4561904270205265,0.0
+0,Joel Embiid,C,ORL@PHI,PHI,39.78,$7956,$9800,-$1844,46.48, , ,0.0,0.0
