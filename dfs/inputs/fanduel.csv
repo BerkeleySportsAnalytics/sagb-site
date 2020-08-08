@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-6,Jrue Holiday,SG,WAS@NO,NO,34.51,$6902,$7700,-$798,38.76, , ,0.0,0.0
-27,Marcus Smart,SG,BOS@TOR,BOS,33.61,$6722,$5500,$1222,29.68, , ,0.0,0.0
-9,Pascal Siakam,SF,BOS@TOR,TOR,36.72,$7344,$7500,-$156,40.58, , ,0.0,0.0
-24,Gordon Hayward,SF,BOS@TOR,BOS,33.38,$6676,$5900,$776,33.12, , ,0.9097804533045688,0.0
-16,Lonzo Ball,PG,WAS@NO,NO,34.91,$6981,$6900,$81,32.14, , ,0.0,0.0
-47,Markelle Fultz,PG,ORL@PHI,ORL,25.2,$5040,$4400,$640,25.66, , ,0.0,0.0
-11,Jayson Tatum,PF,BOS@TOR,BOS,39.14,$7828,$7500,$328,40.49, , ,0.0,0.2945192219593872
-42,Al Horford,PF,ORL@PHI,PHI,33.64,$6728,$4800,$1928,30.22, , ,0.4561904270205265,0.0
-0,Joel Embiid,C,ORL@PHI,PHI,39.78,$7956,$9800,-$1844,46.48, , ,0.0,0.0
+1,Luka Doncic,SG,MIL@DAL,DAL,57.04,$11408,$10400,$1008,51.88, , ,0.0,0.0
+99,Delon Wright,SG,MIL@DAL,DAL,24.16,$4832,$3500,$1332,20.11, , ,0.0,0.0
+28,Joe Ingles,SF,UTA@DEN,UTA,29.58,$5916,$4900,$1016,23.38, , ,0.0,0.0
+42,Jae Crowder,SF,PHO@MIA,MIA,28.73,$5745,$4300,$1445,24.84, , ,0.0,0.0
+19,Ricky Rubio,PG,PHO@MIA,PHO,47.57,$9514,$5900,$3614,34.13, , ,0.0,0.0
+23,Goran Dragic,PG,PHO@MIA,MIA,28.9,$5781,$5400,$381,27.48,GTD,Ankle,0.0,2.3924028366508026
+3,Anthony Davis,PF,LAL@IND,LAL,51.81,$10362,$9400,$962,51.17,GTD,Ankle,0.0,0.0
+13,Bam Adebayo,PF,PHO@MIA,MIA,44.04,$8808,$7600,$1208,40.25, , ,0.0,0.0
+6,Jusuf Nurkic,C,LAC@POR,POR,53.62,$10725,$8500,$2225,52.33, , ,0.0,0.0
