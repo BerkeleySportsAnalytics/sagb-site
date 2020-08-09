@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-1,Luka Doncic,SG,MIL@DAL,DAL,57.04,$11408,$10400,$1008,51.88, , ,0.0,0.0
-99,Delon Wright,SG,MIL@DAL,DAL,24.16,$4832,$3500,$1332,20.11, , ,0.0,0.0
-28,Joe Ingles,SF,UTA@DEN,UTA,29.58,$5916,$4900,$1016,23.38, , ,0.0,0.0
-42,Jae Crowder,SF,PHO@MIA,MIA,28.73,$5745,$4300,$1445,24.84, , ,0.0,0.0
-19,Ricky Rubio,PG,PHO@MIA,PHO,47.57,$9514,$5900,$3614,34.13, , ,0.0,0.0
-23,Goran Dragic,PG,PHO@MIA,MIA,28.9,$5781,$5400,$381,27.48,GTD,Ankle,0.0,2.3924028366508026
-3,Anthony Davis,PF,LAL@IND,LAL,51.81,$10362,$9400,$962,51.17,GTD,Ankle,0.0,0.0
-13,Bam Adebayo,PF,PHO@MIA,MIA,44.04,$8808,$7600,$1208,40.25, , ,0.0,0.0
-6,Jusuf Nurkic,C,LAC@POR,POR,53.62,$10725,$8500,$2225,52.33, , ,0.0,0.0
+17,Fred VanVleet,SG,MEM@TOR,TOR,33.43,$6686,$7200,-$514,36.53, , ,0.0,0.0
+37,Marcus Smart,SG,ORL@BOS,BOS,35.71,$7141,$5300,$1841,29.46, , ,0.0,0.0
+14,Pascal Siakam,SF,MEM@TOR,TOR,39.43,$7885,$7400,$485,40.13, , ,0.0,0.0
+27,Gordon Hayward,SF,ORL@BOS,BOS,36.85,$7369,$6000,$1369,32.86, , ,0.9097804533045688,0.0
+20,Kyle Lowry,PG,MEM@TOR,TOR,37.44,$7487,$7000,$487,39.29, , ,0.0,0.0
+76,Reggie Jackson,PG,BKN@LAC,LAC,25.12,$5023,$3800,$1223,22.51, , ,0.0,0.0
+7,Jayson Tatum,PF,ORL@BOS,BOS,40.51,$8103,$7900,$203,40.41, , ,0.0,0.2945192219593872
+22,Robert Covington,PF,HOU@SAC,HOU,34.05,$6810,$6600,$210,29.65, , ,0.0,0.0
+3,Jusuf Nurkic,C,PHI@POR,POR,47.54,$9508,$8500,$1008,50.28, , ,0.0,0.0
