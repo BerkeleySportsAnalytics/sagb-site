@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-17,Fred VanVleet,SG,MEM@TOR,TOR,33.43,$6686,$7200,-$514,36.53, , ,0.0,0.0
-37,Marcus Smart,SG,ORL@BOS,BOS,35.71,$7141,$5300,$1841,29.46, , ,0.0,0.0
-14,Pascal Siakam,SF,MEM@TOR,TOR,39.43,$7885,$7400,$485,40.13, , ,0.0,0.0
-27,Gordon Hayward,SF,ORL@BOS,BOS,36.85,$7369,$6000,$1369,32.86, , ,0.9097804533045688,0.0
-20,Kyle Lowry,PG,MEM@TOR,TOR,37.44,$7487,$7000,$487,39.29, , ,0.0,0.0
-76,Reggie Jackson,PG,BKN@LAC,LAC,25.12,$5023,$3800,$1223,22.51, , ,0.0,0.0
-7,Jayson Tatum,PF,ORL@BOS,BOS,40.51,$8103,$7900,$203,40.41, , ,0.0,0.2945192219593872
-22,Robert Covington,PF,HOU@SAC,HOU,34.05,$6810,$6600,$210,29.65, , ,0.0,0.0
-3,Jusuf Nurkic,C,PHI@POR,POR,47.54,$9508,$8500,$1008,50.28, , ,0.0,0.0
+12,Jimmy Butler,SG,IND@MIA,MIA,42.53,$8506,$7500,$1006,41.48,GTD,Foot,0.0,0.0
+53,Donte DiVincenzo,SG,TOR@MIL,MIL,26.05,$5209,$4000,$1209,21.91, , ,0.0,0.0
+1,LeBron James,SF,DEN@LAL,LAL,65.8,$13161,$9600,$3561,51.56,GTD,Groin,0.0,0.0
+45,Jae Crowder,SF,IND@MIA,MIA,28.47,$5694,$4400,$1294,24.87, , ,0.0,0.0
+16,Kyle Lowry,PG,TOR@MIL,TOR,48.31,$9663,$6800,$2863,39.28, , ,0.0,0.0
+20,Ricky Rubio,PG,OKC@PHO,PHO,40.16,$8032,$6400,$1632,34.13, , ,0.0,0.0
+6,Bam Adebayo,PF,IND@MIA,MIA,45.91,$9181,$7900,$1281,40.35, , ,0.0,0.0
+38,Serge Ibaka,PF,TOR@MIL,TOR,33.06,$6613,$4600,$2013,29.38, , ,0.0,0.0
+3,Nikola Jokic,C,DEN@LAL,DEN,42.24,$8448,$8500,-$52,44.79, , ,0.0,0.7092408603599804
