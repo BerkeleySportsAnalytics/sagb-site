@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-68,Dion Waiters,SG/SF,DEN@LAL,LAL,21.44,$4019,$3800,$219,18.09,0.0,0.0, , 
-2,LeBron James,PG/SF,DEN@LAL,LAL,68.64,$12869,$10200,$2669,55.07,0.0,0.0,GTD,Groin
-6,Kyle Lowry,PG,TOR@MIL,TOR,50.42,$9454,$8600,$854,41.21,0.0,0.0, , 
-23,Ricky Rubio,PG,OKC@PHO,PHO,40.72,$7635,$6500,$1135,35.26,0.0,0.0, , 
-16,Pascal Siakam,PF,TOR@MIL,TOR,40.81,$7652,$7400,$252,41.43,0.0,0.0, , 
-51,Jae Crowder,PF,IND@MIA,MIA,29.05,$5447,$4700,$747,25.39,0.0,0.0, , 
-39,Serge Ibaka,C,TOR@MIL,TOR,33.46,$6275,$5100,$1175,30.62,0.0,0.0, , 
-72,Mason Plumlee,C,DEN@LAL,DEN,23.93,$4486,$3600,$886,19.11,0.0,0.0, , 
+95,Kent Bazemore,SG/SF,NO@SAC ,SAC,23.0,$4313,$3800,$513,19.54,0.0,0.0,GTD,Calf
+13,Jayson Tatum,SF/PF,BOS@MEM,BOS,37.83,$7093,$7800,-$707,41.74,0.0,0.2945192219593872, , 
+14,Khris Middleton,SF,MIL@WAS,MIL,35.93,$6736,$7700,-$964,37.44,0.0,0.0, , 
+34,Marcus Smart,PG/SG,BOS@MEM,BOS,34.27,$6426,$5600,$826,29.56,0.0,0.0, , 
+101,Delon Wright,PG/SG,POR@DAL,DAL,24.2,$4538,$3600,$938,19.64,0.0,0.0, , 
+24,Lonzo Ball,PG,NO@SAC ,NO,41.17,$7720,$6400,$1320,33.99,0.0,0.0, , 
+12,Deandre Ayton,PF/C,PHO@PHI,PHO,40.0,$7500,$7900,-$400,40.23,0.0,0.0, , 
+18,Jonas Valanciunas,C,BOS@MEM,MEM,32.0,$6000,$7200,-$1200,34.53,0.0,0.0, , 

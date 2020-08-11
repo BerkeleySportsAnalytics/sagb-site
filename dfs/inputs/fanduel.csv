@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-12,Jimmy Butler,SG,IND@MIA,MIA,42.53,$8506,$7500,$1006,41.48,GTD,Foot,0.0,0.0
-53,Donte DiVincenzo,SG,TOR@MIL,MIL,26.05,$5209,$4000,$1209,21.91, , ,0.0,0.0
-1,LeBron James,SF,DEN@LAL,LAL,65.8,$13161,$9600,$3561,51.56,GTD,Groin,0.0,0.0
-45,Jae Crowder,SF,IND@MIA,MIA,28.47,$5694,$4400,$1294,24.87, , ,0.0,0.0
-16,Kyle Lowry,PG,TOR@MIL,TOR,48.31,$9663,$6800,$2863,39.28, , ,0.0,0.0
-20,Ricky Rubio,PG,OKC@PHO,PHO,40.16,$8032,$6400,$1632,34.13, , ,0.0,0.0
-6,Bam Adebayo,PF,IND@MIA,MIA,45.91,$9181,$7900,$1281,40.35, , ,0.0,0.0
-38,Serge Ibaka,PF,TOR@MIL,TOR,33.06,$6613,$4600,$2013,29.38, , ,0.0,0.0
-3,Nikola Jokic,C,DEN@LAL,DEN,42.24,$8448,$8500,-$52,44.79, , ,0.0,0.7092408603599804
+3,Devin Booker,SG,PHO@PHI,PHO,36.83,$7366,$8100,-$734,39.86, , ,0.0,0.0
+29,Marcus Smart,SG,BOS@MEM,BOS,32.77,$6554,$5400,$1154,29.48, , ,0.0,0.0
+13,Gordon Hayward,SF,BOS@MEM,BOS,32.63,$6527,$6400,$127,33.22, , ,0.9097804533045688,0.0
+27,Carmelo Anthony,SF,POR@DAL,POR,24.78,$4956,$5400,-$444,27.3, , ,0.0,0.0
+11,Lonzo Ball,PG,NO@SAC,NO,40.75,$8150,$6700,$1450,32.05, , ,0.0,0.0
+21,Eric Bledsoe,PG,MIL@WAS,MIL,30.33,$6067,$5700,$367,30.43, , ,0.0,0.0
+2,Jayson Tatum,PF,BOS@MEM,BOS,36.73,$7346,$8200,-$854,40.57, , ,0.0,0.2945192219593872
+16,Al Horford,PF,PHO@PHI,PHI,32.77,$6555,$6200,$355,30.3,GTD,Knee,0.4561904270205265,0.0
+4,Deandre Ayton,C,PHO@PHI,PHO,40.45,$8091,$7700,$391,39.79, , ,0.0,0.0
