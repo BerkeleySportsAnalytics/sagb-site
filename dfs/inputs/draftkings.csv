@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-95,Kent Bazemore,SG/SF,NO@SAC ,SAC,23.0,$4313,$3800,$513,19.54,0.0,0.0,GTD,Calf
-13,Jayson Tatum,SF/PF,BOS@MEM,BOS,37.83,$7093,$7800,-$707,41.74,0.0,0.2945192219593872, , 
-14,Khris Middleton,SF,MIL@WAS,MIL,35.93,$6736,$7700,-$964,37.44,0.0,0.0, , 
-34,Marcus Smart,PG/SG,BOS@MEM,BOS,34.27,$6426,$5600,$826,29.56,0.0,0.0, , 
-101,Delon Wright,PG/SG,POR@DAL,DAL,24.2,$4538,$3600,$938,19.64,0.0,0.0, , 
-24,Lonzo Ball,PG,NO@SAC ,NO,41.17,$7720,$6400,$1320,33.99,0.0,0.0, , 
-12,Deandre Ayton,PF/C,PHO@PHI,PHO,40.0,$7500,$7900,-$400,40.23,0.0,0.0, , 
-18,Jonas Valanciunas,C,BOS@MEM,MEM,32.0,$6000,$7200,-$1200,34.53,0.0,0.0, , 
+43,Duncan Robinson,SG/SF,MIA@OKC,MIA,29.89,$5604,$4900,$704,22.6,0.7678299176219829,0.0, , 
+0,James Harden,PG/SG,IND@HOU,HOU,59.9,$11232,$11100,$132,59.57,0.0,0.0,GTD,Rest
+24,Dennis Schroder,PG/SG,MIA@OKC,OKC,32.06,$6012,$5900,$112,31.06,1.0132317629822314,0.0,GTD,Personal
+5,Kyle Lowry,PG,TOR@PHI,TOR,50.23,$9419,$8600,$819,41.21,0.0,0.0, , 
+105,Meyers Leonard,PF/C,MIA@OKC,MIA,21.83,$4093,$3000,$1093,15.44,0.0,0.0, , 
+12,Pascal Siakam,PF,TOR@PHI,TOR,42.55,$7979,$7500,$479,41.24,0.0,0.0, , 
+61,Mike Scott,PF,TOR@PHI,PHI,17.26,$3236,$3700,-$464,12.65,0.7512150905588314,0.0, , 
+32,Serge Ibaka,C,TOR@PHI,TOR,36.95,$6928,$5300,$1628,30.62,0.0,0.0,GTD,Knee
