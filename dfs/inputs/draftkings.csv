@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-43,Duncan Robinson,SG/SF,MIA@OKC,MIA,29.89,$5604,$4900,$704,22.6,0.7678299176219829,0.0, , 
-0,James Harden,PG/SG,IND@HOU,HOU,59.9,$11232,$11100,$132,59.57,0.0,0.0,GTD,Rest
-24,Dennis Schroder,PG/SG,MIA@OKC,OKC,32.06,$6012,$5900,$112,31.06,1.0132317629822314,0.0,GTD,Personal
-5,Kyle Lowry,PG,TOR@PHI,TOR,50.23,$9419,$8600,$819,41.21,0.0,0.0, , 
-105,Meyers Leonard,PF/C,MIA@OKC,MIA,21.83,$4093,$3000,$1093,15.44,0.0,0.0, , 
-12,Pascal Siakam,PF,TOR@PHI,TOR,42.55,$7979,$7500,$479,41.24,0.0,0.0, , 
-61,Mike Scott,PF,TOR@PHI,PHI,17.26,$3236,$3700,-$464,12.65,0.7512150905588314,0.0, , 
-32,Serge Ibaka,C,TOR@PHI,TOR,36.95,$6928,$5300,$1628,30.62,0.0,0.0,GTD,Knee
+37,Joe Harris,SG/SF,POR@BKN,BKN,24.58,$4609,$5200,-$591,25.13,0.0,0.0, , 
+11,DeMar DeRozan,SF/PF,SA@UTA ,SA,35.46,$6649,$8100,-$1451,39.03,0.0,0.0, , 
+48,Royce O'Neale,SF/PF,SA@UTA ,UTA,21.86,$4098,$4900,-$802,19.99,0.0,0.0, , 
+69,Donte DiVincenzo,PG/SG,MIL@MEM,MIL,23.18,$4346,$4000,$346,21.84,0.0,0.0, , 
+88,Delon Wright,PG/SG,DAL@PHO,DAL,22.71,$4258,$3500,$758,19.56,0.0,0.0, , 
+19,Lonzo Ball,PG,NO@ORL ,NO,43.08,$8078,$7200,$878,33.92,0.0,0.0, , 
+10,Deandre Ayton,PF/C,DAL@PHO,PHO,41.52,$7785,$8100,-$315,39.84,0.0,0.0, , 
+7,Kristaps Porzingis,C,DAL@PHO,DAL,40.02,$7504,$8800,-$1296,41.52,0.0,0.7488792639160338,GTD,Heel
