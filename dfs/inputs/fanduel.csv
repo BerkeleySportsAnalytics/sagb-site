@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,James Harden,SG,PHI@HOU,HOU,56.46,$11292,$11500,-$208,56.89, , ,0.0,0.0
-11,Fred VanVleet,SG,DEN@TOR,TOR,33.37,$6673,$6400,$273,36.32, , ,0.0,0.0
-1,Kawhi Leonard,SF,OKC@LAC,LAC,42.97,$8594,$8700,-$106,47.48, , ,0.0,0.0
-5,Pascal Siakam,SF,DEN@TOR,TOR,41.84,$8369,$7200,$1169,39.78, , ,0.0,0.0
-8,Kyle Lowry,PG,DEN@TOR,TOR,46.81,$9362,$6900,$2462,39.13, , ,0.0,0.0
-12,Jamal Murray,PG,DEN@TOR,DEN,31.06,$6213,$6300,-$87,32.93, , ,0.0,0.0
-14,Al Horford,PF,PHI@HOU,PHI,36.22,$7245,$5800,$1445,30.19, , ,0.4561904270205265,0.0
-52,JaMychal Green,PF,OKC@LAC,LAC,22.25,$4450,$3700,$750,16.96, , ,0.0,0.0
-79,Meyers Leonard,C,MIA@IND,MIA,22.45,$4489,$3500,$989,14.74, , ,0.0,0.0
+0,Luka Doncic,SG,DAL@LAC,DAL,47.75,$9550,$10200,-$650,51.87, , ,0.0,0.0
+22,Marcus Smart,SG,PHI@BOS,BOS,34.81,$6962,$5600,$1362,29.49, , ,0.0,0.0
+9,Pascal Siakam,SF,BKN@TOR,TOR,42.57,$8513,$7400,$1113,39.78, , ,0.0,0.0
+18,Gordon Hayward,SF,PHI@BOS,BOS,36.18,$7236,$6100,$1136,33.24, , ,0.9097804533045688,0.0
+10,Kyle Lowry,PG,BKN@TOR,TOR,41.75,$8349,$7300,$1049,39.13, , ,0.0,0.0
+56,Reggie Jackson,PG,DAL@LAC,LAC,22.06,$4411,$3800,$611,21.69, , ,0.0,0.0
+21,Serge Ibaka,PF,BKN@TOR,TOR,36.73,$7345,$5800,$1545,29.38,GTD,Knee,0.0,0.0
+26,Al Horford,PF,PHI@BOS,PHI,34.28,$6856,$5300,$1556,29.99, , ,0.4561904270205265,0.0
+4,Joel Embiid,C,PHI@BOS,PHI,45.94,$9188,$8500,$688,44.54, , ,0.0,0.0
