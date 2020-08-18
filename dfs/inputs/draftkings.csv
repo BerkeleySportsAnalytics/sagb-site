@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-11,Caris LeVert,SG,BKN@TOR,BKN,39.67,$7439,$7600,-$161,33.11,0.0,0.0, , 
-54,OG Anunoby,SF/PF,BKN@TOR,TOR,23.36,$4381,$3500,$881,23.83,0.0,1.5457931409461605,GTD,Knee
-57,Royce O'Neale,SF/PF,UTA@DEN,UTA,23.67,$4437,$3500,$937,19.81,0.0,0.0, , 
-22,Marcus Smart,PG/SG,PHI@BOS,BOS,36.02,$6755,$6200,$555,29.58,0.0,0.0, , 
-8,Kyle Lowry,PG,BKN@TOR,TOR,44.0,$8249,$7900,$349,41.0,0.0,0.0, , 
-12,Pascal Siakam,PF,BKN@TOR,TOR,44.27,$8300,$7500,$800,41.13,0.0,0.0, , 
-5,Kristaps Porzingis,C,DAL@LAC,DAL,41.42,$7766,$8300,-$534,41.52,0.0,0.7488792639160338,GTD,Heel
-27,Serge Ibaka,C,BKN@TOR,TOR,36.89,$6917,$5400,$1517,30.62,0.0,0.0,GTD,Knee
+41,Duncan Robinson,SG/SF,MIA@IND,MIA,32.62,$6117,$4300,$1817,22.4,0.7678299176219829,0.0, , 
+18,Aaron Gordon,SF/PF,ORL@MIL,ORL,41.99,$7873,$6700,$1173,32.73,0.0,0.0,GTD,Hamstring
+2,LeBron James,PG/SF,POR@LAL,LAL,66.85,$12535,$10700,$1835,54.62,0.0,0.0,GTD,Groin
+11,Chris Paul,PG,OKC@HOU,OKC,44.65,$8372,$7700,$672,37.29,0.0,0.0, , 
+40,Goran Dragic,PG,MIA@IND,MIA,28.02,$5253,$4400,$853,29.37,0.0,2.3924028366508026, , 
+50,Jae Crowder,PF,MIA@IND,MIA,30.16,$5655,$3900,$1755,25.22,0.0,0.0, , 
+13,Bam Adebayo,C,MIA@IND,MIA,44.13,$8274,$7400,$874,40.76,0.0,0.0, , 
+45,P.J. Tucker,C,OKC@HOU,HOU,26.54,$4975,$4100,$875,21.11,0.0,0.0, , 
