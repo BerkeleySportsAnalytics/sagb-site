@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-8,Caris LeVert,SG,BKN@TOR,BKN,39.67,$7439,$8200,-$761,33.41,0.0,0.0, , 
-5,Jayson Tatum,SF/PF,PHI@BOS,BOS,42.42,$7954,$9000,-$1046,41.97,0.0,0.2945192219593872, , 
-48,Royce O'Neale,SF/PF,UTA@DEN,UTA,23.67,$4437,$3700,$737,19.73,0.0,0.0, , 
-9,Kyle Lowry,PG,BKN@TOR,TOR,44.0,$8249,$8000,$249,40.94,0.0,0.0, , 
-62,Reggie Jackson,PG,DAL@LAC,LAC,22.52,$4222,$3200,$1022,22.49,0.0,0.0, , 
-12,Pascal Siakam,PF,BKN@TOR,TOR,44.27,$8300,$7500,$800,41.02,0.0,0.0, , 
-22,Serge Ibaka,C,BKN@TOR,TOR,36.89,$6917,$5700,$1217,30.75,0.0,0.0, , 
-34,Montrezl Harrell,C,DAL@LAC,LAC,29.98,$5621,$4600,$1021,32.57,0.0,0.0, , 
+50,Duncan Robinson,SG/SF,MIA@IND,MIA,33.25,$6234,$3900,$2334,22.29,0.7678299176219829,0.0, , 
+17,Aaron Gordon,SF/PF,ORL@MIL,ORL,41.74,$7826,$6700,$1126,32.73,0.0,0.0,GTD,Hamstring
+22,Robert Covington,SF/PF,OKC@HOU,HOU,36.31,$6809,$6000,$809,28.96,0.0,0.0, , 
+0,James Harden,PG/SG,OKC@HOU,HOU,66.39,$12449,$11700,$749,59.84,0.0,0.0, , 
+55,Donte DiVincenzo,PG/SG,ORL@MIL,MIL,27.79,$5211,$3700,$1511,21.75,0.0,0.0, , 
+10,Chris Paul,PG,OKC@HOU,OKC,44.31,$8308,$8000,$308,37.48,0.0,0.0, , 
+25,Steven Adams,C,OKC@HOU,OKC,29.88,$5602,$5600,$2,29.54,0.0,0.0, , 
+39,P.J. Tucker,C,OKC@HOU,HOU,26.45,$4960,$4400,$560,21.14,0.0,0.0, , 
