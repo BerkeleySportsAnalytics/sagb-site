@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,Luka Doncic,SG,LAC@DAL,DAL,47.75,$9550,$10500,-$950,51.87, , ,0.0,0.0
-28,Josh Richardson,SG,BOS@PHI,PHI,22.24,$4448,$5000,-$552,24.85, , ,0.0,0.0
-12,Pascal Siakam,SF,TOR@BKN,TOR,42.57,$8513,$7700,$813,39.78, , ,0.0,0.0
-17,Jaylen Brown,SF,BOS@PHI,BOS,33.38,$6677,$7000,-$323,33.38, , ,0.0,0.0
-7,Kyle Lowry,PG,TOR@BKN,TOR,41.75,$8349,$8200,$149,39.13, , ,0.0,0.0
-19,Mike Conley,PG,DEN@UTA,UTA,27.64,$5528,$5800,-$272,24.98,GTD,Not injury related,0.0,0.0
-22,Serge Ibaka,PF,TOR@BKN,TOR,36.73,$7345,$5600,$1745,29.38, , ,0.0,0.0
-25,Al Horford,PF,BOS@PHI,PHI,34.28,$6856,$5200,$1656,29.99, , ,0.4561904270205265,0.0
-35,Montrezl Harrell,C,LAC@DAL,LAC,30.23,$6047,$4700,$1347,33.23, , ,0.0,0.0
+37,Duncan Robinson,SG,IND@MIA,MIA,32.74,$6548,$4400,$2148,20.64, , ,0.7678299176219829,0.0
+46,Donte DiVincenzo,SG,MIL@ORL,MIL,28.02,$5604,$3900,$1704,21.93, , ,0.0,0.0
+1,Giannis Antetokounmpo,SF,MIL@ORL,MIL,57.91,$11583,$11300,$283,56.58,GTD,Calf,0.0,0.0
+3,LeBron James,SF,LAL@POR,LAL,64.45,$12889,$10200,$2689,51.12,GTD,Groin,0.0,0.0
+8,Chris Paul,PG,HOU@OKC,OKC,45.32,$9064,$7900,$1164,36.06, , ,0.0,0.0
+63,Alex Caruso,PG,LAL@POR,LAL,20.3,$4059,$3600,$459,13.96, , ,0.0,0.0
+7,Bam Adebayo,PF,IND@MIA,MIA,45.81,$9163,$8000,$1163,39.89, , ,0.0,0.0
+14,Aaron Gordon,PF,MIL@ORL,ORL,41.79,$8359,$6600,$1759,31.87,GTD,Hamstring,0.0,0.0
+42,P.J. Tucker,C,HOU@OKC,HOU,27.01,$5403,$4000,$1403,20.98, , ,0.0,0.0

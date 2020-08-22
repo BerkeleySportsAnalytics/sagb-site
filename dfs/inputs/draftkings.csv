@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-14,Jaylen Brown,SG,BOS@PHI,BOS,33.8,$6338,$7200,-$862,34.84,0.0,0.0, , 
-42,Royce O'Neale,SF/PF,DEN@UTA,UTA,23.67,$4437,$4100,$337,19.97,0.0,0.0, , 
-0,Luka Doncic,PG/SF,LAC@DAL,DAL,51.58,$9671,$10800,-$1129,57.38,0.0,0.0, , 
-9,Kyle Lowry,PG,TOR@BKN,TOR,44.0,$8249,$7800,$449,40.98,0.0,0.0, , 
-58,Patrick Beverley,PG,LAC@DAL,LAC,18.37,$3445,$3300,$145,23.14,0.0,0.0,GTD,Calf
-13,Pascal Siakam,PF,TOR@BKN,TOR,44.27,$8300,$7300,$1000,40.93,0.0,0.0, , 
-24,Serge Ibaka,C,TOR@BKN,TOR,36.89,$6917,$5300,$1617,30.54,0.0,0.0, , 
-41,Montrezl Harrell,C,LAC@DAL,LAC,29.98,$5621,$4100,$1521,32.24,0.0,0.0, , 
+34,Duncan Robinson,SG/SF,IND@MIA,MIA,35.23,$6605,$4900,$1705,22.44,0.7678299176219829,0.0, , 
+18,Aaron Gordon,SF/PF,MIL@ORL,ORL,42.12,$7897,$6600,$1297,32.73,0.0,0.0,GTD,Hamstring
+72,Mario Hezonja,SF,LAL@POR,POR,19.97,$3744,$3300,$444,12.06,0.15761338756585466,0.0, , 
+0,James Harden,PG/SG,HOU@OKC,HOU,64.85,$12159,$11600,$559,59.7,0.0,0.0, , 
+51,Donte DiVincenzo,PG/SG,MIL@ORL,MIL,29.17,$5470,$3800,$1670,21.69,0.0,0.0, , 
+11,Chris Paul,PG,HOU@OKC,OKC,46.32,$8685,$7800,$885,37.33,0.0,0.0, , 
+14,Bam Adebayo,C,IND@MIA,MIA,44.54,$8352,$7300,$1052,40.62,0.0,0.0, , 
+40,P.J. Tucker,C,HOU@OKC,HOU,27.56,$5168,$4400,$768,21.18,0.0,0.0, , 
