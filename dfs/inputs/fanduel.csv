@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-37,Duncan Robinson,SG,IND@MIA,MIA,32.74,$6548,$4400,$2148,20.64, , ,0.7678299176219829,0.0
-46,Donte DiVincenzo,SG,MIL@ORL,MIL,28.02,$5604,$3900,$1704,21.93, , ,0.0,0.0
-1,Giannis Antetokounmpo,SF,MIL@ORL,MIL,57.91,$11583,$11300,$283,56.58,GTD,Calf,0.0,0.0
+0,James Harden,SG,HOU@OKC,HOU,62.82,$12565,$11700,$865,56.75, , ,0.0,0.0
+44,Donte DiVincenzo,SG,MIL@ORL,MIL,28.02,$5604,$3900,$1704,21.93, , ,0.0,0.0
 3,LeBron James,SF,LAL@POR,LAL,64.45,$12889,$10200,$2689,51.12,GTD,Groin,0.0,0.0
+88,Mario Hezonja,SF,LAL@POR,POR,19.78,$3956,$3500,$456,12.17, , ,0.15761338756585466,0.0
 8,Chris Paul,PG,HOU@OKC,OKC,45.32,$9064,$7900,$1164,36.06, , ,0.0,0.0
-63,Alex Caruso,PG,LAL@POR,LAL,20.3,$4059,$3600,$459,13.96, , ,0.0,0.0
+61,Alex Caruso,PG,LAL@POR,LAL,20.3,$4059,$3600,$459,13.96, , ,0.0,0.0
 7,Bam Adebayo,PF,IND@MIA,MIA,45.81,$9163,$8000,$1163,39.89, , ,0.0,0.0
-14,Aaron Gordon,PF,MIL@ORL,ORL,41.79,$8359,$6600,$1759,31.87,GTD,Hamstring,0.0,0.0
-42,P.J. Tucker,C,HOU@OKC,HOU,27.01,$5403,$4000,$1403,20.98, , ,0.0,0.0
+52,Nerlens Noel,PF,HOU@OKC,OKC,20.74,$4147,$3700,$447,20.96, , ,0.0,0.0
+9,Jusuf Nurkic,C,LAL@POR,POR,50.45,$10090,$7400,$2690,43.67, , ,0.0,0.0
