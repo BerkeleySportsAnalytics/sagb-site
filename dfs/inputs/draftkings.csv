@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-5,Jayson Tatum,SF/PF,BOS@PHI,BOS,42.42,$7954,$9000,-$1046,41.96,0.0,0.2945192219593872, , 
-23,Marcus Smart,PG/SG,BOS@PHI,BOS,36.02,$6755,$5600,$1155,29.18,0.0,0.0, , 
-7,Kyle Lowry,PG,TOR@BKN,TOR,44.0,$8249,$8100,$149,41.0,0.0,0.0, , 
-15,Kemba Walker,PG,BOS@PHI,BOS,33.28,$6240,$6900,-$660,35.82,0.0,0.0, , 
-9,Pascal Siakam,PF,TOR@BKN,TOR,44.27,$8300,$7900,$400,41.0,0.0,0.0, , 
-43,Paul Millsap,PF,DEN@UTA,DEN,23.82,$4467,$4100,$367,23.56,0.0,0.0, , 
-41,Daniel Theis,C,BOS@PHI,BOS,29.37,$5508,$4200,$1308,23.4,0.0,0.0, , 
-44,Montrezl Harrell,C,LAC@DAL,LAC,29.98,$5621,$4000,$1621,32.02,0.0,0.0, , 
+32,Duncan Robinson,SG/SF,IND@MIA,MIA,35.1,$6581,$5100,$1481,22.43,0.7678299176219829,0.0, , 
+22,Robert Covington,SF/PF,HOU@OKC,HOU,36.14,$6777,$6100,$677,28.7,0.0,0.0, , 
+57,Donte DiVincenzo,PG/SG,MIL@ORL,MIL,29.05,$5446,$3700,$1746,21.56,0.0,0.0, , 
+3,LeBron James,PG/SF,LAL@POR,LAL,67.41,$12638,$10800,$1838,54.72,0.0,0.0, , 
+10,Chris Paul,PG,HOU@OKC,OKC,46.45,$8709,$8000,$709,37.44,0.0,0.0, , 
+43,Jae Crowder,PF,IND@MIA,MIA,30.88,$5790,$4200,$1590,25.14,0.0,0.0,GTD,Ankle
+14,Bam Adebayo,C,IND@MIA,MIA,44.54,$8351,$7600,$751,40.66,0.0,0.0, , 
+41,P.J. Tucker,C,HOU@OKC,HOU,27.61,$5177,$4200,$977,21.14,0.0,0.0, , 
