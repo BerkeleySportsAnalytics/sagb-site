@@ -13,7 +13,6 @@ var about = curr == "about" ? "class='current_page_item'" : "";
 var index_file = folder == "up" ? "../index.html" : "index.html"
 var dj_file = folder == "up" ? "../data-journalism.html" : "data-journalism.html"
 var projects_file = folder == "up" ? "../projects.html" : "projects.html"
-var nbaprojs_file = folder == "up" ? "../blog.html" : "blog.html"
 var blog_file = folder == "up" ? "../blog.html" : "blog.html"
 var nbaprojs_file = folder == "up" ? "../statlineprojections.html" : "statlineprojections.html"
 var about_file = folder == "up" ? "../about-us.html" : "about-us.html"
