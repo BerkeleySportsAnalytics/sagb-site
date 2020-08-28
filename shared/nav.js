@@ -19,6 +19,7 @@ var about_file = folder == "up" ? "../about-us.html" : "about-us.html"
 var board_file = folder == "up" ? "../board.html" : "board.html"
 var contact_file = folder == "up" ? "../contact-us.html" : "contact-us.html"
 
+//Added NBA Projections
 var string =
 "  <ul>"+
 //"    <li "+home+"><a href="+index_file+">Home</a></li>"+
