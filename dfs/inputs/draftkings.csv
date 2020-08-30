@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-17,Robert Covington,SF/PF,OKC@HOU,HOU,34.67,$6500,$5700,$800,28.69,0.0,0.0, , 
-46,Mario Hezonja,SF/PF,POR@LAL,POR,23.0,$4312,$3500,$812,12.13,0.15761338756585466,0.0, , 
-47,Donte DiVincenzo,PG/SG,ORL@MIL,MIL,26.74,$5013,$3400,$1613,21.46,0.0,0.0, , 
-2,LeBron James,PG/SF,POR@LAL,LAL,65.84,$12345,$10800,$1545,54.75,0.0,0.0,GTD,Groin
-16,Eric Bledsoe,PG,ORL@MIL,MIL,33.74,$6326,$5800,$526,30.88,0.0,0.0, , 
-1,Giannis Antetokounmpo,PF,ORL@MIL,MIL,57.94,$10863,$11300,-$437,59.6,0.0,0.0, , 
-26,Hassan Whiteside,C,POR@LAL,POR,31.82,$5966,$4900,$1066,39.59,0.0,1.9241909813556888, , 
-30,P.J. Tucker,C,OKC@HOU,HOU,25.74,$4827,$4200,$627,21.23,0.0,0.0, , 
+12,Jaylen Brown,SG/SF,BOS@TOR,BOS,33.04,$6195,$7100,-$905,34.67,0.0,0.0, , 
+27,Jerami Grant,SF/PF,DEN@UTA,DEN,21.97,$4119,$4800,-$681,21.49,0.0,0.0, , 
+19,Marcus Smart,PG/SG,BOS@TOR,BOS,38.23,$7168,$5600,$1568,29.04,0.0,0.0, , 
+8,Kyle Lowry,PG,BOS@TOR,TOR,54.07,$10138,$7900,$2238,40.55,0.0,0.0,GTD,Ankle
+11,Kemba Walker,PG,BOS@TOR,BOS,38.66,$7249,$7200,$49,36.06,0.0,0.0, , 
+33,Daniel Theis,PF/C,BOS@TOR,BOS,29.34,$5502,$4300,$1202,23.43,0.0,0.0, , 
+7,Pascal Siakam,PF,BOS@TOR,TOR,42.67,$8000,$8100,-$100,41.1,0.0,0.0, , 
+32,Montrezl Harrell,C,LAC@DAL,LAC,31.46,$5898,$4400,$1498,31.77,0.0,0.0, , 
