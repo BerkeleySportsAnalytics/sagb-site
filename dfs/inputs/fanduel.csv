@@ -1,9 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,Luka Doncic,SG,LAC@DAL,DAL,52.76,$10553,$11400,-$847,51.87,GTD,Ankle,0.0,0.0
-21,Marcus Smart,SG,BOS@TOR,BOS,36.91,$7382,$5300,$2082,29.49, , ,0.0,0.0
-5,Pascal Siakam,SF,BOS@TOR,TOR,40.89,$8177,$8500,-$323,39.78, , ,0.0,0.0
-26,Joe Ingles,SF,DEN@UTA,UTA,26.26,$5253,$5000,$253,23.42, , ,0.0,0.0
-8,Kemba Walker,PG,BOS@TOR,BOS,37.47,$7494,$7800,-$306,34.2, , ,0.0,0.0
-10,Kyle Lowry,PG,BOS@TOR,TOR,51.1,$10220,$7500,$2720,39.13,GTD,Ankle,0.0,0.0
-31,Daniel Theis,PF,BOS@TOR,BOS,30.19,$6038,$4700,$1338,24.43, , ,0.0,0.0
-17,Montrezl Harrell,C,LAC@DAL,LAC,32.32,$6463,$5700,$763,33.23, , ,0.0,0.0
+19,Duncan Robinson,SG,MIA@MIL,MIA,29.23,$5847,$4700,$1147,20.64, , ,0.7678299176219829,0.0
+22,Andre Iguodala,SG,MIA@MIL,MIA,26.26,$5252,$4200,$1052,16.43, , ,0.5494975467696227,0.0
+0,Giannis Antetokounmpo,SF,MIA@MIL,MIL,58.91,$11781,$11500,$281,56.58, , ,0.0,0.0
+20,Jae Crowder,SF,MIA@MIL,MIA,28.26,$5651,$4700,$951,24.7, , ,0.0,0.0
+2,Russell Westbrook,PG,HOU@OKC,HOU,50.41,$10082,$9400,$682,48.15, , ,0.0,0.0
+11,Eric Bledsoe,PG,MIA@MIL,MIL,31.54,$6309,$5800,$509,30.2,GTD,Hamstring,0.0,0.0
+5,Bam Adebayo,PF,MIA@MIL,MIA,41.36,$8272,$8000,$272,39.89, , ,0.0,0.0
+13,Robert Covington,PF,HOU@OKC,HOU,28.08,$5616,$5600,$16,29.69, , ,0.0,0.0
+14,Steven Adams,C,HOU@OKC,OKC,30.89,$6179,$5500,$679,29.1, , ,0.0,0.0
