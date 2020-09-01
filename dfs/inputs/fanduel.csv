@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-19,Duncan Robinson,SG,MIA@MIL,MIA,29.23,$5847,$4700,$1147,20.64, , ,0.7678299176219829,0.0
-22,Andre Iguodala,SG,MIA@MIL,MIA,26.26,$5252,$4200,$1052,16.43, , ,0.5494975467696227,0.0
-0,Giannis Antetokounmpo,SF,MIA@MIL,MIL,58.91,$11781,$11500,$281,56.58, , ,0.0,0.0
-20,Jae Crowder,SF,MIA@MIL,MIA,28.26,$5651,$4700,$951,24.7, , ,0.0,0.0
-2,Russell Westbrook,PG,HOU@OKC,HOU,50.41,$10082,$9400,$682,48.15, , ,0.0,0.0
-11,Eric Bledsoe,PG,MIA@MIL,MIL,31.54,$6309,$5800,$509,30.2,GTD,Hamstring,0.0,0.0
-5,Bam Adebayo,PF,MIA@MIL,MIA,41.36,$8272,$8000,$272,39.89, , ,0.0,0.0
-13,Robert Covington,PF,HOU@OKC,HOU,28.08,$5616,$5600,$16,29.69, , ,0.0,0.0
-14,Steven Adams,C,HOU@OKC,OKC,30.89,$6179,$5500,$679,29.1, , ,0.0,0.0
+3,Donovan Mitchell,SG,UTA@DEN,UTA,30.49,$6097,$8500,-$2403,36.0, , ,0.0,0.0
+12,Marcus Smart,SG,BOS@TOR,BOS,33.52,$6705,$5700,$1005,29.49, , ,0.0,0.0
+11,Jaylen Brown,SF,BOS@TOR,BOS,26.73,$5346,$6300,-$954,33.38, , ,0.0,0.0
+18,Jerami Grant,SF,UTA@DEN,DEN,25.05,$5010,$5100,-$90,21.67, , ,0.0,0.0
+5,Kemba Walker,PG,BOS@TOR,BOS,34.0,$6800,$7800,-$1000,34.2, , ,0.0,0.0
+7,Kyle Lowry,PG,BOS@TOR,TOR,44.23,$8847,$7500,$1347,39.13, , ,0.0,0.0
+10,Serge Ibaka,PF,BOS@TOR,TOR,30.15,$6030,$6500,-$470,29.38, , ,0.0,0.0
+16,Daniel Theis,PF,BOS@TOR,BOS,28.68,$5736,$5300,$436,24.43, , ,0.0,0.0
+8,Rudy Gobert,C,UTA@DEN,UTA,31.41,$6281,$7300,-$1019,39.78, , ,0.0,0.0
