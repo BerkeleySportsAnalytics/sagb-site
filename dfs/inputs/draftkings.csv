@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-17,Jerami Grant,SF/PF,DEN@LAC,DEN,23.28,$4364,$4900,-$536,21.37,0.0,0.0, , 
-4,Paul George,SF,DEN@LAC,LAC,33.81,$6339,$8200,-$1861,38.16,1.0793291027060334,0.0, , 
-11,Marcus Smart,PG/SG,TOR@BOS,BOS,37.0,$6938,$6300,$638,29.15,0.0,0.0, , 
-6,Kemba Walker,PG,TOR@BOS,BOS,37.84,$7095,$7700,-$605,36.04,0.0,0.0, , 
-8,Kyle Lowry,PG,TOR@BOS,TOR,51.66,$9685,$7500,$2185,40.5,0.0,0.0, , 
-35,JaMychal Green,PF/C,DEN@LAC,LAC,18.8,$3525,$3100,$425,17.1,0.0,0.0, , 
-5,Pascal Siakam,PF,TOR@BOS,TOR,38.9,$7293,$7900,-$607,40.87,0.0,0.0, , 
-20,Montrezl Harrell,C,DEN@LAC,LAC,27.76,$5205,$4400,$805,31.4,0.0,0.0, , 
+18,Duncan Robinson,SG/SF,MIL@MIA,MIA,36.07,$6762,$4600,$2162,22.14,0.7678299176219829,0.0, , 
+15,Kyle Kuzma,SF/PF,HOU@LAL,LAL,24.4,$4575,$5000,-$425,21.96,0.0,0.0, , 
+31,Kendrick Nunn,PG/SG,MIL@MIA,MIA,27.1,$5082,$3300,$1782,25.15,0.0,0.2263291963921517, , 
+2,LeBron James,PG/SF,HOU@LAL,LAL,69.99,$13123,$11000,$2123,54.99,0.0,0.0,GTD,Groin
+4,Russell Westbrook,PG,HOU@LAL,HOU,47.91,$8984,$8600,$384,49.78,0.0,0.0, , 
+13,Jae Crowder,PF,MIL@MIA,MIA,33.33,$6250,$5300,$950,25.12,0.0,0.0, , 
+7,Bam Adebayo,C,MIL@MIA,MIA,45.31,$8496,$8000,$496,40.74,0.0,0.0, , 
+27,JaVale McGee,C,HOU@LAL,LAL,15.52,$2910,$3500,-$590,17.94,0.0,0.0, , 
