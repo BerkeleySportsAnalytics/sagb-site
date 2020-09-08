@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-22,Gary Harris,SG,LAC@DEN,DEN,19.45,$3647,$4100,-$453,20.0,0.0,0.0, , 
-16,Jerami Grant,SF/PF,LAC@DEN,DEN,23.28,$4364,$5200,-$836,21.44,0.0,0.0, , 
-11,Marcus Smart,PG/SG,BOS@TOR,BOS,37.0,$6938,$6500,$438,29.09,0.0,0.0, , 
-5,Kyle Lowry,PG,BOS@TOR,TOR,51.66,$9685,$8200,$1485,40.93,0.0,0.0, , 
-7,Kemba Walker,PG,BOS@TOR,BOS,37.84,$7095,$8000,-$905,36.09,0.0,0.0, , 
-15,Daniel Theis,PF/C,BOS@TOR,BOS,29.3,$5494,$5400,$94,23.64,0.0,0.0, , 
-6,Pascal Siakam,PF,BOS@TOR,TOR,38.9,$7293,$8100,-$807,40.75,0.0,0.0, , 
-20,Montrezl Harrell,C,LAC@DEN,LAC,27.76,$5205,$4500,$705,31.13,0.0,0.0, , 
+17,Duncan Robinson,SG/SF,MIA@MIL,MIA,36.07,$6762,$4700,$2062,22.22,0.7678299176219829,0.0, , 
+29,Andre Iguodala,SF,MIA@MIL,MIA,20.37,$3820,$3400,$420,15.01,0.5494975467696227,0.0, , 
+27,Donte DiVincenzo,PG/SG,MIA@MIL,MIL,27.87,$5226,$3500,$1726,20.87,0.0,0.0, , 
+32,Kendrick Nunn,PG/SG,MIA@MIL,MIA,27.1,$5082,$3200,$1882,24.62,0.0,0.2263291963921517, , 
+0,LeBron James,PG/SF,LAL@HOU,LAL,69.99,$13123,$11200,$1923,54.98,0.0,0.0,GTD,Groin
+1,Giannis Antetokounmpo,PF,MIA@MIL,MIL,61.44,$11520,$11100,$420,58.9,0.0,0.0,GTD,Ankle
+4,Bam Adebayo,C,MIA@MIL,MIA,45.31,$8496,$8700,-$204,41.03,0.0,0.0, , 
+34,JaVale McGee,C,LAL@HOU,LAL,15.52,$2910,$3200,-$290,17.67,0.0,0.0,GTD,Ankle
