@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-2,James Harden,SG,LAL@HOU,HOU,60.42,$12083,$10800,$1283,56.75, , ,0.0,0.0
-14,Duncan Robinson,SG,MIA@MIL,MIA,34.67,$6933,$5300,$1633,20.64, , ,0.7678299176219829,0.0
-1,LeBron James,SF,LAL@HOU,LAL,67.33,$13467,$11100,$2367,51.12,GTD,Groin,0.0,0.0
-16,Jae Crowder,SF,MIA@MIL,MIA,32.66,$6531,$5100,$1431,24.7, , ,0.0,0.0
-15,Eric Bledsoe,PG,MIA@MIL,MIL,29.97,$5994,$5200,$794,30.2, , ,0.0,0.0
-22,Donte DiVincenzo,PG,MIA@MIL,MIL,27.12,$5423,$4500,$923,21.93, , ,0.0,0.0
-5,Bam Adebayo,PF,MIA@MIL,MIA,46.44,$9288,$8500,$788,39.89, , ,0.0,0.0
-20,Kyle Kuzma,PF,LAL@HOU,LAL,24.81,$4962,$4600,$362,21.32, , ,0.0,0.0
-25,Kelly Olynyk,C,MIA@MIL,MIA,19.45,$3890,$4200,-$310,18.24,GTD,Knee,0.0,4.517480963617509
+6,Paul George,SG,LAC@DEN,LAC,32.28,$6456,$8200,-$1744,37.0, , ,1.0793291027060334,0.0
+12,Marcus Smart,SG,TOR@BOS,BOS,35.88,$7176,$5700,$1476,29.49, , ,0.0,0.0
+7,Pascal Siakam,SF,TOR@BOS,TOR,36.9,$7379,$8000,-$621,39.78, , ,0.0,0.0
+9,Jaylen Brown,SF,TOR@BOS,BOS,31.51,$6302,$7800,-$1498,33.38, , ,0.0,0.0
+3,Kyle Lowry,PG,TOR@BOS,TOR,48.55,$9711,$8900,$811,39.13, , ,0.0,0.0
+25,Reggie Jackson,PG,LAC@DEN,LAC,22.88,$4575,$4200,$375,21.69, , ,0.0,0.0
+11,Serge Ibaka,PF,TOR@BOS,TOR,30.53,$6107,$5800,$307,29.38,GTD,Ankle,0.0,0.0
+13,Daniel Theis,PF,TOR@BOS,BOS,31.55,$6311,$5600,$711,24.43, , ,0.0,0.0
+19,Montrezl Harrell,C,LAC@DEN,LAC,29.1,$5819,$5000,$819,33.23, , ,0.0,0.0

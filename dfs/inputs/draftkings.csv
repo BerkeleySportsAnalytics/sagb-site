@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-16,Duncan Robinson,SG/SF,MIA@MIL,MIA,36.07,$6762,$4700,$2062,22.22,0.7678299176219829,0.0, , 
-28,Andre Iguodala,SF,MIA@MIL,MIA,20.37,$3820,$3400,$420,15.01,0.5494975467696227,0.0, , 
-26,Donte DiVincenzo,PG/SG,MIA@MIL,MIL,27.87,$5226,$3500,$1726,20.87,0.0,0.0, , 
-0,LeBron James,PG/SF,LAL@HOU,LAL,69.99,$13123,$11200,$1923,54.98,0.0,0.0,GTD,Groin
-6,Russell Westbrook,PG,LAL@HOU,HOU,47.91,$8984,$8400,$584,49.45,0.0,0.0, , 
-12,Jae Crowder,PF,MIA@MIL,MIA,33.33,$6250,$5800,$450,25.32,0.0,0.0, , 
-3,Bam Adebayo,C,MIA@MIL,MIA,45.31,$8496,$8700,-$204,41.03,0.0,0.0, , 
-32,JaVale McGee,C,LAL@HOU,LAL,15.52,$2910,$3200,-$290,17.67,0.0,0.0,GTD,Ankle
+4,Paul George,SG,LAC@DEN,LAC,33.81,$6339,$8500,-$2161,38.41,1.0793291027060334,0.0, , 
+16,Jerami Grant,SF/PF,LAC@DEN,DEN,23.28,$4364,$5100,-$736,21.36,0.0,0.0, , 
+11,Marcus Smart,PG/SG,TOR@BOS,BOS,37.0,$6938,$6500,$438,29.12,0.0,0.0, , 
+5,Kyle Lowry,PG,TOR@BOS,TOR,51.66,$9685,$8200,$1485,40.66,0.0,0.0, , 
+29,Reggie Jackson,PG,LAC@DEN,LAC,23.57,$4420,$3300,$1120,20.71,0.0,0.0, , 
+15,Daniel Theis,PF/C,TOR@BOS,BOS,29.3,$5494,$5400,$94,23.73,0.0,0.0, , 
+7,Pascal Siakam,PF,TOR@BOS,TOR,38.9,$7293,$7800,-$507,40.4,0.0,0.0, , 
+21,Montrezl Harrell,C,LAC@DEN,LAC,27.76,$5205,$4400,$805,30.95,0.0,0.0, , 
