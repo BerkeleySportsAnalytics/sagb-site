@@ -1,21 +1,21 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "cant-stand-the-heat.html";
-article2 = "is-injury-prediction-the-next-moneyball.html";
-article3 = "clayton-kershaw-playoff-choker.html";
-article4 = "jeopardy-to-vegas.html";
-article5 = "speed-kills.html";
+article1 = "heliocentricity.html";
+article2 = "redefined-wild-card.html";
+article3 = "bubble-basketball.html";
+article4 = "three-point-puzzle.html";
+article5 = "shooting-precentages.html";
 article6 = "weight-theres-more.html";
 article7 = "new-age-moneyball.html";
 article8 = "point-centers.html";
 article9 = "patriots-historical-domination.html";
 
-title1 = "Can't Stand the Heat?";
-title2 = "Is Injury Prediction the Next Moneyball?";
-title3 = "Clayton Kershaw: Playoff Choker?";
-title4 = "America's Game Goes to Vegas: How to bet on the Jeopardy! GOAT";
-title5 = "Speed Kills?";
+title1 = "Heliocentricity in the NBA";
+title2 = "Let the Kids Play: Exploring the Benefits of an Expanded MLB Postseason and Redefined Wild Card Series";
+title3 = "Bubble Basketball: A Brand New Game";
+title4 = "The Three Point Puzzle";
+title5 = "The NBA Bubble and Shooting Percentages";
 title6 = "But Weight, There’s More";
 title7 = "New-Age Moneyball: Breaking Down How Two Low-Budget Teams Made the American League Wild Card Game";
 title8 = "Point Centers, a New Breed in the NBA";
