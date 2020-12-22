@@ -1,29 +1,29 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "weight-theres-more";
-article2 = "nba-free-agency-2016";
-article3 = "mlb-names";
+article1 = "covid-small-ball";
+article2 = "running-qb";
+article3 = "let-the-kids-play";
 
-title1 = "But Weight, There’s More";
-title2 = "Blew it All on Luol? Turned off by Mozgov?: Statistical Analysis of 2016 NBA Free Agency";
-title3 = "Finding the Most \"Baseball Sounding\" Name, Analytically";
+title1 = "Did COVID Bring Small-ball Back to Life?";
+title2 = "Running Quarterbacks: An Advantage or Unsustainable?";
+title3 = "Let the Kids Play?";
 
-date1 = "October 31, 2019";
-date2 = "October 31, 2019";
-date3 = "February 5, 2018";
+date1 = "November 29, 2020";
+date2 = "November 29, 2020";
+date3 = "November 29, 2020";
 
-excerpt1 = "The debut of the UFC in 1993 saw fighters of any and all weights matching up.";
-excerpt2 = "Looking back on the 2016 NBA summer free agency...";
-excerpt3 = "There are so many things to talk about for each player, but I have just one thing in mind. Their names.";
+excerpt1 = "Due to the COVID-19 pandemic, Major League Baseball instituted several new rules in order for its 60-game season to be played while keeping its players healthy. ";
+excerpt2 = "It is no secret that there has been a shift in the style of play at the quarterback position.";
+excerpt3 = "If you watched any baseball on TV over the last few years you’ve probably seen some variation on the MLB’s “Let the Kids Play” ad campaign.";
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";
 file2 = folder == "down" ? "articles/"+article2+".html" : article2+".html";
 file3 = folder == "down" ? "articles/"+article3+".html" : article3+".html";
 
-im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/main.jpg` : `../images/dj-pics/`+article1+`/main.jpg`;
-im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/main.jpg` : `../images/dj-pics/`+article2+`/main.jpg`;
-im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/main.jpg` : `../images/dj-pics/`+article3+`/main.jpg`;
+im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/Picture1.png` : `../images/dj-pics/`+article1+`/Picture1.png`;
+im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/Picture1.png` : `../images/dj-pics/`+article2+`/Picture1.png `;
+im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/Picture1.png` : `../images/dj-pics/`+article3+`/Picture1.png`;
 
 all_articles = folder == "down" ? `all-articles-1.html` : `../all-articles-1.html`
 
