@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
 14,Devin Booker,SG,DAL@PHO,PHO,36.94,$7388,$8400,-$1012,40.14, , ,0.0,0.0
-77,Eric Bledsoe,SG,NO@TOR,NO,30.67,$6134,$5600,$534,30.2, , ,0.0,0.0
+76,Eric Bledsoe,SG,NO@TOR,NO,30.67,$6134,$5600,$534,30.2, , ,0.0,0.0
 0,Giannis Antetokounmpo,SF,MIL@BOS,MIL,43.51,$8703,$11500,-$2797,56.58, , ,0.0,0.0
-307,Josh Jackson,SF,DET@MIN,DET,32.88,$6576,$3500,$3076,17.4, , ,0.0,0.0
+305,Josh Jackson,SF,DET@MIN,DET,32.88,$6576,$3500,$3076,17.4, , ,0.0,0.0
 3,Russell Westbrook,PG,WAS@PHI,WAS,53.34,$10668,$9900,$768,48.15, , ,0.0,0.0
-42,John Wall,PG,OKC@HOU,HOU,39.12,$7823,$7000,$823,0.0, , ,0.0,0.0
-98,Paul Millsap,PF,SAC@DEN,DEN,35.62,$7125,$4900,$2225,23.9, , ,0.08179446227196044,0.0
-210,James Johnson,PF,DAL@PHO,DAL,26.81,$5361,$3600,$1761,20.17, , ,0.0,0.0
-78,Hassan Whiteside,C,SAC@DEN,SAC,36.91,$7381,$5600,$1781,41.63, , ,0.7810536430160036,0.0
+56,Mike Conley,PG,UTA@POR,UTA,33.55,$6710,$6300,$410,24.98, , ,0.6644841451177907,0.0
+97,Paul Millsap,PF,SAC@DEN,DEN,35.62,$7125,$4900,$2225,23.9, , ,0.08179446227196044,0.0
+208,James Johnson,PF,DAL@PHO,DAL,26.81,$5361,$3600,$1761,20.17, , ,0.0,0.0
+77,Hassan Whiteside,C,SAC@DEN,SAC,36.91,$7381,$5600,$1781,41.63, , ,0.7810536430160036,0.0
