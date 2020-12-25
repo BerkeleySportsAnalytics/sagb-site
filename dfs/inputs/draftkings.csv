@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-10,Devin Booker,SG,DAL@PHO,PHO,38.57,$7232,$8900,-$1668,42.96,0.0,0.0, , 
-30,DeMar DeRozan,SF,SA@MEM ,SA,36.27,$6802,$7300,-$498,39.06,0.7220975974998681,0.0, , 
-330,Josh Jackson,SF,DET@MIN,DET,33.21,$6227,$3000,$3227,17.48,0.0,0.0, , 
-76,Eric Bledsoe,PG/SG,NO@TOR ,NO,31.78,$5958,$5600,$358,30.73,0.0,0.0, , 
-7,Russell Westbrook,PG,WAS@PHI,WAS,55.0,$10312,$9300,$1012,49.05,0.0,0.0, , 
-38,Chris Paul,PG,DAL@PHO,PHO,35.27,$6612,$7000,-$388,37.8,0.0,0.0,GTD,Ankle
-99,Paul Millsap,PF/C,SAC@DEN,DEN,36.12,$6773,$5000,$1773,22.34,0.08179446227196044,0.0, , 
-172,Hassan Whiteside,C,SAC@DEN,SAC,35.65,$6684,$3800,$2884,39.2,0.7810536430160036,0.0, , 
+7,Paul George,SG,LAC@DEN,LAC,38.68,$7252,$8700,-$1448,38.32,0.0,0.0, , 
+60,James Johnson,SF/PF,DAL@LAL,DAL,26.99,$5060,$4000,$1060,19.84,0.0,0.0, , 
+42,Josh Hart,SF,NO@MIA ,NO,27.01,$5064,$4700,$364,23.99,1.4451032600332223,0.0, , 
+22,Dennis Schroder,PG/SG,DAL@LAL,LAL,32.18,$6035,$6300,-$265,30.74,0.0,0.0, , 
+27,Eric Bledsoe,PG/SG,NO@MIA ,NO,31.78,$5958,$5600,$358,30.73,0.0,0.0, , 
+33,Goran Dragic,PG,NO@MIA ,MIA,29.82,$5592,$5300,$292,30.16,0.0,0.0, , 
+2,Anthony Davis,PF/C,DAL@LAL,LAL,43.51,$8159,$10300,-$2141,50.26,0.0,0.0,GTD,Calf
+39,Paul Millsap,PF/C,LAC@DEN,DEN,36.12,$6773,$4900,$1873,22.34,0.08179446227196044,0.0, , 

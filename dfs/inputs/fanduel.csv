@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-14,Devin Booker,SG,DAL@PHO,PHO,36.94,$7388,$8400,-$1012,40.14, , ,0.0,0.0
-76,Eric Bledsoe,SG,NO@TOR,NO,30.67,$6134,$5600,$534,30.2, , ,0.0,0.0
-0,Giannis Antetokounmpo,SF,MIL@BOS,MIL,43.51,$8703,$11500,-$2797,56.58, , ,0.0,0.0
-305,Josh Jackson,SF,DET@MIN,DET,32.88,$6576,$3500,$3076,17.4, , ,0.0,0.0
-3,Russell Westbrook,PG,WAS@PHI,WAS,53.34,$10668,$9900,$768,48.15, , ,0.0,0.0
-56,Mike Conley,PG,UTA@POR,UTA,33.55,$6710,$6300,$410,24.98, , ,0.6644841451177907,0.0
-97,Paul Millsap,PF,SAC@DEN,DEN,35.62,$7125,$4900,$2225,23.9, , ,0.08179446227196044,0.0
-208,James Johnson,PF,DAL@PHO,DAL,26.81,$5361,$3600,$1761,20.17, , ,0.0,0.0
-77,Hassan Whiteside,C,SAC@DEN,SAC,36.91,$7381,$5600,$1781,41.63, , ,0.7810536430160036,0.0
+11,Paul George,SG,LAC@DEN,LAC,37.98,$7596,$7600,-$4,42.7, , ,0.0,0.0
+17,Andrew Wiggins,SG,GS@MIL,GS,33.0,$6599,$6600,-$1,15.9, , ,0.0,0.0
+30,Will Barton,SF,LAC@DEN,DEN,24.4,$4880,$5200,-$320,33.4, , ,0.0,1.3309934353196018
+87,Nicolas Batum,SF,LAC@DEN,LAC,24.25,$4851,$3500,$1351,24.2, , ,0.0,0.0
+1,Luka Doncic,PG,DAL@LAL,DAL,37.36,$7472,$11300,-$3828,48.1, , ,0.0,0.0
+20,Goran Dragic,PG,NO@MIA,MIA,28.92,$5783,$6400,-$617,37.3, , ,0.0,0.0
+2,Anthony Davis,PF,DAL@LAL,LAL,44.45,$8890,$10600,-$1710,25.4,GTD,Calf,0.0,0.0
+33,Paul Millsap,PF,LAC@DEN,DEN,35.62,$7125,$4900,$2225,27.9, , ,0.08179446227196044,0.0
+56,Marc Gasol,C,DAL@LAL,LAL,31.8,$6360,$3800,$2560,1.7, , ,0.0,0.0
