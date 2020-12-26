@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-7,Paul George,SG,LAC@DEN,LAC,38.68,$7252,$8700,-$1448,38.32,0.0,0.0, , 
-60,James Johnson,SF/PF,DAL@LAL,DAL,26.99,$5060,$4000,$1060,19.84,0.0,0.0, , 
-42,Josh Hart,SF,NO@MIA ,NO,27.01,$5064,$4700,$364,23.99,1.4451032600332223,0.0, , 
-22,Dennis Schroder,PG/SG,DAL@LAL,LAL,32.18,$6035,$6300,-$265,30.74,0.0,0.0, , 
-27,Eric Bledsoe,PG/SG,NO@MIA ,NO,31.78,$5958,$5600,$358,30.73,0.0,0.0, , 
-33,Goran Dragic,PG,NO@MIA ,MIA,29.82,$5592,$5300,$292,30.16,0.0,0.0, , 
-2,Anthony Davis,PF/C,DAL@LAL,LAL,43.51,$8159,$10300,-$2141,50.26,0.0,0.0,GTD,Calf
-39,Paul Millsap,PF/C,LAC@DEN,DEN,36.12,$6773,$4900,$1873,22.34,0.08179446227196044,0.0, , 
+130,Malik Monk,SG,OKC@CHA,CHA,24.49,$4592,$3800,$792,18.28,1.4805983338600142,0.0, , 
+17,DeMar DeRozan,SF/PF,TOR@SA ,SA,42.28,$7928,$8000,-$72,39.06,0.7220975974998681,0.0, , 
+97,Patrick Williams,SF/PF,IND@CHI,CHI,25.59,$4797,$4500,$297,0.0,0.0,0.0, , 
+99,Josh Jackson,SF,CLE@DET,DET,37.0,$6938,$4500,$2438,17.48,0.0,0.0, , 
+13,Donovan Mitchell,PG/SG,MIN@UTA,UTA,38.66,$7250,$8400,-$1150,39.59,0.0,0.0, , 
+1,Russell Westbrook,PG,ORL@WAS,WAS,56.63,$10618,$10300,$318,49.05,0.0,0.0,GTD,Rest
+42,Mike Conley,PG,MIN@UTA,UTA,35.31,$6621,$6500,$121,27.69,0.6644841451177907,0.0, , 
+125,Hassan Whiteside,C,PHO@SAC,SAC,31.4,$5888,$4000,$1888,39.2,0.7810536430160036,0.0, , 

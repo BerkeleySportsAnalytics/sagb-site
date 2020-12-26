@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-11,Paul George,SG,LAC@DEN,LAC,37.98,$7596,$7600,-$4,42.7, , ,0.0,0.0
-17,Andrew Wiggins,SG,GS@MIL,GS,33.0,$6599,$6600,-$1,15.9, , ,0.0,0.0
-30,Will Barton,SF,LAC@DEN,DEN,24.4,$4880,$5200,-$320,33.4, , ,0.0,1.3309934353196018
-87,Nicolas Batum,SF,LAC@DEN,LAC,24.25,$4851,$3500,$1351,24.2, , ,0.0,0.0
-1,Luka Doncic,PG,DAL@LAL,DAL,37.36,$7472,$11300,-$3828,48.1, , ,0.0,0.0
-20,Goran Dragic,PG,NO@MIA,MIA,28.92,$5783,$6400,-$617,37.3, , ,0.0,0.0
-2,Anthony Davis,PF,DAL@LAL,LAL,44.45,$8890,$10600,-$1710,25.4,GTD,Calf,0.0,0.0
-33,Paul Millsap,PF,LAC@DEN,DEN,35.62,$7125,$4900,$2225,27.9, , ,0.08179446227196044,0.0
-56,Marc Gasol,C,DAL@LAL,LAL,31.8,$6360,$3800,$2560,1.7, , ,0.0,0.0
+8,DeMar DeRozan,SG,TOR@SA,SA,41.42,$8284,$8300,-$16,57.3, , ,0.7220975974998681,0.0
+13,Devin Booker,SG,PHO@SAC,PHO,40.48,$8097,$7900,$197,30.5, , ,0.0,0.0
+55,Rudy Gay,SF,TOR@SA,SA,30.36,$6073,$5600,$473,27.9, , ,0.3866092181657726,0.0
+94,Josh Jackson,SF,CLE@DET,DET,36.71,$7342,$4400,$2942,30.2, , ,0.0,0.0
+1,Russell Westbrook,PG,ORL@WAS,WAS,54.0,$10801,$10000,$801,50.7,GTD,Rest,0.0,0.0
+42,Mike Conley,PG,MIN@UTA,UTA,34.45,$6890,$6200,$690,22.6, , ,0.6644841451177907,0.0
+29,Aaron Gordon,PF,ORL@WAS,ORL,31.39,$6277,$6900,-$623,38.4, , ,0.0,0.0
+53,Robert Covington,PF,HOU@POR,POR,28.23,$5647,$5600,$47,13.3, , ,0.0,0.0
+67,Hassan Whiteside,C,PHO@SAC,SAC,31.69,$6338,$5000,$1338,17.3, , ,0.7810536430160036,0.0
