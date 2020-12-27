@@ -1,10 +1,9 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-8,DeMar DeRozan,SG,TOR@SA,SA,41.42,$8284,$8300,-$16,57.3, , ,0.7220975974998681,0.0
-13,Devin Booker,SG,PHO@SAC,PHO,40.48,$8097,$7900,$197,30.5, , ,0.0,0.0
-55,Rudy Gay,SF,TOR@SA,SA,30.36,$6073,$5600,$473,27.9, , ,0.3866092181657726,0.0
-94,Josh Jackson,SF,CLE@DET,DET,36.71,$7342,$4400,$2942,30.2, , ,0.0,0.0
-1,Russell Westbrook,PG,ORL@WAS,WAS,54.0,$10801,$10000,$801,50.7,GTD,Rest,0.0,0.0
-42,Mike Conley,PG,MIN@UTA,UTA,34.45,$6890,$6200,$690,22.6, , ,0.6644841451177907,0.0
-29,Aaron Gordon,PF,ORL@WAS,ORL,31.39,$6277,$6900,-$623,38.4, , ,0.0,0.0
-53,Robert Covington,PF,HOU@POR,POR,28.23,$5647,$5600,$47,13.3, , ,0.0,0.0
-67,Hassan Whiteside,C,PHO@SAC,SAC,31.69,$6338,$5000,$1338,17.3, , ,0.7810536430160036,0.0
+16,DeMar DeRozan,SG,SA@NO,SA,39.88,$7976,$8100,-$124,53.15, , ,0.7220975974998681,0.0
+2,LeBron James,SF,MIN@LAL,LAL,45.84,$9168,$10800,-$1632,37.95,GTD,Ankle,0.0,0.0
+94,Patrick Williams,SF,GS@CHI,CHI,27.73,$5546,$4500,$1046,20.1, , ,0.0,0.0
+1,Russell Westbrook,PG,ORL@WAS,WAS,50.71,$10143,$11200,-$1057,51.35, , ,0.0,0.0
+13,Stephen Curry,PG,GS@CHI,GS,38.36,$7673,$8300,-$627,38.3, , ,0.0,0.0
+103,Kyle Kuzma,PF,MIN@LAL,LAL,27.22,$5444,$4200,$1244,20.2, , ,0.0,0.3331746744690814
+126,Jabari Parker,PF,PHO@SAC,SAC,27.82,$5565,$3800,$1765,26.55, , ,0.0,0.0
+77,James Wiseman,C,GS@CHI,GS,29.94,$5988,$5000,$988,32.9, , ,0.0,0.0

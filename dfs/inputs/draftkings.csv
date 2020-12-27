@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-130,Malik Monk,SG,OKC@CHA,CHA,24.49,$4592,$3800,$792,18.28,1.4805983338600142,0.0, , 
-17,DeMar DeRozan,SF/PF,TOR@SA ,SA,42.28,$7928,$8000,-$72,39.06,0.7220975974998681,0.0, , 
-97,Patrick Williams,SF/PF,IND@CHI,CHI,25.59,$4797,$4500,$297,0.0,0.0,0.0, , 
-99,Josh Jackson,SF,CLE@DET,DET,37.0,$6938,$4500,$2438,17.48,0.0,0.0, , 
-13,Donovan Mitchell,PG/SG,MIN@UTA,UTA,38.66,$7250,$8400,-$1150,39.59,0.0,0.0, , 
-1,Russell Westbrook,PG,ORL@WAS,WAS,56.63,$10618,$10300,$318,49.05,0.0,0.0,GTD,Rest
-42,Mike Conley,PG,MIN@UTA,UTA,35.31,$6621,$6500,$121,27.69,0.6644841451177907,0.0, , 
-125,Hassan Whiteside,C,PHO@SAC,SAC,31.4,$5888,$4000,$1888,39.2,0.7810536430160036,0.0, , 
+47,Andrew Wiggins,SG/SF,GS@CHI ,GS,35.74,$6702,$6300,$402,0,0.0,0.0, , 
+26,DeMar DeRozan,SF/PF,SA@NO 1,SA,40.58,$7609,$7300,$309,0,0.7220975974998681,0.0, , 
+63,Eric Bledsoe,PG/SG,SA@NO 1,NO,30.12,$5647,$5800,-$153,0,0.0,0.0, , 
+2,LeBron James,PG/SF,MIN@LAL,LAL,46.19,$8661,$10000,-$1339,0,0.0,0.0,GTD,Ankle
+4,Russell Westbrook,PG,ORL@WAS,WAS,52.86,$9911,$9700,$211,0,0.0,0.0, , 
+249,Jabari Parker,PF,PHO@SAC,SAC,28.28,$5302,$3000,$2302,0,0.0,0.0, , 
+119,Marc Gasol,C,MIN@LAL,LAL,26.9,$5043,$4100,$943,0,0.0,0.0, , 
+141,Hassan Whiteside,C,PHO@SAC,SAC,26.73,$5012,$3700,$1312,0,0.7810536430160036,0.0, , 
