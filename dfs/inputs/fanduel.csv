@@ -1,9 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-16,DeMar DeRozan,SG,SA@NO,SA,39.88,$7976,$8100,-$124,53.15, , ,0.7220975974998681,0.0
-2,LeBron James,SF,MIN@LAL,LAL,45.84,$9168,$10800,-$1632,37.95,GTD,Ankle,0.0,0.0
-94,Patrick Williams,SF,GS@CHI,CHI,27.73,$5546,$4500,$1046,20.1, , ,0.0,0.0
-1,Russell Westbrook,PG,ORL@WAS,WAS,50.71,$10143,$11200,-$1057,51.35, , ,0.0,0.0
-13,Stephen Curry,PG,GS@CHI,GS,38.36,$7673,$8300,-$627,38.3, , ,0.0,0.0
-103,Kyle Kuzma,PF,MIN@LAL,LAL,27.22,$5444,$4200,$1244,20.2, , ,0.0,0.3331746744690814
-126,Jabari Parker,PF,PHO@SAC,SAC,27.82,$5565,$3800,$1765,26.55, , ,0.0,0.0
-77,James Wiseman,C,GS@CHI,GS,29.94,$5988,$5000,$988,32.9, , ,0.0,0.0
+9,Bradley Beal,SG,ORL@WAS,WAS,37.13,$7427,$8500,-$1073,50.4, , ,0.0,0.0
+14,DeMar DeRozan,SG,SA@NO,SA,39.88,$7976,$8100,-$124,53.15, , ,0.7220975974998681,0.0
+1,LeBron James,SF,MIN@LAL,LAL,45.84,$9168,$10800,-$1632,37.95,GTD,Ankle,0.0,0.0
+92,Patrick Williams,SF,GS@CHI,CHI,27.73,$5546,$4500,$1046,20.1, , ,0.0,0.0
+11,Stephen Curry,PG,GS@CHI,GS,38.36,$7673,$8300,-$627,38.3, , ,0.0,0.0
+31,Chris Paul,PG,PHO@SAC,PHO,32.22,$6444,$6800,-$356,39.15, , ,0.0,0.0
+101,Kyle Kuzma,PF,MIN@LAL,LAL,27.22,$5444,$4200,$1244,20.2, , ,0.0,0.3331746744690814
+124,Jabari Parker,PF,PHO@SAC,SAC,27.82,$5565,$3800,$1765,26.55, , ,0.0,0.0
+75,James Wiseman,C,GS@CHI,GS,29.94,$5988,$5000,$988,32.9, , ,0.0,0.0
