@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-9,Bradley Beal,SG,ORL@WAS,WAS,37.13,$7427,$8500,-$1073,50.4, , ,0.0,0.0
-14,DeMar DeRozan,SG,SA@NO,SA,39.88,$7976,$8100,-$124,53.15, , ,0.7220975974998681,0.0
-1,LeBron James,SF,MIN@LAL,LAL,45.84,$9168,$10800,-$1632,37.95,GTD,Ankle,0.0,0.0
-92,Patrick Williams,SF,GS@CHI,CHI,27.73,$5546,$4500,$1046,20.1, , ,0.0,0.0
-11,Stephen Curry,PG,GS@CHI,GS,38.36,$7673,$8300,-$627,38.3, , ,0.0,0.0
-31,Chris Paul,PG,PHO@SAC,PHO,32.22,$6444,$6800,-$356,39.15, , ,0.0,0.0
-101,Kyle Kuzma,PF,MIN@LAL,LAL,27.22,$5444,$4200,$1244,20.2, , ,0.0,0.3331746744690814
-124,Jabari Parker,PF,PHO@SAC,SAC,27.82,$5565,$3800,$1765,26.55, , ,0.0,0.0
-75,James Wiseman,C,GS@CHI,GS,29.94,$5988,$5000,$988,32.9, , ,0.0,0.0
+0,James Harden,SG,HOU@DEN,HOU,44.0,$8799,$11500,-$2701,73.3, , ,0.0,0.0
+20,Dennis Schroder,SG,POR@LAL,LAL,30.9,$6179,$6000,$179,28.87, , ,0.0,0.0
+32,Danilo Gallinari,SF,DET@ATL,ATL,24.78,$4957,$4900,$57,19.3,GTD,Foot,0.0,0.0
+43,Josh Jackson,SF,DET@ATL,DET,33.65,$6730,$4300,$2430,25.15, , ,0.0,0.0
+3,Trae Young,PG,DET@ATL,ATL,38.75,$7750,$9800,-$2050,50.9, , ,0.0,0.0
+50,Rajon Rondo,PG,DET@ATL,ATL,31.23,$6246,$4200,$2046,18.9, , ,0.0,0.0
+1,Anthony Davis,PF,POR@LAL,LAL,42.19,$8438,$10200,-$1762,37.25,GTD,Calf,0.0,0.0
+36,Paul Millsap,PF,HOU@DEN,DEN,33.93,$6787,$4500,$2287,18.55, , ,0.08179446227196044,0.0
+65,Marc Gasol,C,POR@LAL,LAL,28.73,$5746,$3800,$1946,18.3, , ,0.0,0.0
