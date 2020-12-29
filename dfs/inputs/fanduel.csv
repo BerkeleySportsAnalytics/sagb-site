@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,James Harden,SG,HOU@DEN,HOU,44.0,$8799,$11500,-$2701,73.3, , ,0.0,0.0
-20,Dennis Schroder,SG,POR@LAL,LAL,30.9,$6179,$6000,$179,28.87, , ,0.0,0.0
-32,Danilo Gallinari,SF,DET@ATL,ATL,24.78,$4957,$4900,$57,19.3,GTD,Foot,0.0,0.0
-43,Josh Jackson,SF,DET@ATL,DET,33.65,$6730,$4300,$2430,25.15, , ,0.0,0.0
-3,Trae Young,PG,DET@ATL,ATL,38.75,$7750,$9800,-$2050,50.9, , ,0.0,0.0
-50,Rajon Rondo,PG,DET@ATL,ATL,31.23,$6246,$4200,$2046,18.9, , ,0.0,0.0
-1,Anthony Davis,PF,POR@LAL,LAL,42.19,$8438,$10200,-$1762,37.25,GTD,Calf,0.0,0.0
-36,Paul Millsap,PF,HOU@DEN,DEN,33.93,$6787,$4500,$2287,18.55, , ,0.08179446227196044,0.0
-65,Marc Gasol,C,POR@LAL,LAL,28.73,$5746,$3800,$1946,18.3, , ,0.0,0.0
+22,Paul George,SG,MIN@LAC,LAC,33.29,$6658,$7600,-$942,33.87, , ,0.0,0.0
+113,Avery Bradley,SG,MIL@MIA,MIA,26.45,$5290,$4000,$1290,24.4, , ,0.6940545609735865,0.0
+70,T.J. Warren,SF,BOS@IND,IND,27.84,$5568,$5100,$468,22.63, , ,0.0,0.0
+99,Josh Jackson,SF,GS@DET,DET,33.1,$6620,$4300,$2320,30.03, , ,0.0,0.0
+1,Russell Westbrook,PG,CHI@WAS,WAS,41.77,$8354,$10600,-$2246,51.35, , ,0.0,0.0
+27,Chris Paul,PG,NO@PHO,PHO,36.24,$7248,$7300,-$52,35.7, , ,0.0,0.0
+0,Giannis Antetokounmpo,PF,MIL@MIA,MIL,46.23,$9246,$11000,-$1754,47.77, , ,0.0,0.0
+84,Paul Millsap,PF,DEN@SAC,DEN,30.09,$6017,$4500,$1517,19.4, , ,0.08179446227196044,0.0
+66,Serge Ibaka,C,MIN@LAC,LAC,30.34,$6068,$5400,$668,24.97, , ,0.21241426166237487,0.0
