@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Paul George,SG,MIN@LAC,LAC,33.29,$6658,$7600,-$942,33.87, , ,0.0,0.0
-113,Avery Bradley,SG,MIL@MIA,MIA,26.45,$5290,$4000,$1290,24.4, , ,0.6940545609735865,0.0
-70,T.J. Warren,SF,BOS@IND,IND,27.84,$5568,$5100,$468,22.63, , ,0.0,0.0
-99,Josh Jackson,SF,GS@DET,DET,33.1,$6620,$4300,$2320,30.03, , ,0.0,0.0
-1,Russell Westbrook,PG,CHI@WAS,WAS,41.77,$8354,$10600,-$2246,51.35, , ,0.0,0.0
-27,Chris Paul,PG,NO@PHO,PHO,36.24,$7248,$7300,-$52,35.7, , ,0.0,0.0
-0,Giannis Antetokounmpo,PF,MIL@MIA,MIL,46.23,$9246,$11000,-$1754,47.77, , ,0.0,0.0
-84,Paul Millsap,PF,DEN@SAC,DEN,30.09,$6017,$4500,$1517,19.4, , ,0.08179446227196044,0.0
-66,Serge Ibaka,C,MIN@LAC,LAC,30.34,$6068,$5400,$668,24.97, , ,0.21241426166237487,0.0
+23,Jimmy Butler,SG,OKC@MIA,MIA,33.12,$6623,$7700,-$1077,26.8, , ,0.0,0.0
+43,Andrew Wiggins,SG,SAC@GS,GS,31.47,$6293,$6300,-$7,31.08, , ,0.0,0.0
+20,Gordon Hayward,SF,CHA@PHI,CHA,30.16,$6032,$7900,-$1868,36.12, , ,0.20981249315445188,0.0
+71,Josh Jackson,SF,DET@MIL,DET,31.95,$6390,$5200,$1190,27.07,GTD,Ankle,0.0,0.0
+12,John Wall,PG,DAL@HOU,HOU,41.43,$8286,$8500,-$214,47.75, , ,0.0,0.0
+225,Dennis Smith,PG,NY@ATL,NY,27.76,$5552,$3500,$2052,11.4,GTD,Quadriceps,0.3611537059763535,0.0
+0,Giannis Antetokounmpo,PF,DET@MIL,MIL,43.82,$8763,$11400,-$2637,50.92, , ,0.0,0.0
+75,Draymond Green,PF,SAC@GS,GS,30.9,$6180,$5000,$1180,17.2, , ,0.17970795658073102,0.0
+101,DeMarcus Cousins,C,DAL@HOU,HOU,33.31,$6662,$4100,$2562,12.95, , ,0.0,0.0
