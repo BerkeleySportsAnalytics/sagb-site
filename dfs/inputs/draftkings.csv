@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-7,Paul George,SG,SA@LAC ,LAC,37.85,$7098,$8800,-$1702,44.64,0.0,0.0, , 
-44,Rudy Gay,SF/PF,SA@LAC ,SA,26.02,$4878,$5000,-$122,24.88,0.3866092181657726,0.0, , 
-1,LeBron James,PG/SF,LAL@MEM,LAL,44.96,$8430,$10100,-$1670,48.75,0.0,0.0,GTD,Ankle
-17,Mike Conley,PG,UTA@BKN,UTA,35.56,$6668,$6900,-$232,36.33,0.6644841451177907,0.0, , 
-43,Ricky Rubio,PG,MIN@DEN,MIN,31.63,$5931,$5000,$931,18.96,0.0,0.0, , 
-49,Paul Millsap,PF/C,MIN@DEN,DEN,32.65,$6123,$4700,$1423,20.17,0.0817944622719604,0.0, , 
-42,Robert Covington,PF,CHI@POR,POR,29.45,$5522,$5100,$422,19.67,0.0,0.0, , 
-55,Marc Gasol,C,LAL@MEM,LAL,27.74,$5201,$4300,$901,18.25,0.0,0.0, , 
+92,Wesley Matthews,SG,SA@LAL ,LAL,20.69,$3879,$3200,$679,11.47,0.0,0.0, , 
+48,Rudy Gay,SF/PF,SA@LAL ,SA,31.97,$5994,$4800,$1194,25.21,0.3866092181657726,0.0, , 
+86,James Johnson,SF/PF,DAL@DEN,DAL,29.24,$5482,$3300,$2182,14.43,0.0,0.0, , 
+2,LeBron James,PG/SF,SA@LAL ,LAL,52.28,$9802,$10000,-$198,49.47,0.0,0.0,GTD,Ankle
+8,Damian Lillard,PG,MIN@POR,POR,41.39,$7761,$9300,-$1539,43.46,0.0,0.2009641775719191, , 
+41,Robert Covington,PF,MIN@POR,POR,36.42,$6829,$5300,$1529,21.0,0.0,0.0, , 
+6,Joel Embiid,C,PHI@BKN,PHI,45.82,$8592,$9500,-$908,51.43,0.0,0.0, , 
+57,Marc Gasol,C,SA@LAL ,LAL,33.56,$6292,$4400,$1892,18.09,0.0,0.0, , 
