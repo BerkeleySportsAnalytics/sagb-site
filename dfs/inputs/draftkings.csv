@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-47,Dillon Brooks,SG/SF,MEM@CLE,MEM,33.09,$6203,$6300,-$97,30.47,1.9760488331180224,0.0, , 
-2,Bradley Beal,SG,PHO@WAS,WAS,44.67,$8375,$9900,-$1525,51.69,0.0,0.0, , 
-76,Jae Crowder,SF/PF,PHO@WAS,PHO,30.3,$5681,$5200,$481,22.45,0.0,0.0, , 
-28,Chris Paul,PG,PHO@WAS,PHO,37.9,$7107,$7200,-$93,33.55,0.0,0.0, , 
-38,Aaron Gordon,PF,MIL@ORL,ORL,36.22,$6791,$6700,$91,28.75,0.0,0.0, , 
-77,Robert Covington,PF,TOR@POR,POR,32.17,$6033,$5200,$833,20.67,0.0,0.0, , 
-83,Brook Lopez,C,MIL@ORL,MIL,30.78,$5772,$4900,$872,20.6,0.0,1.0842853485955473, , 
-101,Hassan Whiteside,C,IND@SAC,SAC,37.88,$7103,$4200,$2903,15.86,0.7810536430160036,0.0, , 
+91,Josh Jackson,SG/SF,MIL@DET,DET,32.16,$6031,$4500,$1531,22.97,0.0,0.0, , 
+7,Paul George,SG,NO@LAC ,LAC,44.84,$8408,$9300,-$892,45.38,0.0,0.0, , 
+76,Cam Reddish,SG,ATL@PHO,ATL,27.06,$5073,$5000,$73,22.15,0.0,0.0, , 
+4,LeBron James,PG/SF,LAL@OKC,LAL,50.09,$9391,$9600,-$209,48.4,0.0,0.0, , 
+77,Robert Covington,PF,POR@SAC,POR,33.46,$6274,$5000,$1274,21.15,0.0,0.0, , 
+220,Jabari Parker,PF,POR@SAC,SAC,29.71,$5571,$3000,$2571,0.0,0.0,0.0, , 
+2,Karl-Anthony Towns,C,MEM@MIN,MIN,48.55,$9103,$9800,-$697,51.17,0.0,0.0,GTD,Wrist
+117,Hassan Whiteside,C,POR@SAC,SAC,36.43,$6832,$3700,$3132,15.12,0.7810536430160036,0.0, , 
