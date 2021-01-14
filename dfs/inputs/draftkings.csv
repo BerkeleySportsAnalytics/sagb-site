@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-91,Josh Jackson,SG/SF,MIL@DET,DET,32.16,$6031,$4500,$1531,22.97,0.0,0.0, , 
-7,Paul George,SG,NO@LAC ,LAC,44.84,$8408,$9300,-$892,45.38,0.0,0.0, , 
-76,Cam Reddish,SG,ATL@PHO,ATL,27.06,$5073,$5000,$73,22.15,0.0,0.0, , 
-4,LeBron James,PG/SF,LAL@OKC,LAL,50.09,$9391,$9600,-$209,48.4,0.0,0.0, , 
-77,Robert Covington,PF,POR@SAC,POR,33.46,$6274,$5000,$1274,21.15,0.0,0.0, , 
-220,Jabari Parker,PF,POR@SAC,SAC,29.71,$5571,$3000,$2571,0.0,0.0,0.0, , 
-2,Karl-Anthony Towns,C,MEM@MIN,MIN,48.55,$9103,$9800,-$697,51.17,0.0,0.0,GTD,Wrist
-117,Hassan Whiteside,C,POR@SAC,SAC,36.43,$6832,$3700,$3132,15.12,0.7810536430160036,0.0, , 
+22,Andrew Wiggins,SG/SF,GS@DEN ,GS,37.63,$7056,$6800,$256,32.16,0.0,0.0, , 
+83,Ben McLemore,SG,HOU@SA ,HOU,21.4,$4013,$3400,$613,17.58,0.0,0.0, , 
+13,DeMar DeRozan,SF/PF,HOU@SA ,SA,42.66,$8000,$8000,$0,41.61,0.7220975974998681,0.0, , 
+9,CJ McCollum,PG/SG,IND@POR,POR,34.48,$6465,$8400,-$1935,47.54,0.0,0.0, , 
+5,Damian Lillard,PG,IND@POR,POR,45.68,$8565,$9300,-$735,46.82,0.0,0.2009641775719191, , 
+46,Robert Covington,PF,IND@POR,POR,31.68,$5940,$5000,$940,21.09,0.0,0.0, , 
+59,Carmelo Anthony,PF,IND@POR,POR,30.81,$5776,$4400,$1376,21.8,0.0,0.0, , 
+53,DeMarcus Cousins,C,HOU@SA ,HOU,37.13,$6962,$4700,$2262,20.75,0.0,0.0, , 
