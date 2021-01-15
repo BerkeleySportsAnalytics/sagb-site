@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-22,Andrew Wiggins,SG/SF,GS@DEN ,GS,37.63,$7056,$6800,$256,32.16,0.0,0.0, , 
-83,Ben McLemore,SG,HOU@SA ,HOU,21.4,$4013,$3400,$613,17.58,0.0,0.0, , 
-13,DeMar DeRozan,SF/PF,HOU@SA ,SA,42.66,$8000,$8000,$0,41.61,0.7220975974998681,0.0, , 
-9,CJ McCollum,PG/SG,IND@POR,POR,34.48,$6465,$8400,-$1935,47.54,0.0,0.0, , 
-5,Damian Lillard,PG,IND@POR,POR,45.68,$8565,$9300,-$735,46.82,0.0,0.2009641775719191, , 
-46,Robert Covington,PF,IND@POR,POR,31.68,$5940,$5000,$940,21.09,0.0,0.0, , 
-59,Carmelo Anthony,PF,IND@POR,POR,30.81,$5776,$4400,$1376,21.8,0.0,0.0, , 
-53,DeMarcus Cousins,C,HOU@SA ,HOU,37.13,$6962,$4700,$2262,20.75,0.0,0.0, , 
+77,Kyle Kuzma,SF/PF,NO@LAL ,LAL,31.65,$5934,$5200,$734,20.36,0.0,0.3331746744690814, , 
+100,Jeff Teague,PG/SG,ORL@BOS,BOS,27.22,$5104,$4400,$704,17.66,0.0,0.0, , 
+4,LeBron James,PG/SF,NO@LAL ,LAL,53.71,$10071,$9700,$371,48.17,0.0,0.0,GTD,Ankle
+13,Trae Young,PG,ATL@UTA,ATL,39.55,$7416,$8700,-$1284,42.92,0.0,0.0, , 
+93,James Johnson,PF,DAL@MIL,DAL,32.73,$6136,$4600,$1536,16.38,0.0,0.0, , 
+231,Jabari Parker,PF,LAC@SAC,SAC,33.85,$6347,$3000,$3347,0.0,0.0,0.0, , 
+2,Karl-Anthony Towns,C,MEM@MIN,MIN,46.77,$8769,$9900,-$1131,51.5,0.0,0.0,GTD,Wrist
+97,Willie Cauley-Stein,C,DAL@MIL,DAL,29.53,$5537,$4500,$1037,15.88,0.0,0.0, , 
