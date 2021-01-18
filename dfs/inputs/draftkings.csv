@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-77,Kyle Kuzma,SF/PF,NO@LAL ,LAL,31.65,$5934,$5200,$734,20.36,0.0,0.3331746744690814, , 
-100,Jeff Teague,PG/SG,ORL@BOS,BOS,27.22,$5104,$4400,$704,17.66,0.0,0.0, , 
-4,LeBron James,PG/SF,NO@LAL ,LAL,53.71,$10071,$9700,$371,48.17,0.0,0.0,GTD,Ankle
-13,Trae Young,PG,ATL@UTA,ATL,39.55,$7416,$8700,-$1284,42.92,0.0,0.0, , 
-93,James Johnson,PF,DAL@MIL,DAL,32.73,$6136,$4600,$1536,16.38,0.0,0.0, , 
-231,Jabari Parker,PF,LAC@SAC,SAC,33.85,$6347,$3000,$3347,0.0,0.0,0.0, , 
-2,Karl-Anthony Towns,C,MEM@MIN,MIN,46.77,$8769,$9900,-$1131,51.5,0.0,0.0,GTD,Wrist
-97,Willie Cauley-Stein,C,DAL@MIL,DAL,29.53,$5537,$4500,$1037,15.88,0.0,0.0, , 
+20,Andrew Wiggins,SG/SF,GS@LAL ,GS,35.89,$6730,$6600,$130,31.67,0.0,0.0, , 
+61,Timothe Luwawu-Cabarrot,SF/PF,MIL@BKN,BKN,29.18,$5471,$3700,$1771,14.91,0.0,0.0, , 
+1,James Harden,PG/SG,MIL@BKN,BKN,48.98,$9184,$10800,-$1616,53.42,0.0,0.0, , 
+33,Eric Gordon,PG/SG,HOU@CHI,HOU,24.88,$4665,$5200,-$535,23.39,0.0,0.0,GTD,Lower leg
+5,LeBron James,PG/SF,GS@LAL ,LAL,47.81,$8964,$9700,-$736,48.34,0.0,0.0,GTD,Ankle
+36,James Johnson,PF,DAL@TOR,DAL,26.67,$5001,$5000,$1,16.69,0.0,0.0, , 
+39,DeAndre Jordan,C,MIL@BKN,BKN,29.23,$5482,$4800,$682,17.62,0.0,0.0, , 
+53,Marc Gasol,C,GS@LAL ,LAL,28.83,$5406,$4100,$1306,17.57,0.0,0.0, , 

@@ -1,10 +1,9 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-17,Donovan Mitchell,SG,ATL@UTA,UTA,34.99,$6998,$7800,-$802,34.98, , ,0.0,0.0
-39,Dillon Brooks,SG,MEM@MIN,MEM,30.15,$6030,$6300,-$270,29.56, , ,1.9760488331180224,0.0
-3,LeBron James,SF,NO@LAL,LAL,51.66,$10332,$9900,$432,45.12,GTD,Ankle,0.0,0.0
-89,Josh Hart,SF,NO@LAL,NO,27.63,$5525,$4400,$1125,22.36, , ,1.4451032600332223,0.0
-13,Trae Young,PG,ATL@UTA,ATL,37.49,$7498,$8800,-$1302,39.73, , ,0.0,0.0
-200,Dennis Smith,PG,NY@CLE,NY,24.23,$4847,$3500,$1347,11.45, , ,0.3611537059763535,0.0
-97,James Johnson,PF,DAL@MIL,DAL,30.93,$6185,$4200,$1985,17.56, , ,0.0,0.0
-123,Jabari Parker,PF,LAC@SAC,SAC,32.27,$6455,$3800,$2655,26.55, , ,0.0,0.0
-2,Karl-Anthony Towns,C,MEM@MIN,MIN,44.07,$8814,$10800,-$1986,50.62,GTD,Wrist,0.0,0.0
+3,James Harden,SG,MIL@BKN,BKN,46.21,$9242,$10300,-$1058,50.01, , ,0.0,0.0
+18,Andrew Wiggins,SG,GS@LAL,GS,33.76,$6753,$6700,$53,31.6, , ,0.0,0.0
+6,LeBron James,SF,GS@LAL,LAL,46.33,$9266,$9500,-$234,45.26,GTD,Ankle,0.0,0.0
+21,Dennis Schroder,PG,GS@LAL,LAL,27.41,$5481,$6000,-$519,27.51, , ,0.0,0.0
+55,Jalen Brunson,PG,DAL@TOR,DAL,19.24,$3848,$3900,-$52,19.12, , ,0.0,0.0
+7,Anthony Davis,PF,GS@LAL,LAL,46.66,$9333,$9500,-$167,43.79,GTD,Back,0.0,0.0
+27,Draymond Green,PF,GS@LAL,GS,29.07,$5814,$5400,$414,22.44, , ,0.17970795658073102,0.0
+38,DeAndre Jordan,C,MIL@BKN,BKN,27.49,$5498,$4500,$998,17.89, , ,0.0,0.0
