@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-20,Andrew Wiggins,SG/SF,GS@LAL ,GS,35.89,$6730,$6600,$130,31.67,0.0,0.0, , 
-61,Timothe Luwawu-Cabarrot,SF/PF,MIL@BKN,BKN,29.18,$5471,$3700,$1771,14.91,0.0,0.0, , 
-1,James Harden,PG/SG,MIL@BKN,BKN,48.98,$9184,$10800,-$1616,53.42,0.0,0.0, , 
-33,Eric Gordon,PG/SG,HOU@CHI,HOU,24.88,$4665,$5200,-$535,23.39,0.0,0.0,GTD,Lower leg
-5,LeBron James,PG/SF,GS@LAL ,LAL,47.81,$8964,$9700,-$736,48.34,0.0,0.0,GTD,Ankle
-36,James Johnson,PF,DAL@TOR,DAL,26.67,$5001,$5000,$1,16.69,0.0,0.0, , 
-39,DeAndre Jordan,C,MIL@BKN,BKN,29.23,$5482,$4800,$682,17.62,0.0,0.0, , 
-53,Marc Gasol,C,GS@LAL ,LAL,28.83,$5406,$4100,$1306,17.57,0.0,0.0, , 
+23,Gary Harris,SG/SF,OKC@DEN,DEN,27.13,$5086,$4400,$686,18.23,0.0,0.0, , 
+19,Josh Hart,SF,NO@UTA ,NO,31.84,$5970,$4900,$1070,22.54,1.4451032600332223,0.0, , 
+31,Kenrich Williams,SF,OKC@DEN,OKC,14.98,$2809,$3600,-$791,9.6,0.03562458998245008,0.0, , 
+3,Donovan Mitchell,PG/SG,NO@UTA ,UTA,39.65,$7435,$8200,-$765,37.71,0.0,0.0, , 
+11,Eric Bledsoe,PG/SG,NO@UTA ,NO,31.51,$5908,$6000,-$92,24.91,0.0,0.0, , 
+7,Mike Conley,PG,NO@UTA ,UTA,37.42,$7017,$6800,$217,34.42,0.6644841451177907,0.0, , 
+22,Paul Millsap,PF/C,OKC@DEN,DEN,45.98,$8621,$4500,$4121,20.44,0.08179446227196044,0.0, , 
+0,Nikola Jokic,C,OKC@DEN,DEN,42.69,$8004,$11000,-$2996,60.81,0.0,0.0, , 
