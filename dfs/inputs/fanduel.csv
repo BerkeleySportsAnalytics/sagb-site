@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
 1,James Harden,SG,BKN@CLE,BKN,38.23,$7647,$10700,-$3053,50.63, , ,0.0,0.0
 15,Paul George,SG,SAC@LAC,LAC,35.87,$7174,$8500,-$1326,41.15, , ,0.0,0.0
-134,Josh Jackson,SF,DET@ATL,DET,35.18,$7037,$4200,$2837,21.31, , ,0.0,0.0
-140,Rudy Gay,SF,SA@GS,SA,27.5,$5500,$4100,$1400,23.74, , ,0.3866092181657726,0.0
+131,Josh Jackson,SF,DET@ATL,DET,35.18,$7037,$4200,$2837,21.31, , ,0.0,0.0
+137,Rudy Gay,SF,SA@GS,SA,27.5,$5500,$4100,$1400,23.74, , ,0.3866092181657726,0.0
 7,Stephen Curry,PG,SA@GS,GS,39.81,$7961,$9800,-$1839,44.55, , ,0.0,0.0
-48,Kemba Walker,PG,BOS@PHI,BOS,34.16,$6831,$6300,$531,22.6, , ,0.0,0.0
-71,Draymond Green,PF,SA@GS,GS,34.46,$6892,$5400,$1492,23.29, , ,0.17970795658073102,0.0
-92,Robert Covington,PF,MEM@POR,POR,31.73,$6346,$4800,$1546,20.86, , ,0.0,0.0
-108,DeMarcus Cousins,C,PHO@HOU,HOU,37.89,$7578,$4500,$3078,19.79, , ,0.0,0.0
+39,Chris Paul,PG,PHO@HOU,PHO,32.47,$6494,$6900,-$406,33.27, , ,0.0,0.0
+65,Serge Ibaka,PF,SAC@LAC,LAC,29.09,$5819,$5500,$319,24.86, , ,0.21241426166237487,0.0
+70,Draymond Green,PF,SA@GS,GS,34.46,$6892,$5400,$1492,23.29, , ,0.17970795658073102,0.0
+94,DeAndre Jordan,C,BKN@CLE,BKN,35.52,$7105,$4800,$2305,19.11, , ,0.0,0.0
