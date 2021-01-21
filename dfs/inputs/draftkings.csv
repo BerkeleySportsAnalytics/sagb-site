@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-143,Josh Jackson,SG/SF,DET@ATL,DET,36.68,$6878,$4000,$2878,21.27,0.0,0.0, , 
-25,Devin Booker,SG,PHO@HOU,PHO,37.87,$7101,$8200,-$1099,34.6,0.0,0.0, , 
-7,Stephen Curry,PG,SA@GS 0,GS,42.96,$8055,$9700,-$1645,47.54,0.0,0.0, , 
-39,Chris Paul,PG,PHO@HOU,PHO,34.85,$6534,$7200,-$666,33.96,0.0,0.0, , 
-83,Draymond Green,PF/C,SA@GS 0,GS,35.11,$6582,$5400,$1182,23.61,0.17970795658073102,0.0, , 
-99,Rudy Gay,PF,SA@GS 0,SA,29.25,$5484,$4900,$584,23.84,0.3866092181657726,0.0, , 
-121,James Johnson,PF,DAL@IND,DAL,29.93,$5611,$4500,$1111,17.52,0.0,0.0, , 
-77,DeAndre Jordan,C,BKN@CLE,BKN,37.49,$7030,$5500,$1530,18.96,0.0,0.0, , 
+14,Andrew Wiggins,SG/SF,NY@GS 0,GS,36.01,$6751,$6200,$551,31.36,0.0,0.0, , 
+31,Eric Paschall,SF/PF,NY@GS 0,GS,26.3,$4932,$4600,$332,19.42,0.0,0.0, , 
+33,Josh Hart,SF,NO@UTA ,NO,25.97,$4869,$4500,$369,22.25,1.4451032600332223,0.0, , 
+6,Donovan Mitchell,PG/SG,NO@UTA ,UTA,35.39,$6637,$7900,-$1263,38.04,0.0,0.0, , 
+13,Dennis Schroder,PG/SG,LAL@MIL,LAL,34.58,$6484,$6300,$184,29.22,0.0,0.0, , 
+12,Mike Conley,PG,NO@UTA ,UTA,34.84,$6532,$6500,$32,33.89,0.6644841451177907,0.0, , 
+2,Anthony Davis,PF/C,LAL@MIL,LAL,49.88,$9352,$9400,-$48,44.29,0.0,0.0,GTD,Ankle
+41,Marc Gasol,C,LAL@MIL,LAL,29.25,$5484,$3600,$1884,17.02,0.0,0.0, , 
