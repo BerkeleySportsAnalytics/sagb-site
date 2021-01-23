@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-36,Gary Harris,SG/SF,DEN@PHO,DEN,27.45,$5148,$4200,$948,18.56,0.0,0.0, , 
-2,Paul George,SG,OKC@LAC,LAC,40.3,$7556,$9300,-$1744,44.45,0.0,0.0, , 
-5,Devin Booker,SG,DEN@PHO,PHO,37.92,$7110,$8000,-$890,34.46,0.0,0.0, , 
-31,Jae Crowder,SF/PF,DEN@PHO,PHO,26.41,$4951,$4500,$451,21.71,0.0,0.0, , 
-1,Kawhi Leonard,SF,OKC@LAC,LAC,36.18,$6784,$9700,-$2916,45.5,1.795530417283561,0.0, , 
-15,Elfrid Payton,PG,NY@SAC ,NY,26.68,$5002,$5800,-$798,25.34,0.0,0.0, , 
-27,Paul Millsap,PF/C,DEN@PHO,DEN,37.62,$7055,$4800,$2255,21.88,0.08179446227196044,0.0, , 
-78,Hassan Whiteside,C,NY@SAC ,SAC,31.03,$5818,$3000,$2818,14.83,0.7810536430160036,0.0,GTD,Hip
+106,Josh Jackson,SG/SF,PHI@DET,DET,32.1,$6019,$3700,$2319,20.73,0.0,0.0, , 
+79,Josh Hart,SF,NO@MIN ,NO,32.66,$6124,$4700,$1424,22.66,1.4451032600332223,0.0, , 
+2,James Harden,PG/SG,MIA@BKN,BKN,46.57,$8733,$10500,-$1767,53.75,0.0,0.0, , 
+19,Donovan Mitchell,PG/SG,GS@UTA ,UTA,41.97,$7870,$7800,$70,39.18,0.0,0.0, , 
+7,LeBron James,PG/SF,LAL@CHI,LAL,50.71,$9508,$9400,$108,48.06,0.0,0.0,GTD,Ankle
+73,James Johnson,PF,HOU@DAL,DAL,30.31,$5683,$4900,$783,17.28,0.0,0.0, , 
+64,DeMarcus Cousins,C,HOU@DAL,HOU,46.27,$8676,$5100,$3576,20.96,0.0,0.0, , 
+98,Marc Gasol,C,LAL@CHI,LAL,28.3,$5307,$3800,$1507,16.72,0.0,0.0, , 
