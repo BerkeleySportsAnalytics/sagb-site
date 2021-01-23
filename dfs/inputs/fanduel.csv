@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-7,Donovan Mitchell,SG,NO@UTA,UTA,34.28,$6856,$8200,-$1344,35.78, , ,0.0,0.0
-12,Andrew Wiggins,SG,NY@GS,GS,34.35,$6870,$7000,-$130,31.09, , ,0.0,0.0
-3,LeBron James,SF,LAL@MIL,LAL,44.7,$8940,$9500,-$560,44.27,GTD,Ankle,0.0,0.0
-31,Josh Hart,SF,NO@UTA,NO,23.66,$4732,$4700,$32,21.52, , ,1.4451032600332223,0.0
-14,Dennis Schroder,PG,LAL@MIL,LAL,32.2,$6439,$6600,-$161,28.44, , ,0.0,0.0
-30,Eric Bledsoe,PG,NO@UTA,NO,26.09,$5219,$4700,$519,23.17, , ,0.0,0.0
-1,Anthony Davis,PF,LAL@MIL,LAL,50.0,$10000,$10000,$0,44.95,GTD,Ankle,0.0,0.0
-21,Draymond Green,PF,NY@GS,GS,27.2,$5440,$5400,$40,22.78, , ,0.17970795658073102,0.0
-49,Marc Gasol,C,LAL@MIL,LAL,27.39,$5479,$3700,$1779,17.81, , ,0.0,0.0
+3,Paul George,SG,OKC@LAC,LAC,37.17,$7434,$8700,-$1266,41.67, , ,0.0,0.0
+6,Devin Booker,SG,DEN@PHO,PHO,35.11,$7022,$7400,-$378,32.72, , ,0.0,0.0
+1,Kawhi Leonard,SF,OKC@LAC,LAC,33.92,$6785,$9500,-$2715,45.75, , ,1.795530417283561,0.0
+9,RJ Barrett,SF,NY@SAC,NY,28.02,$5604,$6900,-$1296,33.08, , ,0.0,0.0
+10,Chris Paul,PG,DEN@PHO,PHO,33.51,$6703,$6900,-$197,32.47, , ,0.0,0.0
+23,Elfrid Payton,PG,NY@SAC,NY,24.97,$4994,$5300,-$306,24.55, , ,0.0,0.0
+21,Serge Ibaka,PF,OKC@LAC,LAC,31.05,$6210,$5500,$710,24.56, , ,0.21241426166237487,0.0
+28,Paul Millsap,PF,DEN@PHO,DEN,35.72,$7143,$4700,$2443,21.37, , ,0.08179446227196044,0.0
+42,Hassan Whiteside,C,NY@SAC,SAC,30.01,$6002,$4200,$1802,15.57,GTD,Hip,0.7810536430160036,0.0
