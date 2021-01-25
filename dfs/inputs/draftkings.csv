@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-48,Cam Reddish,SG,ATL@MIL,ATL,23.73,$4450,$4900,-$450,23.21,0.0,0.0, , 
-12,DeMar DeRozan,SF/PF,WAS@SA ,SA,36.18,$6784,$7600,-$816,40.7,0.7220975974998681,0.0, , 
-68,Jeff Teague,PG/SG,CLE@BOS,BOS,23.95,$4491,$3900,$591,16.23,0.0,0.0, , 
-23,Kemba Walker,PG,CLE@BOS,BOS,32.3,$6056,$6300,-$244,30.17,0.0,0.0, , 
-34,Elfrid Payton,PG,NY@POR ,NY,29.13,$5462,$5700,-$238,24.87,0.0,0.0, , 
-0,Giannis Antetokounmpo,PF/C,ATL@MIL,MIL,43.36,$8130,$10400,-$2270,52.11,0.0,0.0, , 
-45,Robert Covington,PF,NY@POR ,POR,29.79,$5585,$5100,$485,20.54,0.0,0.0, , 
-38,Brook Lopez,C,ATL@MIL,MIL,29.29,$5491,$5400,$91,23.0,0.0,1.0842853485955473, , 
+124,Josh Jackson,SG/SF,PHI@DET,DET,35.25,$6610,$4300,$2310,20.73,0.0,0.0, , 
+30,DeMar DeRozan,SF/PF,SA@NO 0,SA,38.38,$7197,$7700,-$503,39.7,0.7220975974998681,0.0, , 
+4,James Harden,PG/SG,MIA@BKN,BKN,46.65,$8747,$10200,-$1453,52.36,0.0,0.0, , 
+147,Jeff Teague,PG/SG,BOS@CHI,BOS,26.92,$5047,$3700,$1347,15.02,0.0,0.0, , 
+7,LeBron James,PG/SF,LAL@CLE,LAL,52.88,$9915,$9300,$615,47.72,0.0,0.0,GTD,Ankle
+90,Robert Covington,PF,OKC@POR,POR,33.29,$6242,$5100,$1142,20.54,0.0,0.0, , 
+81,DeAndre Jordan,C,MIA@BKN,BKN,33.59,$6299,$5300,$999,19.38,0.0,0.0, , 
+137,Marc Gasol,C,LAL@CLE,LAL,29.04,$5444,$3900,$1544,16.47,0.0,0.0, , 

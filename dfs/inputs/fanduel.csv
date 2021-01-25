@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-2,Bradley Beal,SG,WAS@SA,WAS,37.92,$7585,$10300,-$2715,51.76, , ,0.0,0.0
-13,DeMar DeRozan,SG,WAS@SA,SA,34.52,$6904,$7700,-$796,40.81, , ,0.7220975974998681,0.0
-59,Miles Bridges,SF,CHA@ORL,CHA,24.11,$4822,$4300,$522,20.91, , ,1.4704650210366064,0.0
-65,Carmelo Anthony,SF,NY@POR,POR,24.13,$4826,$4100,$726,21.23, , ,0.0,0.0
-21,Kemba Walker,PG,CLE@BOS,BOS,29.07,$5815,$6800,-$985,29.37, , ,0.0,0.0
-37,Elfrid Payton,PG,NY@POR,NY,26.76,$5351,$5300,$51,24.17, , ,0.0,0.0
-0,Giannis Antetokounmpo,PF,ATL@MIL,MIL,41.71,$8342,$11300,-$2958,49.84, , ,0.0,0.0
-45,Robert Covington,PF,NY@POR,POR,29.41,$5882,$4800,$1082,20.86, , ,0.0,0.0
-36,Brook Lopez,C,ATL@MIL,MIL,28.23,$5646,$5300,$346,23.67, , ,0.0,1.0842853485955473
+6,James Harden,SG,MIA@BKN,BKN,44.41,$8881,$9800,-$919,48.28, , ,0.0,0.0
+27,DeMar DeRozan,SG,SA@NO,SA,36.93,$7386,$7900,-$514,39.8, , ,0.7220975974998681,0.0
+5,LeBron James,SF,LAL@CLE,LAL,51.08,$10216,$9800,$416,44.68,GTD,Ankle,0.0,0.0
+112,Josh Jackson,SF,PHI@DET,DET,33.66,$6732,$4300,$2432,20.92, , ,0.0,0.0
+56,Goran Dragic,PG,MIA@BKN,MIA,29.34,$5868,$5800,$68,25.48,GTD,Foot,0.0,0.0
+143,Jeff Teague,PG,BOS@CHI,BOS,24.79,$4958,$3800,$1158,15.42, , ,0.0,0.0
+4,Anthony Davis,PF,LAL@CLE,LAL,46.85,$9371,$10100,-$729,45.73,GTD,Ankle,0.0,0.0
+119,Paul Millsap,PF,DEN@DAL,DEN,36.05,$7209,$4100,$3109,20.83, , ,0.08179446227196044,0.0
+111,DeAndre Jordan,C,MIA@BKN,BKN,31.85,$6370,$4300,$2070,19.66, , ,0.0,0.0
