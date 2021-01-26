@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-6,James Harden,SG,MIA@BKN,BKN,44.41,$8881,$9800,-$919,48.28, , ,0.0,0.0
-27,DeMar DeRozan,SG,SA@NO,SA,36.93,$7386,$7900,-$514,39.8, , ,0.7220975974998681,0.0
-5,LeBron James,SF,LAL@CLE,LAL,51.08,$10216,$9800,$416,44.68,GTD,Ankle,0.0,0.0
-112,Josh Jackson,SF,PHI@DET,DET,33.66,$6732,$4300,$2432,20.92, , ,0.0,0.0
-56,Goran Dragic,PG,MIA@BKN,MIA,29.34,$5868,$5800,$68,25.48,GTD,Foot,0.0,0.0
-143,Jeff Teague,PG,BOS@CHI,BOS,24.79,$4958,$3800,$1158,15.42, , ,0.0,0.0
-4,Anthony Davis,PF,LAL@CLE,LAL,46.85,$9371,$10100,-$729,45.73,GTD,Ankle,0.0,0.0
-119,Paul Millsap,PF,DEN@DAL,DEN,36.05,$7209,$4100,$3109,20.83, , ,0.08179446227196044,0.0
-111,DeAndre Jordan,C,MIA@BKN,BKN,31.85,$6370,$4300,$2070,19.66, , ,0.0,0.0
+2,Bradley Beal,SG,WAS@HOU,WAS,35.83,$7165,$10300,-$3135,50.82, , ,0.0,0.0
+7,Donovan Mitchell,SG,NY@UTA,UTA,33.17,$6635,$8500,-$1865,37.08, , ,0.0,0.0
+27,Danilo Gallinari,SF,LAC@ATL,ATL,27.23,$5445,$5000,$445,15.68,GTD,Ankle,0.0,0.0
+74,Kevin Knox,SF,NY@UTA,NY,15.78,$3157,$3500,-$343,12.24, , ,0.0,0.0
+9,John Wall,PG,WAS@HOU,HOU,34.53,$6906,$7700,-$794,33.35, , ,0.0,0.0
+12,Mike Conley,PG,NY@UTA,UTA,36.29,$7258,$7300,-$42,32.58, , ,0.6644841451177907,0.0
+18,Serge Ibaka,PF,LAC@ATL,LAC,22.42,$4485,$5800,-$1315,24.96, , ,0.21241426166237487,0.0
+37,Nerlens Noel,PF,NY@UTA,NY,16.62,$3323,$4600,-$1277,16.71, , ,0.0,0.0
+13,DeMarcus Cousins,C,WAS@HOU,HOU,40.4,$8080,$7200,$880,23.35, , ,0.0,0.0
