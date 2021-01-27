@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-15,RJ Barrett,SG/SF,NY@UTA ,NY,24.61,$4615,$6600,-$1985,33.07,0.0,0.0, , 
-36,Danilo Gallinari,SF/PF,LAC@ATL,ATL,30.81,$5777,$4800,$977,16.94,0.0,0.0,GTD,Ankle
-3,Russell Westbrook,PG,WAS@HOU,WAS,44.32,$8311,$9600,-$1289,49.31,0.0,0.0, , 
-11,John Wall,PG,WAS@HOU,HOU,36.24,$6795,$6900,-$105,33.94,0.0,0.0, , 
-16,Mike Conley,PG,NY@UTA ,UTA,38.85,$7284,$6500,$784,33.8,0.6644841451177907,0.0, , 
-63,Solomon Hill,PF,LAC@ATL,ATL,16.22,$3041,$3100,-$59,12.19,0.0,0.0, , 
-22,DeMarcus Cousins,C,WAS@HOU,HOU,43.39,$8136,$6000,$2136,24.06,0.0,0.0, , 
-25,Mitchell Robinson,C,NY@UTA ,NY,29.26,$5486,$5800,-$314,25.99,0.0,0.27159052669998474, , 
+135,Josh Jackson,SG/SF,DET@CLE,DET,36.02,$6754,$4600,$2154,21.2,0.0,0.0, , 
+48,DeMar DeRozan,SF/PF,BOS@SA ,SA,37.47,$7026,$7100,-$74,39.7,0.7220975974998681,0.0, , 
+127,Danilo Gallinari,SF/PF,BKN@ATL,ATL,30.38,$5696,$4700,$996,13.9,0.0,0.0, , 
+14,Russell Westbrook,PG,WAS@NO ,WAS,53.77,$10083,$9100,$983,48.53,0.0,0.0, , 
+67,Kemba Walker,PG,BOS@SA ,BOS,35.43,$6644,$6300,$344,32.81,0.0,0.0, , 
+73,Mike Conley,PG,DAL@UTA,UTA,35.31,$6621,$6100,$521,33.94,0.6644841451177907,0.0, , 
+15,Anthony Davis,PF/C,LAL@PHI,LAL,48.35,$9066,$9000,$66,45.12,0.0,0.0,GTD,Ankle
+298,Hassan Whiteside,C,SAC@ORL,SAC,30.63,$5744,$3000,$2744,14.83,0.7810536430160036,0.0,GTD,Hip
