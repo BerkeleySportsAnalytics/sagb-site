@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-135,Josh Jackson,SG/SF,DET@CLE,DET,36.02,$6754,$4600,$2154,21.2,0.0,0.0, , 
-48,DeMar DeRozan,SF/PF,BOS@SA ,SA,37.47,$7026,$7100,-$74,39.7,0.7220975974998681,0.0, , 
-127,Danilo Gallinari,SF/PF,BKN@ATL,ATL,30.38,$5696,$4700,$996,13.9,0.0,0.0, , 
-14,Russell Westbrook,PG,WAS@NO ,WAS,53.77,$10083,$9100,$983,48.53,0.0,0.0, , 
-67,Kemba Walker,PG,BOS@SA ,BOS,35.43,$6644,$6300,$344,32.81,0.0,0.0, , 
-73,Mike Conley,PG,DAL@UTA,UTA,35.31,$6621,$6100,$521,33.94,0.6644841451177907,0.0, , 
-15,Anthony Davis,PF/C,LAL@PHI,LAL,48.35,$9066,$9000,$66,45.12,0.0,0.0,GTD,Ankle
-298,Hassan Whiteside,C,SAC@ORL,SAC,30.63,$5744,$3000,$2744,14.83,0.7810536430160036,0.0,GTD,Hip
+46,Josh Jackson,SG/SF,LAL@DET,DET,37.49,$7029,$4800,$2229,20.95,0.0,0.0, , 
+76,Avery Bradley,SG,LAC@MIA,MIA,28.65,$5371,$3100,$2271,16.69,0.6940545609735865,0.0, , 
+50,Kyle Kuzma,SF/PF,LAL@DET,LAL,26.14,$4900,$4300,$600,20.13,0.0,0.3331746744690814, , 
+1,LeBron James,PG/SF,LAL@DET,LAL,46.59,$8735,$10400,-$1665,49.28,0.0,0.0,GTD,Ankle
+3,Stephen Curry,PG,GS@PHO ,GS,40.96,$7680,$9700,-$2020,47.26,0.0,0.0, , 
+31,Carmelo Anthony,PF,POR@HOU,POR,26.75,$5016,$5600,-$584,22.6,0.0,0.0, , 
+13,DeMarcus Cousins,C,POR@HOU,HOU,37.85,$7097,$7200,-$103,26.08,0.0,0.0, , 
+47,Mason Plumlee,C,LAL@DET,DET,20.86,$3912,$4800,-$888,26.64,0.0,0.0, , 
