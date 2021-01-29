@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-11,Andrew Wiggins,SG,GS@PHO,GS,36.52,$7305,$7400,-$95,31.74, , ,0.0,0.0
-65,Avery Bradley,SG,LAC@MIA,MIA,26.45,$5289,$3600,$1689,15.98, , ,0.6940545609735865,0.0
-0,LeBron James,SF,LAL@DET,LAL,44.92,$8984,$10700,-$1716,46.33,GTD,Ankle,0.0,0.0
-38,Josh Jackson,SF,LAL@DET,DET,36.03,$7206,$4800,$2406,21.21, , ,0.0,0.0
-1,Stephen Curry,PG,GS@PHO,GS,38.23,$7647,$9800,-$2153,44.16, , ,0.0,0.0
-21,Goran Dragic,PG,LAC@MIA,MIA,28.89,$5779,$5800,-$21,26.07,GTD,Groin,0.0,0.0
-24,Blake Griffin,PF,LAL@DET,DET,28.06,$5611,$5500,$111,26.62, , ,0.0,0.10769017047573458
-54,Kyle Kuzma,PF,LAL@DET,LAL,24.37,$4874,$3900,$974,18.91, , ,0.0,0.3331746744690814
-9,DeMarcus Cousins,C,POR@HOU,HOU,36.15,$7229,$8000,-$771,25.49, , ,0.0,0.0
+22,Donovan Mitchell,SG,DAL@UTA,UTA,37.49,$7497,$8000,-$503,36.14,GTD,Concussion,0.0,0.0
+30,DeMar DeRozan,SG,DEN@SA,SA,41.97,$8395,$7700,$695,39.47, , ,0.7220975974998681,0.0
+91,Danilo Gallinari,SF,ATL@WAS,ATL,29.03,$5805,$5000,$805,12.32, , ,0.0,0.0
+123,Josh Hart,SF,MIL@NO,NO,29.3,$5860,$4400,$1460,21.23, , ,1.4451032600332223,0.0
+9,Russell Westbrook,PG,ATL@WAS,WAS,52.95,$10591,$9600,$991,43.49, , ,0.0,0.0
+87,Elfrid Payton,PG,CLE@NY,NY,25.65,$5131,$5100,$31,22.89, , ,0.0,0.0
+1,Giannis Antetokounmpo,PF,MIL@NO,MIL,50.82,$10163,$11300,-$1137,50.73, , ,0.0,0.0
+141,Paul Millsap,PF,DEN@SA,DEN,37.69,$7537,$4100,$3437,20.46, , ,0.08179446227196044,0.0
+101,DeAndre Jordan,C,BKN@OKC,BKN,35.19,$7037,$4800,$2237,20.31, , ,0.0,0.0
