@@ -8,10 +8,10 @@ filename1 = article_name+".html"
 
 excerpt = input("Enter Excerpt: ")
 
-with open(filename) as article:
+with open(filename, encoding='utf-8') as article:
     article_soup = BeautifulSoup(article, "html5lib")
 
-with open("data-journalism.html") as dj:
+with open("data-journalism.html", encoding='utf-8') as dj:
   dj_soup = BeautifulSoup(dj, "html5lib")
 
 featured_list = dj_soup.findAll("section", {"class": "spotlight"})[0]
@@ -45,7 +45,7 @@ featured_list.findAll("article")[-1].extract()
 
 dj_soup_str = str(dj_soup)
 
-with open("data-journalism.html","w") as dj1:
+with open("data-journalism.html","w", encoding='utf-8') as dj1:
   dj1.write(dj_soup_str)
 
 for f in os.listdir("articles"):
@@ -70,5 +70,5 @@ for f in os.listdir("articles"):
   featured_list.findAll("article")[0].insert_before(new_entry)
   featured_list.findAll("article")[-1].extract()
 
-  with open(fn,"w") as file1:
+  with open(fn,"w", encoding='utf-8') as file1:
     file1.write(str(article_soup))

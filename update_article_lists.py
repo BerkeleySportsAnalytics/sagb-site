@@ -5,7 +5,7 @@ from pathlib import Path
 def move_to_next_page(article, page_num):
   next_filename = "all-articles-"+str(page_num+1)+".html"
   if (not Path(next_filename).exists()):
-    f= open("all-articles-"+str(page_num+1)+".html","w+")
+    f= open("all-articles-"+str(page_num+1)+".html","w+", encoding='cp1252')
     f.write(
       """
       <!DOCTYPE html>
@@ -91,7 +91,7 @@ def move_to_next_page(article, page_num):
       </html>
       """)
   else:
-    with open(next_filename) as next_list_articles:
+    with open(next_filename, encoding='cp1252') as next_list_articles:
       next_list_articles_soup = BeautifulSoup(next_list_articles, "html5lib")
 
     current_len = len(next_list_articles_soup.findAll("article"))
@@ -101,7 +101,7 @@ def move_to_next_page(article, page_num):
 
     next_list_articles_soup.section.article.insert_before(article)
 
-    with open(next_filename,"w") as next_list_articles_file:
+    with open(next_filename,"w", encoding='cp1252') as next_list_articles_file:
       next_list_articles_file.write(str(next_list_articles_soup.prettify()))
 
     if (current_len >= 10):
@@ -110,10 +110,10 @@ def move_to_next_page(article, page_num):
 
 article_name = sys.argv[1]
 filename = "articles/"+article_name+".html"
-with open(filename) as article:
+with open(filename, encoding='utf-8') as article:
     article_soup = BeautifulSoup(article, "html5lib")
 
-with open("all-articles-1.html") as list_articles:
+with open("all-articles-1.html", encoding='cp1252') as list_articles:
   list_articles_soup = BeautifulSoup(list_articles, "html5lib")
 
 current_len = len(list_articles_soup.findAll("article"))
@@ -145,14 +145,8 @@ article_parsed = BeautifulSoup("""
 article_new.append(article_parsed)
 
 
-list_articles_soup.section.article.insert_before(article_new) 
+list_articles_soup.section.article.insert_before(article_new)
 list_articles_result = list_articles_soup.prettify()
 
 with open("all-articles-1.html","w") as list_articles_file:
   list_articles_file.write(list_articles_result)
-
-
-
-
-
-
