@@ -34,6 +34,10 @@ How to Edit The Actual Article:
 	4. If you want to do more complicated stuff, go for it! Make sure stuff stays consistent though.
 
 Update the Site (OCF):
+	1. `git status`. Run this to check which files need to be added. 
+	2. `git add file-name` Run this to add the files that were modified (everything except debug.log).
+	3. `git commit -m "comment for changes"` Run this to commit files and add comment based off changes made. 
+	4. `git push origin master`. 
 	1. `ssh sportsanalytics@ssh.ocf.berkeley.edu`. Enter Password.
 	2. `cd public_html`
 	3. `git pull origin master`
