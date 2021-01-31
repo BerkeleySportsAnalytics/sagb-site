@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Donovan Mitchell,SG,DAL@UTA,UTA,37.49,$7497,$8000,-$503,36.14,GTD,Concussion,0.0,0.0
-30,DeMar DeRozan,SG,DEN@SA,SA,41.97,$8395,$7700,$695,39.47, , ,0.7220975974998681,0.0
-91,Danilo Gallinari,SF,ATL@WAS,ATL,29.03,$5805,$5000,$805,12.32, , ,0.0,0.0
-123,Josh Hart,SF,MIL@NO,NO,29.3,$5860,$4400,$1460,21.23, , ,1.4451032600332223,0.0
-9,Russell Westbrook,PG,ATL@WAS,WAS,52.95,$10591,$9600,$991,43.49, , ,0.0,0.0
-87,Elfrid Payton,PG,CLE@NY,NY,25.65,$5131,$5100,$31,22.89, , ,0.0,0.0
-1,Giannis Antetokounmpo,PF,MIL@NO,MIL,50.82,$10163,$11300,-$1137,50.73, , ,0.0,0.0
-141,Paul Millsap,PF,DEN@SA,DEN,37.69,$7537,$4100,$3437,20.46, , ,0.08179446227196044,0.0
-101,DeAndre Jordan,C,BKN@OKC,BKN,35.19,$7037,$4800,$2237,20.31, , ,0.0,0.0
+5,Andrew Wiggins,SG,DET@GS,GS,32.62,$6524,$7000,-$476,31.2, , ,0.0,0.0
+25,Josh Richardson,SG,PHO@DAL,DAL,24.4,$4880,$3900,$980,19.89, , ,0.0,0.0
+20,Josh Jackson,SF,DET@GS,DET,35.35,$7071,$4200,$2871,20.34, , ,0.0,0.0
+26,Dorian Finney-Smith,SF,PHO@DAL,DAL,17.9,$3581,$3900,-$319,20.18, , ,1.6972890243893854,0.0
+0,Luka Doncic,PG,PHO@DAL,DAL,36.07,$7214,$11000,-$3786,53.96, , ,0.0,0.0
+1,Stephen Curry,PG,DET@GS,GS,36.35,$7270,$9400,-$2130,43.66, , ,0.0,0.0
+9,Blake Griffin,PF,DET@GS,DET,26.24,$5249,$5800,-$551,27.26, , ,0.0,0.10769017047573458
+14,Draymond Green,PF,DET@GS,GS,27.14,$5428,$4900,$528,21.92, , ,0.17970795658073102,0.0
+2,Deandre Ayton,C,PHO@DAL,PHO,23.36,$4672,$8100,-$3428,34.35, , ,0.0,0.0
