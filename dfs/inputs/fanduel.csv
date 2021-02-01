@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,Bradley Beal,SG,BKN@WAS,WAS,38.06,$7612,$11000,-$3388,50.91, , ,0.0,0.0
-35,Anthony Edwards,SG,CLE@MIN,MIN,21.5,$4300,$4900,-$600,19.77, , ,0.0,0.0
-17,Evan Fournier,SF,ORL@TOR,ORL,22.5,$4500,$6600,-$2100,28.73, , ,0.0,0.0
-39,Justin Holiday,SF,PHI@IND,IND,19.83,$3967,$4800,-$833,21.16, , ,1.829282209006074,0.0
-3,Russell Westbrook,PG,BKN@WAS,WAS,45.42,$9083,$9600,-$517,43.06, , ,0.0,0.0
-18,Kyle Lowry,PG,ORL@TOR,TOR,27.55,$5510,$6600,-$1090,34.7, , ,0.0,0.0
-24,Jarrett Allen,PF,CLE@MIN,CLE,27.38,$5477,$5800,-$323,29.63, , ,0.0,0.0
-26,Aaron Gordon,PF,ORL@TOR,ORL,28.86,$5772,$5500,$272,30.94, , ,0.0,0.0
-34,DeAndre Jordan,C,BKN@WAS,BKN,27.62,$5525,$4900,$625,20.67, , ,0.0,0.0
+32,DeMar DeRozan,SG,MEM@SA,SA,37.99,$7598,$7100,$498,37.97, , ,0.7220975974998681,0.0
+158,Avery Bradley,SG,CHA@MIA,MIA,25.23,$5047,$3600,$1447,15.98,GTD,Knee,0.6940545609735865,0.0
+5,LeBron James,SF,LAL@ATL,LAL,48.91,$9782,$10400,-$618,46.0,GTD,Ankle,0.0,0.0
+110,Josh Jackson,SF,DET@DEN,DET,31.31,$6261,$4400,$1861,20.86, , ,0.0,0.0
+23,Chris Paul,PG,PHO@DAL,PHO,36.97,$7394,$7800,-$406,35.74, , ,0.0,0.0
+30,John Wall,PG,HOU@OKC,HOU,38.84,$7768,$7200,$568,33.78, , ,0.0,0.0
+6,Anthony Davis,PF,LAL@ATL,LAL,45.54,$9108,$10300,-$1192,45.96,GTD,Quadriceps,0.0,0.0
+120,Paul Millsap,PF,DET@DEN,DEN,30.98,$6195,$4100,$2095,20.24, , ,0.08179446227196044,0.0
+83,Brook Lopez,C,POR@MIL,MIL,28.81,$5761,$5100,$661,23.52, , ,0.0,1.0842853485955473
