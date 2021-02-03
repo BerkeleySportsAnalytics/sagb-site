@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-69,Josh Jackson,SG/SF,DET@UTA,DET,31.33,$5874,$4900,$974,20.74,0.0,0.0, , 
-103,Eric Paschall,SF/PF,BOS@GS ,GS,22.83,$4281,$3500,$781,16.67,0.0,0.0,GTD,Back
-4,Stephen Curry,PG,BOS@GS ,GS,41.52,$7785,$9600,-$1815,46.92,0.0,0.0, , 
-6,Russell Westbrook,PG,POR@WAS,WAS,44.96,$8431,$9100,-$669,50.16,0.0,0.0, , 
-31,Mike Conley,PG,DET@UTA,UTA,34.7,$6505,$6400,$105,34.29,0.6644841451177907,0.0, , 
-66,Draymond Green,PF/C,BOS@GS ,GS,30.73,$5763,$4900,$863,22.28,0.17970795658073102,0.0,GTD,Thigh
-56,Robert Covington,PF,POR@WAS,POR,28.07,$5263,$5200,$63,20.57,0.0,0.0, , 
-37,Serge Ibaka,C,LAC@BKN,LAC,27.62,$5179,$6000,-$821,26.38,0.21241426166237487,0.0, , 
+23,Devin Booker,SG,PHO@NO ,PHO,39.46,$7399,$8000,-$601,34.93,0.0,0.0,GTD,Hamstring
+36,DeMar DeRozan,SF/PF,MIN@SA ,SA,38.99,$7311,$6900,$411,37.82,0.7220975974998681,0.0, , 
+98,Danilo Gallinari,SF/PF,DAL@ATL,ATL,30.8,$5775,$4700,$1075,13.38,0.0,0.0, , 
+113,Josh Hart,SF,PHO@NO ,NO,28.56,$5356,$4500,$856,23.04,1.4451032600332223,0.0, , 
+50,Coby White,PG/SG,NY@CHI ,CHI,32.26,$6048,$6100,-$52,30.78,0.0,0.0, , 
+117,Ricky Rubio,PG,MIN@SA ,MIN,29.0,$5438,$4500,$938,20.01,0.0,0.0, , 
+137,Elfrid Payton,PG,NY@CHI ,NY,29.11,$5458,$3900,$1558,21.98,0.0,0.0, , 
+0,Giannis Antetokounmpo,PF/C,IND@MIL,MIL,42.86,$8035,$11000,-$2965,53.96,0.0,0.0, , 

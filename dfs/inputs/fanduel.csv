@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-17,Donovan Mitchell,SG,DET@UTA,UTA,32.65,$6530,$7800,-$1270,35.06, , ,0.0,0.0
-24,Andrew Wiggins,SG,BOS@GS,GS,29.38,$5877,$6800,-$923,31.35, , ,0.0,0.0
-5,Kawhi Leonard,SF,LAC@BKN,LAC,31.63,$6326,$9600,-$3274,46.11, , ,1.795530417283561,0.0
-73,Josh Jackson,SF,DET@UTA,DET,29.5,$5900,$4400,$1500,20.86, , ,0.0,0.0
-4,Russell Westbrook,PG,POR@WAS,WAS,41.67,$8334,$10000,-$1666,45.6, , ,0.0,0.0
-32,Kemba Walker,PG,BOS@GS,BOS,31.32,$6263,$5700,$563,27.88, , ,0.0,0.0
-52,Robert Covington,PF,POR@WAS,POR,26.59,$5318,$4900,$418,21.15, , ,0.0,0.0
-54,Draymond Green,PF,BOS@GS,GS,30.03,$6006,$4900,$1106,21.86,GTD,Thigh,0.17970795658073102,0.0
-45,DeAndre Jordan,C,LAC@BKN,BKN,23.7,$4740,$5100,-$360,20.76, , ,0.0,0.0
+27,Devin Booker,SG,PHO@NO,PHO,37.95,$7589,$7600,-$11,33.13,GTD,Hamstring,0.0,0.0
+34,DeMar DeRozan,SG,MIN@SA,SA,38.4,$7680,$7200,$480,37.55, , ,0.7220975974998681,0.0
+16,Jimmy Butler,SF,WAS@MIA,MIA,35.72,$7143,$8500,-$1357,40.66, , ,0.0,0.0
+127,Danilo Gallinari,SF,DAL@ATL,ATL,29.38,$5876,$4200,$1676,11.96, , ,0.0,0.0
+103,Ricky Rubio,PG,MIN@SA,MIN,28.71,$5742,$4500,$1242,19.88, , ,0.0,0.0
+110,Elfrid Payton,PG,NY@CHI,NY,29.05,$5810,$4400,$1410,21.37, , ,0.0,0.0
+1,Giannis Antetokounmpo,PF,IND@MIL,MIL,43.67,$8734,$11200,-$2466,51.81, , ,0.0,0.0
+44,Serge Ibaka,PF,LAC@CLE,LAC,28.25,$5650,$6400,-$750,26.13, , ,0.21241426166237487,0.0
+50,DeMarcus Cousins,C,HOU@OKC,HOU,41.71,$8341,$6000,$2341,24.46, , ,0.0,0.0
