@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-27,Devin Booker,SG,PHO@NO,PHO,37.95,$7589,$7600,-$11,33.13,GTD,Hamstring,0.0,0.0
-34,DeMar DeRozan,SG,MIN@SA,SA,38.4,$7680,$7200,$480,37.55, , ,0.7220975974998681,0.0
-16,Jimmy Butler,SF,WAS@MIA,MIA,35.72,$7143,$8500,-$1357,40.66, , ,0.0,0.0
-127,Danilo Gallinari,SF,DAL@ATL,ATL,29.38,$5876,$4200,$1676,11.96, , ,0.0,0.0
-103,Ricky Rubio,PG,MIN@SA,MIN,28.71,$5742,$4500,$1242,19.88, , ,0.0,0.0
-110,Elfrid Payton,PG,NY@CHI,NY,29.05,$5810,$4400,$1410,21.37, , ,0.0,0.0
-1,Giannis Antetokounmpo,PF,IND@MIL,MIL,43.67,$8734,$11200,-$2466,51.81, , ,0.0,0.0
-44,Serge Ibaka,PF,LAC@CLE,LAC,28.25,$5650,$6400,-$750,26.13, , ,0.21241426166237487,0.0
-50,DeMarcus Cousins,C,HOU@OKC,HOU,41.71,$8341,$6000,$2341,24.46, , ,0.0,0.0
+13,Donovan Mitchell,SG,UTA@ATL,UTA,28.98,$5797,$7800,-$2003,35.46, , ,0.0,0.0
+35,Dillon Brooks,SG,HOU@MEM,MEM,27.17,$5434,$5200,$234,27.52, , ,1.9760488331180224,0.0
+2,LeBron James,SF,DEN@LAL,LAL,48.31,$9661,$10700,-$1039,46.18,GTD,Ankle,0.0,0.0
+60,Danilo Gallinari,SF,UTA@ATL,ATL,23.91,$4783,$4200,$583,13.68, , ,0.0,0.0
+6,Stephen Curry,PG,GS@DAL,GS,41.47,$8294,$9900,-$1606,44.92, , ,0.0,0.0
+17,Mike Conley,PG,UTA@ATL,UTA,37.76,$7552,$7000,$552,33.13, , ,0.6644841451177907,0.0
+25,Draymond Green,PF,GS@DAL,GS,38.31,$7662,$5800,$1862,22.5, , ,0.17970795658073102,0.0
+47,Paul Millsap,PF,DEN@LAL,DEN,33.39,$6677,$4600,$2077,20.24, , ,0.08179446227196044,0.0
+104,Marc Gasol,C,DEN@LAL,LAL,28.41,$5682,$3500,$2182,16.17, , ,0.0,0.0

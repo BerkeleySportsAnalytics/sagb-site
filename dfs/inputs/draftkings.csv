@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-23,Devin Booker,SG,PHO@NO ,PHO,39.46,$7399,$8000,-$601,34.93,0.0,0.0,GTD,Hamstring
-36,DeMar DeRozan,SF/PF,MIN@SA ,SA,38.99,$7311,$6900,$411,37.82,0.7220975974998681,0.0, , 
-98,Danilo Gallinari,SF/PF,DAL@ATL,ATL,30.8,$5775,$4700,$1075,13.38,0.0,0.0, , 
-113,Josh Hart,SF,PHO@NO ,NO,28.56,$5356,$4500,$856,23.04,1.4451032600332223,0.0, , 
-50,Coby White,PG/SG,NY@CHI ,CHI,32.26,$6048,$6100,-$52,30.78,0.0,0.0, , 
-117,Ricky Rubio,PG,MIN@SA ,MIN,29.0,$5438,$4500,$938,20.01,0.0,0.0, , 
-137,Elfrid Payton,PG,NY@CHI ,NY,29.11,$5458,$3900,$1558,21.98,0.0,0.0, , 
-0,Giannis Antetokounmpo,PF/C,IND@MIL,MIL,42.86,$8035,$11000,-$2965,53.96,0.0,0.0, , 
+29,Dillon Brooks,SG,HOU@MEM,MEM,27.52,$5160,$5900,-$740,27.89,1.9760488331180224,0.0, , 
+51,Danilo Gallinari,SF/PF,UTA@ATL,ATL,25.58,$4796,$4800,-$4,14.94,0.0,0.0, , 
+4,LeBron James,PG/SF,DEN@LAL,LAL,48.21,$9039,$10000,-$961,49.04,0.0,0.0,GTD,Ankle
+5,Stephen Curry,PG,GS@DAL ,GS,42.71,$8008,$9800,-$1792,48.18,0.0,0.0, , 
+23,Mike Conley,PG,UTA@ATL,UTA,38.04,$7133,$6600,$533,34.3,0.6644841451177907,0.0, , 
+65,Paul Millsap,PF/C,DEN@LAL,DEN,33.5,$6282,$4100,$2182,20.6,0.08179446227196044,0.0, , 
+44,Robert Covington,PF,POR@PHI,POR,27.87,$5225,$5200,$25,21.42,0.0,0.0, , 
+88,Marc Gasol,C,DEN@LAL,LAL,28.79,$5399,$3300,$2099,15.51,0.0,0.0, , 
