@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-86,Josh Jackson,SG/SF,DET@PHO,DET,34.93,$6550,$5100,$1450,21.62,0.0,0.0, , 
-96,Nicolas Batum,SF/PF,BOS@LAC,LAC,24.94,$4676,$4800,-$124,23.35,0.0,0.0, , 
-112,Josh Hart,SF,NO@IND ,NO,29.29,$5492,$4500,$992,22.78,1.4451032600332223,0.0, , 
-23,Donovan Mitchell,PG/SG,UTA@CHA,UTA,39.74,$7452,$7700,-$248,37.65,0.0,0.0, , 
-7,Russell Westbrook,PG,WAS@MIA,WAS,49.25,$9234,$9000,$234,50.15,0.0,0.0, , 
-266,Frank Jackson,PG,DET@PHO,DET,23.65,$4434,$3000,$1434,4.67,0.0,0.0, , 
-0,Giannis Antetokounmpo,PF/C,MIL@CLE,MIL,44.45,$8334,$10800,-$2466,54.36,0.0,0.0, , 
-83,Brook Lopez,C,MIL@CLE,MIL,30.53,$5724,$5100,$624,22.39,0.0,1.0842853485955473, , 
+90,Malik Monk,SG,HOU@CHA,CHA,26.61,$4990,$4700,$290,15.66,1.4805983338600142,0.0, , 
+72,Kyle Kuzma,SF/PF,OKC@LAL,LAL,25.22,$4729,$5200,-$471,21.15,0.0,0.3331746744690814, , 
+58,Dennis Schroder,PG/SG,OKC@LAL,LAL,32.26,$6048,$5700,$348,26.75,0.0,0.0, , 
+3,LeBron James,PG/SF,OKC@LAL,LAL,45.22,$8479,$10500,-$2021,50.14,0.0,0.0,GTD,Ankle
+24,John Wall,PG,HOU@CHA,HOU,38.68,$7252,$7400,-$148,35.36,0.0,0.0, , 
+86,Paul Millsap,PF/C,MIL@DEN,DEN,32.79,$6148,$4800,$1348,20.92,0.08179446227196044,0.0, , 
+104,Rudy Gay,PF,GS@SA 0,SA,27.0,$5063,$4400,$663,22.84,0.3866092181657726,0.0, , 
+28,DeMarcus Cousins,C,HOU@CHA,HOU,39.43,$7392,$7100,$292,25.12,0.0,0.0, , 
