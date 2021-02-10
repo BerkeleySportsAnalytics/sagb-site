@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,James Harden,SG,BKN@DET,BKN,48.63,$9725,$11000,-$1275,49.82, , ,0.0,0.0
-56,Eric Bledsoe,SG,HOU@NO,NO,33.39,$6678,$5100,$1578,24.59, , ,0.0,0.0
-103,Timothe Luwawu-Cabarrot,SF,BKN@DET,BKN,26.05,$5210,$3800,$1410,13.86, , ,0.0,0.0
-149,Kevin Knox,SF,NY@MIA,NY,24.07,$4813,$3500,$1313,11.09, , ,0.0,0.0
-2,Stephen Curry,PG,GS@SA,GS,44.83,$8965,$10400,-$1435,45.84, , ,0.0,0.0
-21,John Wall,PG,HOU@NO,HOU,40.34,$8068,$7700,$368,34.24, , ,0.0,0.0
-22,Draymond Green,PF,GS@SA,GS,40.32,$8064,$7500,$564,25.9, , ,0.17970795658073102,0.0
-62,Rudy Gay,PF,GS@SA,SA,30.1,$6019,$5000,$1019,22.42, , ,0.3866092181657726,0.0
-35,DeMarcus Cousins,C,HOU@NO,HOU,40.07,$8015,$6000,$2015,24.66, , ,0.0,0.0
+20,Devin Booker,SG,MIL@PHO,PHO,37.66,$7531,$7700,-$169,34.37, , ,0.0,0.0
+67,Dillon Brooks,SG,CHA@MEM,MEM,31.46,$6291,$5200,$1091,26.91, , ,1.9760488331180224,0.0
+114,Josh Hart,SF,NO@CHI,NO,29.68,$5936,$4100,$1836,23.11, , ,1.4451032600332223,0.0
+134,Danilo Gallinari,SF,ATL@DAL,ATL,30.5,$6100,$3800,$2300,14.08, , ,0.0,0.0
+9,Russell Westbrook,PG,TOR@WAS,WAS,50.82,$10164,$9700,$464,42.77, , ,0.0,0.0
+26,Chris Paul,PG,MIL@PHO,PHO,37.72,$7544,$7500,$44,35.92,GTD,Hamstring,0.0,0.0
+7,Anthony Davis,PF,OKC@LAL,LAL,50.37,$10075,$9800,$275,45.24,GTD,Achilles,0.0,0.0
+77,Paul Millsap,PF,CLE@DEN,DEN,35.38,$7076,$5000,$2076,21.06, , ,0.08179446227196044,0.0
+75,DeAndre Jordan,C,IND@BKN,BKN,32.23,$6445,$5100,$1345,20.89, , ,0.0,0.0
