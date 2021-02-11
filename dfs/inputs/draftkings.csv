@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-78,Dillon Brooks,SG,CHA@MEM,MEM,31.94,$5989,$5500,$489,27.3,1.9760488331180224,0.0, , 
-112,Danilo Gallinari,SF/PF,ATL@DAL,ATL,32.27,$6051,$4500,$1551,15.48,0.0,0.0, , 
-122,Josh Hart,SF,NO@CHI ,NO,30.59,$5736,$4300,$1436,23.78,1.4451032600332223,0.0, , 
-50,Coby White,PG/SG,NO@CHI ,CHI,33.12,$6211,$6200,$11,29.94,0.0,0.0, , 
-52,Dennis Schroder,PG/SG,OKC@LAL,LAL,34.43,$6456,$6200,$256,27.25,0.0,0.0, , 
-19,Russell Westbrook,PG,TOR@WAS,WAS,52.51,$9845,$8400,$1445,47.3,0.0,0.0, , 
-7,Anthony Davis,PF/C,OKC@LAL,LAL,49.78,$9333,$9500,-$167,44.4,0.0,0.0,GTD,Achilles
-94,Paul Millsap,PF/C,CLE@DEN,DEN,36.05,$6758,$4900,$1858,21.3,0.08179446227196044,0.0, , 
+38,Josh Jackson,SG/SF,IND@DET,DET,34.55,$6478,$5800,$678,23.16,0.0,0.0, , 
+55,Seth Curry,SG,PHI@POR,PHI,21.2,$3976,$4700,-$724,21.76,0.0,0.0, , 
+1,Stephen Curry,PG,ORL@GS ,GS,42.39,$7948,$10100,-$2152,48.89,0.0,0.0, , 
+25,Kemba Walker,PG,TOR@BOS,BOS,36.03,$6757,$6500,$257,28.72,0.0,0.0, , 
+21,Draymond Green,PF/C,ORL@GS ,GS,31.72,$5948,$6800,-$852,26.31,0.17970795658073102,0.0, , 
+37,Robert Covington,PF,PHI@POR,POR,27.81,$5215,$5900,-$685,22.7,0.0,0.0, , 
+127,Al-Farouq Aminu,PF,ORL@GS ,ORL,23.47,$4401,$3000,$1401,2.25,0.0,0.0,GTD,Knee
+20,DeMarcus Cousins,C,MIA@HOU,HOU,32.88,$6165,$6900,-$735,25.04,0.0,0.0, , 

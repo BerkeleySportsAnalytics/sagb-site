@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-20,Devin Booker,SG,MIL@PHO,PHO,37.66,$7531,$7700,-$169,34.37, , ,0.0,0.0
-67,Dillon Brooks,SG,CHA@MEM,MEM,31.46,$6291,$5200,$1091,26.91, , ,1.9760488331180224,0.0
-114,Josh Hart,SF,NO@CHI,NO,29.68,$5936,$4100,$1836,23.11, , ,1.4451032600332223,0.0
-134,Danilo Gallinari,SF,ATL@DAL,ATL,30.5,$6100,$3800,$2300,14.08, , ,0.0,0.0
-9,Russell Westbrook,PG,TOR@WAS,WAS,50.82,$10164,$9700,$464,42.77, , ,0.0,0.0
-26,Chris Paul,PG,MIL@PHO,PHO,37.72,$7544,$7500,$44,35.92,GTD,Hamstring,0.0,0.0
-7,Anthony Davis,PF,OKC@LAL,LAL,50.37,$10075,$9800,$275,45.24,GTD,Achilles,0.0,0.0
-77,Paul Millsap,PF,CLE@DEN,DEN,35.38,$7076,$5000,$2076,21.06, , ,0.08179446227196044,0.0
-75,DeAndre Jordan,C,IND@BKN,BKN,32.23,$6445,$5100,$1345,20.89, , ,0.0,0.0
+24,Andrew Wiggins,SG,ORL@GS,GS,30.75,$6151,$6600,-$449,30.57, , ,0.0,0.0
+35,Josh Jackson,SG,IND@DET,DET,33.87,$6774,$5500,$1274,22.95, , ,0.0,0.0
+10,Jimmy Butler,SF,MIA@HOU,MIA,32.23,$6445,$8700,-$2255,42.8, , ,0.0,0.0
+82,Danny Green,SF,PHI@POR,PHI,18.25,$3650,$3700,-$50,20.19, , ,0.0,0.0
+1,Stephen Curry,PG,ORL@GS,GS,40.68,$8136,$10500,-$2364,45.56, , ,0.0,0.0
+37,Kemba Walker,PG,TOR@BOS,BOS,34.47,$6894,$5500,$1394,27.95, , ,0.0,0.0
+16,Draymond Green,PF,ORL@GS,GS,31.64,$6328,$7500,-$1172,26.13, , ,0.17970795658073102,0.0
+30,Robert Covington,PF,PHI@POR,POR,27.44,$5488,$6000,-$512,23.16, , ,0.0,0.0
+31,DeMarcus Cousins,C,MIA@HOU,HOU,31.97,$6394,$6000,$394,24.45, , ,0.0,0.0
