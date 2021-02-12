@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-24,Andrew Wiggins,SG,ORL@GS,GS,30.75,$6151,$6600,-$449,30.57, , ,0.0,0.0
-35,Josh Jackson,SG,IND@DET,DET,33.87,$6774,$5500,$1274,22.95, , ,0.0,0.0
-10,Jimmy Butler,SF,MIA@HOU,MIA,32.23,$6445,$8700,-$2255,42.8, , ,0.0,0.0
-82,Danny Green,SF,PHI@POR,PHI,18.25,$3650,$3700,-$50,20.19, , ,0.0,0.0
-1,Stephen Curry,PG,ORL@GS,GS,40.68,$8136,$10500,-$2364,45.56, , ,0.0,0.0
-37,Kemba Walker,PG,TOR@BOS,BOS,34.47,$6894,$5500,$1394,27.95, , ,0.0,0.0
-16,Draymond Green,PF,ORL@GS,GS,31.64,$6328,$7500,-$1172,26.13, , ,0.17970795658073102,0.0
-30,Robert Covington,PF,PHI@POR,POR,27.44,$5488,$6000,-$512,23.16, , ,0.0,0.0
-31,DeMarcus Cousins,C,MIA@HOU,HOU,31.97,$6394,$6000,$394,24.45, , ,0.0,0.0
+70,Josh Jackson,SG,DET@BOS,DET,29.7,$5940,$5500,$440,23.37, , ,0.0,0.0
+84,Dillon Brooks,SG,MEM@LAL,MEM,27.85,$5570,$5200,$370,26.99, , ,1.9760488331180224,0.0
+3,LeBron James,SF,MEM@LAL,LAL,49.73,$9946,$10500,-$554,47.88,GTD,Ankle,0.0,0.0
+148,Danilo Gallinari,SF,SA@ATL,ATL,27.97,$5594,$4100,$1494,14.5, , ,0.0,0.0
+13,Russell Westbrook,PG,NY@WAS,WAS,46.89,$9379,$8700,$679,42.5, , ,0.0,0.0
+66,Kemba Walker,PG,DET@BOS,BOS,31.71,$6342,$5500,$842,28.09, , ,0.0,0.0
+8,Anthony Davis,PF,MEM@LAL,LAL,47.92,$9584,$9800,-$216,45.24,GTD,Achilles,0.0,0.0
+71,Paul Millsap,PF,OKC@DEN,DEN,33.23,$6646,$5400,$1246,21.82, , ,0.08179446227196044,0.0
+92,Mitchell Robinson,C,NY@WAS,NY,29.56,$5911,$5100,$811,26.3, , ,0.0,0.27159052669998474
