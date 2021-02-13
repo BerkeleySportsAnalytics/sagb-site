@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-70,Josh Jackson,SG,DET@BOS,DET,29.7,$5940,$5500,$440,23.37, , ,0.0,0.0
-84,Dillon Brooks,SG,MEM@LAL,MEM,27.85,$5570,$5200,$370,26.99, , ,1.9760488331180224,0.0
-3,LeBron James,SF,MEM@LAL,LAL,49.73,$9946,$10500,-$554,47.88,GTD,Ankle,0.0,0.0
-148,Danilo Gallinari,SF,SA@ATL,ATL,27.97,$5594,$4100,$1494,14.5, , ,0.0,0.0
-13,Russell Westbrook,PG,NY@WAS,WAS,46.89,$9379,$8700,$679,42.5, , ,0.0,0.0
-66,Kemba Walker,PG,DET@BOS,BOS,31.71,$6342,$5500,$842,28.09, , ,0.0,0.0
-8,Anthony Davis,PF,MEM@LAL,LAL,47.92,$9584,$9800,-$216,45.24,GTD,Achilles,0.0,0.0
-71,Paul Millsap,PF,OKC@DEN,DEN,33.23,$6646,$5400,$1246,21.82, , ,0.08179446227196044,0.0
-92,Mitchell Robinson,C,NY@WAS,NY,29.56,$5911,$5100,$811,26.3, , ,0.0,0.27159052669998474
+1,James Harden,SG,BKN@GS,BKN,46.04,$9207,$10300,-$1093,49.73, , ,0.0,0.0
+16,Andrew Wiggins,SG,BKN@GS,GS,35.45,$7091,$6800,$291,30.89, , ,0.0,0.0
+52,Danilo Gallinari,SF,IND@ATL,ATL,26.12,$5225,$4000,$1225,14.07, , ,0.0,0.0
+96,Kevin Knox,SF,HOU@NY,NY,23.21,$4643,$3500,$1143,10.57, , ,0.0,0.0
+14,John Wall,PG,HOU@NY,HOU,39.73,$7946,$7500,$446,34.24,GTD,Ankle,0.0,0.0
+21,Mike Conley,PG,MIA@UTA,UTA,34.58,$6917,$6000,$917,32.03,GTD,Hamstring,0.6644841451177907,0.0
+11,John Collins,PF,IND@ATL,ATL,23.01,$4603,$7800,-$3197,32.74, , ,0.0,0.0
+12,Draymond Green,PF,BKN@GS,GS,34.76,$6951,$7600,-$649,26.66, , ,0.17970795658073102,0.0
+20,DeMarcus Cousins,C,HOU@NY,HOU,43.0,$8601,$6200,$2401,24.96, , ,0.0,0.0
