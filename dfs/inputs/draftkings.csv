@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-21,Andrew Wiggins,SG/SF,BKN@GS ,GS,36.28,$6802,$6400,$402,30.89,0.0,0.0, , 
-48,Danilo Gallinari,SF/PF,IND@ATL,ATL,27.31,$5120,$4500,$620,15.23,0.0,0.0, , 
-7,Jimmy Butler,SF,MIA@UTA,MIA,36.63,$6868,$8300,-$1432,43.29,0.0,0.0, , 
-15,John Wall,PG,HOU@NY ,HOU,40.66,$7624,$7200,$424,35.62,0.0,0.0,GTD,Ankle
-20,Mike Conley,PG,MIA@UTA,UTA,35.53,$6662,$6500,$162,33.26,0.6644841451177907,0.0,GTD,Hamstring
-74,Tyler Johnson,PG,BKN@GS ,BKN,21.25,$3983,$3200,$783,5.5,0.0,0.0, , 
-18,Draymond Green,PF/C,BKN@GS ,GS,34.43,$6455,$6700,-$245,26.77,0.17970795658073102,0.0, , 
-19,DeMarcus Cousins,C,HOU@NY ,HOU,43.25,$8108,$6500,$1608,25.66,0.0,0.0, , 
+66,Josh Jackson,SG/SF,NO@DET ,DET,31.08,$5828,$6000,-$172,23.84,0.0,0.0, , 
+79,Dillon Brooks,SG,MEM@SAC,MEM,28.86,$5411,$5400,$11,27.06,1.9760488331180224,0.0, , 
+93,Nicolas Batum,SF/PF,CLE@LAC,LAC,28.28,$5302,$4900,$402,23.92,0.0,0.0, , 
+3,LeBron James,PG/SF,LAL@DEN,LAL,48.99,$9187,$10200,-$1013,51.0,0.0,0.0,GTD,Ankle
+22,Chris Paul,PG,ORL@PHO,PHO,37.41,$7015,$7700,-$685,37.94,0.0,0.0, , 
+200,James Johnson,PF,POR@DAL,DAL,24.04,$4508,$3000,$1508,15.82,0.0,0.0, , 
+7,Karl-Anthony Towns,C,MIN@TOR,MIN,42.65,$7996,$9400,-$1404,48.33,0.0,0.0, , 
+167,Willie Cauley-Stein,C,POR@DAL,DAL,28.84,$5408,$3300,$2108,14.79,0.0,0.0, , 
