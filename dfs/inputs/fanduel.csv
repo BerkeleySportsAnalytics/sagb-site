@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-1,James Harden,SG,BKN@SAC,BKN,47.88,$9577,$10600,-$1023,50.18, , ,0.0,0.0
-24,Andrew Wiggins,SG,CLE@GS,GS,39.71,$7942,$6900,$1042,31.03, , ,0.0,0.0
-54,RJ Barrett,SF,ATL@NY,NY,27.47,$5495,$5100,$395,29.27, , ,0.0,0.0
-74,Danilo Gallinari,SF,ATL@NY,ATL,25.67,$5135,$4500,$635,15.24, , ,0.0,0.0
-19,John Wall,PG,HOU@WAS,HOU,43.48,$8696,$7700,$996,34.49, , ,0.0,0.0
-40,Coby White,PG,CHI@IND,CHI,30.53,$6106,$5800,$306,28.28, , ,0.0,0.0
-22,Draymond Green,PF,CLE@GS,GS,34.6,$6921,$7400,-$479,26.78,GTD,Knee,0.17970795658073102,0.0
-48,Serge Ibaka,PF,MIA@LAC,LAC,26.36,$5272,$5400,-$128,26.15, , ,0.21241426166237487,0.0
-35,DeMarcus Cousins,C,HOU@WAS,HOU,43.51,$8703,$6100,$2603,24.92, , ,0.0,0.0
+22,Donovan Mitchell,SG,UTA@LAC,UTA,34.72,$6943,$8100,-$1157,37.32, , ,0.0,0.0
+95,Eric Bledsoe,SG,POR@NO,NO,30.3,$6061,$4800,$1261,23.75, , ,0.0,0.0
+100,Josh Hart,SF,POR@NO,NO,26.79,$5358,$4700,$658,23.41, , ,1.4451032600332223,0.0
+105,Danilo Gallinari,SF,ATL@BOS,ATL,28.17,$5634,$4600,$1034,15.89, , ,0.0,0.0
+14,Russell Westbrook,PG,DEN@WAS,WAS,49.37,$9873,$9200,$673,42.98, , ,0.0,0.0
+17,John Wall,PG,HOU@PHI,HOU,41.33,$8265,$8500,-$235,35.36, , ,0.0,0.0
+28,Draymond Green,PF,MIA@GS,GS,36.09,$7219,$7600,-$381,27.77, , ,0.17970795658073102,0.0
+45,Robert Covington,PF,POR@NO,POR,29.34,$5868,$6400,-$532,23.66, , ,0.0,0.0
+54,DeMarcus Cousins,C,HOU@PHI,HOU,40.72,$8144,$6100,$2044,24.69, , ,0.0,0.0
