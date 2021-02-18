@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Donovan Mitchell,SG,UTA@LAC,UTA,34.72,$6943,$8100,-$1157,37.32, , ,0.0,0.0
-95,Eric Bledsoe,SG,POR@NO,NO,30.3,$6061,$4800,$1261,23.75, , ,0.0,0.0
-100,Josh Hart,SF,POR@NO,NO,26.79,$5358,$4700,$658,23.41, , ,1.4451032600332223,0.0
-105,Danilo Gallinari,SF,ATL@BOS,ATL,28.17,$5634,$4600,$1034,15.89, , ,0.0,0.0
-14,Russell Westbrook,PG,DEN@WAS,WAS,49.37,$9873,$9200,$673,42.98, , ,0.0,0.0
-17,John Wall,PG,HOU@PHI,HOU,41.33,$8265,$8500,-$235,35.36, , ,0.0,0.0
-28,Draymond Green,PF,MIA@GS,GS,36.09,$7219,$7600,-$381,27.77, , ,0.17970795658073102,0.0
-45,Robert Covington,PF,POR@NO,POR,29.34,$5868,$6400,-$532,23.66, , ,0.0,0.0
-54,DeMarcus Cousins,C,HOU@PHI,HOU,40.72,$8144,$6100,$2044,24.69, , ,0.0,0.0
+1,James Harden,SG,BKN@LAL,BKN,51.31,$10263,$11000,-$737,51.23, , ,0.0,0.0
+75,Andre Iguodala,SG,MIA@SAC,MIA,22.43,$4486,$3500,$986,15.7, , ,0.0,0.0
+2,LeBron James,SF,BKN@LAL,LAL,53.2,$10641,$10500,$141,48.29,GTD,Ankle,0.0,0.0
+45,Timothe Luwawu-Cabarrot,SF,BKN@LAL,BKN,23.52,$4705,$3700,$1005,13.8,GTD,Knee,0.0,0.0
+20,Dennis Schroder,PG,BKN@LAL,LAL,32.33,$6465,$5700,$765,26.26, , ,0.0,0.0
+49,Tyler Johnson,PG,BKN@LAL,BKN,21.31,$4262,$3600,$662,7.81, , ,0.0,0.0
+0,Giannis Antetokounmpo,PF,TOR@MIL,MIL,44.82,$8965,$11300,-$2335,54.71, , ,0.0,0.0
+25,Marvin Bagley,PF,MIA@SAC,SAC,21.59,$4319,$5200,-$881,24.31, , ,0.0,0.0
+23,DeAndre Jordan,C,BKN@LAL,BKN,34.61,$6922,$5400,$1522,21.74, , ,0.0,0.0
