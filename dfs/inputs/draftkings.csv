@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-49,Kentavious Caldwell-Pope,SG,BKN@LAL,LAL,17.14,$3215,$3300,-$85,15.72,0.0,0.0, , 
-39,Timothe Luwawu-Cabarrot,SF/PF,BKN@LAL,BKN,24.37,$4568,$3900,$668,14.23,0.0,0.0,GTD,Knee
-6,Jimmy Butler,SF,MIA@SAC,MIA,37.12,$6959,$8800,-$1841,44.92,0.0,0.0, , 
-2,LeBron James,PG/SF,BKN@LAL,LAL,53.61,$10052,$10200,-$148,51.25,0.0,0.0,GTD,Ankle
-1,James Harden,PG,BKN@LAL,BKN,52.91,$9920,$10600,-$680,55.28,0.0,0.0, , 
-48,Tyler Johnson,PG,BKN@LAL,BKN,21.88,$4103,$3300,$803,8.29,0.0,0.0, , 
-31,DeAndre Jordan,C,BKN@LAL,BKN,34.48,$6466,$4900,$1566,21.38,0.0,0.0, , 
-34,Hassan Whiteside,C,MIA@SAC,SAC,35.55,$6665,$4600,$2065,19.06,0.7810536430160036,0.0, , 
+55,Andrew Wiggins,SG/SF,GS@ORL ,GS,31.74,$5952,$6000,-$48,30.84,0.0,0.0, , 
+102,Danilo Gallinari,SF/PF,ATL@BOS,ATL,30.13,$5650,$4300,$1350,16.81,0.0,0.0, , 
+100,Josh Hart,SF,PHO@NO ,NO,28.04,$5257,$4400,$857,23.85,1.4451032600332223,0.0, , 
+20,Chris Paul,PG,PHO@NO ,PHO,36.39,$6824,$7700,-$876,38.31,0.0,0.0, , 
+37,Kemba Walker,PG,ATL@BOS,BOS,34.11,$6396,$6500,-$104,29.65,0.0,0.0, , 
+49,Mike Conley,PG,UTA@LAC,UTA,34.55,$6477,$6100,$377,33.26,0.6644841451177907,0.0,GTD,Hamstring
+0,Giannis Antetokounmpo,PF/C,OKC@MIL,MIL,46.69,$8754,$10800,-$2046,56.59,0.0,0.0, , 
+106,Brook Lopez,C,OKC@MIL,MIL,28.39,$5323,$4200,$1123,22.05,0.0,1.0842853485955473, , 

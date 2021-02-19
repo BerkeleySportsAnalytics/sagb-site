@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-1,James Harden,SG,BKN@LAL,BKN,51.31,$10263,$11000,-$737,51.23, , ,0.0,0.0
-75,Andre Iguodala,SG,MIA@SAC,MIA,22.43,$4486,$3500,$986,15.7, , ,0.0,0.0
-2,LeBron James,SF,BKN@LAL,LAL,53.2,$10641,$10500,$141,48.29,GTD,Ankle,0.0,0.0
-45,Timothe Luwawu-Cabarrot,SF,BKN@LAL,BKN,23.52,$4705,$3700,$1005,13.8,GTD,Knee,0.0,0.0
-20,Dennis Schroder,PG,BKN@LAL,LAL,32.33,$6465,$5700,$765,26.26, , ,0.0,0.0
-49,Tyler Johnson,PG,BKN@LAL,BKN,21.31,$4262,$3600,$662,7.81, , ,0.0,0.0
-0,Giannis Antetokounmpo,PF,TOR@MIL,MIL,44.82,$8965,$11300,-$2335,54.71, , ,0.0,0.0
-25,Marvin Bagley,PF,MIA@SAC,SAC,21.59,$4319,$5200,-$881,24.31, , ,0.0,0.0
-23,DeAndre Jordan,C,BKN@LAL,BKN,34.61,$6922,$5400,$1522,21.74, , ,0.0,0.0
+64,Dillon Brooks,SG,DET@MEM,MEM,29.67,$5934,$5500,$434,26.44,GTD,Thigh,1.9760488331180224,0.0
+86,Eric Bledsoe,SG,PHO@NO,NO,26.95,$5389,$4800,$589,23.47, , ,0.0,0.0
+89,Josh Hart,SF,PHO@NO,NO,27.26,$5452,$4700,$752,23.1, , ,1.4451032600332223,0.0
+92,Danilo Gallinari,SF,ATL@BOS,ATL,28.49,$5698,$4600,$1098,15.57, , ,0.0,0.0
+49,Kemba Walker,PG,ATL@BOS,BOS,32.5,$6499,$6200,$299,28.28, , ,0.0,0.0
+53,Mike Conley,PG,UTA@LAC,UTA,33.93,$6787,$6000,$787,32.03,GTD,Hamstring,0.6644841451177907,0.0
+0,Giannis Antetokounmpo,PF,OKC@MIL,MIL,47.15,$9431,$11300,-$1869,54.71, , ,0.0,0.0
+27,Draymond Green,PF,GS@ORL,GS,34.1,$6821,$7600,-$779,27.77,GTD,Ankle,0.17970795658073102,0.0
+9,Karl-Anthony Towns,C,TOR@MIN,MIN,39.84,$7968,$9300,-$1332,45.33, , ,0.0,0.0
