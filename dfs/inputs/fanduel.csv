@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-64,Dillon Brooks,SG,DET@MEM,MEM,29.67,$5934,$5500,$434,26.44,GTD,Thigh,1.9760488331180224,0.0
-86,Eric Bledsoe,SG,PHO@NO,NO,26.95,$5389,$4800,$589,23.47, , ,0.0,0.0
-89,Josh Hart,SF,PHO@NO,NO,27.26,$5452,$4700,$752,23.1, , ,1.4451032600332223,0.0
-92,Danilo Gallinari,SF,ATL@BOS,ATL,28.49,$5698,$4600,$1098,15.57, , ,0.0,0.0
-49,Kemba Walker,PG,ATL@BOS,BOS,32.5,$6499,$6200,$299,28.28, , ,0.0,0.0
-53,Mike Conley,PG,UTA@LAC,UTA,33.93,$6787,$6000,$787,32.03,GTD,Hamstring,0.6644841451177907,0.0
-0,Giannis Antetokounmpo,PF,OKC@MIL,MIL,47.15,$9431,$11300,-$1869,54.71, , ,0.0,0.0
-27,Draymond Green,PF,GS@ORL,GS,34.1,$6821,$7600,-$779,27.77,GTD,Ankle,0.17970795658073102,0.0
-9,Karl-Anthony Towns,C,TOR@MIN,MIN,39.84,$7968,$9300,-$1332,45.33, , ,0.0,0.0
+11,Devin Booker,SG,PHO@MEM,PHO,39.22,$7844,$7700,$144,35.18, , ,0.0,0.0
+22,Andrew Wiggins,SG,GS@CHA,GS,31.8,$6359,$6400,-$41,30.56, , ,0.0,0.0
+15,Gordon Hayward,SF,GS@CHA,CHA,30.53,$6106,$7300,-$1194,37.09,GTD,Back,0.20981249315445188,0.0
+53,Malik Monk,SF,GS@CHA,CHA,26.78,$5356,$4400,$956,16.1, , ,1.4805983338600142,0.0
+1,Stephen Curry,PG,GS@CHA,GS,48.9,$9781,$10000,-$219,46.28, , ,0.0,0.0
+5,Russell Westbrook,PG,WAS@POR,WAS,55.54,$11108,$9200,$1908,43.17, , ,0.0,0.0
+20,Robert Covington,PF,WAS@POR,POR,29.53,$5906,$6400,-$494,24.29, , ,0.0,0.0
+44,Jae Crowder,PF,PHO@MEM,PHO,24.88,$4976,$4800,$176,22.72, , ,0.0,0.0
+70,Robin Lopez,C,WAS@POR,WAS,23.06,$4612,$3800,$812,15.74, , ,0.0,0.0
