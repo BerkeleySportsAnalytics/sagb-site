@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
 2,James Harden,SG,BKN@LAC,BKN,51.99,$10399,$10800,-$401,51.32, , ,0.0,0.0
-62,Josh Jackson,SG,DET@ORL,DET,29.69,$5938,$5100,$838,23.71, , ,0.0,0.0
-59,Nicolas Batum,SF,BKN@LAC,LAC,28.99,$5797,$5100,$697,23.12, , ,0.0,0.0
-72,Danilo Gallinari,SF,DEN@ATL,ATL,28.5,$5699,$4600,$1099,15.71, , ,0.0,0.0
-20,Kyle Lowry,PG,PHI@TOR,TOR,35.33,$7065,$7400,-$335,34.94,GTD,Ankle,0.0,0.0
-67,Elfrid Payton,PG,MIN@NY,NY,27.87,$5575,$4900,$675,22.78, , ,0.0,0.0
+12,Paul George,SG,BKN@LAC,LAC,38.34,$7667,$8500,-$833,40.95, , ,0.0,0.0
+71,Danilo Gallinari,SF,DEN@ATL,ATL,28.5,$5699,$4600,$1099,15.71, , ,0.0,0.0
+102,Timothe Luwawu-Cabarrot,SF,BKN@LAC,BKN,25.81,$5161,$3900,$1261,14.22, , ,0.0,0.0
+46,Ricky Rubio,PG,MIN@NY,MIN,27.84,$5568,$5300,$268,22.49, , ,0.0,0.0
+66,Elfrid Payton,PG,MIN@NY,NY,27.87,$5575,$4900,$675,22.78, , ,0.0,0.0
 0,Giannis Antetokounmpo,PF,SAC@MIL,MIL,51.83,$10365,$11300,-$935,55.18, , ,0.0,0.0
-56,Serge Ibaka,PF,BKN@LAC,LAC,30.8,$6159,$5200,$959,25.48, , ,0.21241426166237487,0.0
-51,DeAndre Jordan,C,BKN@LAC,BKN,37.63,$7526,$5300,$2226,21.63, , ,0.0,0.0
+55,Serge Ibaka,PF,BKN@LAC,LAC,30.8,$6159,$5200,$959,25.48, , ,0.21241426166237487,0.0
+50,DeAndre Jordan,C,BKN@LAC,BKN,37.63,$7526,$5300,$2226,21.63, , ,0.0,0.0
