@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-2,James Harden,SG,BKN@LAC,BKN,51.99,$10399,$10800,-$401,51.32, , ,0.0,0.0
-12,Paul George,SG,BKN@LAC,LAC,38.34,$7667,$8500,-$833,40.95, , ,0.0,0.0
-71,Danilo Gallinari,SF,DEN@ATL,ATL,28.5,$5699,$4600,$1099,15.71, , ,0.0,0.0
-102,Timothe Luwawu-Cabarrot,SF,BKN@LAC,BKN,25.81,$5161,$3900,$1261,14.22, , ,0.0,0.0
-46,Ricky Rubio,PG,MIN@NY,MIN,27.84,$5568,$5300,$268,22.49, , ,0.0,0.0
-66,Elfrid Payton,PG,MIN@NY,NY,27.87,$5575,$4900,$675,22.78, , ,0.0,0.0
-0,Giannis Antetokounmpo,PF,SAC@MIL,MIL,51.83,$10365,$11300,-$935,55.18, , ,0.0,0.0
-55,Serge Ibaka,PF,BKN@LAC,LAC,30.8,$6159,$5200,$959,25.48, , ,0.21241426166237487,0.0
-50,DeAndre Jordan,C,BKN@LAC,BKN,37.63,$7526,$5300,$2226,21.63, , ,0.0,0.0
+9,Donovan Mitchell,SG,CHA@UTA,UTA,37.16,$7433,$8300,-$867,38.52, , ,0.0,0.0
+12,Devin Booker,SG,POR@PHO,PHO,37.11,$7422,$7700,-$278,35.11, , ,0.0,0.0
+2,LeBron James,SF,WAS@LAL,LAL,33.9,$6779,$10400,-$3621,48.19,GTD,Ankle,0.0,0.0
+68,Malik Monk,SF,CHA@UTA,CHA,26.65,$5330,$4300,$1030,16.17, , ,1.4805983338600142,0.0
+5,Russell Westbrook,PG,WAS@LAL,WAS,51.4,$10281,$9400,$881,43.65, , ,0.0,0.0
+38,Mike Conley,PG,CHA@UTA,UTA,31.86,$6371,$5600,$771,31.62, , ,0.6644841451177907,0.0
+25,Thaddeus Young,PF,CHI@HOU,CHI,27.65,$5530,$6600,-$1070,28.57, , ,0.0,0.0
+127,James Johnson,PF,MEM@DAL,DAL,22.54,$4507,$3500,$1007,16.51, , ,0.0,0.0
+71,Robin Lopez,C,WAS@LAL,WAS,26.52,$5303,$4200,$1103,16.43, , ,0.0,0.0
