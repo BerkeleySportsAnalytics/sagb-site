@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-2,James Harden,SG,SAC@BKN,BKN,46.62,$9323,$11000,-$1677,51.8, , ,0.0,0.0
-70,Josh Jackson,SG,DET@ORL,DET,30.79,$6159,$5100,$1059,23.97, , ,0.0,0.0
-68,Nicolas Batum,SF,WAS@LAC,LAC,28.0,$5600,$5100,$500,22.85, , ,0.0,0.0
-91,Danilo Gallinari,SF,ATL@CLE,ATL,27.71,$5542,$4600,$942,16.37, , ,0.0,0.0
-14,Russell Westbrook,PG,WAS@LAC,WAS,49.91,$9982,$9200,$782,44.44, , ,0.0,0.0
-36,Kemba Walker,PG,BOS@DAL,BOS,33.65,$6729,$6600,$129,29.85, , ,0.0,0.0
-38,Draymond Green,PF,GS@NY,GS,33.58,$6716,$6600,$116,27.54, , ,0.17970795658073102,0.0
-66,Serge Ibaka,PF,WAS@LAC,LAC,30.07,$6015,$5200,$815,25.39, , ,0.21241426166237487,0.0
-54,DeAndre Jordan,C,SAC@BKN,BKN,33.73,$6746,$5500,$1246,22.48, , ,0.0,0.0
+13,Donovan Mitchell,SG,LAL@UTA,UTA,34.72,$6945,$8300,-$1355,38.46, , ,0.0,0.0
+72,Josh Jackson,SG,DET@NO,DET,28.79,$5758,$5100,$658,24.19, , ,0.0,0.0
+0,LeBron James,SF,LAL@UTA,LAL,45.67,$9135,$10400,-$1265,48.44,GTD,Ankle,0.0,0.0
+88,Danilo Gallinari,SF,BOS@ATL,ATL,28.86,$5771,$4600,$1171,15.79, , ,0.0,0.0
+36,Kemba Walker,PG,BOS@ATL,BOS,31.34,$6267,$6600,-$333,29.88, , ,0.0,0.0
+57,Mike Conley,PG,LAL@UTA,UTA,30.85,$6171,$5600,$571,31.63, , ,0.6644841451177907,0.0
+53,Kyle Kuzma,PF,LAL@UTA,LAL,26.56,$5313,$5700,-$387,22.16,GTD,Back,0.0,0.3331746744690814
+114,Dario Saric,PF,CHA@PHO,PHO,21.42,$4283,$4000,$283,18.89, , ,0.0,0.0
+4,Karl-Anthony Towns,C,MIN@CHI,MIN,41.09,$8219,$9700,-$1481,46.81, , ,0.0,0.0
