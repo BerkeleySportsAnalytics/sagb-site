@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-13,Paul George,SG,LAC@MEM,LAC,37.08,$6953,$8600,-$1647,43.43,0.0,0.0, , 
-37,Gordon Hayward,SF/PF,CHA@GS ,CHA,30.49,$5717,$6700,-$983,37.53,0.20981249315445188,0.0, , 
-87,Danilo Gallinari,SF/PF,ATL@OKC,ATL,28.71,$5384,$5000,$384,18.81,0.0,0.0, , 
-4,Stephen Curry,PG,CHA@GS ,GS,40.73,$7638,$9700,-$2062,50.03,0.0,0.0, , 
-48,Kemba Walker,PG,IND@BOS,BOS,34.79,$6523,$6200,$323,31.06,0.0,0.0, , 
-54,Mike Conley,PG,UTA@MIA,UTA,35.76,$6704,$6100,$604,33.02,0.6644841451177907,0.0, , 
-130,Eric Paschall,PF/C,CHA@GS ,GS,25.65,$4808,$3600,$1208,16.65,0.0,0.0, , 
-116,Marc Gasol,C,POR@LAL,LAL,29.18,$5471,$4100,$1371,16.33,0.0,0.0, , 
+21,DeMar DeRozan,SF/PF,NO@SA 0,SA,39.28,$7366,$8000,-$634,38.21,0.7220975974998681,0.0,GTD,Personal
+104,Timothe Luwawu-Cabarrot,SF/PF,DAL@BKN,BKN,24.47,$4588,$3700,$888,14.36,0.0,0.0, , 
+64,Eric Bledsoe,PG/SG,NO@SA 0,NO,33.06,$6199,$5100,$1099,24.4,0.0,0.0, , 
+7,Russell Westbrook,PG,MIN@WAS,WAS,49.28,$9239,$9900,-$661,49.38,0.0,0.0, , 
+36,Mike Conley,PG,UTA@ORL,UTA,37.01,$6940,$6300,$640,32.94,0.6644841451177907,0.0, , 
+125,James Johnson,PF,DAL@BKN,DAL,26.97,$5056,$3200,$1856,16.07,0.0,0.0, , 
+4,Joel Embiid,C,CLE@PHI,PHI,43.25,$8108,$10300,-$2192,53.49,0.0,0.0, , 
+120,Willie Cauley-Stein,C,DAL@BKN,DAL,27.57,$5169,$3300,$1869,14.54,0.0,0.0, , 
