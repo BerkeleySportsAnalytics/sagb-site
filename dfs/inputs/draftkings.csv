@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-21,DeMar DeRozan,SF/PF,NO@SA 0,SA,39.28,$7366,$8000,-$634,38.21,0.7220975974998681,0.0,GTD,Personal
-104,Timothe Luwawu-Cabarrot,SF/PF,DAL@BKN,BKN,24.47,$4588,$3700,$888,14.36,0.0,0.0, , 
-64,Eric Bledsoe,PG/SG,NO@SA 0,NO,33.06,$6199,$5100,$1099,24.4,0.0,0.0, , 
-7,Russell Westbrook,PG,MIN@WAS,WAS,49.28,$9239,$9900,-$661,49.38,0.0,0.0, , 
-36,Mike Conley,PG,UTA@ORL,UTA,37.01,$6940,$6300,$640,32.94,0.6644841451177907,0.0, , 
-125,James Johnson,PF,DAL@BKN,DAL,26.97,$5056,$3200,$1856,16.07,0.0,0.0, , 
-4,Joel Embiid,C,CLE@PHI,PHI,43.25,$8108,$10300,-$2192,53.49,0.0,0.0, , 
-120,Willie Cauley-Stein,C,DAL@BKN,DAL,27.57,$5169,$3300,$1869,14.54,0.0,0.0, , 
+51,Josh Jackson,SG/SF,NY@DET ,DET,29.39,$5511,$6200,-$689,25.2,0.0,0.0, , 
+81,Danilo Gallinari,SF/PF,ATL@MIA,ATL,27.86,$5224,$5100,$124,18.74,0.0,0.0, , 
+91,Miles Bridges,SF/PF,CHA@SAC,CHA,24.59,$4610,$4700,-$90,22.71,1.4704650210366064,0.0, , 
+131,Jeff Teague,PG/SG,WAS@BOS,BOS,28.59,$5360,$3500,$1860,13.42,0.0,0.0, , 
+1,Russell Westbrook,PG,WAS@BOS,WAS,51.4,$9638,$10300,-$662,49.84,0.0,0.0, , 
+16,John Wall,PG,MEM@HOU,HOU,42.05,$7885,$8300,-$415,37.07,0.0,0.0, , 
+25,Draymond Green,PF/C,GS@LAL ,GS,39.0,$7313,$7500,-$187,30.0,0.17970795658073102,0.0, , 
+106,Marc Gasol,C,GS@LAL ,LAL,26.9,$5044,$4100,$944,16.32,0.0,0.0, , 

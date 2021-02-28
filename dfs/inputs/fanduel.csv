@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,DeMar DeRozan,SG,NO@SA,SA,39.14,$7828,$7600,$228,37.72,GTD,Personal,0.7220975974998681,0.0
-51,Eric Bledsoe,SG,NO@SA,NO,32.04,$6408,$4900,$1508,23.26, , ,0.0,0.0
-50,Josh Hart,SF,NO@SA,NO,27.04,$5409,$5000,$409,23.36, , ,1.4451032600332223,0.0
-65,Josh Richardson,SF,DAL@BKN,DAL,27.34,$5469,$4500,$969,22.0, , ,0.0,0.0
-8,Russell Westbrook,PG,MIN@WAS,WAS,47.23,$9445,$9400,$45,44.87, , ,0.0,0.0
-29,Mike Conley,PG,UTA@ORL,UTA,35.92,$7184,$6200,$984,31.86, , ,0.6644841451177907,0.0
-18,Kristaps Porzingis,PF,DAL@BKN,DAL,30.53,$6107,$7800,-$1693,36.94,GTD,Back,0.0,0.0
-84,James Johnson,PF,DAL@BKN,DAL,26.5,$5299,$4000,$1299,16.81, , ,0.0,0.0
-3,Joel Embiid,C,CLE@PHI,PHI,43.86,$8771,$10300,-$1529,52.32, , ,0.0,0.0
+18,Devin Booker,SG,PHO@MIN,PHO,34.22,$6845,$7700,-$855,35.46, , ,0.0,0.0
+50,Josh Jackson,SG,NY@DET,DET,29.52,$5904,$5700,$204,24.96, , ,0.0,0.0
+0,LeBron James,SF,GS@LAL,LAL,51.0,$10200,$11000,-$800,48.52,GTD,Ankle,0.0,0.0
+53,Danilo Gallinari,SF,ATL@MIA,ATL,26.44,$5288,$5600,-$312,17.49, , ,0.0,0.0
+8,Russell Westbrook,PG,WAS@BOS,WAS,50.68,$10136,$9400,$736,45.29, , ,0.0,0.0
+85,Jeff Teague,PG,WAS@BOS,BOS,28.24,$5647,$4500,$1147,13.45, , ,0.0,0.0
+17,Draymond Green,PF,GS@LAL,GS,40.43,$8086,$7800,$286,29.9, , ,0.17970795658073102,0.0
+98,Dario Saric,PF,PHO@MIN,PHO,20.54,$4108,$4100,$8,19.17,GTD,Ankle,0.0,0.0
+102,Eric Paschall,C,GS@LAL,GS,22.33,$4466,$4000,$466,16.02, , ,0.0,0.0
