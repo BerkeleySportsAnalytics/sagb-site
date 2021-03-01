@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-51,Josh Jackson,SG/SF,NY@DET ,DET,29.39,$5511,$6200,-$689,25.2,0.0,0.0, , 
-81,Danilo Gallinari,SF/PF,ATL@MIA,ATL,27.86,$5224,$5100,$124,18.74,0.0,0.0, , 
-91,Miles Bridges,SF/PF,CHA@SAC,CHA,24.59,$4610,$4700,-$90,22.71,1.4704650210366064,0.0, , 
-131,Jeff Teague,PG/SG,WAS@BOS,BOS,28.59,$5360,$3500,$1860,13.42,0.0,0.0, , 
-1,Russell Westbrook,PG,WAS@BOS,WAS,51.4,$9638,$10300,-$662,49.84,0.0,0.0, , 
-16,John Wall,PG,MEM@HOU,HOU,42.05,$7885,$8300,-$415,37.07,0.0,0.0, , 
-25,Draymond Green,PF/C,GS@LAL ,GS,39.0,$7313,$7500,-$187,30.0,0.17970795658073102,0.0, , 
-106,Marc Gasol,C,GS@LAL ,LAL,26.9,$5044,$4100,$944,16.32,0.0,0.0, , 
+103,Dwayne Bacon,SG/SF,DAL@ORL,ORL,20.74,$3888,$3700,$188,16.9,0.0,0.0, , 
+110,Landry Shamet,SG,BKN@SA ,BKN,17.65,$3310,$3500,-$190,13.19,0.0,0.0, , 
+15,Brandon Ingram,SF/PF,UTA@NO ,NO,39.41,$7390,$8400,-$1010,40.99,0.0,0.0, , 
+63,Bojan Bogdanovic,SF/PF,UTA@NO ,UTA,29.42,$5516,$5200,$316,24.48,0.6584036328791294,0.0, , 
+119,Anfernee Simons,PG/SG,CHA@POR,POR,19.54,$3664,$3300,$364,14.85,0.0,0.0, , 
+2,Luka Doncic,PG,DAL@ORL,DAL,56.21,$10539,$10700,-$161,56.48,0.0,0.0, , 
+96,Taurean Prince,PF,CLE@HOU,CLE,22.41,$4201,$4100,$101,18.28,1.2456881071901431,0.0, , 
+3,Joel Embiid,C,IND@PHI,PHI,51.3,$9618,$10600,-$982,54.23,0.0,0.0,GTD,Ankle

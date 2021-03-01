@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-18,Devin Booker,SG,PHO@MIN,PHO,34.22,$6845,$7700,-$855,35.46, , ,0.0,0.0
-50,Josh Jackson,SG,NY@DET,DET,29.52,$5904,$5700,$204,24.96, , ,0.0,0.0
-0,LeBron James,SF,GS@LAL,LAL,51.0,$10200,$11000,-$800,48.52,GTD,Ankle,0.0,0.0
-53,Danilo Gallinari,SF,ATL@MIA,ATL,26.44,$5288,$5600,-$312,17.49, , ,0.0,0.0
-8,Russell Westbrook,PG,WAS@BOS,WAS,50.68,$10136,$9400,$736,45.29, , ,0.0,0.0
-85,Jeff Teague,PG,WAS@BOS,BOS,28.24,$5647,$4500,$1147,13.45, , ,0.0,0.0
-17,Draymond Green,PF,GS@LAL,GS,40.43,$8086,$7800,$286,29.9, , ,0.17970795658073102,0.0
-98,Dario Saric,PF,PHO@MIN,PHO,20.54,$4108,$4100,$8,19.17,GTD,Ankle,0.0,0.0
-102,Eric Paschall,C,GS@LAL,GS,22.33,$4466,$4000,$466,16.02, , ,0.0,0.0
+2,James Harden,SG,BKN@SA,BKN,51.89,$10378,$10700,-$322,51.4, , ,0.0,0.0
+99,Dwayne Bacon,SG,DAL@ORL,ORL,20.34,$4069,$3700,$369,16.62, , ,0.0,0.0
+63,Bojan Bogdanovic,SF,UTA@NO,UTA,28.36,$5673,$4800,$873,22.77, , ,0.6584036328791294,0.0
+88,Taurean Prince,SF,CLE@HOU,CLE,21.97,$4395,$4100,$295,18.22, , ,1.2456881071901431,0.0
+3,Luka Doncic,PG,DAL@ORL,DAL,54.81,$10962,$10600,$362,53.03, , ,0.0,0.0
+141,Anfernee Simons,PG,CHA@POR,POR,18.99,$3798,$3500,$298,13.62, , ,0.0,0.0
+24,Tobias Harris,PF,IND@PHI,PHI,34.54,$6909,$7100,-$191,37.27,GTD,Knee,0.0,0.0
+67,Royce O'Neale,PF,UTA@NO,UTA,21.83,$4366,$4700,-$334,22.43, , ,0.0,0.0
+1,Joel Embiid,C,IND@PHI,PHI,49.28,$9855,$10800,-$945,53.04,GTD,Ankle,0.0,0.0
