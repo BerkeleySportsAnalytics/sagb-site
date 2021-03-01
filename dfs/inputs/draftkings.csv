@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-103,Dwayne Bacon,SG/SF,DAL@ORL,ORL,20.74,$3888,$3700,$188,16.9,0.0,0.0, , 
-110,Landry Shamet,SG,BKN@SA ,BKN,17.65,$3310,$3500,-$190,13.19,0.0,0.0, , 
-15,Brandon Ingram,SF/PF,UTA@NO ,NO,39.41,$7390,$8400,-$1010,40.99,0.0,0.0, , 
-63,Bojan Bogdanovic,SF/PF,UTA@NO ,UTA,29.42,$5516,$5200,$316,24.48,0.6584036328791294,0.0, , 
-119,Anfernee Simons,PG/SG,CHA@POR,POR,19.54,$3664,$3300,$364,14.85,0.0,0.0, , 
+103,Landry Shamet,SG,BKN@SA ,BKN,17.65,$3310,$3500,-$190,13.19,0.0,0.0, , 
+60,Bojan Bogdanovic,SF/PF,UTA@NO ,UTA,29.42,$5516,$5200,$316,24.48,0.6584036328791294,0.0, , 
+66,Josh Hart,SF,UTA@NO ,NO,22.31,$4183,$5000,-$817,23.8,0.0,0.0, , 
+147,Lamar Stevens,SF,CLE@HOU,CLE,13.46,$2523,$3000,-$477,10.46,0.0,0.0, , 
+13,Donovan Mitchell,PG/SG,UTA@NO ,UTA,41.94,$7864,$8600,-$736,41.09,0.0,0.0, , 
+112,Anfernee Simons,PG/SG,CHA@POR,POR,19.54,$3664,$3300,$364,14.85,0.0,0.0, , 
 2,Luka Doncic,PG,DAL@ORL,DAL,56.21,$10539,$10700,-$161,56.48,0.0,0.0, , 
-96,Taurean Prince,PF,CLE@HOU,CLE,22.41,$4201,$4100,$101,18.28,1.2456881071901431,0.0, , 
 3,Joel Embiid,C,IND@PHI,PHI,51.3,$9618,$10600,-$982,54.23,0.0,0.0,GTD,Ankle

@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
 2,James Harden,SG,BKN@SA,BKN,51.89,$10378,$10700,-$322,51.4, , ,0.0,0.0
-99,Dwayne Bacon,SG,DAL@ORL,ORL,20.34,$4069,$3700,$369,16.62, , ,0.0,0.0
-63,Bojan Bogdanovic,SF,UTA@NO,UTA,28.36,$5673,$4800,$873,22.77, , ,0.6584036328791294,0.0
-88,Taurean Prince,SF,CLE@HOU,CLE,21.97,$4395,$4100,$295,18.22, , ,1.2456881071901431,0.0
+45,Eric Gordon,SG,CLE@HOU,HOU,27.29,$5458,$5300,$158,25.66, , ,0.0,0.0
+60,Bojan Bogdanovic,SF,UTA@NO,UTA,28.36,$5673,$4800,$873,22.77, , ,0.6584036328791294,0.0
+67,Justin Holiday,SF,IND@PHI,IND,25.04,$5007,$4500,$507,23.08, , ,0.0,0.0
 3,Luka Doncic,PG,DAL@ORL,DAL,54.81,$10962,$10600,$362,53.03, , ,0.0,0.0
-141,Anfernee Simons,PG,CHA@POR,POR,18.99,$3798,$3500,$298,13.62, , ,0.0,0.0
-24,Tobias Harris,PF,IND@PHI,PHI,34.54,$6909,$7100,-$191,37.27,GTD,Knee,0.0,0.0
-67,Royce O'Neale,PF,UTA@NO,UTA,21.83,$4366,$4700,-$334,22.43, , ,0.0,0.0
+135,Anfernee Simons,PG,CHA@POR,POR,18.99,$3798,$3500,$298,13.62, , ,0.0,0.0
+56,Patrick Williams,PF,DEN@CHI,CHI,20.9,$4179,$4900,-$721,20.49, , ,0.0,0.0
+63,Royce O'Neale,PF,UTA@NO,UTA,21.83,$4366,$4700,-$334,22.43, , ,0.0,0.0
 1,Joel Embiid,C,IND@PHI,PHI,49.28,$9855,$10800,-$945,53.04,GTD,Ankle,0.0,0.0
