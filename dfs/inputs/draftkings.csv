@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-171,Bogdan Bogdanovic,SG/SF,ATL@ORL,ATL,18.21,$3414,$3200,$214,18.85,0.0,0.6089776128147211, , 
-87,Bojan Bogdanovic,SF/PF,UTA@PHI,UTA,29.34,$5502,$5400,$102,25.24,0.6584036328791294,0.0, , 
-180,Juan Toscano-Anderson,SF/PF,GS@POR ,GS,20.68,$3877,$3100,$777,16.44,0.0,0.0, , 
-18,Donovan Mitchell,PG/SG,UTA@PHI,UTA,39.85,$7472,$8500,-$1028,40.98,0.0,0.0, , 
-173,Anfernee Simons,PG/SG,GS@POR ,POR,17.18,$3221,$3200,$21,14.58,0.0,0.0, , 
-7,Stephen Curry,PG,GS@POR ,GS,46.43,$8706,$9900,-$1194,49.62,0.0,0.0, , 
-5,Nikola Vucevic,C,ATL@ORL,ORL,47.42,$8892,$10300,-$1408,49.56,0.0,0.0, , 
-56,Al Horford,C,OKC@DAL,OKC,32.83,$6156,$6300,-$144,32.11,0.0,0.0, , 
+30,Jerami Grant,SF/PF,DET@NY ,DET,38.63,$7244,$7400,-$156,38.58,0.0,0.0,GTD,Quadriceps
+166,Juan Toscano-Anderson,SF/PF,GS@PHO ,GS,19.37,$3632,$3100,$532,16.44,0.0,0.0, , 
+8,Jimmy Butler,SF,MIA@NO ,MIA,46.72,$8760,$9400,-$640,46.2,0.0,0.0,GTD,Knee
+50,Tyler Herro,PG/SG,MIA@NO ,MIA,29.31,$5495,$6100,-$605,31.36,0.0,0.0, , 
+76,Lou Williams,PG/SG,LAC@WAS,LAC,28.49,$5342,$5300,$42,22.67,0.0,1.159406397986093, , 
+12,De'Aaron Fox,PG,SAC@POR,SAC,45.17,$8469,$8900,-$431,40.98,0.0,0.0, , 
+64,Darius Bazley,PF/C,OKC@SA ,OKC,33.17,$6219,$5600,$619,25.96,0.0,0.0, , 
+111,James Wiseman,C,GS@PHO ,GS,21.12,$3959,$4200,-$241,22.82,0.0,0.0, , 

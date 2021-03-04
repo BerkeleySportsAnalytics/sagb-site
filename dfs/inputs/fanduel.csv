@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-17,Donovan Mitchell,SG,UTA@PHI,UTA,37.92,$7584,$8200,-$616,38.81, , ,0.0,0.0
-171,Dwayne Bacon,SG,ATL@ORL,ORL,21.41,$4282,$3500,$782,16.42, , ,0.0,0.0
-22,Brandon Ingram,SF,CHI@NO,NO,35.38,$7075,$7800,-$725,39.56, , ,0.0,0.0
-89,Justin Holiday,SF,IND@CLE,IND,26.95,$5390,$4500,$890,23.03, , ,0.0,0.0
-5,Stephen Curry,PG,GS@POR,GS,44.68,$8937,$9900,-$963,46.38, , ,0.0,0.0
-21,De'Aaron Fox,PG,LAL@SAC,SAC,37.53,$7505,$8000,-$495,39.56, , ,0.0,0.0
-27,Jerami Grant,PF,DET@TOR,DET,33.33,$6665,$7400,-$735,37.85,GTD,Quadriceps,0.0,0.0
-98,Royce O'Neale,PF,UTA@PHI,UTA,23.67,$4735,$4400,$335,22.35, , ,0.0,0.0
-48,Al Horford,C,OKC@DAL,OKC,32.4,$6480,$6200,$280,31.86, , ,0.0,0.0
+56,Josh Jackson,SG,DET@NY,DET,30.53,$6106,$5600,$506,24.66,GTD,Illness,0.0,0.0
+226,Desmond Bane,SG,MIL@MEM,MEM,19.25,$3849,$3500,$349,16.66, , ,0.0,0.0
+7,Jimmy Butler,SF,MIA@NO,MIA,45.82,$9165,$9500,-$335,45.53,GTD,Knee,0.0,0.0
+22,Brandon Ingram,SF,MIA@NO,NO,40.4,$8079,$7800,$279,39.24, , ,0.0,0.0
+17,De'Aaron Fox,PG,SAC@POR,SAC,43.53,$8706,$8300,$406,39.49, , ,0.0,0.0
+37,Malcolm Brogdon,PG,DEN@IND,IND,30.68,$6135,$6700,-$565,38.86, , ,0.0,0.876396622147816
+28,Jerami Grant,PF,DET@NY,DET,38.32,$7665,$7400,$265,37.85,GTD,Quadriceps,0.0,0.0
+64,Darius Bazley,PF,OKC@SA,OKC,32.44,$6489,$5400,$1089,24.74, , ,0.0,0.0
+52,Al Horford,C,OKC@SA,OKC,30.65,$6129,$5800,$329,31.42, , ,0.0,0.0
