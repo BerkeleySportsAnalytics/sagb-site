@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-17,Josh Richardson,SG/SF,SA@DAL ,DAL,25.02,$4690,$4900,-$210,23.06,0.3508083187945312,0.0, , 
-3,DeMar DeRozan,SF/PF,SA@DAL ,SA,34.44,$6458,$8000,-$1542,38.91,0.0,0.0, , 
-15,Keldon Johnson,SF/PF,SA@DAL ,SA,23.57,$4420,$5100,-$680,28.2,0.0,0.0, , 
-16,Derrick White,PG/SG,SA@DAL ,SA,28.01,$5252,$5000,$252,24.25,0.0,0.0,GTD,Covid-19
-0,Luka Doncic,PG,SA@DAL ,DAL,61.59,$11547,$10700,$847,56.62,0.0,0.0, , 
-4,Ja Morant,PG,WAS@MEM,MEM,38.48,$7214,$7800,-$586,37.38,0.5774487032771903,0.0, , 
-13,Rui Hachimura,PF/C,WAS@MEM,WAS,22.39,$4199,$5300,-$1101,23.38,0.0,0.0, , 
-42,Alex Len,C,WAS@MEM,WAS,17.07,$3200,$3100,$100,13.32,0.0,0.0, , 
+163,Kenrich Williams,SF/PF,DAL@OKC,OKC,21.87,$4101,$3700,$401,15.44,0.0,1.1202804612771533, , 
+172,Juan Toscano-Anderson,SF/PF,GS@LAC ,GS,19.72,$3698,$3500,$198,16.68,0.0,0.0, , 
+213,Grant Williams,SF/PF,BOS@BKN,BOS,18.12,$3397,$3000,$397,11.97,0.0,0.0, , 
+30,Terry Rozier,PG/SG,DET@CHA,CHA,43.63,$8181,$8000,$181,34.28,0.0,0.0, , 
+2,Luka Doncic,PG,DAL@OKC,DAL,62.21,$11665,$10800,$865,56.64,0.0,0.0, , 
+3,Damian Lillard,PG,PHO@POR,POR,58.09,$10891,$10700,$191,50.54,0.0,0.0, , 
+54,Chris Boucher,C,ATL@TOR,TOR,35.07,$6576,$6500,$76,28.96,0.0,0.0, , 
+158,Mike Muscala,C,DAL@OKC,OKC,22.39,$4198,$3800,$398,17.46,0.0,0.0, , 

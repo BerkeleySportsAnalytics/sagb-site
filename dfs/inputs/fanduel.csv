@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Tim Hardaway,SG,SA@DAL,DAL,22.95,$4589,$5000,-$411,24.24, , ,0.0,0.0
-51,Desmond Bane,SG,WAS@MEM,MEM,18.43,$3687,$3500,$187,16.57, , ,0.0,0.0
-0,Luka Doncic,SF,SA@DAL,DAL,58.64,$11728,$11000,$728,52.12, , ,0.0,0.0
-17,Josh Richardson,SF,SA@DAL,DAL,24.99,$4998,$5400,-$402,22.56, , ,0.3508083187945312,0.0
-2,Russell Westbrook,PG,WAS@MEM,WAS,39.11,$7821,$9800,-$1979,46.3, , ,0.3130234864530636,0.0
-5,Ja Morant,PG,WAS@MEM,MEM,37.33,$7466,$8000,-$534,35.99, , ,0.5774487032771903,0.0
-9,Brandon Clarke,PF,WAS@MEM,MEM,21.98,$4395,$6200,-$1805,26.46, , ,0.0,0.0
-36,Moritz Wagner,PF,WAS@MEM,WAS,16.68,$3335,$4000,-$665,14.87, , ,0.0,0.0
-6,Jonas Valanciunas,C,WAS@MEM,MEM,28.51,$5702,$7000,-$1298,33.36, , ,0.0,0.0
+22,Paul George,SG,GS@LAC,LAC,41.45,$8290,$7800,$490,40.09, , ,0.0,0.0
+39,Terry Rozier,SG,DET@CHA,CHA,41.31,$8263,$6900,$1363,33.13, , ,0.0,0.0
+103,Danilo Gallinari,SF,ATL@TOR,ATL,26.91,$5383,$4700,$683,18.9, , ,0.0,0.0
+147,Kenrich Williams,SF,DAL@OKC,OKC,21.47,$4294,$3700,$594,15.46, , ,0.0,1.1202804612771533
+2,Luka Doncic,PG,DAL@OKC,DAL,59.57,$11913,$10400,$1513,52.01, , ,0.0,0.0
+3,Damian Lillard,PG,PHO@POR,POR,54.75,$10949,$10000,$949,47.1, , ,0.0,0.0
+47,Chris Boucher,PF,ATL@TOR,TOR,34.16,$6832,$6500,$332,29.61, , ,0.0,0.0
+66,Aaron Gordon,PF,ORL@MIA,ORL,33.47,$6694,$5500,$1194,30.71,GTD,Ankle,0.0,0.0
+105,Kelly Olynyk,C,ORL@MIA,MIA,26.35,$5269,$4500,$769,23.01, , ,0.0,0.0
