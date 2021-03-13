@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Paul George,SG,GS@LAC,LAC,41.45,$8290,$7800,$490,40.09, , ,0.0,0.0
-39,Terry Rozier,SG,DET@CHA,CHA,41.31,$8263,$6900,$1363,33.13, , ,0.0,0.0
-103,Danilo Gallinari,SF,ATL@TOR,ATL,26.91,$5383,$4700,$683,18.9, , ,0.0,0.0
-147,Kenrich Williams,SF,DAL@OKC,OKC,21.47,$4294,$3700,$594,15.46, , ,0.0,1.1202804612771533
-2,Luka Doncic,PG,DAL@OKC,DAL,59.57,$11913,$10400,$1513,52.01, , ,0.0,0.0
-3,Damian Lillard,PG,PHO@POR,POR,54.75,$10949,$10000,$949,47.1, , ,0.0,0.0
-47,Chris Boucher,PF,ATL@TOR,TOR,34.16,$6832,$6500,$332,29.61, , ,0.0,0.0
-66,Aaron Gordon,PF,ORL@MIA,ORL,33.47,$6694,$5500,$1194,30.71,GTD,Ankle,0.0,0.0
-105,Kelly Olynyk,C,ORL@MIA,MIA,26.35,$5269,$4500,$769,23.01, , ,0.0,0.0
+33,Buddy Hield,SG,SAC@ATL,SAC,38.22,$7644,$6500,$1144,28.57, , ,0.9341337172883158,0.0
+91,Caris LeVert,SG,IND@PHO,IND,30.19,$6038,$3900,$2138,35.28, , ,0.0,0.01076524970297718
+18,Norman Powell,SF,TOR@CHA,TOR,37.26,$7451,$7600,-$149,27.27, , ,0.0,0.0
+54,Josh Richardson,SF,DAL@DEN,DAL,27.1,$5421,$4900,$521,23.31, , ,0.0,0.0
+3,Luka Doncic,PG,DAL@DEN,DAL,47.27,$9455,$10400,-$945,52.01, , ,0.0,0.0
+12,De'Aaron Fox,PG,SAC@ATL,SAC,41.83,$8367,$8700,-$333,40.53, , ,0.0,0.0
+15,Kristaps Porzingis,PF,DAL@DEN,DAL,37.55,$7510,$7900,-$390,37.2, , ,0.0,0.0
+172,Jaden McDaniels,PF,POR@MIN,MIN,22.06,$4413,$3500,$913,14.79, , ,0.0,0.0
+38,Mason Plumlee,C,DET@BKN,DET,30.62,$6125,$6100,$25,29.87, , ,0.0,0.0
