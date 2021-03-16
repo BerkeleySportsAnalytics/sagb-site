@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-127,Reggie Bullock,SG/SF,NY@BKN ,NY,21.03,$3944,$3500,$444,16.84,0.0,0.0, , 
-12,Kawhi Leonard,SF,LAC@DAL,LAC,54.04,$10132,$8900,$1232,46.0,0.0,0.0, , 
-63,Will Barton,SF,IND@DEN,DEN,28.76,$5393,$5300,$93,24.3,0.0,0.0, , 
-38,Dennis Schroder,PG/SG,LAL@GS ,LAL,30.39,$5698,$6200,-$502,27.78,0.07872224262924332,0.0, , 
-83,Devonte' Graham,PG/SG,SAC@CHA,CHA,28.18,$5284,$4700,$584,28.53,0.0,0.0, , 
-3,Luka Doncic,PG,LAC@DAL,DAL,55.58,$10422,$10600,-$178,56.35,0.0,0.0, , 
-84,Bobby Portis,PF/C,MIL@WAS,MIL,31.58,$5921,$4700,$1221,24.09,0.0,2.9624031658081384, , 
-40,Mason Plumlee,C,SA@DET ,DET,32.73,$6136,$6100,$36,30.38,0.0,0.0, , 
+108,Denzel Valentine,SG/SF,OKC@CHI,CHI,21.88,$4102,$3600,$502,17.61,0.0,0.0, , 
+84,Danny Green,SF,NY@PHI ,PHI,24.43,$4582,$4400,$182,20.7,0.0,0.0, , 
+11,Shai Gilgeous-Alexander,PG/SG,OKC@CHI,OKC,39.15,$7342,$8800,-$1458,41.66,0.0,0.0, , 
+56,Tyler Herro,PG/SG,CLE@MIA,MIA,27.23,$5106,$5500,-$394,30.13,0.0,0.0,GTD,Shoulder
+27,Lonzo Ball,PG,NO@POR ,NO,31.16,$5842,$6800,-$958,31.51,0.0,0.0, , 
+35,Robert Covington,PF/C,NO@POR ,POR,29.3,$5494,$6200,-$706,25.26,0.2140131142046532,0.0, , 
+44,Lauri Markkanen,PF,OKC@CHI,CHI,27.88,$5228,$6000,-$772,30.74,0.0,0.0, , 
+13,Christian Wood,C,ATL@HOU,HOU,40.11,$7520,$8600,-$1080,42.5,0.0,0.0,GTD,Ankle
