@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-40,Buddy Hield,SG,SAC@WAS,SAC,37.23,$7446,$6500,$946,28.67, , ,0.9341337172883158,0.0
-99,Caris LeVert,SG,BKN@IND,IND,30.44,$6087,$4400,$1687,33.87, , ,0.0,0.01076524970297718
-121,Justin Holiday,SF,BKN@IND,IND,28.65,$5731,$4000,$1731,22.79, , ,0.0,0.0
-146,Nicolas Batum,SF,LAC@DAL,LAC,25.56,$5113,$3600,$1513,21.83, , ,0.0,0.0
-5,Luka Doncic,PG,LAC@DAL,DAL,57.11,$11422,$10200,$1222,51.95, , ,0.0,0.0
-11,De'Aaron Fox,PG,SAC@WAS,SAC,41.61,$8321,$9100,-$779,40.85, , ,0.0,0.0
-12,Jayson Tatum,PF,BOS@CLE,BOS,44.39,$8878,$9000,-$122,43.21, , ,0.0,0.0
-33,Jerami Grant,PF,TOR@DET,DET,35.35,$7070,$7200,-$130,37.4, , ,0.0,0.0
-50,Mason Plumlee,C,TOR@DET,DET,31.41,$6282,$5800,$482,30.04, , ,0.0,0.0
+58,Joe Ingles,SG,UTA@WAS,UTA,28.17,$5635,$4400,$1235,22.6, , ,0.0,0.0
+102,Tony Snell,SG,OKC@ATL,ATL,22.87,$4573,$3500,$1073,10.86, , ,0.0,0.0
+0,LeBron James,SF,CHA@LAL,LAL,55.64,$11128,$10800,$328,47.57,GTD,Ankle,0.0,0.0
+30,Terrence Ross,SF,ORL@NY,ORL,36.26,$7251,$5900,$1351,26.55,GTD,Knee,0.6395744231384392,0.0
+7,Trae Young,PG,OKC@ATL,ATL,42.44,$8488,$8800,-$312,43.78, , ,0.0,0.0
+23,Lonzo Ball,PG,NO@POR,NO,31.81,$6361,$6700,-$339,30.98, , ,0.0,0.0
+35,Aaron Gordon,PF,ORL@NY,ORL,28.91,$5781,$5400,$381,29.89,GTD,Ankle,0.0,0.0
+57,Royce O'Neale,PF,UTA@WAS,UTA,25.55,$5109,$4400,$709,22.49, , ,0.0,0.0
+3,Nikola Vucevic,C,ORL@NY,ORL,53.55,$10711,$10000,$711,46.61, , ,0.0,0.0
