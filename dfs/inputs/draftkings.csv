@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-29,Evan Fournier,SG,ORL@NY ,ORL,40.5,$7594,$6300,$1294,30.96,0.0,0.0,GTD,Groin
-56,Royce O'Neale,SF/PF,UTA@WAS,UTA,25.53,$4787,$5100,-$313,23.01,0.0,0.0, , 
-85,Talen Horton-Tucker,SF,CHA@LAL,LAL,18.33,$3436,$3900,-$464,16.6,0.0,0.0, , 
-26,Terry Rozier,PG/SG,CHA@LAL,CHA,36.35,$6817,$6600,$217,34.13,0.0,0.0, , 
-78,Devonte' Graham,PG/SG,CHA@LAL,CHA,26.79,$5022,$4200,$822,27.59,0.0,0.0, , 
-1,LeBron James,PG/SF,CHA@LAL,LAL,58.14,$10901,$10700,$201,51.32,0.0,0.0,GTD,Ankle
-166,Frank Kaminsky,PF/C,MIN@PHO,PHO,18.29,$3429,$3000,$429,15.78,0.0,0.0, , 
-3,Nikola Vucevic,C,ORL@NY ,ORL,57.81,$10840,$10100,$740,49.74,0.0,0.0, , 
+166,Jeremy Lamb,SG/SF,IND@MIA,IND,16.62,$3116,$3300,-$184,20.82,0.0,0.0,GTD,Knee
+147,Grayson Allen,SG,GS@MEM ,MEM,22.94,$4301,$3700,$601,19.21,0.0,0.0, , 
+34,Jerami Grant,SF/PF,DET@HOU,DET,41.01,$7689,$7200,$489,38.12,0.0,0.0, , 
+175,Andre Iguodala,SF/PF,IND@MIA,MIA,15.94,$2988,$3200,-$212,15.41,0.0,0.0,GTD,Hip
+81,Marcus Smart,PG/SG,SAC@BOS,BOS,38.08,$7140,$5300,$1840,28.48,0.0,1.9125479457050691, , 
+2,Luka Doncic,PG,DAL@POR,DAL,65.93,$12362,$10700,$1662,57.18,0.0,0.0, , 
+42,Draymond Green,PF/C,GS@MEM ,GS,39.53,$7411,$6700,$711,30.64,0.0,0.0, , 
+4,Nikola Vucevic,C,BKN@ORL,ORL,55.53,$10412,$9900,$512,49.72,0.0,0.0, , 
