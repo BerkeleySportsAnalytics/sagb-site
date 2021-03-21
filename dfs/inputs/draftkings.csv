@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-166,Jeremy Lamb,SG/SF,IND@MIA,IND,16.62,$3116,$3300,-$184,20.82,0.0,0.0,GTD,Knee
-147,Grayson Allen,SG,GS@MEM ,MEM,22.94,$4301,$3700,$601,19.21,0.0,0.0, , 
-34,Jerami Grant,SF/PF,DET@HOU,DET,41.01,$7689,$7200,$489,38.12,0.0,0.0, , 
-175,Andre Iguodala,SF/PF,IND@MIA,MIA,15.94,$2988,$3200,-$212,15.41,0.0,0.0,GTD,Hip
-81,Marcus Smart,PG/SG,SAC@BOS,BOS,38.08,$7140,$5300,$1840,28.48,0.0,1.9125479457050691, , 
-2,Luka Doncic,PG,DAL@POR,DAL,65.93,$12362,$10700,$1662,57.18,0.0,0.0, , 
-42,Draymond Green,PF/C,GS@MEM ,GS,39.53,$7411,$6700,$711,30.64,0.0,0.0, , 
-4,Nikola Vucevic,C,BKN@ORL,ORL,55.53,$10412,$9900,$512,49.72,0.0,0.0, , 
+20,Norman Powell,SG/SF,TOR@CLE,TOR,34.19,$6411,$7100,-$689,29.36,0.0,0.0, , 
+60,Danny Green,SF,PHI@NY ,PHI,27.94,$5239,$4800,$439,21.16,0.0,0.0, , 
+18,CJ McCollum,PG/SG,DAL@POR,POR,44.9,$8419,$7300,$1119,41.48,0.0,0.0, , 
+67,Jalen Brunson,PG/SG,DAL@POR,DAL,24.1,$4518,$4300,$218,22.63,0.0,0.0, , 
+11,Kyle Lowry,PG,TOR@CLE,TOR,42.27,$7926,$8100,-$174,38.9,0.0,0.0, , 
+19,Pascal Siakam,PF/C,TOR@CLE,TOR,39.81,$7464,$7200,$264,40.12,0.0,0.3602027140340726, , 
+52,Carmelo Anthony,PF,DAL@POR,POR,26.44,$4958,$5100,-$142,24.58,0.08219260156543777,0.0, , 
+36,Mason Plumlee,C,CHI@DET,DET,29.87,$5601,$5800,-$199,30.41,0.0,0.0, , 
