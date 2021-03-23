@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-36,Buddy Hield,SG/SF,SAC@CLE,SAC,42.61,$7990,$6600,$1390,30.95,0.040901664048176765,0.0, , 
-81,Miles Bridges,SF/PF,CHA@SA ,CHA,24.86,$4660,$4900,-$240,22.59,0.0,0.0, , 
-89,Royce O'Neale,SF/PF,UTA@CHI,UTA,23.12,$4335,$4800,-$465,23.07,0.0,0.0, , 
-13,Kyle Lowry,PG,TOR@HOU,TOR,42.39,$7948,$8100,-$152,38.85,0.0,0.0, , 
-28,Malcolm Brogdon,PG,IND@MIL,IND,40.33,$7562,$7200,$362,39.51,0.0,0.0, , 
-91,Ty Jerome,PG,OKC@MIN,OKC,26.71,$5009,$4800,$209,21.2,0.0,0.0, , 
-21,Pascal Siakam,PF/C,TOR@HOU,TOR,43.09,$8078,$7500,$578,39.49,0.0,0.3602027140340726, , 
-46,Chris Boucher,C,TOR@HOU,TOR,31.84,$5970,$6100,-$130,29.15,0.0,0.0, , 
+30,Terrence Ross,SG/SF,DEN@ORL,ORL,35.26,$6612,$6200,$412,27.15,0.6395744231384392,0.0,GTD,Knee
+25,Evan Fournier,SG,DEN@ORL,ORL,32.92,$6173,$6600,-$427,31.52,0.0,0.0, , 
+15,Brandon Ingram,SF/PF,LAL@NO ,NO,37.15,$6966,$7800,-$834,40.33,0.0,0.0, , 
+90,James Ennis III,SF,DEN@ORL,ORL,19.53,$3663,$3800,-$137,16.76,0.0,0.0, , 
+27,Dennis Schroder,PG/SG,LAL@NO ,LAL,33.21,$6227,$6600,-$373,27.96,0.0,0.0, , 
+0,James Harden,PG,BKN@POR,BKN,53.15,$9966,$11000,-$1034,57.26,0.0,0.0,GTD,Neck
+85,Paul Millsap,PF/C,DEN@ORL,DEN,18.0,$3374,$3900,-$526,21.67,0.0,0.0, , 
+88,Nicolas Claxton,C,BKN@POR,BKN,18.48,$3464,$3900,-$436,20.25,0.0,0.0, , 

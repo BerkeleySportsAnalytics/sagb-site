@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-36,Buddy Hield,SG,SAC@CLE,SAC,39.82,$7965,$6400,$1565,28.97, , ,0.040901664048176765,0.0
-87,Ty Jerome,SG,OKC@MIN,OKC,24.62,$4924,$4300,$624,20.58, , ,0.0,0.0
-28,Gordon Hayward,SF,CHA@SA,CHA,37.39,$7477,$7000,$477,36.1, , ,0.0,0.0
-104,Justin Holiday,SF,IND@MIL,IND,26.15,$5229,$3900,$1329,23.01, , ,0.0,0.0
-15,Kyle Lowry,PG,TOR@HOU,TOR,40.39,$8078,$7900,$178,36.45, , ,0.0,0.0
-31,Malcolm Brogdon,PG,IND@MIL,IND,36.63,$7327,$6900,$427,38.05, , ,0.0,0.0
-6,Jayson Tatum,PF,BOS@MEM,BOS,36.23,$7245,$8800,-$1555,42.52, , ,0.0,0.0
-14,Pascal Siakam,PF,TOR@HOU,TOR,42.17,$8433,$7900,$533,38.82, , ,0.0,0.3602027140340726
-34,Jarrett Allen,C,SAC@CLE,CLE,32.18,$6436,$6700,-$264,32.18, , ,0.0,0.0
+0,James Harden,SG,BKN@POR,BKN,51.87,$10373,$11300,-$927,52.62,GTD,Neck,0.0,0.0
+114,Furkan Korkmaz,SG,PHI@GS,PHI,20.58,$4115,$3500,$615,15.21, , ,0.0,0.0
+32,Terrence Ross,SF,DEN@ORL,ORL,32.66,$6531,$5900,$631,26.55,GTD,Knee,0.6395744231384392,0.0
+50,Josh Hart,SF,LAL@NO,NO,23.48,$4696,$4900,-$204,23.52, , ,0.0,0.0
+54,Goran Dragic,PG,PHO@MIA,MIA,24.53,$4906,$4800,$106,24.87,GTD,Back,0.0,0.0
+56,Michael Carter-Williams,PG,DEN@ORL,ORL,24.13,$4826,$4700,$126,21.79, , ,1.7051883570401618,0.0
+4,Julius Randle,PF,WAS@NY,NY,45.27,$9053,$10000,-$947,44.42, , ,0.0,0.64232745822997
+80,Dario Saric,PF,PHO@MIA,PHO,19.45,$3890,$3800,$90,18.49, , ,0.0,0.0
+2,Nikola Jokic,C,DEN@ORL,DEN,47.79,$9558,$11000,-$1442,56.2, , ,0.0,0.0
