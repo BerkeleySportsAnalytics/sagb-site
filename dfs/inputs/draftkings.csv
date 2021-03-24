@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-25,Evan Fournier,SG,DEN@ORL,ORL,32.92,$6173,$6600,-$427,31.52,0.0,0.0, , 
-111,Cameron Johnson,SF/PF,PHO@MIA,PHO,14.9,$2794,$3300,-$506,19.19,0.0,0.0, , 
-89,James Ennis III,SF,DEN@ORL,ORL,19.53,$3663,$3800,-$137,16.76,0.0,0.0, , 
-27,Dennis Schroder,PG/SG,LAL@NO ,LAL,33.21,$6227,$6600,-$373,27.96,0.0,0.0, , 
-69,Nickeil Alexander-Walker,PG/SG,LAL@NO ,NO,22.64,$4246,$4400,-$154,17.79,0.0,0.0, , 
-0,James Harden,PG,BKN@POR,BKN,53.15,$9966,$11000,-$1034,57.26,0.0,0.0,GTD,Neck
-4,Julius Randle,PF/C,WAS@NY ,NY,47.11,$8833,$9900,-$1067,48.47,0.0,0.64232745822997, , 
-71,Dario Saric,C,PHO@MIA,PHO,19.85,$3721,$4300,-$579,19.34,0.0,0.0, , 
+49,Buddy Hield,SG/SF,ATL@SAC,SAC,36.17,$6781,$6600,$181,30.99,0.040901664048176765,0.0, , 
+178,Cameron Johnson,SF/PF,PHO@ORL,PHO,18.29,$3428,$3500,-$72,19.17,0.0,0.0, , 
+100,Pat Connaughton,SF,BOS@MIL,MIL,26.1,$4893,$5100,-$207,17.2,0.0,0.0, , 
+200,Bryn Forbes,PG/SG,BOS@MIL,MIL,21.57,$4043,$3200,$843,13.05,0.0,0.0,GTD,Toe
+0,Luka Doncic,PG,DAL@MIN,DAL,66.52,$12472,$11000,$1472,57.28,0.0,0.0, , 
+1,James Harden,PG,BKN@UTA,BKN,58.24,$10919,$10900,$19,57.41,0.0,0.0, , 
+144,Paul Millsap,PF/C,DEN@TOR,DEN,21.4,$4012,$4000,$12,21.48,0.0,0.0, , 
+79,Myles Turner,C,DET@IND,IND,32.71,$6134,$5600,$534,31.8,0.0,0.0,GTD,Ankle
