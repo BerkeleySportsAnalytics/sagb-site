@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "nfl-pay-defense.html";
-article2 = "iceland-soccer.html";
-article3 = "team-make-CFP.html";
-article4 = "runners-on-base.html";
-article5 = "heliocentricity.html";
-article6 = "redefined-wild-card.html";
-article7 = "bubble-basketball.html";
-article8 = "three-point-puzzle.html";
-article9 = "shooting-percentages.html";
+article1 = "investing-in-bigmen.html"
+article2 = "nfl-pay-defense.html";
+article3 = "iceland-soccer.html";
+article4 = "team-make-CFP.html";
+article5 = "runners-on-base.html";
+article6 = "heliocentricity.html";
+article7 = "redefined-wild-card.html";
+article8 = "bubble-basketball.html";
+article9 = "three-point-puzzle.html";
 
-title1 = "Defensive Backs or Defensive Line? Who Do You Pay?";
-title2 = "The Growth of Iceland Soccer";
-title3 = "Will Your Team Make the CFP?";
-title4 = "RBR: A Statistical Summary of Pitching With Runners on Base";
-title5 = "Heliocentricity in the NBA";
-title6 = "Let the Kids Play: Exploring the Benefits of an Expanded MLB Postseason and Redefined Wild Card Series";
-title7 = "Bubble Basketball: A Brand New Game";
-title8 = "The Three Point Puzzle";
-title9 = "The NBA Bubble and Shooting Percentages";
+title2 = "Investing in Bigmen"
+title2 = "Defensive Backs or Defensive Line? Who Do You Pay?";
+title3 = "The Growth of Iceland Soccer";
+title4 = "Will Your Team Make the CFP?";
+title5 = "RBR: A Statistical Summary of Pitching With Runners on Base";
+title6 = "Heliocentricity in the NBA";
+title7 = "Let the Kids Play: Exploring the Benefits of an Expanded MLB Postseason and Redefined Wild Card Series";
+title8 = "Bubble Basketball: A Brand New Game";
+title9 = "The Three Point Puzzle";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
