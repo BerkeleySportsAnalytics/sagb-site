@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-40,Shai Gilgeous-Alexander,SG,MEM@OKC,OKC,40.48,$8095,$7000,$1095,39.53, , ,0.0,0.0
-86,Marcus Smart,SG,BOS@MIL,BOS,30.54,$6108,$5000,$1108,28.55, , ,0.0,2.046558941564661
-57,Harrison Barnes,SF,ATL@SAC,SAC,30.8,$6159,$6000,$159,30.82, , ,0.0,0.0
-84,Josh Richardson,SF,DAL@MIN,DAL,25.8,$5160,$5200,-$40,23.94, , ,0.0,0.0
-2,Luka Doncic,PG,DAL@MIN,DAL,63.24,$12649,$11000,$1649,52.61, , ,0.0,0.0
-10,Trae Young,PG,ATL@SAC,ATL,45.52,$9105,$8700,$405,43.55, , ,0.0,0.0
-41,Jerami Grant,PF,DET@IND,DET,34.3,$6861,$7000,-$139,36.92, , ,0.0,0.0
-115,Paul Millsap,PF,DEN@TOR,DEN,21.98,$4396,$4400,-$4,21.8, , ,0.0,0.0
-64,Myles Turner,C,DET@IND,IND,34.17,$6834,$5700,$1134,34.16,GTD,Ankle,0.0,0.0
+23,Buddy Hield,SG,GS@SAC,SAC,31.37,$6273,$6400,-$127,28.77, , ,0.0,0.0
+112,Furkan Korkmaz,SG,PHI@LAL,PHI,16.85,$3370,$3500,-$130,15.19, , ,0.0,0.0
+28,Harrison Barnes,SF,GS@SAC,SAC,26.86,$5372,$6000,-$628,30.6, , ,0.0,0.0
+42,Carmelo Anthony,SF,POR@MIA,POR,25.79,$5158,$5200,-$42,24.22, , ,0.4246147053339203,0.0
+6,De'Aaron Fox,PG,GS@SAC,SAC,38.7,$7740,$8900,-$1160,41.25, , ,0.0,0.0
+35,Kendrick Nunn,PG,POR@MIA,MIA,27.17,$5435,$5500,-$65,23.4, , ,0.0,0.0
+1,Julius Randle,PF,WAS@NY,NY,53.8,$10760,$10200,$560,44.42, , ,0.0,0.64232745822997
+26,Robert Covington,PF,POR@MIA,POR,29.44,$5888,$6100,-$212,26.48, , ,0.07756772899599909,0.0
+11,Richaun Holmes,C,GS@SAC,SAC,32.64,$6528,$8000,-$1472,32.85, , ,0.0,0.0
