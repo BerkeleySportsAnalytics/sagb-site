@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-9,Donovan Mitchell,SG,MEM@UTA,UTA,45.36,$9072,$8500,$572,40.1, , ,0.0,0.0
-58,Marcus Smart,SG,BOS@OKC,BOS,36.24,$7247,$5500,$1747,28.98, , ,0.0,2.2017266881457327
-38,Buddy Hield,SF,CLE@SAC,SAC,32.74,$6548,$6400,$148,28.87, , ,0.2971352572621644,0.0
-53,Danny Green,SF,PHI@LAC,PHI,36.32,$7265,$5600,$1665,21.97, , ,0.0,1.2122461947488543
-6,De'Aaron Fox,PG,CLE@SAC,SAC,43.95,$8790,$9400,-$610,41.76, , ,0.0,0.0
-113,Hamidou Diallo,PG,DET@WAS,DET,26.74,$5348,$4100,$1248,23.72, , ,0.0,0.0
-10,Jayson Tatum,PF,BOS@OKC,BOS,40.16,$8031,$8500,-$469,42.84, , ,0.0,0.0
-30,Jerami Grant,PF,DET@WAS,DET,32.64,$6527,$7300,-$773,37.0, , ,0.0,0.0
-90,Andre Drummond,C,CLE@SAC,CLE,27.93,$5587,$4700,$887,42.54, , ,0.0,0.0
+12,Terrence Ross,SG,ORL@LAL,ORL,38.79,$7758,$6900,$858,26.55,GTD,Knee,0.6395744231384392,0.0
+19,Will Barton,SG,ATL@DEN,DEN,24.82,$4964,$5900,-$936,24.38, , ,0.0,0.0
+9,Norman Powell,SF,POR@TOR,POR,33.53,$6705,$7500,-$795,28.13, , ,0.0,0.0
+16,Michael Porter,SF,ATL@DEN,DEN,33.22,$6644,$6500,$144,30.19, , ,0.0,0.0
+15,Kyle Lowry,PG,POR@TOR,TOR,40.02,$8004,$6600,$1404,35.95, , ,0.0,0.0
+26,Michael Carter-Williams,PG,ORL@LAL,ORL,25.34,$5069,$5300,-$231,21.73, , ,1.7249455982097197,0.0
+33,Paul Millsap,PF,ATL@DEN,DEN,21.4,$4280,$4900,-$620,22.47, , ,0.0,0.0
+37,Markieff Morris,PF,ORL@LAL,LAL,21.76,$4352,$4400,-$48,13.81, , ,0.0,0.0
+0,Nikola Jokic,C,ATL@DEN,DEN,49.65,$9930,$11300,-$1370,56.25, , ,0.0,0.0
