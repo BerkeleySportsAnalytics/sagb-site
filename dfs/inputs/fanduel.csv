@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,James Harden,SG,MIN@BKN,BKN,57.65,$11531,$11300,$231,53.33, , ,0.0,0.0
-114,Duncan Robinson,SG,MIA@NY,MIA,29.35,$5870,$4500,$1370,20.92, , ,0.0,0.0
-9,Jimmy Butler,SF,MIA@NY,MIA,43.4,$8681,$9300,-$619,46.32, , ,0.0,0.0
-69,Malik Beasley,SF,MIN@BKN,MIN,30.08,$6017,$5600,$417,31.01, , ,0.0,0.0
-51,Kyle Lowry,PG,TOR@DET,TOR,37.04,$7408,$6500,$908,35.95,GTD,Foot,0.0,0.0
-52,Malcolm Brogdon,PG,IND@WAS,IND,38.25,$7649,$6500,$1149,37.66, , ,0.0,0.0
-39,Jerami Grant,PF,TOR@DET,DET,30.53,$6106,$6900,-$794,36.53,GTD,Quadriceps,0.0,0.0
-137,Maxi Kleber,PF,DAL@OKC,DAL,23.46,$4691,$4100,$591,19.72, , ,0.0,0.0
-83,Kelly Olynyk,C,MEM@HOU,HOU,31.28,$6256,$5200,$1056,24.08, , ,0.16727284799461134,0.0
+16,Terrence Ross,SG,ORL@LAC,ORL,38.44,$7689,$6900,$789,26.55,GTD,Knee,0.6395744231384392,0.0
+32,Devonte' Graham,SG,CHA@WAS,CHA,33.41,$6682,$5300,$1382,25.89, , ,0.0,0.0
+18,Michael Porter,SF,PHI@DEN,DEN,28.04,$5607,$6500,-$893,30.23, , ,0.0,0.0
+28,Danny Green,SF,PHI@DEN,PHI,26.59,$5317,$5400,-$83,21.86, , ,0.0,1.2122461947488543
+5,Trae Young,PG,ATL@PHO,ATL,39.09,$7819,$8700,-$881,43.5, , ,0.0,0.0
+12,Terry Rozier,PG,CHA@WAS,CHA,33.03,$6605,$7500,-$895,33.36, , ,0.0,0.0
+48,Marcus Morris,PF,ORL@LAC,LAC,18.77,$3753,$4500,-$747,20.37, , ,0.0,1.6245552415416835
+60,Dario Saric,PF,ATL@PHO,PHO,17.86,$3573,$3800,-$227,17.33, , ,1.4582311392614349,0.0
+0,Nikola Jokic,C,PHI@DEN,DEN,46.3,$9261,$11300,-$2039,56.1, , ,0.0,0.0

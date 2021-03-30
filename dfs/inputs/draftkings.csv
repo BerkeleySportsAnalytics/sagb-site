@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-118,Duncan Robinson,SG/SF,MIA@NY ,MIA,31.13,$5837,$4800,$1037,22.62,0.0,0.0, , 
-191,Deni Avdija,SF/PF,IND@WAS,WAS,14.83,$2782,$3400,-$618,15.22,0.0,0.0, , 
-13,Jimmy Butler,SF,MIA@NY ,MIA,44.16,$8280,$9000,-$720,46.76,0.0,0.0, , 
-100,Immanuel Quickley,PG/SG,MIA@NY ,NY,28.21,$5289,$5200,$89,21.22,0.0,0.0, , 
-1,James Harden,PG,MIN@BKN,BKN,59.44,$11145,$10900,$245,57.92,0.0,0.0, , 
-43,Malcolm Brogdon,PG,IND@WAS,IND,40.98,$7683,$7000,$683,39.13,0.0,0.0, , 
-137,Kelly Olynyk,PF/C,MEM@HOU,HOU,31.94,$5989,$4400,$1589,24.4,0.16727284799461134,0.0, , 
-97,Chris Boucher,C,TOR@DET,TOR,28.46,$5335,$5200,$135,28.5,1.4493927009572023,0.0, , 
+16,Terrence Ross,SG/SF,ORL@LAC,ORL,41.97,$7870,$7100,$770,27.15,0.6395744231384392,0.0,GTD,Knee
+35,Malik Monk,SG,CHA@WAS,CHA,27.64,$5183,$4900,$283,20.81,0.0,0.0,GTD,Foot
+78,Cameron Johnson,SF/PF,ATL@PHO,PHO,15.38,$2885,$3200,-$315,18.38,0.0,0.0, , 
+45,Danny Green,SF,PHI@DEN,PHI,27.88,$5228,$4800,$428,21.77,0.0,1.2122461947488543, , 
+20,Devonte' Graham,PG/SG,CHA@WAS,CHA,36.65,$6872,$6100,$772,27.53,0.0,0.0, , 
+3,Trae Young,PG,ATL@PHO,ATL,41.47,$7775,$9000,-$1225,46.64,0.0,0.0, , 
+1,Nikola Jokic,C,PHI@DEN,DEN,48.31,$9059,$10500,-$1441,59.52,0.0,0.0, , 
+61,Dario Saric,C,ATL@PHO,PHO,18.21,$3413,$3700,-$287,18.09,1.4582311392614349,0.0, , 

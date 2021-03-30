@@ -1,19 +1,44 @@
 table {  
-    color: #333; /* Lighten up font color */
-    font-family: Helvetica, Arial, sans-serif; /* Nicer font */
-    width: 640px; 
-    border-collapse: 
-    collapse; border-spacing: 0; 
+    color: #555; /* Lighten up font color */
+    font-family: 'Courier New', monospace; /* Nicer font */
+    width: 640px;
+    border-collapse:
+    collapse; border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80%;
+    overflow:auto;
+
+
 }
 
-td, th { border: 1px solid #CCC; height: 30px; } /* Make cells a bit taller */
+td, th { border: 1px solid #CCC; height: 5px;/ } /* Make cells a bit taller */
 
 th {  
     background: #F3F3F3; /* Light grey background */
-    font-weight: bold; /* Make sure they're bold */
+    font-weight: /*bold; Make sure they're bold */
+    text-align: right;
+    vertical-align: bottom;
+    position: sticky;
+    top: 0;
+    padding: 5px;
 }
 
 td {  
     background: #FAFAFA; /* Lighter grey background */
     text-align: center; /* Center our text */
+    height: 150%;
+    padding: 5px;
+}
+
+.checkboxtext {
+    font-size: 100%;
+}
+
+input[type=checkbox] {
+    margin-right: 1.5%;
+}
+
+select {
+    margin-right: 1.5%;
 }

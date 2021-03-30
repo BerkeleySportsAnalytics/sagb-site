@@ -123,33 +123,66 @@ def gen_page(df, out, coloring):
     df["Picture"] = images
     df["Name"] = names
     
+    
     # Change the picture column to the second column in order.
     cols = df.columns.tolist()
     cols = [cols[0]] + cols[-1:] + cols[1:-1]
     df = df[cols]
     pd.set_option('display.max_colwidth', -1)
     df.index +=1
+
     
+    for column in df:
+        if (isinstance(df[column][1], float)) and column != "Hot" and column != "Cold":
+            df[column] = df[column].astype(float).map('{:.2f}'.format)
+            
+    
+
     # Header of output HTML file.
     pre = (
         "<head>\n<script src=\"sorttable.js\"></script>\n"
         "<link rel=\"stylesheet\" href=\"df_styles.css\">\n</head>\n"
     )
     pre = pre + ts + "\n"
-    pre += (
-        "\n<body>\n<div id=\"filter\">\n<input type=\"text\" id=\"name\" onkeyup=\"nameSearch()\" placeholder=\"Search for name...\">\n"
-        "<input type=\"text\" id=\"team\" onkeyup=\"teamSearch()\" placeholder=\"Search for team...\">\n"
-        "<label for=\"pos\">Search by position:</label>\n"
-        "<select id=\"pos\" onchange=\"posSearch()\" class='form-control'>\n"
-        "<option></option>\n"
-        "<option>PG</option>\n"
-        "<option>SG</option>\n"
-        "<option>SF</option>\n"
-        "<option>PF</option>\n"
-        "<option>C</option>\n"
-        "</select>\n"
-        "</div>\n\n"
-    )
+    
+    if out == "dfs.html":    
+        pre += (
+            "\n<body>\n<div id=\"filter\">\n<input type=\"text\" id=\"name\" onkeyup=\"nameSearch()\" placeholder=\"Search for name...\">\n"
+            "<input type=\"text\" id=\"team\" onkeyup=\"teamSearch()\" placeholder=\"Search for team...\">\n"
+            "<label for=\"pos\">Search by position:</label>\n"
+            "<select id=\"pos\" onchange=\"posSearch()\" class='form-control'>\n"
+            "<option></option>\n"
+            "<option>PG</option>\n"
+            "<option>SG</option>\n"
+            "<option>SF</option>\n"
+            "<option>PF</option>\n"
+            "<option>C</option>\n"
+            "</select>\n"
+            " <label for=\"filterCold\">Filter Cold</label>\n"
+            "<input type=\"checkbox\" id=\"filterCold\" onchange=\"filterCold(this)\">\n"
+            "<label for=\"filterHot\">Filter Hot</label>\n"
+            "<input type=\"checkbox\" id=\"filterHot\" onchange=\"filterHot(this)\">\n"
+            "<label for=\"dfs_injured\">Remove Injured</label>\n"
+            "<input type=\"checkbox\" id=\"dfs_injured\" onchange=\"dfs_injuryFilter(this)\">\n"
+            "</div>\n\n"
+        )
+    else:
+        pre += (
+            "\n<body>\n<div id=\"filter\">\n<input type=\"text\" id=\"name\" onkeyup=\"nameSearch()\" placeholder=\"Search for name...\">\n"
+            "<input type=\"text\" id=\"team\" onkeyup=\"teamSearch()\" placeholder=\"Search for team...\">\n"
+            "<label for=\"pos\">Search by position:</label>\n"
+            "<select id=\"pos\" onchange=\"posSearch()\" class='form-control'>\n"
+            "<option></option>\n"
+            "<option>PG</option>\n"
+            "<option>SG</option>\n"
+            "<option>SF</option>\n"
+            "<option>PF</option>\n"
+            "<option>C</option>\n"
+            "</select>\n"
+            "<label for=\"non_dfs_injured\">Remove Injured</label>\n"
+            "<input type=\"checkbox\" id=\"non_dfs_injured\" onchange=\"non_dfs_injuryFilter(this)\">\n"
+            "</div>\n\n" 
+        )
     
     # Footer of output HTML file.
     post = (
@@ -158,17 +191,23 @@ def gen_page(df, out, coloring):
         "\n</body>"
         )
     
+
+    
     # Render dataframe as HTML.
     if coloring is not None:
-        images = ['<img src="' + image + '" width="60">' for image in images]
+        images = ['<img src="' + image + '" width="40">' for image in images]
         df["Picture"] = images
         df = emojize(df)
         body = df.style.apply(coloring, axis=1).hide_columns(['Hot', 'Cold']).render()
     else:
-        html = HTML(df.to_html(escape=False ,formatters=dict(Picture=path_to_image_html)))
+        html = HTML(df.to_html(escape=False, formatters=dict(Picture=path_to_image_html)))
         body = html.data
+        
+    
+        
 
     # Generate HTML and add configuration for output tables, so JavaScript functions can run properly.
+    
     body = body.replace("<table id=", "<table ignore=", 1)
     body = body.replace("<table ", "<table id=\"tbl\" class=\"sortable\" ", 1)
     a = pre + body + post
