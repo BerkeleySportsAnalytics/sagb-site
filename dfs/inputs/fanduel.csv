@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-0,James Harden,SG,HOU@BKN,BKN,56.71,$11342,$11500,-$158,53.75, , ,0.0,0.0
-137,De'Anthony Melton,SG,UTA@MEM,MEM,23.78,$4757,$4100,$657,21.84, , ,0.0,0.0
-58,Buddy Hield,SF,SAC@SA,SAC,34.23,$6847,$5800,$1047,28.61, , ,0.2971352572621644,0.0
-102,Saddiq Bey,SF,POR@DET,DET,25.82,$5165,$4800,$365,19.28, , ,0.0,0.0
-40,Ja Morant,PG,UTA@MEM,MEM,34.02,$6804,$6800,$4,34.64, , ,1.6974159484950473,0.0
-44,Malcolm Brogdon,PG,MIA@IND,IND,33.29,$6658,$6600,$58,37.78, , ,0.0,0.0
-7,Julius Randle,PF,NY@MIN,NY,45.14,$9028,$9300,-$272,43.86, , ,0.0,0.0
-57,Harrison Barnes,PF,SAC@SA,SAC,31.31,$6261,$5800,$461,30.02, , ,0.0,0.0
-81,Andre Drummond,C,MIL@LAL,LAL,29.99,$5999,$5200,$799,42.54, , ,0.0,0.0
+45,Will Barton,SG,DEN@LAC,DEN,26.94,$5388,$5300,$88,24.3, , ,0.0,0.0
+73,Duncan Robinson,SG,GS@MIA,MIA,30.77,$6154,$4500,$1654,21.12, , ,0.0,0.0
+20,Michael Porter,SF,DEN@LAC,DEN,35.92,$7185,$6800,$385,30.8, , ,0.0,0.0
+64,Joe Harris,SF,CHA@BKN,BKN,32.0,$6400,$4800,$1600,22.75, , ,0.0,0.0
+6,Stephen Curry,PG,GS@MIA,GS,48.54,$9707,$9000,$707,45.97, , ,0.0,0.0
+14,Terry Rozier,PG,CHA@BKN,CHA,36.95,$7390,$7500,-$110,33.57, , ,0.0,0.0
+21,Jerami Grant,PF,WAS@DET,DET,33.32,$6664,$6600,$64,36.38, , ,0.0,0.0
+74,Marcus Morris,PF,DEN@LAC,LAC,23.9,$4781,$4500,$281,20.37,GTD,Calf,0.0,2.075925221739231
+1,Nikola Jokic,C,DEN@LAC,DEN,48.74,$9749,$11000,-$1251,55.65, , ,0.0,0.0
