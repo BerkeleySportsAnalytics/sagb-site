@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-80,Duncan Robinson,SG/SF,GS@MIA ,MIA,33.12,$6210,$4600,$1610,22.9,0.0,0.0, , 
-23,Jerami Grant,SF/PF,WAS@DET,DET,33.99,$6374,$7200,-$826,36.99,0.0,0.0, , 
-48,Joe Harris,SF/PF,CHA@BKN,BKN,34.5,$6470,$5500,$970,24.16,0.0,0.0, , 
-79,Shake Milton,PG/SG,PHI@CLE,PHI,25.45,$4772,$4600,$172,22.62,0.0,0.0, , 
-0,Russell Westbrook,PG,WAS@DET,WAS,56.7,$10630,$11000,-$370,54.77,0.0,0.0, , 
-4,Stephen Curry,PG,GS@MIA ,GS,51.14,$9588,$9600,-$12,48.99,0.0,0.0, , 
-100,LaMarcus Aldridge,C,CHA@BKN,BKN,21.68,$4066,$4000,$66,24.6,0.0,2.2129309641395927, , 
-128,Bismack Biyombo,C,CHA@BKN,CHA,16.01,$3002,$3400,-$398,16.42,0.0,0.0, , 
+65,Malik Beasley,SG,MIN@MEM,MIN,37.12,$6960,$6100,$860,32.15,0.0,2.0308687447141383, , 
+87,Bojan Bogdanovic,SF/PF,CHI@UTA,UTA,32.89,$6166,$5400,$766,23.99,2.0713280407809287,0.0, , 
+105,Aleksej Pokusevski,SF/PF,OKC@PHO,OKC,28.77,$5393,$5000,$393,17.52,0.0,0.0, , 
+73,Buddy Hield,SF,LAL@SAC,SAC,35.59,$6673,$5900,$773,30.44,0.2971352572621644,0.0, , 
+12,Donovan Mitchell,PG/SG,CHI@UTA,UTA,47.21,$8853,$8800,$53,42.51,0.0,0.0,GTD,Personal
+4,Stephen Curry,PG,GS@TOR ,GS,52.19,$9786,$9700,$86,49.18,0.0,0.0, , 
+62,Robert Covington,PF/C,MIL@POR,POR,32.79,$6149,$6100,$49,26.68,0.07756772899599909,0.0, , 
+204,Aron Baynes,C,GS@TOR ,TOR,17.88,$3352,$3000,$352,14.59,2.72345367221517,0.0, , 
