@@ -6,7 +6,7 @@ article2 = "nba-born";
 article3 = "centre-backs";
 
 title1 = " Should the NBA Have a 4-Point Line?";
-title2 = "Running Quarterbacks: An Advantage or Unsustainable?";
+title2 = "In Which State Are the Most NBA Players Born?";
 title3 = "Centre-Backs are the New Playmakers";
 
 date1 = "March 30, 2021";
