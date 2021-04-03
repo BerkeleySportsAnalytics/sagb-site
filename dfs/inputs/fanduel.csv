@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-10,Donovan Mitchell,SG,CHI@UTA,UTA,46.1,$9219,$8800,$419,40.05,GTD,Personal,0.0,0.0
-85,Gary Trent,SG,GS@TOR,TOR,30.16,$6032,$5200,$832,22.32, , ,0.0,0.0
-66,Malik Beasley,SF,MIN@MEM,MIN,35.79,$7158,$5600,$1558,30.36, , ,0.0,2.0308687447141383
-92,Bojan Bogdanovic,SF,CHI@UTA,UTA,32.04,$6408,$5000,$1408,22.41, , ,2.0713280407809287,0.0
-2,Luka Doncic,PG,DAL@NY,DAL,54.81,$10962,$10500,$462,51.59, , ,0.0,0.0
-8,Stephen Curry,PG,GS@TOR,GS,50.23,$10047,$9000,$1047,46.09, , ,0.0,0.0
-59,Harrison Barnes,PF,LAL@SAC,SAC,26.48,$5297,$5800,-$503,30.12, , ,0.0,0.0
-78,Aleksej Pokusevski,PF,OKC@PHO,OKC,28.12,$5623,$5300,$323,17.37, , ,0.0,0.0
-110,Chris Boucher,C,GS@TOR,TOR,27.6,$5520,$4700,$820,28.87, , ,1.4493927009572023,0.0
+10,Donovan Mitchell,SG,ORL@UTA,UTA,43.98,$8795,$8800,-$5,39.95, , ,0.0,0.0
+64,Donte DiVincenzo,SG,MIL@SAC,MIL,31.0,$6199,$5200,$999,24.1, , ,0.0,1.1894697917058006
+46,Buddy Hield,SF,MIL@SAC,SAC,35.02,$7004,$5800,$1204,28.43, , ,0.2971352572621644,0.0
+72,Bojan Bogdanovic,SF,ORL@UTA,UTA,30.31,$6061,$5000,$1061,22.62, , ,2.0713280407809287,0.0
+3,Luka Doncic,PG,DAL@WAS,DAL,58.22,$11644,$10400,$1244,51.41, , ,0.0,0.0
+88,Shake Milton,PG,MIN@PHI,PHI,28.92,$5784,$4700,$1084,22.53, , ,0.0,0.0
+9,Julius Randle,PF,NY@DET,NY,45.56,$9113,$9000,$113,43.84, , ,0.0,0.0
+96,Kevin Love,PF,CLE@MIA,CLE,35.51,$7101,$4500,$2601,13.08, , ,0.0,4.338362587594056
+39,Mason Plumlee,C,NY@DET,DET,33.58,$6715,$6100,$615,30.37, , ,0.0,0.0
