@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-81,Furkan Korkmaz,SG/SF,MEM@PHI,PHI,20.77,$3894,$3300,$594,15.2,0.0,0.0, , 
-59,Grayson Allen,SG,MEM@PHI,MEM,25.78,$4833,$4200,$633,20.04,0.0,0.0, , 
-35,Danilo Gallinari,SF/PF,GS@ATL ,ATL,27.68,$5190,$5400,-$210,22.09,0.0,0.0, , 
-71,Tony Snell,SF,GS@ATL ,ATL,16.61,$3115,$3500,-$385,11.65,0.0,0.0, , 
-1,Stephen Curry,PG,GS@ATL ,GS,48.19,$9036,$9800,-$764,49.18,0.0,0.0, , 
-13,Ja Morant,PG,MEM@PHI,MEM,40.0,$7500,$7600,-$100,36.23,1.6974159484950473,0.0, , 
-34,Kelly Olynyk,PF/C,NO@HOU ,HOU,26.32,$4935,$5500,-$565,24.8,0.16727284799461134,0.0, , 
-0,Nikola Jokic,C,ORL@DEN,DEN,49.6,$9300,$10700,-$1400,58.57,0.0,0.0, , 
+47,D'Angelo Russell,SG,MIN@IND,MIN,33.46,$6273,$6400,-$127,33.82,0.0,0.0,GTD,Knee
+125,Davis Bertans,SF/PF,WAS@ORL,WAS,21.07,$3950,$4300,-$350,18.77,0.7942665320837422,0.0, , 
+76,Mikal Bridges,SF,UTA@PHO,PHO,27.4,$5138,$5500,-$362,26.87,0.0,0.0, , 
+79,Jalen Brunson,PG/SG,DAL@HOU,DAL,30.98,$5808,$5400,$408,23.59,0.0,0.0, , 
+1,Luka Doncic,PG/SF,DAL@HOU,DAL,58.38,$10947,$10900,$47,55.74,0.0,0.0, , 
+26,Lonzo Ball,PG,NO@BKN ,NO,44.89,$8416,$7700,$716,33.06,0.379573588379075,0.0, , 
+60,Kelly Olynyk,PF/C,DAL@HOU,HOU,30.1,$5643,$5900,-$257,25.33,0.0,0.0, , 
+145,Dario Saric,C,UTA@PHO,PHO,20.26,$3799,$3900,-$101,18.48,0.0,0.0, , 

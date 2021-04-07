@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-31,Will Barton,SG,ORL@DEN,DEN,28.56,$5713,$5500,$213,24.44, , ,0.0,0.0
-45,Seth Curry,SG,MEM@PHI,PHI,27.04,$5408,$4800,$608,21.74, , ,0.0,0.0
-23,Kevin Porter,SF,NO@HOU,HOU,28.02,$5603,$6000,-$397,29.87, , ,0.3636153281525968,0.0
-40,Danilo Gallinari,SF,GS@ATL,ATL,26.55,$5310,$4900,$410,21.09, , ,0.0,0.0
-3,Stephen Curry,PG,GS@ATL,GS,45.83,$9167,$9000,$167,46.09, , ,0.0,0.0
-15,Ja Morant,PG,MEM@PHI,MEM,38.47,$7694,$6800,$894,34.81, , ,1.6974159484950473,0.0
-14,Draymond Green,PF,GS@ATL,GS,30.05,$6009,$7200,-$1191,30.58,GTD,Finger,0.0,0.0
-58,Kenyon Martin,PF,NO@HOU,HOU,19.36,$3873,$4100,-$227,16.79, , ,2.289385968933201,0.0
-0,Nikola Jokic,C,ORL@DEN,DEN,47.53,$9506,$10800,-$1294,55.16, , ,0.0,0.0
+8,Devin Booker,SG,UTA@PHO,PHO,45.23,$9046,$9000,$46,37.74, , ,0.0,0.0
+68,Jalen Brunson,SG,DAL@HOU,DAL,29.16,$5831,$5400,$431,22.65, , ,0.0,0.0
+52,RJ Barrett,SF,NY@BOS,NY,31.32,$6265,$6000,$265,29.85, , ,0.0,0.8501918727364554
+110,Dorian Finney-Smith,SF,DAL@HOU,DAL,24.84,$4969,$4500,$469,20.68, , ,0.0,0.0
+4,Luka Doncic,PG,DAL@HOU,DAL,54.71,$10941,$10300,$641,51.27, , ,0.0,0.0
+20,Lonzo Ball,PG,NO@BKN,NO,41.96,$8391,$7800,$591,32.09, , ,0.379573588379075,0.0
+21,Christian Wood,PF,DAL@HOU,HOU,36.39,$7278,$7700,-$422,39.3, , ,0.0,0.0
+159,Davis Bertans,PF,WAS@ORL,WAS,19.19,$3838,$3700,$138,17.73, , ,0.7942665320837422,0.0
+60,Kelly Olynyk,C,DAL@HOU,HOU,29.42,$5883,$5600,$283,24.98, , ,0.0,0.0
