@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-47,D'Angelo Russell,SG,MIN@IND,MIN,33.46,$6273,$6400,-$127,33.82,0.0,0.0,GTD,Knee
-125,Davis Bertans,SF/PF,WAS@ORL,WAS,21.07,$3950,$4300,-$350,18.77,0.7942665320837422,0.0, , 
-76,Mikal Bridges,SF,UTA@PHO,PHO,27.4,$5138,$5500,-$362,26.87,0.0,0.0, , 
-79,Jalen Brunson,PG/SG,DAL@HOU,DAL,30.98,$5808,$5400,$408,23.59,0.0,0.0, , 
-1,Luka Doncic,PG/SF,DAL@HOU,DAL,58.38,$10947,$10900,$47,55.74,0.0,0.0, , 
-26,Lonzo Ball,PG,NO@BKN ,NO,44.89,$8416,$7700,$716,33.06,0.379573588379075,0.0, , 
-60,Kelly Olynyk,PF/C,DAL@HOU,HOU,30.1,$5643,$5900,-$257,25.33,0.0,0.0, , 
-145,Dario Saric,C,UTA@PHO,PHO,20.26,$3799,$3900,-$101,18.48,0.0,0.0, , 
+39,Buddy Hield,SG/SF,DET@SAC,SAC,37.33,$6999,$6000,$999,30.49,0.0,0.0, , 
+86,Saddiq Bey,SF/PF,DET@SAC,DET,30.72,$5760,$4300,$1460,19.98,0.0,1.4143760990927272, , 
+54,Jalen Brunson,PG/SG,MIL@DAL,DAL,29.0,$5438,$5300,$138,23.58,0.0,0.0, , 
+0,Luka Doncic,PG/SF,MIL@DAL,DAL,56.51,$10595,$10900,-$305,55.47,0.0,0.0, , 
+33,Darius Garland,PG,CLE@OKC,CLE,36.6,$6863,$6500,$363,30.49,0.0,0.0, , 
+81,Carmelo Anthony,PF,POR@UTA,POR,24.18,$4534,$4400,$134,23.35,0.0,0.0, , 
+6,Nikola Vucevic,C,CHI@TOR,CHI,46.38,$8696,$9100,-$404,49.19,0.0,0.0, , 
+159,DeMarcus Cousins,C,PHO@LAC,LAC,20.29,$3804,$3000,$804,25.82,0.0,0.0, , 
