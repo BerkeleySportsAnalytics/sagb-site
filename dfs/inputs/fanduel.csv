@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-7,Devin Booker,SG,PHO@LAC,PHO,44.03,$8805,$9000,-$195,37.74, , ,0.0,0.0
-22,Zach LaVine,SG,CHI@TOR,CHI,37.61,$7523,$7200,$323,40.2,GTD,Ankle,0.0,0.0
-32,Buddy Hield,SF,DET@SAC,SAC,35.5,$7099,$6200,$899,28.54, , ,0.0,0.0
-68,Josh Richardson,SF,MIL@DAL,DAL,28.89,$5777,$5000,$777,23.19, , ,0.0,0.0
-1,Luka Doncic,PG,MIL@DAL,DAL,53.89,$10778,$10300,$478,51.08, , ,0.0,0.0
-79,Goran Dragic,PG,LAL@MIA,MIA,27.37,$5474,$4800,$674,23.77, , ,0.0,0.0
-43,Kevin Love,PF,CLE@OKC,CLE,26.54,$5309,$5600,-$291,17.0, , ,0.0,0.0
-130,Isaiah Stewart,PF,DET@SAC,DET,17.02,$3404,$3700,-$296,18.42, , ,0.0,0.0
-16,Rudy Gobert,C,POR@UTA,UTA,37.62,$7524,$8100,-$576,40.57, , ,0.0,0.0
+23,Zach LaVine,SG,CHI@ATL,CHI,39.89,$7977,$7500,$477,40.51, , ,0.0,0.0
+69,Dillon Brooks,SG,MEM@NY,MEM,26.75,$5350,$5400,-$50,26.25, , ,0.0,0.0
+45,Kevin Porter,SF,HOU@LAC,HOU,34.8,$6959,$6400,$559,29.23, , ,0.0,0.0
+49,RJ Barrett,SF,MEM@NY,NY,35.99,$7198,$6200,$998,29.95, , ,0.0,1.2745416754430756
+0,Russell Westbrook,PG,WAS@GS,WAS,54.04,$10809,$11200,-$391,50.35, , ,0.0,0.0
+33,Ja Morant,PG,MEM@NY,MEM,41.55,$8309,$7000,$1309,34.21, , ,0.0,1.986014792866634
+20,Christian Wood,PF,HOU@LAC,HOU,41.51,$8301,$7800,$501,39.27, , ,0.0,0.0
+131,Davis Bertans,PF,WAS@GS,WAS,20.58,$4116,$3900,$216,17.97, , ,1.4302946336968334,0.0
+119,Dwight Howard,C,PHI@NO,PHI,22.88,$4577,$4200,$377,20.41, , ,0.0,0.0
