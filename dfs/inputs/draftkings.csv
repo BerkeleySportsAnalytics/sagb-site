@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-44,Buddy Hield,SG/SF,SAC@UTA,SAC,33.99,$6374,$5800,$574,30.31,0.0,0.0, , 
-86,Kentavious Caldwell-Pope,SG,LAL@BKN,LAL,27.84,$5221,$4200,$1021,16.89,0.0,0.0, , 
-25,Jerami Grant,SF/PF,DET@POR,DET,35.43,$6643,$7000,-$357,36.63,0.0,0.0,GTD,Knee
-79,Taurean Prince,SF/PF,TOR@CLE,CLE,26.79,$5023,$4600,$423,19.08,0.0,0.0, , 
-89,Ty Jerome,PG/SG,PHI@OKC,OKC,23.63,$4430,$4200,$230,20.9,0.0,0.0, , 
-3,Stephen Curry,PG,HOU@GS ,GS,44.35,$8316,$10100,-$1784,49.4,0.0,0.0, , 
-39,Kevin Love,PF/C,TOR@CLE,CLE,30.98,$5808,$6100,-$292,21.19,0.0,0.0, , 
-13,Rudy Gobert,C,SAC@UTA,UTA,38.04,$7133,$8000,-$867,40.37,0.0,0.10632979529313424, , 
+53,Norman Powell,SG/SF,MIA@POR,POR,36.49,$6843,$5700,$1143,29.06,0.0,0.0, , 
+12,Zach LaVine,SG,CHI@MIN,CHI,58.83,$11032,$8600,$2432,43.81,0.0,0.02764979018877867, , 
+8,Jimmy Butler,SF,MIA@POR,MIA,52.33,$9811,$9000,$811,46.3,0.0,0.0, , 
+89,Hamidou Diallo,SF,DET@LAC,DET,29.83,$5593,$4700,$893,24.21,0.0,0.0, , 
+121,Aaron Holiday,PG/SG,IND@MEM,IND,22.32,$4185,$3900,$285,13.42,0.0,0.0, , 
+30,Ja Morant,PG,IND@MEM,MEM,51.15,$9591,$7000,$2591,35.85,0.0,2.4611366567208033, , 
+120,Carmelo Anthony,PF,MIA@POR,POR,23.38,$4384,$3900,$484,23.04,0.0,2.8365208095335137, , 
+32,Chris Boucher,C,TOR@NY ,TOR,41.89,$7855,$6800,$1055,28.98,0.0,0.0, , 
