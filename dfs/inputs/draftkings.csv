@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-53,Norman Powell,SG/SF,MIA@POR,POR,36.49,$6843,$5700,$1143,29.06,0.0,0.0, , 
+54,Norman Powell,SG/SF,MIA@POR,POR,36.49,$6843,$5700,$1143,29.06,0.0,0.0, , 
 12,Zach LaVine,SG,CHI@MIN,CHI,58.83,$11032,$8600,$2432,43.81,0.0,0.02764979018877867, , 
 8,Jimmy Butler,SF,MIA@POR,MIA,52.33,$9811,$9000,$811,46.3,0.0,0.0, , 
-89,Hamidou Diallo,SF,DET@LAC,DET,29.83,$5593,$4700,$893,24.21,0.0,0.0, , 
-121,Aaron Holiday,PG/SG,IND@MEM,IND,22.32,$4185,$3900,$285,13.42,0.0,0.0, , 
+49,Donte DiVincenzo,PG/SG,MIL@ORL,MIL,36.53,$6850,$5900,$950,25.46,0.0,0.0,GTD,Hip
 30,Ja Morant,PG,IND@MEM,MEM,51.15,$9591,$7000,$2591,35.85,0.0,2.4611366567208033, , 
-120,Carmelo Anthony,PF,MIA@POR,POR,23.38,$4384,$3900,$484,23.04,0.0,2.8365208095335137, , 
+121,Carmelo Anthony,PF,MIA@POR,POR,23.38,$4384,$3900,$484,23.04,0.0,2.8365208095335137, , 
 32,Chris Boucher,C,TOR@NY ,TOR,41.89,$7855,$6800,$1055,28.98,0.0,0.0, , 
+202,Aron Baynes,C,TOR@NY ,TOR,18.39,$3449,$3000,$449,14.68,0.0,0.0, , 
