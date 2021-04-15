@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-14,Zach LaVine,SG,CHI@MIN,CHI,55.17,$11033,$8300,$2733,40.97, , ,0.0,0.02764979018877867
-60,Dillon Brooks,SG,IND@MEM,MEM,30.61,$6122,$5500,$622,26.46, , ,0.0,0.0
-6,Jimmy Butler,SF,MIA@POR,MIA,52.97,$10595,$9300,$1295,46.1, , ,0.0,0.0
-32,Norman Powell,SF,MIA@POR,POR,35.23,$7047,$6600,$447,27.85, , ,0.0,0.0
-29,Ja Morant,PG,IND@MEM,MEM,48.87,$9774,$7000,$2774,34.32, , ,0.0,2.4611366567208033
-68,Reggie Jackson,PG,DET@LAC,LAC,27.61,$5521,$5300,$221,18.73, , ,0.0,0.0
-45,Kevin Love,PF,NO@CLE,CLE,30.39,$6079,$6100,-$21,20.26, , ,0.0,0.0
-91,Lauri Markkanen,PF,CHI@MIN,CHI,20.68,$4136,$4700,-$564,25.47, , ,0.0,0.0
-27,Chris Boucher,C,TOR@NY,TOR,41.77,$8355,$7000,$1355,29.83, , ,0.0,0.0
+12,Collin Sexton,SG,GS@CLE,CLE,30.49,$6099,$7400,-$1301,34.83,GTD,Groin,0.0,0.0
+51,Pat Connaughton,SG,MIL@ATL,MIL,21.49,$4297,$4200,$97,17.24, , ,0.0,0.0
+24,Kyle Kuzma,SF,BOS@LAL,LAL,32.08,$6416,$6500,-$84,24.5,GTD,Calf,0.0,0.0
+27,Buddy Hield,SF,SAC@PHO,SAC,31.95,$6390,$6100,$290,28.56, , ,0.0,0.0
+1,Stephen Curry,PG,GS@CLE,GS,56.51,$11302,$10500,$802,47.12, , ,0.0,0.0
+2,De'Aaron Fox,PG,SAC@PHO,SAC,46.87,$9374,$9700,-$326,42.84, , ,0.0,0.0
+33,Danilo Gallinari,PF,MIL@ATL,ATL,31.49,$6298,$5600,$698,21.62,GTD,Foot,0.0,0.0
+38,Dean Wade,PF,GS@CLE,CLE,31.15,$6230,$5200,$1030,12.97, , ,0.0,0.0
+45,Brook Lopez,C,MIL@ATL,MIL,19.7,$3939,$4800,-$861,23.86, , ,0.0,0.0

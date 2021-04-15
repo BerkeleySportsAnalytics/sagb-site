@@ -24,7 +24,7 @@ function teamSearch() {
 	table = document.getElementById("tbl");
 	tr = table.getElementsByTagName("tr");
 	for (i = 0; i < tr.length; i++) {
-	  td = tr[i].getElementsByTagName("td")[4];
+	  td = tr[i].getElementsByTagName("td")[3];
 	  if (td) {
 		txtValue = td.textContent || td.innerText;
 		if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -53,6 +53,7 @@ function posSearch() {
   }
 }
 
+
 function dfs_injuryFilter(obj) {
     var table, tr, td, td_hot, td_cold;
     table = document.getElementById("tbl");
@@ -60,7 +61,7 @@ function dfs_injuryFilter(obj) {
 
     if ((document.getElementById('filterHot').checked) && (obj.checked)) {
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             td_hot = tr[i].getElementsByTagName("td")[0];
             if (td) {
                 if ((td.innerHTML.indexOf("GTD")  > -1) || (td.innerHTML.indexOf("O")  > -1)) {
@@ -74,7 +75,7 @@ function dfs_injuryFilter(obj) {
         }
     } else if ((document.getElementById('filterCold').checked) && (obj.checked)) {
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             td_cold = tr[i].getElementsByTagName("td")[0];
             if (td) {
                 if ((td.innerHTML.indexOf("GTD")  > -1) || (td.innerHTML.indexOf("O")  > -1)) {
@@ -88,7 +89,7 @@ function dfs_injuryFilter(obj) {
         }
     } else if (obj.checked){
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 if (td.innerHTML.indexOf("GTD")  > -1){
                     tr[i].style.display = "none";
@@ -124,7 +125,7 @@ function dfs_injuryFilter(obj) {
          }
     } else {
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 tr[i].style.display = "";
             }
@@ -141,7 +142,7 @@ function filterHot(obj) {
         document.getElementById('filterCold').checked = false
         for (i = 0; i < tr.length; i++) {
             td = tr[i].getElementsByTagName("td")[0];
-            td_inj = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td_inj = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 if ((td_inj.innerHTML.indexOf("GTD")  > -1) || (td_inj.innerHTML.indexOf("O")  > -1)) {
                     tr[i].style.display = "none";
@@ -166,7 +167,7 @@ function filterHot(obj) {
         }
     } else if (document.getElementById('dfs_injured').checked){
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 if (td.innerHTML.indexOf("GTD")  > -1){
                     tr[i].style.display = "none";
@@ -179,7 +180,7 @@ function filterHot(obj) {
         }
     } else {
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 tr[i].style.display = "";
 
@@ -196,7 +197,7 @@ function filterCold(obj) {
             document.getElementById('filterHot').checked = false
             for (i = 0; i < tr.length; i++) {
                 td = tr[i].getElementsByTagName("td")[0];
-                td_inj = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+                td_inj = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
                 if (td) {
                     if ((td_inj.innerHTML.indexOf("GTD")  > -1) || (td_inj.innerHTML.indexOf("O")  > -1)) {
                         tr[i].style.display = "none";
@@ -221,7 +222,7 @@ function filterCold(obj) {
             }
         } else if (document.getElementById('dfs_injured').checked){
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+                td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
                 if (td) {
                     if (td.innerHTML.indexOf("GTD")  > -1){
                         tr[i].style.display = "none";
@@ -234,7 +235,7 @@ function filterCold(obj) {
             }
         } else {
             for (i = 0; i < tr.length; i++) {
-                td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+                td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
                 if (td) {
                     tr[i].style.display = "";
 
@@ -250,7 +251,7 @@ function non_dfs_injuryFilter(obj){
 
     if (obj.checked){
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 if (td.innerHTML.indexOf("GTD")  > -1){
                     tr[i].style.display = "none";
@@ -263,7 +264,7 @@ function non_dfs_injuryFilter(obj){
         }
     } else {
         for (i = 0; i < tr.length; i++) {
-            td = tr[i].getElementsByTagName("td")[table.rows[0].cells.length - 3];
+            td = tr[i].getElementsByTagName("td")[table.rows[1].cells.length - 3];
             if (td) {
                 tr[i].style.display = "";
             }
