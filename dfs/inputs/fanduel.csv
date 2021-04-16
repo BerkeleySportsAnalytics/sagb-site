@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-12,Collin Sexton,SG,GS@CLE,CLE,30.49,$6099,$7400,-$1301,34.83,GTD,Groin,0.0,0.0
-51,Pat Connaughton,SG,MIL@ATL,MIL,21.49,$4297,$4200,$97,17.24, , ,0.0,0.0
-24,Kyle Kuzma,SF,BOS@LAL,LAL,32.08,$6416,$6500,-$84,24.5,GTD,Calf,0.0,0.0
-27,Buddy Hield,SF,SAC@PHO,SAC,31.95,$6390,$6100,$290,28.56, , ,0.0,0.0
-1,Stephen Curry,PG,GS@CLE,GS,56.51,$11302,$10500,$802,47.12, , ,0.0,0.0
-2,De'Aaron Fox,PG,SAC@PHO,SAC,46.87,$9374,$9700,-$326,42.84, , ,0.0,0.0
-33,Danilo Gallinari,PF,MIL@ATL,ATL,31.49,$6298,$5600,$698,21.62,GTD,Foot,0.0,0.0
-38,Dean Wade,PF,GS@CLE,CLE,31.15,$6230,$5200,$1030,12.97, , ,0.0,0.0
-45,Brook Lopez,C,MIL@ATL,MIL,19.7,$3939,$4800,-$861,23.86, , ,0.0,0.0
+19,DeMar DeRozan,SG,POR@SA,SA,38.41,$7682,$7900,-$218,38.56, , ,0.0,0.0
+190,Patty Mills,SG,POR@SA,SA,21.63,$4326,$3500,$826,19.16, , ,0.0,0.0
+46,Luguentz Dort,SF,OKC@DET,OKC,32.83,$6565,$5700,$865,22.39, , ,0.0,0.0
+109,Carmelo Anthony,SF,POR@SA,POR,25.26,$5052,$4100,$952,22.71, , ,0.0,0.9046148330846028
+13,Damian Lillard,PG,POR@SA,POR,43.52,$8703,$8600,$103,45.24, , ,0.0,0.0
+31,Ja Morant,PG,MEM@CHI,MEM,35.85,$7171,$6900,$271,34.13, , ,0.0,1.9971534480720108
+9,Julius Randle,PF,NY@DAL,NY,56.16,$11232,$9200,$2032,44.21, , ,0.0,0.0
+122,Rudy Gay,PF,POR@SA,SA,24.47,$4894,$3900,$994,22.06, , ,0.0,0.0
+4,Joel Embiid,C,LAC@PHI,PHI,54.92,$10983,$10200,$783,52.06, , ,0.0,1.3039259578005418
