@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-17,Andrew Wiggins,SG/SF,GS@BOS ,GS,37.23,$6981,$7000,-$19,31.46,0.0,0.0, , 
-56,Grayson Allen,SG,MEM@MIL,MEM,31.91,$5983,$4200,$1783,21.09,0.0,0.0, , 
-80,Patty Mills,PG/SG,SA@PHO ,SA,29.4,$5513,$3400,$2113,20.12,0.0,0.0, , 
-18,Ja Morant,PG,MEM@MIL,MEM,33.6,$6300,$7000,-$700,35.54,0.0,1.9971534480720108, , 
-24,Jerami Grant,PF,DET@WAS,DET,31.04,$5820,$6500,-$680,36.61,0.0,0.0, , 
-61,Rudy Gay,PF,SA@PHO ,SA,22.77,$4269,$4100,$169,22.34,0.0,0.0, , 
-3,Nikola Vucevic,C,CLE@CHI,CHI,42.98,$8058,$9800,-$1742,48.83,0.0,0.0, , 
-11,Jonas Valanciunas,C,MEM@MIL,MEM,32.91,$6171,$7900,-$1729,38.68,0.0,0.6561643417572736, , 
+87,Grayson Allen,SG,MEM@DEN,MEM,35.33,$6624,$4800,$1824,21.53,0.0,0.0, , 
+133,Cameron Johnson,SF/PF,PHO@MIL,PHO,16.53,$3100,$3700,-$600,18.48,0.11966665856608626,0.0, , 
+27,Collin Sexton,PG/SG,CLE@DET,CLE,41.16,$7718,$7400,$318,35.86,0.0,0.0, , 
+112,Shake Milton,PG/SG,GS@PHI ,PHI,25.95,$4865,$4200,$665,22.44,0.0,0.0, , 
+4,Stephen Curry,PG,GS@PHI ,GS,69.3,$12994,$10500,$2494,50.68,0.0,0.0,GTD,Ankle
+5,Jayson Tatum,PF,CHI@BOS,BOS,47.75,$8954,$10000,-$1046,45.05,0.0,0.23186923387939695,GTD,Ankle
+52,Kyle Anderson,PF,MEM@DEN,MEM,32.84,$6157,$6200,-$43,29.38,0.0,0.0, , 
+170,Marc Gasol,C,UTA@LAL,LAL,20.69,$3880,$3200,$680,16.92,1.2015431885317132,0.0,GTD,Finger

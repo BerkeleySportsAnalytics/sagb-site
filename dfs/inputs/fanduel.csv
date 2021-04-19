@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-43,Grayson Allen,SG,MEM@MIL,MEM,29.91,$5981,$4700,$1281,20.43, , ,0.0,0.0
-72,Patty Mills,SG,SA@PHO,SA,27.53,$5506,$3700,$1806,18.95, , ,0.0,0.0
-12,Khris Middleton,SF,MEM@MIL,MIL,33.33,$6666,$7800,-$1134,36.85, , ,0.0,0.0
-26,Kyle Anderson,SF,MEM@MIL,MEM,29.9,$5980,$6400,-$420,29.65, , ,0.0,0.0
-2,Stephen Curry,PG,GS@BOS,GS,40.76,$8152,$10600,-$2448,47.13, , ,0.0,0.0
-23,Ja Morant,PG,MEM@MIL,MEM,33.37,$6674,$6800,-$126,33.99, , ,0.0,1.9971534480720108
-18,Jerami Grant,PF,DET@WAS,DET,30.26,$6052,$7100,-$1048,35.93, , ,0.0,0.0
-63,Rudy Gay,PF,SA@PHO,SA,22.88,$4576,$3800,$776,22.07, , ,0.0,0.0
-4,Nikola Vucevic,C,CLE@CHI,CHI,41.5,$8300,$9000,-$700,46.21, , ,0.0,0.0
+24,Collin Sexton,SG,CLE@DET,CLE,38.9,$7781,$7400,$381,34.77, , ,0.0,0.0
+73,Grayson Allen,SG,MEM@DEN,MEM,32.88,$6576,$4800,$1776,20.83, , ,0.0,0.0
+42,Kyle Anderson,SF,MEM@DEN,MEM,33.57,$6713,$6300,$413,29.76, , ,0.0,0.0
+44,Kyle Kuzma,SF,UTA@LAL,LAL,28.55,$5710,$6200,-$490,24.65, , ,0.0,0.0
+3,Stephen Curry,PG,GS@PHI,GS,63.26,$12652,$10700,$1952,47.28,GTD,Ankle,0.0,0.0
+97,Shake Milton,PG,GS@PHI,PHI,25.13,$5026,$4100,$926,21.84, , ,0.0,0.0
+5,Jayson Tatum,PF,CHI@BOS,BOS,44.75,$8951,$9700,-$749,43.43,GTD,Ankle,0.0,0.23186923387939695
+26,Tobias Harris,PF,GS@PHI,PHI,33.76,$6751,$7200,-$449,38.06,GTD,Knee,0.0,0.0
+148,Dwight Howard,C,GS@PHI,PHI,22.85,$4570,$3600,$970,20.12,GTD,Knee,0.3895263325254499,0.0
