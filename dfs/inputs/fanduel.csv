@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-24,Collin Sexton,SG,CLE@DET,CLE,38.9,$7781,$7400,$381,34.77, , ,0.0,0.0
-73,Grayson Allen,SG,MEM@DEN,MEM,32.88,$6576,$4800,$1776,20.83, , ,0.0,0.0
-42,Kyle Anderson,SF,MEM@DEN,MEM,33.57,$6713,$6300,$413,29.76, , ,0.0,0.0
-44,Kyle Kuzma,SF,UTA@LAL,LAL,28.55,$5710,$6200,-$490,24.65, , ,0.0,0.0
-3,Stephen Curry,PG,GS@PHI,GS,63.26,$12652,$10700,$1952,47.28,GTD,Ankle,0.0,0.0
-97,Shake Milton,PG,GS@PHI,PHI,25.13,$5026,$4100,$926,21.84, , ,0.0,0.0
-5,Jayson Tatum,PF,CHI@BOS,BOS,44.75,$8951,$9700,-$749,43.43,GTD,Ankle,0.0,0.23186923387939695
-26,Tobias Harris,PF,GS@PHI,PHI,33.76,$6751,$7200,-$449,38.06,GTD,Knee,0.0,0.0
-148,Dwight Howard,C,GS@PHI,PHI,22.85,$4570,$3600,$970,20.12,GTD,Knee,0.3895263325254499,0.0
+8,Paul George,SG,LAC@POR,LAC,40.11,$8022,$9000,-$978,40.74, , ,0.0,0.0
+54,Landry Shamet,SG,BKN@NO,BKN,28.65,$5731,$4400,$1331,14.33, , ,0.0,0.0
+16,Miles Bridges,SF,CHA@NY,CHA,37.73,$7546,$6800,$746,23.98, , ,0.0,0.0
+22,Buddy Hield,SF,MIN@SAC,SAC,35.37,$7073,$6000,$1073,28.41, , ,0.0,0.0
+60,Elfrid Payton,PG,CHA@NY,NY,21.86,$4372,$4100,$272,22.46, , ,0.0,0.0
+98,R.J. Hampton,PG,ORL@ATL,ORL,20.16,$4032,$3500,$532,10.09, , ,0.2235418455940244,0.0
+7,Julius Randle,PF,CHA@NY,NY,51.92,$10383,$9400,$983,45.0, , ,0.0,0.0
+21,Harrison Barnes,PF,MIN@SAC,SAC,31.35,$6270,$6000,$270,30.21, , ,0.313908996983031,0.0
+0,Karl-Anthony Towns,C,MIN@SAC,MIN,44.06,$8811,$10800,-$1989,47.71, , ,0.0,0.0
