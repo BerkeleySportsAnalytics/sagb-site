@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-14,Andrew Wiggins,SG,SAC@GS,GS,37.72,$7544,$6800,$744,31.23, , ,0.0,0.0
-54,Dwayne Bacon,SG,IND@ORL,ORL,23.47,$4694,$3900,$794,17.01, , ,0.0,0.0
-10,Bogdan Bogdanovic,SF,MIL@ATL,ATL,35.73,$7146,$7300,-$154,26.27, , ,0.0,0.0
-16,Buddy Hield,SF,SAC@GS,SAC,35.04,$7009,$6500,$509,28.62, , ,0.0,0.0
-6,Malcolm Brogdon,PG,IND@ORL,IND,40.81,$8162,$8200,-$38,38.28, , ,0.0,0.0
-58,Edmond Sumner,PG,IND@ORL,IND,25.38,$5075,$3900,$1175,11.9, , ,0.0,0.0
-1,Giannis Antetokounmpo,PF,MIL@ATL,MIL,47.67,$9534,$10900,-$1366,54.63, , ,0.0,0.0
-18,Harrison Barnes,PF,SAC@GS,SAC,32.46,$6491,$6400,$91,30.41, , ,0.0,0.0
-20,Jarrett Allen,C,CLE@WAS,CLE,24.07,$4814,$6100,-$1286,31.61, , ,0.0,0.0
+27,Fred VanVleet,SG,CLE@TOR,TOR,38.5,$7699,$7300,$399,39.4, , ,0.0,1.6929407165635726
+104,Duncan Robinson,SG,CHI@MIA,MIA,30.1,$6020,$4800,$1220,21.44, , ,0.0,0.0
+26,Michael Porter,SF,MEM@DEN,DEN,39.37,$7873,$7400,$473,32.51, , ,0.0,0.0
+65,Kyle Kuzma,SF,LAL@ORL,LAL,35.31,$7063,$5700,$1363,24.59, , ,0.0,0.0
+123,Michael Carter-Williams,PG,LAL@ORL,ORL,26.17,$5234,$4400,$834,22.3,GTD,Ankle,0.0,0.0
+174,George Hill,PG,OKC@PHI,PHI,20.87,$4174,$3800,$374,19.08, , ,0.0,0.0
+4,Julius Randle,PF,PHO@NY,NY,54.01,$10801,$10100,$701,45.15, , ,0.0,0.0
+40,Jerami Grant,PF,ATL@DET,DET,36.57,$7315,$6800,$515,35.62, , ,0.0,0.0
+6,Karl-Anthony Towns,C,UTA@MIN,MIN,45.85,$9170,$9700,-$530,47.83, , ,0.0,0.0
