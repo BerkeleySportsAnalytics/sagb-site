@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-22,Devin Booker,SG,LAC@PHO,PHO,35.92,$7184,$7700,-$516,37.32, , ,0.0,0.0
-60,Devonte' Graham,SG,CHA@BOS,CHA,33.41,$6681,$5700,$981,27.17, , ,0.0,0.0
-71,Kyle Kuzma,SF,LAL@WAS,LAL,32.94,$6589,$5400,$1189,24.58, , ,0.0,0.0
-123,Naji Marshall,SF,NO@DEN,NO,22.75,$4550,$4200,$350,16.47, , ,0.0,0.0
-17,Damian Lillard,PG,POR@MEM,POR,41.43,$8286,$8100,$186,44.78, , ,0.0,0.0
-208,Anfernee Simons,PG,POR@MEM,POR,26.6,$5319,$3500,$1819,13.49, , ,0.0,0.0
-4,Julius Randle,PF,CHI@NY,NY,47.67,$9533,$9900,-$367,44.93, , ,0.0,0.0
-86,Chuma Okeke,PF,ORL@CLE,ORL,24.78,$4956,$5000,-$44,19.4, , ,0.6477095025624072,0.0
-2,Joel Embiid,C,ATL@PHI,PHI,46.22,$9245,$10500,-$1255,51.69, , ,0.0,1.5958771852372895
+28,Andrew Wiggins,SG,GS@MIN,GS,30.86,$6172,$6700,-$528,31.41, , ,0.0,0.0
+56,Jalen Brunson,SG,DAL@DET,DAL,24.87,$4975,$4700,$275,22.3, , ,0.0,0.0
+18,Khris Middleton,SF,MIL@HOU,MIL,35.0,$7000,$7500,-$500,36.42, , ,0.0,0.0
+86,Mychal Mulder,SF,GS@MIN,GS,22.39,$4478,$3800,$678,6.83, , ,0.0,0.0
+5,Stephen Curry,PG,GS@MIN,GS,47.56,$9511,$9600,-$89,46.95, , ,0.0,0.0
+29,Kyle Lowry,PG,TOR@DEN,TOR,41.73,$8346,$6400,$1946,35.14, , ,0.0,0.0
+17,Kristaps Porzingis,PF,DAL@DET,DAL,31.3,$6260,$7600,-$1340,38.52,GTD,Ankle,0.0,0.0
+77,Maxi Kleber,PF,DAL@DET,DAL,18.86,$3772,$4000,-$228,18.63,GTD,Back,0.0,0.0
+4,Karl-Anthony Towns,C,GS@MIN,MIN,40.35,$8069,$9700,-$1631,47.48, , ,0.0,0.0
