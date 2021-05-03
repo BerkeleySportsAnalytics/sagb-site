@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-8,Devin Booker,SG,PHO@OKC,PHO,38.55,$7709,$7800,-$91,37.18, , ,0.0,0.0
-38,Jalen Brunson,SG,SAC@DAL,DAL,24.66,$4932,$4900,$32,22.09, , ,0.0,0.0
-9,Kevin Porter,SF,NY@HOU,HOU,47.59,$9518,$7700,$1818,30.58, , ,0.0,0.0
-28,Luguentz Dort,SF,PHO@OKC,OKC,33.38,$6676,$5900,$776,23.51, , ,1.5589302742501552,0.0
-26,LaMelo Ball,PG,MIA@CHA,CHA,33.02,$6603,$6100,$503,35.09, , ,0.0,0.0
-121,Elfrid Payton,PG,NY@HOU,NY,19.37,$3874,$3500,$374,21.73, , ,0.0,0.0
-3,Julius Randle,PF,NY@HOU,NY,51.49,$10297,$9700,$597,45.01, , ,0.0,0.0
-56,Rudy Gay,PF,PHI@SA,SA,23.22,$4645,$4000,$645,21.82, , ,0.0,0.0
-2,Joel Embiid,C,PHI@SA,PHI,43.71,$8742,$9800,-$1058,50.88, , ,0.0,1.0554147329751344
+28,Andrew Wiggins,SG,GS@NO,GS,34.8,$6959,$7000,-$41,31.52,GTD,Knee,0.0,0.0
+57,Josh Jackson,SG,ORL@DET,DET,28.89,$5779,$5200,$579,24.11, , ,0.0,0.0
+55,Kyle Anderson,SF,NY@MEM,MEM,31.62,$6323,$5200,$1123,29.5, , ,0.0,0.0
+62,Danilo Gallinari,SF,POR@ATL,ATL,27.77,$5554,$5100,$454,21.18, , ,0.0,0.0
+3,Stephen Curry,PG,GS@NO,GS,53.3,$10661,$9700,$961,47.11, , ,0.0,0.0
+11,Damian Lillard,PG,POR@ATL,POR,51.14,$10227,$8900,$1327,44.99, , ,0.0,0.0
+2,Julius Randle,PF,NY@MEM,NY,53.65,$10730,$9700,$1030,45.06, , ,0.0,0.0
+113,Rudy Gay,PF,SA@UTA,SA,23.53,$4705,$3900,$805,22.06, , ,0.0,0.0
+56,Wendell Carter,C,ORL@DET,ORL,28.43,$5686,$5200,$486,27.04, , ,0.0,0.0
