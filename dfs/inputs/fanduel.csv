@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-28,Andrew Wiggins,SG,GS@NO,GS,34.8,$6959,$7000,-$41,31.52,GTD,Knee,0.0,0.0
-57,Josh Jackson,SG,ORL@DET,DET,28.89,$5779,$5200,$579,24.11, , ,0.0,0.0
-55,Kyle Anderson,SF,NY@MEM,MEM,31.62,$6323,$5200,$1123,29.5, , ,0.0,0.0
-62,Danilo Gallinari,SF,POR@ATL,ATL,27.77,$5554,$5100,$454,21.18, , ,0.0,0.0
-3,Stephen Curry,PG,GS@NO,GS,53.3,$10661,$9700,$961,47.11, , ,0.0,0.0
-11,Damian Lillard,PG,POR@ATL,POR,51.14,$10227,$8900,$1327,44.99, , ,0.0,0.0
-2,Julius Randle,PF,NY@MEM,NY,53.65,$10730,$9700,$1030,45.06, , ,0.0,0.0
-113,Rudy Gay,PF,SA@UTA,SA,23.53,$4705,$3900,$805,22.06, , ,0.0,0.0
-56,Wendell Carter,C,ORL@DET,ORL,28.43,$5686,$5200,$486,27.04, , ,0.0,0.0
+7,Paul George,SG,TOR@LAC,LAC,43.26,$8651,$9000,-$349,40.78, , ,0.0,1.08975447868386
+23,Andrew Wiggins,SG,GS@NO,GS,36.33,$7265,$7100,$165,31.63, , ,0.0,0.0
+43,Luguentz Dort,SF,SAC@OKC,OKC,29.58,$5915,$5600,$315,23.34, , ,1.5589302742501552,0.0
+58,Dorian Finney-Smith,SF,DAL@MIA,DAL,28.13,$5626,$5200,$426,22.32, , ,0.0,0.0
+3,Stephen Curry,PG,GS@NO,GS,53.31,$10661,$9700,$961,47.26, , ,0.0,0.0
+18,Kyle Lowry,PG,TOR@LAC,TOR,39.67,$7934,$7400,$534,35.77, , ,0.0,0.0
+32,Jerami Grant,PF,CHA@DET,DET,30.61,$6121,$6200,-$79,35.46,GTD,Knee,0.0,0.0
+142,James Johnson,PF,GS@NO,NO,23.71,$4742,$3500,$1242,17.58, , ,2.072159481485617,0.0
+29,Deandre Ayton,C,PHO@CLE,PHO,26.67,$5334,$6300,-$966,33.1, , ,0.0,0.0
