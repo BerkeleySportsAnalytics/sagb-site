@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-65,Kyle Anderson,SF/PF,MEM@MIN,MEM,30.02,$5628,$5600,$28,29.18,0.0,0.0, , 
-125,Alec Burks,SF,NY@DEN ,NY,24.14,$4526,$3900,$626,23.76,0.0,0.0, , 
-229,Patty Mills,PG/SG,SA@UTA ,SA,15.87,$2975,$3000,-$25,19.17,0.0,0.0, , 
-12,Damian Lillard,PG,POR@CLE,POR,55.09,$10330,$9400,$930,48.25,0.0,0.0,GTD,Foot
-98,Ricky Rubio,PG,MEM@MIN,MIN,31.54,$5913,$4500,$1413,25.07,0.0,0.0, , 
-7,Julius Randle,PF/C,NY@DEN ,NY,54.25,$10172,$10000,$172,48.94,0.0,0.0, , 
-91,Danilo Gallinari,PF,PHO@ATL,ATL,29.45,$5523,$4600,$923,22.88,0.0,0.0, , 
-14,Christian Wood,C,PHI@HOU,HOU,43.9,$8230,$8900,-$670,40.27,0.0,0.0, , 
+13,Zach LaVine,SG,CHI@CHA,CHI,48.5,$9093,$9100,-$7,44.11,0.0,1.610339539744317,GTD,Covid-19
+47,Kyle Anderson,SF/PF,MEM@DET,MEM,30.8,$5775,$5900,-$125,29.24,0.0,0.0, , 
+58,Dorian Finney-Smith,SF/PF,BKN@DAL,DAL,29.16,$5468,$5300,$168,22.66,0.0,0.0, , 
+2,Stephen Curry,PG,OKC@GS ,GS,52.32,$9810,$10600,-$790,50.94,0.0,0.0, , 
+24,Kyle Lowry,PG,WAS@TOR,TOR,42.18,$7910,$7700,$210,37.97,0.0,0.0, , 
+178,Mike James,PG,BKN@DAL,BKN,20.51,$3845,$3000,$845,14.04,0.0,0.0, , 
+77,Danilo Gallinari,PF,ATL@IND,ATL,32.06,$6011,$4700,$1311,23.03,0.0,0.0, , 
+113,Cody Zeller,C,CHI@CHA,CHA,20.71,$3884,$3700,$184,21.8,0.0,0.0, , 

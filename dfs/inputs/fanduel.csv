@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-16,Caris LeVert,SG,SAC@IND,IND,41.2,$8240,$8400,-$160,35.98, , ,0.0,0.0
-116,Alec Burks,SG,NY@DEN,NY,23.27,$4654,$4200,$454,22.91, , ,0.0,0.0
-39,Kevin Porter,SF,PHI@HOU,HOU,47.19,$9438,$6900,$2538,30.52, , ,0.0,0.0
-51,Kyle Anderson,SF,MEM@MIN,MEM,31.07,$6214,$6200,$14,29.6, , ,0.0,0.0
-10,Damian Lillard,PG,POR@CLE,POR,51.79,$10357,$9200,$1157,45.07,GTD,Foot,0.0,0.0
-58,Ricky Rubio,PG,MEM@MIN,MIN,29.52,$5903,$5800,$103,25.03, , ,0.0,0.0
-6,Julius Randle,PF,NY@DEN,NY,52.93,$10585,$9700,$885,45.08, , ,0.0,0.0
-112,Aaron Gordon,PF,NY@DEN,DEN,23.34,$4667,$4300,$367,26.96, , ,1.0759843138109098,0.0
-77,Wendell Carter,C,BOS@ORL,ORL,27.6,$5520,$5200,$320,26.87, , ,0.0,0.0
+6,Zach LaVine,SG,CHI@CHA,CHI,45.53,$9106,$9400,-$294,41.33,GTD,Covid-19,0.0,1.610339539744317
+46,Dillon Brooks,SG,MEM@DET,MEM,30.02,$6005,$5500,$505,26.57, , ,0.0,0.0
+50,Luguentz Dort,SF,OKC@GS,OKC,30.37,$6073,$5300,$773,23.27,GTD,Hip,1.5589302742501552,0.0
+66,Dorian Finney-Smith,SF,BKN@DAL,DAL,29.14,$5829,$5000,$829,22.32, , ,0.0,0.0
+5,Stephen Curry,PG,OKC@GS,GS,50.18,$10037,$9900,$137,47.4, , ,0.0,0.0
+15,Kyle Lowry,PG,WAS@TOR,TOR,40.08,$8016,$8200,-$184,35.77, , ,0.0,0.0
+20,Draymond Green,PF,OKC@GS,GS,35.26,$7051,$7900,-$849,32.71, , ,0.0,0.0
+65,Jeff Green,PF,BKN@DAL,BKN,23.63,$4726,$5000,-$274,20.08, , ,0.3868000787908156,0.0
+165,Cody Zeller,C,CHI@CHA,CHA,21.03,$4207,$3500,$707,21.61, , ,0.0,0.0
