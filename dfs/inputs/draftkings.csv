@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-13,Zach LaVine,SG,BOS@CHI,CHI,50.64,$9495,$9800,-$305,43.65,0.0,1.610339539744317, , 
-107,Josh Richardson,SG,CLE@DAL,DAL,24.42,$4578,$4700,-$122,23.21,0.0,0.0, , 
-133,Rudy Gay,SF/PF,SA@SAC ,SA,23.59,$4424,$3900,$524,22.29,0.0,0.0, , 
-170,James Johnson,SF/PF,NO@PHI ,NO,23.04,$4319,$3300,$1019,16.9,2.072159481485617,0.0, , 
-153,Alec Burks,SF,NY@PHO ,NY,25.64,$4807,$3600,$1207,23.4,0.0,0.0,GTD,Knee
-14,Damian Lillard,PG,LAL@POR,POR,54.59,$10235,$9700,$535,48.37,0.0,0.0, , 
-98,Ricky Rubio,PG,MIN@MIA,MIN,32.51,$6095,$4900,$1195,24.86,0.0,0.0, , 
-9,Julius Randle,PF/C,NY@PHO ,NY,53.46,$10024,$10100,-$76,48.66,0.0,0.0, , 
+118,Jeremy Lamb,SG/SF,WAS@IND,IND,18.71,$3509,$3600,-$91,20.42,0.0,0.0,GTD,Knee
+48,Kyle Anderson,SF/PF,MEM@TOR,MEM,30.58,$5734,$6100,-$366,29.04,0.0,0.0, , 
+99,Rudy Gay,SF/PF,SA@POR ,SA,22.52,$4223,$4000,$223,22.39,0.0,0.0, , 
+2,Stephen Curry,PG,OKC@GS ,GS,58.45,$10960,$10800,$160,50.98,0.0,0.0, , 
+7,Damian Lillard,PG,SA@POR ,POR,56.81,$10652,$10100,$552,48.52,0.0,0.0, , 
+71,Malachi Flynn,PG,MEM@TOR,TOR,27.98,$5247,$4700,$547,14.62,0.0,0.0, , 
+32,Jerami Grant,PF,DET@PHI,DET,35.73,$6699,$6900,-$201,36.15,0.0,0.0,GTD,Knee
+111,DeAndre Jordan,C,BKN@DEN,BKN,20.61,$3865,$3800,$65,21.86,0.0,0.0, , 
