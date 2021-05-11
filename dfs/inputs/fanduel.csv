@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-56,Dillon Brooks,SG,NO@MEM,MEM,27.95,$5590,$5000,$590,26.34, , ,0.0,0.0
-99,De'Anthony Melton,SG,NO@MEM,MEM,20.64,$4128,$3600,$528,21.14, , ,1.9943673813614495,0.0
-21,Brandon Ingram,SF,NO@MEM,NO,36.64,$7329,$7400,-$71,38.24,GTD,Ankle,0.0,0.0
-41,Kyle Anderson,SF,NO@MEM,MEM,32.42,$6485,$5900,$585,29.39, , ,0.0,0.0
-3,Stephen Curry,PG,UTA@GS,GS,54.85,$10971,$10300,$671,47.64, , ,0.0,0.0
-4,Damian Lillard,PG,HOU@POR,POR,50.45,$10089,$9500,$589,45.39, , ,0.0,0.0
-6,Christian Wood,PF,HOU@POR,HOU,40.86,$8173,$8500,-$327,39.18,GTD,Ankle,0.0,0.0
-72,James Johnson,PF,NO@MEM,NO,22.09,$4418,$4400,$18,18.05, , ,2.072159481485617,0.0
-57,Enes Kanter,C,HOU@POR,POR,19.69,$3938,$4900,-$962,28.98, , ,0.0,0.0
+16,Zach LaVine,SG,BKN@CHI,CHI,48.39,$9677,$8600,$1077,40.86, , ,0.0,1.610339539744317
+155,Alec Burks,SG,NY@LAL,NY,24.63,$4926,$3800,$1126,22.6,GTD,Knee,0.0,0.0
+92,Luguentz Dort,SF,OKC@SAC,OKC,31.69,$6337,$4900,$1437,23.09,GTD,Knee,1.822166200588441,0.0
+100,Dorian Finney-Smith,SF,DAL@MEM,DAL,29.34,$5868,$4800,$1068,22.27, , ,0.0,0.0
+5,Stephen Curry,PG,PHO@GS,GS,55.06,$11011,$10300,$711,47.72, , ,0.0,0.0
+199,Mike James,PG,BKN@CHI,BKN,22.89,$4577,$3500,$1077,12.44, , ,0.0,0.0
+9,Jayson Tatum,PF,MIA@BOS,BOS,48.47,$9694,$9700,-$6,43.88, , ,0.0,0.6886306150240716
+14,Julius Randle,PF,NY@LAL,NY,53.19,$10638,$9000,$1638,44.61, , ,0.0,0.0
+98,Wendell Carter,C,ORL@MIL,ORL,27.49,$5498,$4800,$698,26.87,GTD,Eye,0.0,0.0

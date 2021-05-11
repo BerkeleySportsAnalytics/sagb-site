@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-13,Khris Middleton,SG/SF,MIL@SA ,MIL,38.74,$7264,$8400,-$1136,38.6,0.0,0.0, , 
-46,Kyle Anderson,SF/PF,NO@MEM ,MEM,31.51,$5909,$5800,$109,29.05,0.0,0.0, , 
-73,Rudy Gay,SF/PF,MIL@SA ,SA,24.05,$4510,$4300,$210,22.45,0.0,0.0, , 
-120,Patty Mills,PG/SG,MIL@SA ,SA,16.85,$3160,$3100,$60,18.58,0.0,0.0, , 
-3,Stephen Curry,PG,UTA@GS ,GS,58.14,$10901,$10500,$401,51.21,0.0,0.0, , 
-5,Damian Lillard,PG,HOU@POR,POR,54.05,$10135,$9700,$435,48.53,0.0,0.0, , 
-60,Danilo Gallinari,PF,WAS@ATL,ATL,30.45,$5710,$4800,$910,23.33,0.0,0.0, , 
-99,Goga Bitadze,C,IND@CLE,IND,15.83,$2968,$3400,-$432,13.3,0.0,0.0, , 
+15,Zach LaVine,SG,BKN@CHI,CHI,50.94,$9551,$9500,$51,43.58,0.0,1.610339539744317, , 
+84,Kyle Anderson,SF/PF,DAL@MEM,MEM,31.82,$5967,$5600,$367,29.12,0.0,0.0, , 
+226,Alec Burks,SF,NY@LAL ,NY,25.28,$4740,$3100,$1640,23.4,0.0,0.0,GTD,Knee
+10,Stephen Curry,PG,PHO@GS ,GS,58.32,$10935,$10000,$935,51.26,0.0,0.0, , 
+91,Ricky Rubio,PG,MIN@DET,MIN,29.79,$5586,$5400,$186,25.1,0.0,0.0, , 
+333,Mike James,PG,BKN@CHI,BKN,23.51,$4408,$3000,$1408,13.31,0.0,0.0, , 
+16,Julius Randle,PF/C,NY@LAL ,NY,54.51,$10220,$9400,$820,48.44,0.0,0.0, , 
+183,DeAndre Jordan,C,BKN@CHI,BKN,22.04,$4133,$3600,$533,21.58,0.0,0.0, , 
