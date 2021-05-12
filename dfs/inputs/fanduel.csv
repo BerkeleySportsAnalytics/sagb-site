@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-16,Zach LaVine,SG,BKN@CHI,CHI,48.39,$9677,$8600,$1077,40.86, , ,0.0,1.610339539744317
-155,Alec Burks,SG,NY@LAL,NY,24.63,$4926,$3800,$1126,22.6,GTD,Knee,0.0,0.0
-92,Luguentz Dort,SF,OKC@SAC,OKC,31.69,$6337,$4900,$1437,23.09,GTD,Knee,1.822166200588441,0.0
-100,Dorian Finney-Smith,SF,DAL@MEM,DAL,29.34,$5868,$4800,$1068,22.27, , ,0.0,0.0
-5,Stephen Curry,PG,PHO@GS,GS,55.06,$11011,$10300,$711,47.72, , ,0.0,0.0
-199,Mike James,PG,BKN@CHI,BKN,22.89,$4577,$3500,$1077,12.44, , ,0.0,0.0
-9,Jayson Tatum,PF,MIA@BOS,BOS,48.47,$9694,$9700,-$6,43.88, , ,0.0,0.6886306150240716
-14,Julius Randle,PF,NY@LAL,NY,53.19,$10638,$9000,$1638,44.61, , ,0.0,0.0
-98,Wendell Carter,C,ORL@MIL,ORL,27.49,$5498,$4800,$698,26.87,GTD,Eye,0.0,0.0
+32,Tim Hardaway,SG,NO@DAL,DAL,28.69,$5739,$6000,-$261,24.01, , ,0.0,0.0
+56,Jalen Brunson,SG,NO@DAL,DAL,24.53,$4907,$4500,$407,22.32, , ,0.0,0.0
+8,LeBron James,SF,HOU@LAL,LAL,42.0,$8400,$8900,-$500,46.57,GTD,Ankle,0.0,0.0
+55,Dorian Finney-Smith,SF,NO@DAL,DAL,25.48,$5096,$4600,$496,22.08, , ,0.0,0.0
+5,Damian Lillard,PG,POR@UTA,POR,50.69,$10137,$9600,$537,45.48, , ,0.0,0.0
+9,Trae Young,PG,WAS@ATL,ATL,39.0,$7800,$8500,-$700,43.39, , ,0.0,0.0
+6,Jayson Tatum,PF,BOS@CLE,BOS,50.61,$10122,$9500,$622,44.04, , ,0.0,0.6886306150240716
+67,Jeff Green,PF,SA@BKN,BKN,24.65,$4930,$4200,$730,20.09, , ,0.3868000787908156,0.0
+82,DeAndre Jordan,C,SA@BKN,BKN,22.62,$4525,$3700,$825,21.74, , ,0.0,0.0
