@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-71,Rudy Gay,SF/PF,SA@BKN ,SA,24.88,$4665,$4400,$265,22.59,0.0,0.0, , 
-158,Trey Burke,PG/SG,NO@DAL ,DAL,17.07,$3201,$3000,$201,11.54,0.0,2.1096263001144444, , 
-1,Luka Doncic,PG/SF,NO@DAL ,DAL,50.06,$9386,$10800,-$1414,54.24,0.0,0.0, , 
-6,Damian Lillard,PG,POR@UTA,POR,54.09,$10143,$9600,$543,48.65,0.0,0.0, , 
-8,Jayson Tatum,PF,BOS@CLE,BOS,52.85,$9909,$9400,$509,45.91,0.0,0.6886306150240716, , 
-53,Danilo Gallinari,PF,WAS@ATL,ATL,30.11,$5646,$5000,$646,23.14,0.0,0.0, , 
-75,Enes Kanter,C,POR@UTA,POR,22.18,$4158,$4300,-$142,29.56,0.0,0.0, , 
-110,DeAndre Jordan,C,SA@BKN ,BKN,22.61,$4240,$3200,$1040,21.58,0.0,0.0, , 
+161,Grayson Allen,SG/SF,SAC@MEM,MEM,22.83,$4282,$3300,$982,20.63,0.0,0.0,O,Abdomen
+11,Paul George,SG,LAC@HOU,LAC,43.94,$8238,$8400,-$162,42.76,0.0,1.08975447868386,GTD,Rest
+70,Kyle Anderson,SF/PF,SAC@MEM,MEM,30.52,$5722,$5700,$22,29.22,0.0,0.0, , 
+15,Kawhi Leonard,SF,LAC@HOU,LAC,43.96,$8243,$8300,-$57,44.85,0.0,0.0,GTD,Rest
+102,Reggie Jackson,PG/SG,LAC@HOU,LAC,23.96,$4493,$4400,$93,20.84,0.0,0.0, , 
+4,Stephen Curry,PG,NO@GS 0,GS,55.62,$10428,$10200,$228,50.99,0.0,0.0,GTD,Lower body
+39,Jerami Grant,PF,DEN@DET,DET,32.35,$6067,$6700,-$633,35.91,0.0,0.0,O,Knee
+206,Aron Baynes,C,TOR@DAL,TOR,15.29,$2867,$3000,-$133,14.69,0.0,0.0, , 
