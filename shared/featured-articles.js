@@ -1,29 +1,29 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "nba-4-point";
-article2 = "nba-born";
-article3 = "centre-backs";
+article1 = "edge";
+article2 = "jeff-bezos";
+article3 = "march-madness";
 
-title1 = "Should the NBA Have a 4-Point Line?";
-title2 = "In Which State Are the Most NBA Players Born?";
-title3 = "Centre-Backs are the New Playmakers";
+title1 = "Getting Edgy Before Day 2";
+title2 = "What if Jeff Bezos Bought the Mariners?";
+title3 = "A Sane Retrospective of the Madness of March";
 
-date1 = "March 30, 2021";
-date2 = "March 30, 2021";
-date3 = "March 30, 2021";
+date1 = "May 16, 2021";
+date2 = "May 16, 2021";
+date3 = "May 16, 2021";
 
-excerpt1 = "In recent years, the NBA has experienced a boom in 3-point shooting with players like Stephen Curry and Damian Lillard, challenging what is considered a “bad shot”. Pulling up from 30 feet has become routine rather than abnormal. For reference, in the 2013-14 regular season (the season before Curry’s first MVP season), there were 3814 shots from 27 feet and further. With the advent of Curry and more game-changers, in the 2018-19 season NBA players shot 10611 shots from this deep range. Gameplans and defensive tactics have shifted: one example would be fast-breaks, where many shooters now drift to the 3-point line instead of driving for a layup.";
-excerpt2 = "NBA players come from all over the United States and even different countries. Since being established in 1949 The NBA has grown from 17 teams to 30 teams and is still continuing to grow. With so many teams, the amount of players has also grown, creating a diverse spread in hometowns throughout the 50 states.";
-excerpt3 = "“Obviously I’m looking for shape and size, and someone who heads it and kicks it”. - Barry Dunn, Millwall FC Chief Scout, on his ideal centre-back (2017). Dunn’s description of the model centre-back may seem primitive, but you can’t really blame  him. Growing up as a centre-back in England, I hardly found myself embracing the ‘beautiful  game’. After all, this is the land of the traditional central defender; the hard-tackling, header-winning  rock at the back. And with this expectation comes the inevitable discouragement of playing with the  ball at your feet - “just be safe with it”, was the most common instruction I heard from my coaches. ";;
+excerpt1 = "If you’re coming here from my previous article If You're Drafting a Defensive Tackle in the First Round, What are you Doing? you’re one step closer to fixing your defensive line correctly. Whereas their interior counterparts have often been mentioned as the inferior position of value, edge rushers are a significant component of defensive football, directly impacting the primary presence of the passing game. To address this positional need, teams often throw premium value to secure a dominant defensive presence, ranging from hundreds of millions of dollars and high draft picks in attempts to hinder the opposing offenses’ passing schemes.";
+excerpt2 = "The NCAA tournament this year brought many surprises. From number 11 seed UCLA making it to the final four and losing on a fluke half courter by Gonzaga guard Jalen Suggs to the magic of Max Abmas and Cinderella Oral Roberts overcoming being given a fifteen seed and taking down number two seed Ohio State on the way to the Sweet 16 there was no shortage of excitement. One of the most surprising occurrences of the NCAA tournament this year was the overwhelming representation of the PAC12 in the later rounds of the NCAA tournament. A quarter of the teams in the sweet 16 were representatives of the PAC 12 conference and three out of eight of the elite eight teams were from the PAC 12 (Oregon State, UCLA, USC). This came as a shock to many of the college basketball experts as the PAC 12 was constantly disrespected during the regular season.";
+excerpt3 = "As you've probably heard by now, Jeff Bezos has stepped down from his job as CEO of Amazon. With an estimated net worth of 180 billion dollars, Bezos has more money than most people would know what to do with - and I'm sure he's looking for ways to spend it. As the world's richest person, if he were to purchase a sports team, he would also be the league's richest owner. He could buy an NBA or NFL team - but in those leagues, he would be constrained to a salary cap of between $100 and $200 million per year, which wouldn't properly utilize Bezos's massive fortune. Instead, he should buy an MLB team, as the MLB has no salary cap and instead has a luxury tax. And what better team to buy than the Seattle Mariners, the perpetually underwhelming team near Amazon HQ who haven't made the playoffs since 2001?";
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";
 file2 = folder == "down" ? "articles/"+article2+".html" : article2+".html";
 file3 = folder == "down" ? "articles/"+article3+".html" : article3+".html";
 
 im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/Picture1.png` : `../images/dj-pics/`+article1+`/Image1.PNG`;
-im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/Picture1.png` : `../images/dj-pics/`+article2+`/Picture1.png `;
-im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/Picture1.png` : `../images/dj-pics/`+article3+`/Picture1.png`;
+im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/Picture1.png` : `../images/dj-pics/`+article2+`/Image1.PNG`;
+im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/Picture1.png` : `../images/dj-pics/`+article3+`/Image1.PNG`;
 
 all_articles = folder == "down" ? `all-articles-1.html` : `../all-articles-1.html`
 
