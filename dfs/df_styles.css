@@ -1,34 +1,39 @@
 table {  
-    color: #555; /* Lighten up font color */
-    font-family: 'Courier New', monospace; /* Nicer font */
+    color: #303030; /* Lighten up font color */
+    font-family: Georgia, serif; /* Nicer font */
     width: 640px;
     border-collapse:
     collapse; border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
-    font-size: 80%;
+    font-size: 82%;
     overflow:auto;
+    margin-top: 10px;
 
 
 }
 
-td, th { border: 1px solid #CCC; height: 5px;/ } /* Make cells a bit taller */
+td, th { border: 1px solid #A8A8A8; height: 5px;/ } /* Make cells a bit taller */
 
-th {  
-    background: #F3F3F3; /* Light grey background */
-    font-weight: /*bold; Make sure they're bold */
-    text-align: right;
+th {
+    color: #black;
+    background: #F0F0F0; /* Light grey background */
+    font-weight: bold; /*bold; Make sure they're bold */
+
+    text-align: center;
     vertical-align: bottom;
     position: sticky;
     top: 0;
-    padding: 5px;
+    padding: 6px;
+
 }
 
 td {  
     background: #FAFAFA; /* Lighter grey background */
     text-align: center; /* Center our text */
     height: 150%;
-    padding: 5px;
+    padding: 10px;
+
 }
 
 .checkboxtext {
@@ -42,3 +47,5 @@ input[type=checkbox] {
 select {
     margin-right: 1.5%;
 }
+
+

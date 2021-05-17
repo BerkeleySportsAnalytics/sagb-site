@@ -1,9 +1,9 @@
 ,Name,Position,Game,Team,Projected Draftkings Points,Projected Draftkings Value,Draftkings Salary,Value above Draftkings Value,FPPG,Hot,Cold,Injury Indicator,Injury Details
-65,Malik Beasley,SG,MIN@MEM,MIN,37.12,$6960,$6100,$860,32.15,0.0,2.0308687447141383, , 
-87,Bojan Bogdanovic,SF/PF,CHI@UTA,UTA,32.89,$6166,$5400,$766,23.99,2.0713280407809287,0.0, , 
-105,Aleksej Pokusevski,SF/PF,OKC@PHO,OKC,28.77,$5393,$5000,$393,17.52,0.0,0.0, , 
-73,Buddy Hield,SF,LAL@SAC,SAC,35.59,$6673,$5900,$773,30.44,0.2971352572621644,0.0, , 
-12,Donovan Mitchell,PG/SG,CHI@UTA,UTA,47.21,$8853,$8800,$53,42.51,0.0,0.0,GTD,Personal
-4,Stephen Curry,PG,GS@TOR ,GS,52.19,$9786,$9700,$86,49.18,0.0,0.0, , 
-62,Robert Covington,PF/C,MIL@POR,POR,32.79,$6149,$6100,$49,26.68,0.07756772899599909,0.0, , 
-204,Aron Baynes,C,GS@TOR ,TOR,17.88,$3352,$3000,$352,14.59,2.72345367221517,0.0, , 
+161,Grayson Allen,SG/SF,SAC@MEM,MEM,22.83,$4282,$3300,$982,20.63,0.0,0.0,O,Abdomen
+11,Paul George,SG,LAC@HOU,LAC,43.94,$8238,$8400,-$162,42.76,0.0,1.08975447868386,GTD,Rest
+70,Kyle Anderson,SF/PF,SAC@MEM,MEM,30.52,$5722,$5700,$22,29.22,0.0,0.0, , 
+15,Kawhi Leonard,SF,LAC@HOU,LAC,43.96,$8243,$8300,-$57,44.85,0.0,0.0,GTD,Rest
+102,Reggie Jackson,PG/SG,LAC@HOU,LAC,23.96,$4493,$4400,$93,20.84,0.0,0.0, , 
+4,Stephen Curry,PG,NO@GS 0,GS,55.62,$10428,$10200,$228,50.99,0.0,0.0,GTD,Lower body
+39,Jerami Grant,PF,DEN@DET,DET,32.35,$6067,$6700,-$633,35.91,0.0,0.0,O,Knee
+206,Aron Baynes,C,TOR@DAL,TOR,15.29,$2867,$3000,-$133,14.69,0.0,0.0, , 

@@ -1,6 +1,7 @@
 import pandas as pd
 from IPython.display import Image, HTML
 from datetime import datetime
+import re
 
 # convert link to html tags 
 def path_to_image_html(path):
@@ -197,14 +198,35 @@ def gen_page(df, out, coloring):
     if coloring is not None:
         images = ['<img src="' + image + '" width="40">' for image in images]
         df["Picture"] = images
+
+        # Reorder columns so that we can later create a secondary header that neatly stratifies the columns by type of infromation.
+        if out == "dfs.html":
+            df = df[['Name', 'Picture', 'Position', 'Team', 'Game', 'Opponent Defensive Rank vs Position', 'Projected Fanduel Points', 'Projected Fanduel Value', 'Fanduel Salary', 'Value above Fanduel Value', 'Projected Draftkings Points', 'Projected Draftkings Value', 'FPPG (Fanduel)', '10 Game Average (Fanduel)', '3 Game Average (Fanduel)', 'Injury Indicator', 'Injury Details', 'Hot', 'Cold']]
+        elif out == "dk.html":
+            df = df[['Name', 'Picture', 'Position', 'Team', 'Game', 'Projected Draftkings Points', 'Projected Draftkings Value', 'Draftkings Salary', 'Value above Draftkings Value', 'FPPG', 'Hot', 'Cold', 'Injury Indicator', 'Injury Details']]
+        elif out == "fd.html":
+            df = df[['Name', 'Picture', 'Position', 'Team', 'Game', 'Projected Fanduel Points', 'Projected Fanduel Value', 'Fanduel Salary', 'Value above Fanduel Value', 'FPPG (Fanduel)', 'Injury Indicator', 'Injury Details', 'Hot', 'Cold']]
         df = emojize(df)
         body = df.style.apply(coloring, axis=1).hide_columns(['Hot', 'Cold']).render()
     else:
+        # Reorder columns so that we can later create a secondary header that neatly stratifies the columns by type of infromation.
+        if out == "st.html":
+            df = df[['Name', 'Picture', 'Position', 'Team', 'Game', "Opponent Defensive Rank vs Position", 'Minutes', '2PT FG', '3PT FG', 'FTM', 'Rebounds', 'Assists', 'Blocks', 'Steals', 'Turnovers', 'Injury Indicator', 'Injury Details']]
         html = HTML(df.to_html(escape=False, formatters=dict(Picture=path_to_image_html)))
         body = html.data
-        
-    
-        
+
+
+    # Create secondary header to stratify columns and place that into the body html.
+    if out == "dfs.html":
+        body = re.sub(r'(<thead>)', r'\1<tr><th colspan="7" style="width:100%">Player/Game Info</th><th colspan="4" style="width:100%">FanDuel</th><th colspan="2" style="width:100%">DraftKings</th><th colspan="3" style="width:100%">Average FanDuel</th><th colspan="2" style="width:100%">Injury</th></tr>', body)
+    elif out == "st.html":
+        body = re.sub(r'(<thead>)', r'\1<tr><th colspan="7" style="width:100%">Player/Game Info</th><th colspan="9" style="width:100%">Stats</th><th colspan="2" style="width:100%">Injury</th></tr>', body)
+    elif out == "dk.html":
+        body = re.sub(r'(<thead>)', r'\1<tr><th colspan="6" style="width:100%">Player/Game Info</th><th colspan="5" style="width:100%">DraftKings</th><th colspan="2" style="width:100%">Injury</th></tr>', body)
+    elif out == "fd.html":
+        body = re.sub(r'(<thead>)', r'\1<tr><th colspan="6" style="width:100%">Player/Game Info</th><th colspan="5" style="width:100%">FanDuel</th><th colspan="2" style="width:100%">Injury</th></tr>', body)
+
+
 
     # Generate HTML and add configuration for output tables, so JavaScript functions can run properly.
     

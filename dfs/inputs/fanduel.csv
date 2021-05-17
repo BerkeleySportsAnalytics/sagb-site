@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-10,Donovan Mitchell,SG,CHI@UTA,UTA,46.1,$9219,$8800,$419,40.05,GTD,Personal,0.0,0.0
-85,Gary Trent,SG,GS@TOR,TOR,30.16,$6032,$5200,$832,22.32, , ,0.0,0.0
-66,Malik Beasley,SF,MIN@MEM,MIN,35.79,$7158,$5600,$1558,30.36, , ,0.0,2.0308687447141383
-92,Bojan Bogdanovic,SF,CHI@UTA,UTA,32.04,$6408,$5000,$1408,22.41, , ,2.0713280407809287,0.0
-2,Luka Doncic,PG,DAL@NY,DAL,54.81,$10962,$10500,$462,51.59, , ,0.0,0.0
-8,Stephen Curry,PG,GS@TOR,GS,50.23,$10047,$9000,$1047,46.09, , ,0.0,0.0
-59,Harrison Barnes,PF,LAL@SAC,SAC,26.48,$5297,$5800,-$503,30.12, , ,0.0,0.0
-78,Aleksej Pokusevski,PF,OKC@PHO,OKC,28.12,$5623,$5300,$323,17.37, , ,0.0,0.0
-110,Chris Boucher,C,GS@TOR,TOR,27.6,$5520,$4700,$820,28.87, , ,1.4493927009572023,0.0
+20,Paul George,SG,LAC@HOU,LAC,42.44,$8487,$7500,$987,40.24,GTD,Rest,0.0,1.08975447868386
+95,Josh Jackson,SG,DEN@DET,DET,26.97,$5395,$4400,$995,23.89, , ,0.0,0.0
+12,Kawhi Leonard,SF,LAC@HOU,LAC,42.72,$8544,$8000,$544,43.99,GTD,Rest,0.0,0.0
+42,Kyle Anderson,SF,SAC@MEM,MEM,31.02,$6205,$6000,$205,29.58, , ,0.0,0.0
+2,Luka Doncic,PG,TOR@DAL,DAL,46.83,$9365,$10100,-$735,50.26, , ,0.0,0.0
+3,Stephen Curry,PG,NO@GS,GS,52.71,$10543,$10100,$443,47.5,GTD,Lower body,0.0,0.0
+97,Marcus Morris,PF,LAC@HOU,LAC,25.07,$5014,$4300,$714,21.65, , ,0.0,0.3086284111221167
+119,Aaron Gordon,PF,DEN@DET,DEN,22.22,$4445,$3900,$545,26.55, , ,1.0759843138109098,0.0
+62,Wendell Carter,C,ORL@PHI,ORL,26.18,$5236,$5500,-$264,26.93, , ,0.0,0.0

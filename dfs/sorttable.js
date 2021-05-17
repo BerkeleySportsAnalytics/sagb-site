@@ -44,7 +44,7 @@ sorttable = {
     // Safari doesn't support table.tHead, sigh
     if (table.tHead == null) table.tHead = table.getElementsByTagName('thead')[0];
 
-    if (table.tHead.rows.length != 1) return; // can't cope with two header rows
+   // if (table.tHead.rows.length != 1) return; // can't cope with two header rows
 
     // Sorttable v1 put rows with a class of "sortbottom" at the bottom (as
     // "total" rows, for example). This is B&R, since what you're supposed
@@ -69,7 +69,7 @@ sorttable = {
     }
 
     // work through each column and calculate its type
-    headrow = table.tHead.rows[0].cells;
+    headrow = table.tHead.rows[1].cells;
     for (var i=0; i<headrow.length; i++) {
       // manually override the type with a sorttable_type attribute
       if (!headrow[i].className.match(/\bsorttable_nosort\b/)) { // skip this col

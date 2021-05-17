@@ -2599,3 +2599,61 @@ input, select, textarea {
 
   }
 
+.currenttab {
+          background-color: #404248;
+          color: white !important;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 1% 1%;
+          font-size: 125%;
+          width: 25.0%;
+          border-radius: 0px;
+          height: 9%;
+
+
+}
+
+.currenttab:hover {
+    background-color: #777
+}
+
+
+
+
+
+.tab{
+
+          background-color: #404248;
+          color: gray !important;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 1% 1%;
+          font-size: 125%;
+          width: 25.0%;
+          border-radius: 0px;
+          height: 9%;
+
+
+         }
+
+.tab:hover {
+    background-color: #777;
+}
+
+#dfs-wrapper {
+    padding-top: 44px;
+    background: white;
+	text-align: center;
+	padding-top: 5%;
+
+
+  }
+
+#dfs-wrapper h1{
+    font-size: 35pt;
+
+}
