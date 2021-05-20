@@ -1,0 +1,163 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Hypothesis Testing MLB Hitters in Day and Night Games | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Hypothesis Testing MLB Hitters in Day and Night Games</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Josh Richland</a> | May 20, 2021</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/mlb-day-night/Image1.PNG" alt="" /></span>
+<p>Prior to 1935, all Major League Baseball games were played during the afternoon. When the night game was introduced, it added a new aspect to the sport. Since day games are less convenient for spectators and certainly sell less tickets, this “novelty” seemed to provide a higher level of fan engagement. However, with the addition of quicker turnaround between day and night games, and potential differences in climate and humidity, it begs the question of whether hour of play has made a statistical difference on player performance, and thus the outcome of a game.</p>
+                        
+                        <p>Hypothesis testing is a form of statistical analysis on a collection of observed data. Based on a predetermined percentage prior to experimentation (e.g. significance level), it examines the probability of achieving these test results, or p-value. A null hypothesis is the default prediction that assumes no difference or relationship in the data. The test determines whether one should reject the null in favor of the alternative hypothesis (meaning there is evidence of a correlation), or fail to reject the null (meaning there is not sufficient evidence to draw conclusions). This is dependent on the p-value’s relation to the aforementioned significance level. The lower the p-value is, the lower the probability of obtaining this result. If it is above the significance level, one should fail to reject the null hypothesis.</p>
+                        
+                            <p>There are various types of tests, however, in order to examine whether time of day has an impact on the way hitters perform, a two-tailed paired sample T-Test was conducted. “Two-tailed” means that there is a statistical indifference of whether players perform better or worse, day versus night. “Paired sample” illustrates that each individual has two values associated with them, their afternoon and evening on-base percentage plus slugging (OPS). Each player’s day and night OPS from the 2019 season was recorded and studied.</p>
+                        
+                            <p>The null hypothesis is that hour of play has no impact on player performance (H0: μ1 - µ2  = 0). This is the claim which one tests against. Eventually one will reject or fail to reject this conjecture.</p>
+                        
+                        <p>The alternative hypothesis is, conversely, that hitters play differently in the day than in the night (H1: μ1 - μ2  ≠ 0). This is a contradicting theory to the null hypothesis. If the null hypothesis  is ultimately rejected, it will be in favor of this alternative.</p>
+                            
+                            
+                            <p>For the purposes of this analysis, the significance level will be set to 5% (α = 0.05).</p>
+                            
+                            <p>In order to be able to proceed with the hypothesis test, various preliminary conditions need to be satisfied: First, the values which OPS takes on are continuous over the interval from 0 to 5; analogously, the dependent variable is not disjoint. The second assumption is that the dependent variable is normally distributed. The Central Limit Theorem is enough to illustrate that the distribution of differences in OPS is approximately normal. Considering the size of the sample, this theorem is both applicable and sufficient. The histogram of “OPS Differences” resembles the bell curve and the diagonal nature of the Q-Q Plot below further illustrate this notion.  </p>
+                            
+                            <span class="image featured"><img src="../images/dj-pics/mlb-day-night/Image2.PNG" alt="" /></span>
+                            
+                            <p>The third condition is independence of observations. It is possible that hitters on the same team can have an influence on each other’s in-game performance. For example, watching a teammate face a pitcher and battle off enough pitches, can result in an advantage for the later hitters. However, this is not significant enough to imply a correlation. This condition is satisfied because any relationship is deemed negligible for the purposes of this test. Finally, the data  contains no significant outliers in the differences between the two groups.</p>
+                            
+                            <p>
+To continue with the hypothesis test, the test statistic is calculated using the formula: <span class="image featured"><img src="../images/dj-pics/mlb-day-night/Image3.PNG" alt="" /></span>
+                            
+                                The m is the mean difference of all player’s OPS. Mu (µ) is the theoretical value, and based on the null hypothesis, this value is 0. The s is the standard deviation of differences, and n is the number of players in the sample. 
+</p>
+                            
+                            <p>This computation results in t≈1.00045. t represents how close the observed data matches the theoretical distribution, under the null hypothesis. The obtained p-value is p≈0.31890. Since this value is greater than our previously established significance level (α = 0.05), the conclusion is the failure to reject the null hypothesis.</p>
+                            
+                            <p>Finally, constructing a confidence interval can help illustrate this reasoning. This establishes a range of values for which the difference of means of OPS can fall within. A 95% confidence interval spans from [-0.0166, 0.0351]. Moreover, 0 is indeed within these bounds, strengthening the assessment of the null hypothesis. It is possible to conclude, with 95% confidence, that the true difference in population means is within this range. In other words, there is not sufficient evidence to believe that hour of play has any impact on a hitter’s performance in terms of OPS. </p>
+                            
+                            <p>However, this test is not entirely conclusive. The study only examined hitters; a future experiment may investigate pitchers’ level of play. Perhaps they are more influenced by when a game starts. For example, circadian rhythm is vital to a pitchers' routine, so disrupting their schedule and body clock might result in poorer performance. Therefore, there are still many avenues to explore, in order to determine whether hour of play has a statistical difference on the outcome of a game.</p>
+                            
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                     <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="../images/dj-pics/defensive-tackles/giphy%20(10).gif" alt=""></a>
+                          <header>
+                            <h3><a href="#">If You're Drafting a Defensive Tackle in the First Round, What are you Doing?</a></h3>
+                            <p>By Arnav Singhvi | March 31, 2021</p>
+                          </header>
+                            <p>The title says it all. In the age of dual-threat quarterbacks, play-making pass catchers, elite pass rushers, lock-down corners and formidable offensive lineman, the value for selecting a defensive tackle early in the draft has become more shallow than ever. The question simply is whether drafting DTs in the first round will help a rebuilding 4-8 win team make that needed “leap” expected and desired from a first-round talent. Unless the draft board offers a generational talent that will redefine the defensive line beyond run-stopping and gap coverage (see Aaron Donald), the short answer is no. </p>
+                          <footer>
+                            <a class="button alt icon fa-file-o" href="defensive-tackles.html">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
