@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "investing-in-bigmen.html"
-article2 = "nfl-pay-defense.html";
-article3 = "iceland-soccer.html";
-article4 = "team-make-CFP.html";
-article5 = "runners-on-base.html";
-article6 = "heliocentricity.html";
-article7 = "redefined-wild-card.html";
-article8 = "bubble-basketball.html";
-article9 = "three-point-puzzle.html";
+article1 = "mlb-day-night.html";
+article2 = "jokic-mvp.html";
+article3 = "afc-east.html";
+article4 = "edge.html";
+article5 = "march-madness.html";
+article6 = "decoding-draft.html";
+article7 = "jeff-bezos.html";
+article8 = "first-round-fantasy.html";
+article9 = "outsiders.html";
 
-title2 = "Investing in Bigmen"
-title2 = "Defensive Backs or Defensive Line? Who Do You Pay?";
-title3 = "The Growth of Iceland Soccer";
-title4 = "Will Your Team Make the CFP?";
-title5 = "RBR: A Statistical Summary of Pitching With Runners on Base";
-title6 = "Heliocentricity in the NBA";
-title7 = "Let the Kids Play: Exploring the Benefits of an Expanded MLB Postseason and Redefined Wild Card Series";
-title8 = "Bubble Basketball: A Brand New Game";
-title9 = "The Three Point Puzzle";
+title1 = "Hypothesis Testing MLB Hitters in Day and Night Games";
+title2 = "Nikola Jokic for MVP";
+title3 = "AFC Least or AFC Beast?";
+title4 = "Getting Edgy Before Day 2";
+title5 = "A Sane Retrospective of the Madness of March";
+title6 = "Decoding the Draft: NFL Edition";
+title7 = "What if Jeff Bezos Bought the Mariners?";
+title8 = "Your First Round Fantasy Pick";
+title9 = "The Outsiders: Looking at the Statistical Outliers of the NBA";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
