@@ -1,10 +1,10 @@
 ,Name,Position,Game,Team,Projected Fanduel Points,Projected Fanduel Value,Fanduel Salary,Value above Fanduel Value,FPPG (Fanduel),Injury Indicator,Injury Details,Hot,Cold
-20,Paul George,SG,LAC@HOU,LAC,42.44,$8487,$7500,$987,40.24,GTD,Rest,0.0,1.08975447868386
-95,Josh Jackson,SG,DEN@DET,DET,26.97,$5395,$4400,$995,23.89, , ,0.0,0.0
-12,Kawhi Leonard,SF,LAC@HOU,LAC,42.72,$8544,$8000,$544,43.99,GTD,Rest,0.0,0.0
-42,Kyle Anderson,SF,SAC@MEM,MEM,31.02,$6205,$6000,$205,29.58, , ,0.0,0.0
-2,Luka Doncic,PG,TOR@DAL,DAL,46.83,$9365,$10100,-$735,50.26, , ,0.0,0.0
-3,Stephen Curry,PG,NO@GS,GS,52.71,$10543,$10100,$443,47.5,GTD,Lower body,0.0,0.0
-97,Marcus Morris,PF,LAC@HOU,LAC,25.07,$5014,$4300,$714,21.65, , ,0.0,0.3086284111221167
-119,Aaron Gordon,PF,DEN@DET,DEN,22.22,$4445,$3900,$545,26.55, , ,1.0759843138109098,0.0
-62,Wendell Carter,C,ORL@PHI,ORL,26.18,$5236,$5500,-$264,26.93, , ,0.0,0.0
+15,Donte DiVincenzo,SG,MIA@MIL,MIL,18.77,$3754,$5300,-$1546,24.51, , ,0.0,0.0
+19,Kendrick Nunn,SG,MIA@MIL,MIA,19.66,$3932,$4800,-$868,24.3, , ,0.0,0.0
+7,Khris Middleton,SF,MIA@MIL,MIL,35.24,$7048,$7800,-$752,36.89, , ,0.0,0.0
+8,Michael Porter,SF,POR@DEN,DEN,30.43,$6087,$7600,-$1513,33.0, , ,0.0,0.0
+2,Damian Lillard,PG,POR@DEN,POR,47.54,$9509,$10100,-$591,45.58, , ,0.0,0.0
+13,Goran Dragic,PG,MIA@MIL,MIA,25.55,$5110,$5500,-$390,24.24, , ,0.0,0.0
+21,Bobby Portis,PF,MIA@MIL,MIL,20.42,$4083,$4500,-$417,24.08, , ,0.0,0.0
+29,JaMychal Green,PF,POR@DEN,DEN,13.38,$2677,$3700,-$1023,16.65, , ,0.0,0.0
+1,Nikola Jokic,C,POR@DEN,DEN,33.53,$6706,$10700,-$3994,54.26, , ,0.0,0.0
