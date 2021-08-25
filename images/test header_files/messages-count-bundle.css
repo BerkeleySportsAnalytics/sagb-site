@@ -1,0 +1,13 @@
+.messages-count {
+  display: inline;
+  cursor: pointer; }
+
+.messages-count a {
+  text-decoration: none; }
+
+.messages-count a:hover {
+  text-decoration: underline; }
+
+.messages-count svg {
+  vertical-align: middle; }
+
