@@ -1,0 +1,148 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Injury Woes | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Injury Woes</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Adam Ousherovitch</a> | December 5th, 2021</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/injury-woes/Pic1.png" alt="" /></span>
+                          <p>On first glance, it seemed like the 2021 Milwaukee Bucks had a uniquely clear path to a championship compared to past winners. They were handed a significantly simpler series against the Nets, due to the numerous injuries the Nets sustained. However, we only need to look at the 2019 season, and the Finals injuries of Kevin Durant and Klay Thompson, to see that injuries have drastically altered NBA history.</p>
+                        <p>Many NBA pundits have argued that the Milwaukee Bucks 2021 championship is delegitimized by the unusual degree of injuries that plagued the last NBA postseason. These playoffs, we saw a record-setting eight all stars miss at least one game in a series which their team lost. For reference, here is the amount of all star players that missed games in a losing series over the last ten postseasons.</p>
+                            
+                            <span class="image featured"><img src="../images/dj-pics/injury-woes/Pic2.png" /></span>
+                            
+                            <p>As we can see, 2021 is an anomaly in this regard. However, does that truly invalidate the Bucks’ championship? To determine that, we need to see if the impact of these injuries is a statistical outlier when compared to past championships.</p>
+                            <p>We want to determine the impact of an injury. To do this, we’ll utilize win shares (WS) per 48 minutes, an advanced statistic that approximates how many wins a player contributes  to a given win for his team. This statistic takes into account points, rebounds, and assists, comparing them to league average. Win shares per 48 are given as a decimal and are supposed to signify the proportion of wins that a player causes his team to win. We can multiply a player’s WS during the regular season by postseason games missed to calculate the win shares lost by a player. As an example, let’s calculate the win shares lost by Kyrie Irving in the 2021 postseason due to his ankle injury. Kyrie averaged .189 win shares per 48 minutes of playing time in the 2021 regular season. He missed 3 games during the Nets’ series against the Bucks. This means that the nets lost .189 times 3, or .567, win shares. This implies that the Nets lost .567 more games than they otherwise would have if Kyrie played.</p>
+                            <p>Now here are the WS lost for all 8 All-Stars who missed time last postseason.</p>
+                            <span class="image featured"><img src="../images/dj-pics/injury-woes/Pic3.png" /></span>
+                            <p>To calculate how much easier the path to a title was due to injury, we can add up all of the win shares lost by All-Star opponents of a champion. This includes both direct and indirect opponents.</p>
+                            <p>Direct opponents are players that missed games in a series against the champion. For direct opponents, we will only calculate win shares lost based on games missed against the champion.</p>
+                            <p>Indirect opponents are those that could have played the champion if not for injury. For example, the Lakers in the 2021 NBA season were eliminated in the first round because of Anthony Davis’ injury. If not for this, they potentially could have advanced to the finals and posed a major threat to the Bucks. On average, we can assume that indirect opponents had a 50% chance to win the series they lost in. After that, they would, similarly, have had a 50% chance of winning against the champion on average. So, we should add a quarter of the win shares lost by indirect opponents in the series in which they lost to the total win shares lost by direct opponents.</p>
+                            <p>Now, here is the statistical ease of path for champions in the last 10 years:</p>
+                            <span class="image featured"><img src="../images/dj-pics/injury-woes/Pic4.png" /></span>
+                            <p>As we can see, the Bucks did indeed have an easier path than the average champion. Whether or not this invalidates their title run is subjective. However, the data suggests this take isn’t entirely unfounded. Whether you believe that the Bucks are rightfully the kings of the NBA or whether external factors propelled their championship run, the Milwaukee Bucks still reign supreme. This season, however, they have the opportunity to prove their legitimacy.</p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                       <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="../images/dj-pics/defensive-tackles/giphy%20(10).gif" alt=""></a>
+                          <header>
+                            <h3><a href="#">If You're Drafting a Defensive Tackle in the First Round, What are you Doing?</a></h3>
+                            <p>By Arnav Singhvi | March 31, 2021</p>
+                          </header>
+                            <p>The title says it all. In the age of dual-threat quarterbacks, play-making pass catchers, elite pass rushers, lock-down corners and formidable offensive lineman, the value for selecting a defensive tackle early in the draft has become more shallow than ever. The question simply is whether drafting DTs in the first round will help a rebuilding 4-8 win team make that needed “leap” expected and desired from a first-round talent. Unless the draft board offers a generational talent that will redefine the defensive line beyond run-stopping and gap coverage (see Aaron Donald), the short answer is no. </p>
+                          <footer>
+                            <a class="button alt icon fa-file-o" href="defensive-tackles.html">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
