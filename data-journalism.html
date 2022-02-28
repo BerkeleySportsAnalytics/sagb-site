@@ -19,7 +19,12 @@
   <link href="assets/css/main.css" rel="stylesheet" />
   <style>
 
-   
+   .vertical-center {
+  position: absolute;
+	top: 127%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
       /* Basic */
     
       html,
@@ -50,7 +55,7 @@
         transition: transform 0.5s ease;
         padding-bottom: 1px;
       }
-    
+      
       #top-banner {
         margin-top: 44px;
       }
@@ -276,11 +281,12 @@
       }
     
       #main-wrapper {
-        padding-top: 44px;
+        padding-top: 45px;
+          padding-bottom: 50px;
       }
     
       .homepage #main-wrapper {
-        padding-top: 0;
+        padding-top: 10;
       }
     
       /* Banner */
@@ -447,6 +453,8 @@
             </div>
 
           </div>
+      
+          <div class = "vertical-center">                     <a class="button alt icon fa-file-o" href="all-articles-1.html">All Articles</a> </div>
 
 
           
@@ -458,11 +466,53 @@
         <div class="container">
           <div class="row">
             <div class="col-8 col-12-medium">
-
+                <h2 class="icon fa-file-text-o">Podcasts</h2>
+                    <article class="box excerpt">
+           <div>
+            <header>
+             <span class="date">
+              February 26th, 2021
+             </span>
+             <h3>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5kt01dYdJNq4dJX2VsXR3e?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                 
+             </h3>
+                 <p>
+                    With the Super Bowl having just ended, our analysts look towards the next season of football. With talk about the constantly evolving QB offseason moves and predictions for next season, this episode covers the hottest topics in the NFL right now.
+                </p>
+            </header>
+               
+        </div>
+          </article>
+                
+                <article class="box excerpt">
+           <div>
+            <header>
+             <span class="date">
+              February 26th, 2021
+             </span>
+             <h3>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3sAUG2HIOWZkbsygJAwDGp?utm_source=generator&theme=0" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                 
+             </h3>
+                 <p>
+                    An old episode recorded in Week 13. Listen and Enjoy!
+                </p>
+            </header>
+           </div>
+          </article>
+        
+               <footer>
+                    <a class="button alt icon fa-file-o" href="podcasts.html">All Podcasts</a>
+                  </footer>
+                   
+                
               <!-- Article list -->
+<!--
               <section class="box article-list" id="featured-articles">
               </section>
               <script folder="down" id="featured-article-src" src="shared/featured-articles.js"></script>
+-->
             </div>
             <div class="col-4 col-12-medium">
 
@@ -490,12 +540,15 @@
                 </article>
 
               </section>
+                
 
             </div>
           </div>
         </div>
       </div>
     </div>
+      
+      
   </div>
 
   <!-- Footer Wrapper -->
