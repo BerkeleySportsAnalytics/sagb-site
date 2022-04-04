@@ -1,0 +1,169 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Conceptions of Usage Rate | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Conceptions of Usage Rate</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Shreeya Sethuraman</a> | March 28, 2022</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/conceptions-usage/image1.jpeg" alt="" /></span>
+                          <p style="text-align: left;">In professional and collegiate basketball, usage rate is defined as the percentage of team plays a player uses while on the court, assuming that the play culminates in a free-throw, field-goal attempt, or a turnover. Essentially, it encapsulates how often a player is actively making a difference offensively. Historically, we&rsquo;ve used the formulas of Dean Oliver and John Hollinger, the forefathers of complex basketball analytics. The current formula can&rsquo;t be traced back to a single individual, but is widely used inadvanced analytics.&nbsp;</p>
+<p style="text-align: justify;">The two preferred formulas (Hollinger&rsquo;s and the contemporary) take into account any action that changes possession: a basket, turnovers, free throws, and a missed basket that isn&rsquo;t rebounded by the possessing team. However, they also possess certain nuances that change the meaning of the term. For example, the contemporary percentage doesn&rsquo;t&nbsp;</p>
+<p>include assists, so players like Chris Paul and Russell Westbrook are portrayed as having a lower usage rate than would be expected using Hollinger&rsquo;s formula. Though the modern calculation has this setback, neither formula fully encapsulates the process behind the shot, so players who choose to pass rather than shoot will have a lower USG% even though they are actively engaging offensively. While neither formula is perfect, these kinds of statistics are our best way of measuring a player&rsquo;s offensive impact.&nbsp;</p>
+<p>Therefore, players will have varying usage rates depending on their positions and strengths, but which statistics encapsulate the true offensive value of a player? I&rsquo;m choosing to compare and contrast the calculations for usage rates on players of Cal&rsquo;s basketball team in the 2021-2022 season. The players I&rsquo;m using are Lars Thiemann (forward/center), Jordan Shepherd (guard), Andre Kelly (forward), and Joel Brown (guard).</p>
+<p>It&rsquo;s important to note the distinction between usage rate and usage percentage: usage rate only denotes the number of plays used per 40 minutes. Hollinger&rsquo;s formula involves league and team pace, which outline the number of possessions the league and team have per game, respectively (see source #5).&nbsp;</p>
+<p><span style="color: #c5c8c6;">league_pace = </span><span style="color: #de935f;">70.1</span></p>
+<p><span style="color: #c5c8c6;">team_pace = </span><span style="color: #de935f;">66.9</span></p>
+<p><span style="color: #c5c8c6;">hollinger &lt;- cal %&gt;%</span></p>
+<p><span style="color: #c5c8c6;">mutate(usg_rate = ((fg_attempted + (ft_attempts * </span><span style="color: #de935f;">0.44</span><span style="color: #c5c8c6;">) + (assists</span><span style="color: #c5c8c6;">* </span><span style="color: #de935f;">0.33</span><span style="color: #c5c8c6;">) + turnovers) * </span><span style="color: #de935f;">40 </span><span style="color: #c5c8c6;">* league_pace)</span></p>
+<p><span style="color: #c5c8c6;">/ (total_minutes * team_pace)) %&gt;%</span></p>
+<p><span style="color: #c5c8c6;">select(Player, usg_rate)</span></p>
+<span class="image featured"><img src="../images/dj-pics/conceptions-usage/image2.png" alt="" /></span>
+                            
+                            <p>The modern calculation is as follows:&nbsp;</p>
+<p><span style="color: #c5c8c6;">team_min = sum(cal$total_minutes)</span></p>
+<p><span style="color: #c5c8c6;">total_fga = sum(cal$fg_attempted)</span></p>
+<p><span style="color: #c5c8c6;">total_fta = sum(cal$ft_attempts)</span></p>
+<p><span style="color: #c5c8c6;">total_to = sum(cal$turnovers)</span></p>
+<p><span style="color: #c5c8c6;">contemporary &lt;- cal %&gt;%</span></p>
+<p><span style="color: #c5c8c6;">mutate(usg_rate = (</span><span style="color: #de935f;">100 </span><span style="color: #c5c8c6;">* (fg_attempted + </span><span style="color: #de935f;">0.44 </span><span style="color: #c5c8c6;">* ft_attempts +</span><span style="color: #c5c8c6;">turnovers) * (team_min / </span><span style="color: #de935f;">5</span><span style="color: #c5c8c6;">)) /</span></p>
+<p><span style="color: #c5c8c6;">((total_fga + </span><span style="color: #de935f;">0.44 </span><span style="color: #c5c8c6;">* total_fta + total_to) *</span></p>
+<p><span style="color: #c5c8c6;">total_minutes)) %&gt;%</span></p>
+<p><span style="color: #c5c8c6;">select(Player, usg_rate)</span></p>
+<span class="image featured"><img src="../images/dj-pics/conceptions-usage/image3.png" alt="" /></span>
+                            <span class="image featured"><img src="../images/dj-pics/conceptions-usage/image4.png" alt="" /></span>
+                            <p>Jordan Shepherd&rsquo;s usage rate varies between the two calculations, with the contemporary value placing him at almost 6 points higher than Hollinger&rsquo;s. The difference can be attributed to the inclusion of the rate of a player&rsquo;s stats (contemporary places value in not just how well a player does, but how well a player does in comparison to their team) rather than just the stats themselves. Shepherd&rsquo;s stats are higher than his teammates&rsquo;, which is of lesser importance to Hollinger compared to the modern version.&nbsp;</p>
+<p>In Joel Brown&rsquo;s case, the margin is just approximately one point. Brown plays a crucial role in bringing the ball down after a turnover, but doesn&rsquo;t play as large a role in making plays and finishing compared to Shepherd. This is reflected in his USG%, which is lower than Shepherd&rsquo;s by over 10 points. He has 142 field goals made compared to Shepherd&rsquo;s 414 but 97 assists compared to Shepherd&rsquo;s 75, which is why the margin between the two is larger in the second version compared to the first (because the first version accounts for assists).&nbsp;</p>
+<p>Thiemann is the leader in blocks, and the modern value is substantially higher than Hollinger&rsquo;s. His free throw attempts and field goal attempts lie fairly close to the median of all the individual stats, which is why his usage rate is much higher in the modern value: because his stats are compared against his team&rsquo;s, the rate is increased.&nbsp;</p>
+<p>Lastly, Andre Kelly&rsquo;s margin is also somewhat large (approximately 4 points off). Kelly is a playmaker across the court; he&rsquo;s fourth in attempted field goals and tied for second in attempted free throws. He has a fairly low number of assists (17) as well as a low number of turnovers for the amount of playing time he has had (24). Because his stats are so high in comparison to the rest of his team, the modern value is boosted, but because his assists are low, Hollinger&rsquo;s value is decreased.</p>
+<p>If I were to create my own team based on these statistics, I would default to choosing players with extremely high usage rates. However, high usage rates are correlated with low efficiency. With higher usage rates come fewer ball touches by players and basketball then becomes an individual sport rather than a team one. For a team to work cohesively on offense, the players need to have diverse usage rates compared to one another.&nbsp;</p>
+<p>Both calculation methods have their pros and cons, but overall, the differences create varying shades of essentially the same metric. It&rsquo;s important to consider a holistic view of each player instead of boiling their potential down to one number.&nbsp;</p>
+<p>Sources:&nbsp;</p>
+<p>1. <span style="text-decoration: underline;">https://insider.espn.com/nba/hollinger/statistics</span></p>
+<p>2. <span style="text-decoration: underline;">https://fivethirtyeight.com/features/how-did-basketball-end-up-with-four-versions</span><span style="text-decoration: underline;">-and-counting-of-one-stat/</span></p>
+<p>3. <span style="text-decoration: underline;">https://www.nbastuffer.com/analytics101/usage-rate/</span></p>
+<p>4. <span style="text-decoration: underline;">https://calbears.com/sports/mens-basketball/roster</span></p>
+<p>5. <span style="text-decoration: underline;">https://www.teamrankings.com/ncaa-basketball/stat/possessions-per-game</span></p>   
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="../images/dj-pics/deebo-yac/1.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Deebo Samuel: YAC Stud</a></h3>
+                            <p>By Andrew Zhang | March 28, 2022</p>
+                          </header>
+                            <p>In the Bay Area, the trio of George Kittle, Brandon Aiyuk, and Deebo Samuel are aptly named the YAC Bro’s, referring to their ability to gain yards after the catch (YAC). No year has this moniker been more appropriate than the past 2021-22 NFL season, where the third member of the brotherhood accumulated 1405 receiving yards with more than half of that coming after the catch, en route to All Pro 1st-team honors and a Pro Bowl selection. </p>
+                          <footer>
+                            <a class="button alt icon fa-file-o" href="deebo-yac.html">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
