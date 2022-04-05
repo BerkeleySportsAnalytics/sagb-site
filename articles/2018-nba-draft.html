@@ -1,0 +1,153 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Predicting the 2018 Draft's 4th Year WAR | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Predicting the 2018 Draft's 4th Year WAR</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Michael Athanassiadis</a> | March 28, 2022</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/2018-nba-draft/draft-2018_1-1.webp" alt="" /></span>
+                          <p>Now in their fourth year, some of today&rsquo;s burgeoning NBA stars drafted in 2018 have been handed their first huge contract. As of October 21, 2021, 11 players from the draft have signed rookie extension contracts. However, the rest are set to negotiate deals once the 2021-22 season ends. Among the names signed are Luka Doncic, Trae Young, and Shai Gilgeous-Alexander, each of whom are now locked into max extensions worth up to $207 million over the next five years.&nbsp;</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Atlanta Hawks All-Star G Trae Young has agreed to a five-year, $207 million designated rookie maximum extension, his agent Omar Wilkes of <a href="https://twitter.com/KlutchSports?ref_src=twsrc%5Etfw">@KlutchSports</a> tells ESPN.</p>&mdash; Adrian Wojnarowski (@wojespn) <a href="https://twitter.com/wojespn/status/1422406264940859392?ref_src=twsrc%5Etfw">August 3, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dallas Mavericks superstar Luka Doncic has agreed to sign a landmark five-year, $207 million supermax rookie extension, his agent Bill Duffy of <a href="https://twitter.com/BDA_Sports?ref_src=twsrc%5Etfw">@BDA_Sports</a> tells ESPN. <a href="https://t.co/vVj770OD8A">https://t.co/vVj770OD8A</a></p>&mdash; Adrian Wojnarowski (@wojespn) <a href="https://twitter.com/wojespn/status/1424852095912628227?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            
+<p>There were also some surprise extension snubs from the 2018 Draft. Deandre Ayton, the first overall pick and a standout center for the Phoenix Suns, will have to wait until the summer to decide whether to stay with the team or play in a different city. In the meantime, the Suns have already extended two 2018 draftees&ndash;Landry Shamet, who is a reliable bench player, and Mikal Bridges, a great 3-and-D guy, each for four more years. Miles Bridges, who has made huge strides offensively this season, also did not get a deal done by the deadline and could be on the move from the Charlotte Hornets.&nbsp;</p>
+<p>With these roster decisions in mind, it would be helpful to better understand or even predict player value. This would help us see whether Miles Bridges and Deandre Ayton, for example, were truly snubbed, or if there is evidence that they are not adding to the team as much as the eye-test alone shows. FiveThirtyEight has created a few different metrics that help quantify player value. They each rely on the newest player-tracking and play-by-play data, which is far-removed from the fans&rsquo; experience of games since they do not end up in the traditional box score.&nbsp;</p>
+<p>The two newest FiveThirtyEight metrics created to quantify value are RAPTOR (Robust Algorithm using Player Tracking and On/Off Ratings) and WAR (wins above replacement). RAPTOR measures the amount of points added by a player on offense and defense per 100 possessions. The chosen RAPTOR for a replacement level player sits at -2.75 per 100 possessions and is the average for fringe NBA players fighting for a guaranteed contract. WAR uses RAPTOR in addition to pace statistics to calculate the level of wins above -2.75 for a given NBA player. (Source: <a href="https://fivethirtyeight.com/features/how-our-raptor-metric-works/" target="_blank" rel="noopener">https://fivethirtyeight.com/features/how-our-raptor-metric-works/</a> )</p>
+<p>Even though they are not directly factored into FiveThirtyEight&rsquo;s calculations, I wanted to see whether traditional box score stats like points scored, field goals attempted, and effective field goal percentage could predict player value. Additionally, I tried adding in more values like minutes played and pick number in hopes of making an even more accurate model. This is all in an effort to understand contract extensions using data more readily available to the everyday fan. While more advanced player-tracking values require a good amount of digging, the traditional box score and stats table is one of the first places NBA-watchers go to inspect how good a player has been performing.&nbsp;</p>
+<p>The Data</p>
+<p>From the set of traditional box score statistics chosen to be included in the linear model, below are a few that have a stronger relationship with WAR. In these scatterplots, 2018 draftees are graphed once for each of their first three seasons in the league and are color coded by player. The linear regression shown in orange for each graph and its respective equation displayed in the visualization are to be fed into the model.&nbsp;</p>
+<p>One of the following metrics&ndash;assists, field goals made, and turnovers per game&ndash;is graphed against the player&rsquo;s respective WAR for that particular season. These stats all yielded pretty high R2values, which are calculated on a scale from zero to one and give you a sense of how well a regression fits the data. I know, they don&rsquo;t seem &lsquo;pretty high&rsquo;! But given that we are talking about basketball and not some controlled experiment, they are. One extra note beyond the graphs is that these stats are all heavily reliant on usage. For example, Luka Doncic&ndash;the blue outlier in every scatterplot&ndash;is the focal point of his offense. As a facilitator and top scorer, he puts up extremely high field goal and assist numbers compared to the rest of the draft class. It makes sense then, that turnovers, a byproduct of having the ball in your hands often, correlates positively with WAR even though it is a negative stat.&nbsp;</p>
+<span class="image featured"><img src="../images/dj-pics/2018-nba-draft/Assists%20vs%20WAR.png" alt="" /></span>
+                            <span class="image featured"><img src="../images/dj-pics/2018-nba-draft/FG%20vs.%20WAR.png" alt="" /></span>
+                            <span class="image featured"><img src="../images/dj-pics/2018-nba-draft/Turnovers%20vs%20WAR.png" alt="" /></span>
+<p>Some other traditional stats surprisingly had weaker relationships with WAR. In the scatterplot shown below, each 2018 draftee is graphed according to their WAR for each of their first three seasons and their respective pick number. The graph shows a very low linear correlation between the draft position and WAR for players picked in 2018. This result might be because of how many second round gems were taken in this draft. However, the range of WAR values definitely tightens around to zero later in the draft, giving us a sense of a more general trend. Though the linear regression produced has a very low R2 of 0.048, showing that draft pick alone does not relate strongly to player value in terms of WAR, when added as a variable along with various other factors, the model&rsquo;s overall correlation actually improves.&nbsp;</p>
+                            <span class="image featured"><img src="../images/dj-pics/2018-nba-draft/Draft%20Pick%20vs%20WAR.png"> </span>
+<p>The Results</p>
+                            <span class="image featured"><img src="../images/dj-pics/2018-nba-draft/WAR%20Model%20Table%20Top%2010.png" >  </span>
+<p>Once those and a few other regressions were inputted, the model was finally born. On the left is a table showing the top ten 2018 draftees by their predicted fourth year WAR using the season&rsquo;s statistics. We can actually get a pretty good idea of how the 2018 draftees contributed offensively and defensively using traditional statistics. Whereas FiveThirtyEight has Luka Doncic and Trae Young at one and two, their positions are switched in the prediction. Additionally, the model underestimated both players&rsquo; WARs. As of March 20th, Luka and Trae have 8.5 and 8.0, respectively.&nbsp;</p>
+<p>Interestingly, the model predicted Mikal Bridges&rsquo; WAR to be 3.245, or just out of the top 10 in the 2018 Draft class.However, out of all players in the first four years, FiveThirtyEight has him 3rd with a WAR of 6.8. This discrepancy could have been caused by the impact Mikal has with his defensive positioning which has led to big leads for the Suns, an element which traditional box scores overlook.&nbsp;</p>
+<p>If we look back at the initial question&ndash;why have some players like Luka and Trae been handed huge deals while others like Miles Bridges or Deandre Ayton have not&ndash;we now have a much better understanding. Ayton, even with upper echelon traditional statistics, was left out of the top 10 at 16th. On the other hand, Miles, who has so far had a breakout season, is looked highly upon by the model, possibly fortelling a great offseason for the young power forward. Though imperfect, this nifty regression model bridges the gap in information between the everyday fan and NBA-enlisted data scientists. With trends found using easy-to-understand statistics straight from the NBA app, wins above replacement, a complicated metric, has hopefully become more digestible.&nbsp;</p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="../images/dj-pics/deebo-yac/1.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Deebo Samuel: YAC Stud</a></h3>
+                            <p>By Andrew Zhang | March 28, 2022</p>
+                          </header>
+                            <p>In the Bay Area, the trio of George Kittle, Brandon Aiyuk, and Deebo Samuel are aptly named the YAC Bro’s, referring to their ability to gain yards after the catch (YAC). No year has this moniker been more appropriate than the past 2021-22 NFL season, where the third member of the brotherhood accumulated 1405 receiving yards with more than half of that coming after the catch, en route to All Pro 1st-team honors and a Pro Bowl selection. </p>
+                          <footer>
+                            <a class="button alt icon fa-file-o" href="deebo-yac.html">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
