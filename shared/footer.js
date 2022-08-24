@@ -12,18 +12,19 @@ var string = `
               <!-- Contact -->
               <section>
                 <h2>Get in touch</h2>
-                <div>
-                  <div class="row">
-                    <div class="col-8 col-12-medium">
-                      <dl class="contact tab">
-                        <dt><a href="https://twitter.com/sagberkeley" class="fa fa-twitter"></a></dt>
-                        <dt><a href="https://facebook.com/SportsAnalyticsBerkeley" class="fa fa-facebook"></a></dt>
-                        <dt><a href="mailto:sagberkeley@gmail.com" class="fa fa-envelope"></a></dt>
-                      </dl>
-                    </div>
+              </section>
+              <div>
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <dl class="contact tab">
+                      <dt><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sportsanalyticsberkeley/" class="fa fa-instagram"></a></dt>
+                      <dt><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/sagberkeley" class="fa fa-twitter"></a></dt>
+                      <dt><a target="_blank" rel="noopener noreferrer" href="https://facebook.com/SportsAnalyticsBerkeley" class="fa fa-facebook"></a></dt>
+                      <dt><a target="_blank" rel="noopener noreferrer" href="mailto:sagberkeley@gmail.com" class="fa fa-envelope"></a></dt>
+                    </dl>
                   </div>
                 </div>
-              </section>
+              </div>
 
               </div>
               <div class="col-1 col-12-small hide-mobile">
@@ -35,7 +36,7 @@ var string = `
               <div class="col-12">
                 <div id="copyright">
                   <ul class="menu">
-                    <li>All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>All rights reserved.</li><li>Design: <a target="_blank" rel="noopener noreferrer" href="http://html5up.net">HTML5 UP</a></li>
                     <li>
                       <a href="https://www.ocf.berkeley.edu">
                         <img alt="Hosted by the OCF" src="https://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg" style="border: 0; height: 30px"/>

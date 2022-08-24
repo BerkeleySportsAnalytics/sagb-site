@@ -367,7 +367,7 @@ table {
   margin: 3em auto !important;
 }
 
-/* Row */
+Row
 
 .row {
   display: flex;
@@ -562,6 +562,8 @@ table {
 .row {
   margin-top: -50px;
   margin-left: -50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .row > * {
@@ -1369,8 +1371,6 @@ header h3 {
 
 header p {
   display: block;
-  font-weight: 700;
-  letter-spacing: 0.065em;
   font-size: 0.9em;
   color: #696969;
   margin: 0;
@@ -1595,7 +1595,7 @@ table.default thead {
 }
 
 .picture-col img {
-  margin-top: 8px;
+  margin-top: 15px;
   vertical-align: middle;
   max-width: 100%;
 }
@@ -1900,6 +1900,7 @@ ol.default li {
 
 #nav {
   position: absolute;
+  display: block;
   right: 2em;
   top: 0;
   line-height: 5.5em;
@@ -1912,13 +1913,11 @@ ol.default li {
 
 #nav > ul > li > a,
 #nav > ul > li > span {
-  color: #fff;
+  color: rgba(255,255,255,.5);
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 0.95em;
-  letter-spacing: 0.075em;
-  padding: 0.5em 0.8em 0.5em 0.8em;
+  font-weight: bold;
+  font-size: 1.375em;
+  padding: 0em 0.2em;
   border-radius: 6px;
   outline: 0;
 }
@@ -1927,9 +1926,13 @@ ol.default li {
 #nav > ul > li.current_page_item > a,
 #nav > ul > li.active > span,
 #nav > ul > li.current_page_item > span {
-  background: rgba(0, 0, 0, 0.15);
-  box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025),
-    1px 1px 0px 0px rgba(255, 255, 255, 0.025);
+  background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+  color: white;
+  font-weight: bold;
+}
+
+#nav > ul > li > a:hover {
+  color: white;
 }
 
 #nav > ul > li:last-child {
@@ -2010,10 +2013,10 @@ ol.default li {
 
 #banner {
   text-align: center;
-  width: 940px;
+  width: 1000px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 9em 0 6em 0;
+  padding: 13em 0 6em 0;
 }
 
 #banner h2 {
@@ -2043,14 +2046,17 @@ ol.default li {
 #banner p {
   text-transform: uppercase;
   color: #fff;
-  font-size: 1.5em;
-  font-weight: 700;
+  font-size: 1.6em;
+  font-weight: lighter;
+  font-style: italic;
   line-height: 1.3em;
   letter-spacing: 0.04em;
   float: left;
   text-align: center;
   line-height: 1.5em;
   margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 /* Sidebar */
@@ -2088,7 +2094,7 @@ ol.default li {
 
 body.homepage #header-wrapper {
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url("../../images/main-banner-image.jpg");
   background-position: top left, center center;
   background-size: cover;
@@ -2099,7 +2105,7 @@ body.homepage #header-wrapper {
   background: url("images/bg01.png"), url("../../images/header.jpg");
   background-position: top left, center center;
   background-size: auto, cover;
-  padding: 3em 0;
+  padding: 2em 0;
 }
 
 #main-wrapper {
@@ -2131,7 +2137,7 @@ body.homepage #header-wrapper {
   background-repeat: repeat-x, no-repeat, repeat;
   background-size: 100% 100%, 100% 15em, auto auto;
   background-position: top left, top center, top left;
-  padding: 7em 0 7em 0;
+  margin-top: 3.5em;
 }
 
 .wrapper {
@@ -2169,40 +2175,13 @@ body.homepage #header-wrapper {
 #header {
   position: relative;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
   padding: 0.75em;
   margin-bottom: 0;
 }
 
 #header .inner {
-  background-image: -moz-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.35)
-    ),
-    url("images/bg02.png");
-  background-image: -webkit-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.35)
-    ),
-    url("images/bg02.png");
-  background-image: -ms-linear-gradient(
-      top,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.35)
-    ),
-    url("images/bg02.png");
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)),
-    url("images/bg02.png");
   position: relative;
   height: 5.5em;
-  background-color: #3b3e45;
-  background-color: rgba(59, 62, 69, 0.9);
-  border-radius: 8px;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45),
-    inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 }
 
 #header h1 {
@@ -2275,13 +2254,22 @@ body.homepage #header-wrapper {
   border-radius: 60%;
 }
 
-#footer .fa-twitter {
-  background: #55acee;
+#footer .fa:hover {
+  opacity: 0.7;
+}
+
+#footer .fa-instagram {
+  background: radial-gradient(circle at 30% 107%,
+  #fdf497 0%, #fdf497 5%,
+  #fd5949 45%, #d6249f 60%,
+  #285AEB 90%);
+  outline-color: #a02d76;
   color: white;
 }
 
-#footer .fa:hover {
-  opacity: 0.7;
+#footer .fa-twitter {
+  background: #55acee;
+  color: white;
 }
 
 #footer .fa-facebook {
@@ -3064,4 +3052,304 @@ body.homepage #header-wrapper {
   .secondary-article-title {
     display: none;
   }
+}
+
+.button2 {
+  border: none;
+  color: white;
+  padding: 16px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #003262;
+  border: 2px solid #003262;
+  border-radius: 20px;
+}
+
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 450px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 413px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+  height: 413px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #003262;
+  height: 413px;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 0 15px 0 15px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title2 {
+  color: grey;
+  font-size: 16px;
+  margin-top: -0.9em;
+  padding-bottom: 1.5em;
+}
+
+.a2 {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.head2 {
+  font-size: 1.35em;
+  margin-top: 1em;
+  color: white;
+}
+
+.head3 {
+  font-size: 1.35em;
+  margin-top: 1em;
+}
+
+.description {
+  text-align: left;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-auto-flow: row dense;
+  width: 60em;
+}
+
+.timeline h5 {
+  color: var(--muted-white);
+}
+
+.timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+  line-height: 1;
+}
+
+.timeline a {
+  font-size: 1.25rem;
+}
+
+.timeline-line {
+  grid-row-end: span 2;
+  position: relative;
+}
+
+.timeline-line2 {
+  grid-row-end: span 2;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .timeline {
+    grid-template-columns: auto auto 1fr;
+  }
+
+  .timeline-line {
+    grid-row-end: unset;
+    grid-column: 2;
+  }
+  .timeline-line2 {
+    grid-row-end: unset;
+    grid-column: 2;
+  }
+}
+
+.timeline-line::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #003262;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  margin-top: 12px;
+  height: 305px;
+}
+
+.timeline-line::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -9.875px;
+  background-color: white;
+  border: 4px solid #003262;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-line2::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #003262;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  margin-top: 0.77em;
+  height: 10em;
+}
+
+.timeline-line2::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -9.875px;
+  background-color: white;
+  border: 4px solid #003262;
+  top: 10px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-event {
+  margin-left: 20px;
+  justify-items: center;
+}
+
+.timeline-date {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 2.5rem;
+}
+
+.head4 {
+  font-size: 2em;
+  margin-top: 5px;
+}
+
+.center2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button3 {
+  border: none;
+  color: #003262;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 3px solid #003262;
+}
+
+.button3:hover {
+  background-color: #003262;
+  color: white;
+}
+
+.center3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
