@@ -2019,6 +2019,16 @@ ol.default li {
   padding: 13em 0 6em 0;
 }
 
+@media screen and (max-height: 800px) {
+  #banner {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 7em 0 6em 0;
+  }
+}
+
 #banner h2 {
   color: #fff;
   font-size: 5em;
@@ -3054,6 +3064,23 @@ body.homepage #header-wrapper {
   }
 }
 
+.button2-banner {
+  border: none;
+  color: white;
+  padding: 16px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 3em 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #003262;
+  border: 2px solid #003262;
+  border-radius: 20px;
+}
+
 .button2 {
   border: none;
   color: white;
@@ -3070,7 +3097,6 @@ body.homepage #header-wrapper {
   border: 2px solid #003262;
   border-radius: 20px;
 }
-
 
 .button2:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
