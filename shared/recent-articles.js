@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "hands_up.html";
-article2 = "mlb-day-night.html";
-article3 = "jokic-mvp.html";
-article4 = "afc-east.html";
-article5 = "edge.html";
-article6 = "march-madness.html";
-article7 = "decoding-draft.html";
-article8 = "jeff-bezos.html";
-article9 = "first-round-fantasy.html";
+article1 = "longhorns-vs-cornhuskers.html";
+article2 = "hands_up.html";
+article3 = "mlb-day-night.html";
+article4 = "jokic-mvp.html";
+article5 = "afc-east.html";
+article6 = "edge.html";
+article7 = "march-madness.html";
+article8 = "decoding-draft.html";
+article9 = "jeff-bezos.html";
 
-title1 = "Hands Up";
-title2 = "Hypothesis Testing MLB Hitters in Day and Night Games";
-title3 = "Nikola Jokic for MVP";
-title4 = "AFC Least or AFC Beast?";
-title5 = "Getting Edgy Before Day 2";
-title6 = "A Sane Retrospective of the Madness of March";
-title7 = "Decoding the Draft: NFL Edition";
-title8 = "What if Jeff Bezos Bought the Mariners?";
-title9 = "Your First Round Fantasy Pick";
+title1 = "Best Offensive Team vs. Best Defensive Team in Women's College Volleyball: Who Should Win?";
+title2 = "Hands Up";
+title3 = "Hypothesis Testing MLB Hitters in Day and Night Games";
+title4 = "Nikola Jokic for MVP";
+title5 = "AFC Least or AFC Beast?";
+title6 = "Getting Edgy Before Day 2";
+title7 = "A Sane Retrospective of the Madness of March";
+title8 = "Decoding the Draft: NFL Edition";
+title9 = "What if Jeff Bezos Bought the Mariners?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;

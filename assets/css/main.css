@@ -2870,7 +2870,7 @@ body.homepage #header-wrapper {
   padding-left: 1%;
   padding-bottom: 1%;
   padding-top: 1%;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .leading-story-subtitle {
@@ -3378,4 +3378,18 @@ body.homepage #header-wrapper {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-article {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row-article::after {
+  content: "";
+  clear: both;
+  display: table;
 }
