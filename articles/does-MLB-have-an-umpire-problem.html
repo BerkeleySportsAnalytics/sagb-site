@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Does MLB Have an Umpire Problem | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Does MLB Have an Umpire Problem?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">CJ Lu Sing</a> | November 11, 2022</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/Header Image.png" alt="" /></span>
+                          <p>
+                            Any baseball player will attest that, at least once in their playing career, a home plate umpire made an egregious call that 
+                            soured their mood for the rest of the game. With their unique responsibility of calling balls and strikes for every pitch, 
+                            baseball’s home plate umpires are more involved in gameplay than almost any other official in professional sports.</p>
+                        <p>
+                            Consequently, MLB’s home plate umpires are closely scrutinized universally by teams, the league, and the fans. For example, blown calls,
+                             like a called strike three inches off the plate, with the potential to drastically change a game’s outcome, regularly provoke public outcry
+                              across the country. With the increased presence of pitch tracking technology, these mistakes are made obvious to everyone from fans at home to Commissioner Rob Manfred.
+                            </p>
+                            
+                            <p>
+                                Recently, the latter party, the Office of the Commissioner of Baseball, signaled MLB would take steps to end the plethora of incorrect calls plaguing the game. In the
+                                2022 Minor League Baseball season, U.S. professional baseball’s first automated strike zone system debuted in the Triple A Pacific Coast League. However, analyzing the readily 
+                                available data, the baseball world may have been wrong about MLB’s umpires.
+                            </p>
+                        
+                            <p><strong>Measuring Umpire Run Impact</strong></p>
+                            <p>
+                                The umpire watch dogs, Umpire Scorecards, which is widely known for their Twitter account, spent the past few years aggregating data on umpire performance from Fangraphs. Two statistics provide shocking information: avgRI (average run impact) and totFav (total favor). </p>
+                            <p>
+                                In baseball, each called pitch should go in the favor of the pitcher or the batter. When an umpire calls a strike that should have been a ball, the pitcher is favored. Inversely, when an umpire calls a ball on a would-be strike, the batter is favored. The favorability of a count impacts how a plate appearance goes. An 0-2 count is more likely to produce an out than a 3-0 count. Over nine innings, these mistakes add up contributing to an umpire’s run impact for that game. Average run impact, or avgRI, as defined by UmpScorecards, takes “The absolute value of the run impact of each missed call by the umpire, across all games umpired by the umpire, divided by the number of games umpired by the umpire.”
+                            </p>
+
+                            <p>
+                                The second, total favor, measures “The sum of the Total Batter Impact for the team and Total Pitcher Impact for the team.” 
+                            </p>
+                            
+                            <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/All Umpires.png" alt="" /></span>
+
+                            <p>
+                                The histogram above shows the average run impact of each home plate umpire during the 2022 Major League Baseball regular season (minimum ten games umpired). Average run impact varies greatly from Jeremie Rehak’s 0.9 avgRI to Ed Hickox’s comparatively astronomical 1.8 avgRI. Slightly more than half of umpires, or 46 out of 90, had an avgRI higher than the mean of 1.26 avgRI. The notorious Angel Hernandez (highlighted in red on the histogram) had a 1.3 avgRI. 
+                            </p>
+
+                            <p> 
+                                Generally, more accurate umpires will have a lower average run impact. This is an important feature of baseball because just one run of impact is enough to potentially change a game’s outcome. To determine how much MLB umpires’ collective run impact impacted a season, it is necessary to understand how much runs impact the game.
+                            </p>
+
+                            <p><strong>Predicting Wins Based on Run Differential</strong></p>
+                            <p>
+                                Every MLB season, each of the thirty teams have a corresponding run differential, which is the runs their offense scores minus the runs their pitching staff allows. 
+                            </p>
+                            <p>
+                                In the 2022 regular season, the Los Angeles Dodgers had a +334 run differential, which was the highest in Major League Baseball. The 2022 Washington Nationals had a -252 run differential, which was the league lowest. Interestingly, the two teams had the league’s best and worst records respectively, which indicates run differential’s status as a great predictor of a team’s final record.
+
+                            </p>
+                            
+
+                            <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/Scatter Plot (RD vs W).png" alt="" /></span>
+                            <p>
+                                A linear regression analysis supports the idea that a team’s run differential predicts the same team’s win total. As a team’s run differential increases, so does their win total. With an R^2 of 0.93, 93% of the variability in a team’s number of wins can be attributed to run differential alone. The data, sourced from the past three 162-game seasons, demonstrates that an increase of 0.09756 runs produces a single win.
+
+                            </p>
+                            <p>
+                                Therefore, if the run impact created by umpires over a single season changes a team’s run differential enough, that may be enough to change the entire league’s final record.
+
+                            </p>
+                            <p><strong>The "Real" 2022 Standings</strong></p>
+                            
+                            <p>
+                                Returning to the statistics collected from Umpire Scorecards, total favor (totFav) is  a season-long measurement of “The sum of the Total Batter Impact for the team and Total Pitcher Impact for the team.” The league’s non-run impacted records can be determined by multiplying each team’s totFav by their corresponding actual win total to get a new statistic influenced wins (infl_W). The number of non-impacted wins, here called new_W, can be calculated by subtracting a team’s new_W by their infl_W. The number of losses can thus be calculated from 162 minus new_W.
+
+                            </p>
+                            <p>
+                                The 2022 standings can be updated by taking into account infl_W.
+                            </p>
+                            <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/New Records.png" alt="" /></span>
+                            <p>
+                                These updated rankings provide each team’s record if the outcome of their games was not impacted by umpires. The New York Mets would no longer be a 100-win team and the Chicago White Sox would finish under .500. However, looking deeper, the updated standings are only slightly different from the actual 2022 standings, and the division rankings are identical.
+
+                            </p>
+                            <p>
+                                If the 2022 MLB Postseason were played using the updated standings, the bracket would be completely the same. The Dodgers, Houston Astros, Atlanta Braves, and New York Yankees would still receive first round byes, and the Wild Card matchups would be unchanged.
+
+                            </p>
+                            <p>
+                                In the modern era of baseball, first place teams regularly outmatch the rest of their division. Only in the closest divisional or Wild Card races would umpire run impact alter the postseason picture. For example, if the 2022 Braves and Mets switched totFav with each other, the Mets would have been atop the NL East and had a first round bye. This scenario would have allowed the Mets to automatically advance to the National League Division Series instead of facing defeat in three games with the San Diego Padres in the Wild Card Round.
+
+                            </p>
+                            <p><strong>Evaluating MLB's Umpires</strong></p>
+                            <p>
+                                Although totFav made no impact on the 2022 postseason picture, teams did have different records because of umpire run impact. Some teams benefited from incorrect calls far more than others.
+
+                            </p>
+                            <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/totFav by Team.png" alt="" /></span>
+                            <p>
+                                Data from the 2022 season reveals that the Arizona Diamondbacks received the most total favor from home plate umpires. Their totFav was 27.64 runs. On the other hand, the Kansas City Royals had a totFav of -25.31 runs. There needs to be steps taken to equalize the playing field from an officiating standpoint.
+
+                            </p>
+                            <p>
+                                However, the minimal impact on season standings should prove to Major League Baseball that an automated strike zone would be an extreme measure. MLB should work to put the best umpiring talent behind the plate at games. 
+
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/Worst Umpires.png" alt="" /></span>
+
+                            <p>
+                                There were 13 MLB umpires with a minimum of ten games behind home plate and an avgRI of at least 1.5 runs. Ed Hickox had an astronomical avgRI of 1.8 runs. These umpires’ incorrect calls, on average, would be more than enough to sway the momentum in a close game. 
+
+                            </p>
+                            <span class="image featured"><img src="../images/dj-pics/does-MLB-have-an-umpire-problem/Best Umpires.png" alt="" /></span>
+                            
+                            <p>
+                                However, in contrast, there were seven umpires with an average run impact of just one run: Adam Hamari, Nic Lentz, Mark Ripperger, Pat Hoberg, Quinn Wolcott, Mark Wegner, and David Rackley. Jeremie Rehak stood out from the pack with an avgRI of only 0.9 runs.
+
+                            </p>
+                            <p>
+                                If Major League Baseball decides to forgo an automated strike zone, the league should instead choose to reward umpires for good performance. This season, nearly half of umpires, or 44 out of 90, had an avgRI below the mean. These umpires with a lower impact on gameplay should be allowed to call more games from behind home plate. 
+
+                            </p>
+                            <p>
+                                Moreover, these lower-impact umpires clearly approach their job differently than the 46 umpires who scored higher than the mean. Umpires like Jeremie Rehak have approaches to the game that MLB should study and attempt to replicate in umpire training. The difference may be small, but in a game where inches can decide whether a team goes home or not, better umpires are better for everyone. 
+
+                            </p>
+                            <p><strong>Conclusion</strong></p>
+
+                            <p>
+                                Today, every fan is an umpire with the strike box overlaid on television broadcasts and exact pitch locations provided on the MLB app. However, on the field, umpiring is a difficult job that will inevitably come with mistakes.
+                            </p>
+
+                            <p>
+                                Major League Baseball has and will continue to explore the possibility of an automated strike zone on all levels. However, if MLB makes a concerted effort to minimize the errors of their umpires, the impact of an errant incorrect call should be negligible in the scope of a season.
+                            </p>
+
+
+                        </article>
+
+                    </div>
+                </div>
+                <div class="col-4 col-12-medium">
+                  <div id="sidebar">
+                  <!-- <div id="sidebar-sticky"> -->
+
+                    <!-- Sidebar -->
+
+                      <section>
+                        <header class="major">
+                          <h2>Related Articles</h2>
+                        </header>
+                        <ul id="recent-articles" class="style2">
+                        </ul>
+                        <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper style3">
+          <div class="inner">
+            <div class="container">
+              <div class="row">
+                <div class="col-8 col-12-medium">
+                  <!-- Article list -->
+                  <section id="featured-articles" class="box article-list">
+                  </section>
+                  <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                </div>
+                <div class="col-4 col-12-medium">
+
+                  <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Neural Implants</a></h3>
+                          <p>The pros and cons. Mostly cons.</p>
+                        </header>
+                        <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                        quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                        lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                        et tempus consequat etiam.</p>
+                        <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                        mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                        <footer>
+                          <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer Wrapper -->
+    <div id="footer-wrapper">
+    </div>
+    <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+  </div>
+
+  <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.dropotron.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+</html>
