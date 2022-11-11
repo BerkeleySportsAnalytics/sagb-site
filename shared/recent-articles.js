@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "does-MLB-have-an-umpire-problem.html";
-article2 = "unlucky-penny.html";
-article3 = "cj_article_1.html";
-article4 = "longhorns-vs-cornhuskers.html";
-article5 = "hands_up.html";
-article6 = "mlb-day-night.html";
-article7 = "jokic-mvp.html";
-article8 = "afc-east.html";
-article9 = "edge.html";
+article1 = "a-tale-of-two-rebounds.html";
+article2 = "does-MLB-have-an-umpire-problem.html";
+article3 = "unlucky-penny.html";
+article4 = "cj_article_1.html";
+article5 = "longhorns-vs-cornhuskers.html";
+article6 = "hands_up.html";
+article7 = "mlb-day-night.html";
+article8 = "jokic-mvp.html";
+article9 = "afc-east.html";
 
-title1 = "Does MLB Have an Umpire Problem?";
-title2 = "Unlucky Penny";
-title3 = "Does MLB Have an Umpire Problem?";
-title4 = "Best Offensive Team vs. Best Defensive Team in Women's College Volleyball: Who Should Win?";
-title5 = "Hands Up";
-title6 = "Hypothesis Testing MLB Hitters in Day and Night Games";
-title7 = "Nikola Jokic for MVP";
-title8 = "AFC Least or AFC Beast?";
-title9 = "Getting Edgy Before Day 2";
+title1 = "A Tale of Two Rebounds";
+title2 = "Does MLB Have an Umpire Problem?";
+title3 = "Unlucky Penny";
+title4 = "Does MLB Have an Umpire Problem?";
+title5 = "Best Offensive Team vs. Best Defensive Team in Women's College Volleyball: Who Should Win?";
+title6 = "Hands Up";
+title7 = "Hypothesis Testing MLB Hitters in Day and Night Games";
+title8 = "Nikola Jokic for MVP";
+title9 = "AFC Least or AFC Beast?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
