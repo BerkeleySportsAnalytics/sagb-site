@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "longhorns-vs-cornhuskers.html";
-article2 = "hands_up.html";
-article3 = "mlb-day-night.html";
-article4 = "jokic-mvp.html";
-article5 = "afc-east.html";
-article6 = "edge.html";
-article7 = "march-madness.html";
-article8 = "decoding-draft.html";
-article9 = "jeff-bezos.html";
+article1 = "cj_article_1.html";
+article2 = "longhorns-vs-cornhuskers.html";
+article3 = "hands_up.html";
+article4 = "mlb-day-night.html";
+article5 = "jokic-mvp.html";
+article6 = "afc-east.html";
+article7 = "edge.html";
+article8 = "march-madness.html";
+article9 = "decoding-draft.html";
 
-title1 = "Best Offensive Team vs. Best Defensive Team in Women's College Volleyball: Who Should Win?";
-title2 = "Hands Up";
-title3 = "Hypothesis Testing MLB Hitters in Day and Night Games";
-title4 = "Nikola Jokic for MVP";
-title5 = "AFC Least or AFC Beast?";
-title6 = "Getting Edgy Before Day 2";
-title7 = "A Sane Retrospective of the Madness of March";
-title8 = "Decoding the Draft: NFL Edition";
-title9 = "What if Jeff Bezos Bought the Mariners?";
+title1 = "Does MLB Have an Umpire Problem?";
+title2 = "Best Offensive Team vs. Best Defensive Team in Women's College Volleyball: Who Should Win?";
+title3 = "Hands Up";
+title4 = "Hypothesis Testing MLB Hitters in Day and Night Games";
+title5 = "Nikola Jokic for MVP";
+title6 = "AFC Least or AFC Beast?";
+title7 = "Getting Edgy Before Day 2";
+title8 = "A Sane Retrospective of the Madness of March";
+title9 = "Decoding the Draft: NFL Edition";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
