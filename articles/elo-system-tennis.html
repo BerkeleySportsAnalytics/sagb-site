@@ -1,0 +1,208 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>The Elo Rating System: A possible replacement to the current ranking system in men's tennis? | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>The Elo Rating System: A possible replacement to the current ranking system in men's tennis?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Shreyes Sridhara</a> | November 13, 2022</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/main.jpeg" alt="" /></span>
+                          <p>Avid fans of tennis are likely aware of the rating system used by the ATP (Association of Tennis Professionals) Tour. However, most commentators and revered tennis analysts (such as Jeff Sackmann) maintain the notion that this ranking system is flawed. Briefly, their argument is that this rating system does not estimate the current playing abilities of the tennis players and only considers results from the top 19 events (the ATP Tour decides what these tournaments are) in a season (ATP Tour).</p>
+                          <p>Besides the arbitrary tournament cap placed when considering rankings, the ATP tour chooses to factor in performance in the later stages of only certain tournaments and has been heavily influenced by politics in the past—case in point, Wimbledon 2022, where Novak Djokovic received no points for winning a Grand Slam. It’s clear that the current ranking system is only reflective of recent success, but the extent to which this is even true is questionable.</p>
+                          <p>It’s quite shocking that a more logical and accurate method to rate tennis players has not been implemented already. Specifically, one that would effectively measure the current relative strength of the players with respect to the population and one that would be better at predicting future match results.</p>
+                          <p>That’s where the Elo rating system comes into play.</p>
+                          <p><strong>Elo for Tennis</strong></p>
+                          <p>The Elo rating system was first used in chess and has since been extrapolated to other zero-sum games—situations in which the total number of points in a system remains constant since points are transferred from one player to another after a match (Kenton). Since there are no draws in a tennis match (always a winner and a loser), the sport can be classified as a zero-sum game too—which just makes the absence of Elo in tennis rankings all the more perplexing.</p>
+                          <p>Before tailoring the Elo rating system to tennis, here are some points to know about the system itself. The rating of a player (a number) is a measure of their playing ability and is updated (increased or decreased based on winning or losing respectively) depending on the result of the next match (Sackmann). What is more, the probability of a player winning in a matchup can be calculated from these ratings. Two intuitive factors are considered in the Elo model to this end: the first being the caliber of the opponent and the second being the total number of matches (or data) in the system—the latter helps to gauge how confident we are with the rating (Sackmann).</p>
+                          <p>If we were to take a hypothetical match between two players 𝑖 and 𝑗 from a system of tennis players, and 𝑖 emerges as the victor, the probability of 𝑖 winning and a method to update the players’ ratings based on the match result can be formulated. They can be found below.</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic2.png" alt="" /></span>
+                          <p>...where 𝑃(𝑖) is the probability of player 𝑖 beating player 𝑗, and R<sub>i</sub> and R<sub>j</sub> are the ratings of players 𝑖 and 𝑗 respectively.</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic3.png" alt="" /></span>
+                          <p>...where 𝑅<sub>i</sub><sup>new</sup> is the new rating for player 𝑖 in the Elo system, while 𝑅<sub>i</sub><sup>old</sup> is the old rating, 𝐾 is the K factor (usually taken as 32), 𝑆<sub>ij</sub> is the actual score of 𝑖 beating 𝑗 (1 for 𝑖 since this player won and 0 for the losing player 𝑗), and E<sub>i</sub> is the expected score for 𝑖 (probability of winning or the value of 𝑃(𝑖) from the previous formula).</p>
+                          <p><strong>Main Assumption in Elo</strong></p>
+                          <p>The core assumption with Elo is that each player’s present strength (or performance) is a random variable—we shall define this random variable as 𝑃𝑒𝑟𝑓<sub>i</sub> ∈ 𝑅—and is a representation of a player’s level (and changes in value after every game he plays). Furthermore, 𝑃𝑒𝑟𝑓<sub>i</sub> follows a Gumbel distribution (Matt).</p>
+                          <p>Similar to a normal distribution, a Gumbel distribution takes into account two parameters: μ and β, which are the rating of the player and the deviation in performance (known as the scale parameter) respectively. However, this distribution differs from the familiar normal distribution in that it has a heavier tail (positively or negatively skewed), as the Gumbel distribution’s probability density function (PDF) is used to model minimum or maximum values. This means that, unlike normal distribution, Gumbel distribution is not symmetric, and is more suitable for capturing and modeling player strength (ReliaSoft).</p>
+                          <p><i><span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic4.png" alt="" /></span>Figure 1: PDFs of normal distribution (left) and Gumbel distribution (right)</i></p>
+                          <p>Mathematically, it is represented by</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic5.png" alt="" /></span>
+                          <p>Given this, here are two main takeaways from this section:</p>
+                          <ul style="list-style-type:circle">
+                            <li>The μ value is the player’s rating (R<sub>i</sub> or R<sub>j</sub>) and determines where the peak is located, but is not the mean since a Gumbel distribution is asymmetric.</li>
+                            <li>Having the same scale parameter β for all players is something that is not entirely accurate (another assumption) since some tennis players perform more consistently than others.</li>
+                          </ul>
+                          <p>With this in mind, we can return to our example and represent players 𝑖 and 𝑗 as Gumbel distributions.</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic6.png" alt="" /></span>
+                          <p>Figure 2 below shows an example of the two random variables. Player 𝑖 has been made better than player 𝑗.</p>
+                          <p><i><span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic7.png" alt="" /></span>Figure 2: BLUE => μ<sub>i</sub>= 1700; RED => μ<sub>j</sub>= 1500; β = 400</i></p>
+                          <p><strong>Two Players Example</strong></p>
+                          <p>Using the data in Figure 2, where μ<sub>i</sub>= 1700, μ<sub>j</sub>= 1500, and β = 400, the probability of winning for 𝑖 can be calculated.</p>
+                          <p><i><span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic8.png" alt="" /></span>Figure 3: a visual rendition of the cumulative distribution function (CDF) for this example</i></p>
+                          <p>Player 𝑖’s new Elo rating =></p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic9.png" alt="" /></span>
+                          <p>Player 𝑗’s new Elo rating =></p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic10.png" alt="" /></span>
+                          <p><strong>Evaluating the Elo Rating System</strong></p>
+                          <p>I will be using the tennis Elo rating system created by Jeff Sackmann (Sackmann). These ratings are updated on a regular basis and so they accurately reflect the current strength of the players. Using the Elo winning probability formula, we can compare the output we get with the current ranking system to determine which of the two more accurately represents the current abilities of the players.</p>
+                          <p>The understanding of the ATP rankings is that a higher-ranked player in their system beats the lower-ranked player.</p>
+                          <p><strong>Example #1</strong></p>
+                          <p>During the BNP Paribas Open that took place in March 2022, Reilly Opelka defeated Denis Shapovalov in a three-set thriller. Opelka and Shapovalov were ranked 18th and 14th in the world respectively before the match by the ATP; Shapovalov was the favorite to win the match in the ATP’s eyes. However, Elo recognized Opelka’s recent success in the tournaments leading up to this matchup and placed him one spot above his adversary (which means his rank number is lesser in face value and he is the better player). Refer to Table 1 below.</p>
+                          <p><i><span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic11.png" alt="" /></span>Table 1: ATP rankings and Elo ratings for the same tennis players (Sackmann). As observed above, the Elo Rank is based on how high one’s Elo Rating is</i></p>
+                          <p>Using the Elo winning probability formula on Opelka,</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic12.png" alt="" /></span>
+                          <p>Although definitely not a significant winning probability for Opelka, Elo did place him over Shapovalov unlike in the official rankings.</p>
+                          <p><strong>Example #2</strong></p>
+                          <p>Another match in the same tournament that caught fans’ attention was the round-of-32 match between Grigor Dimitrov and John Isner. The seemingly off-form player trounced one of the best servers on the ATP Tour. Isner was ranked 4 spots above Dimitrov by the ATP.</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic13.png" alt="" /></span>
+                          <p>These probabilities may not be impressive, but the fact that Elo placed Dimitrov 7 spots above Isner shows its potency in predicting match outcomes when the outcome is not obvious: for instance when two competitors are not ranked a hundred spots away from each other.</p>
+                          <p><strong>Example #3</strong></p>
+                          <p>A study done by Sackmann on the 2019 Davis Cup finals, cements Elo’s superiority over the ATP system. Fifty singles matches were played at the event, with Elo predicting the winner right in 36 matches for an accuracy of 72%, while the ATP only predicted 30 for an accuracy of 60%. Furthermore, Sackmann claims that Elo is better than the ATP at match predictions over the course of an entire season (Sackmann).</p>
+                          <p><strong>Using Brier Score</strong></p>
+                          <p>Brier scores are used to gauge the accuracy of probabilistic predictions (Zach).</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic14.png" alt="" /></span>
+                          <p>...where 𝑓 is the forecasted probability (by Elo in this case) and 𝑜 is the outcome (0 if the event did not occur and 1 if it did). The output is a value between 0 (best scenario) and 1. The squared difference reveals that it heavily penalizes strong predictions that end up being wrong, and this is why I decided to utilize this metric.</p>
+                          <p>The match that Rafael Nadal won against Denis Shapovalov sealed the Davis Cup title for Spain. Before the match, the ratings for Nadal and Shapovalov were 2203 and 1947 respectively. This equates to a win percentage of 81.4% for Nadal. Inputted in the brier score metric,</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic15.png" alt="" /></span>
+                          <p>This value is quite low and therefore indicative of a good prediction. However, if Shapovalov had won that match,</p>
+                          <span class="image featured"><img src="../images/dj-pics/elo-system-tennis/pic16.png" alt="" /></span>
+                          <p>...quantifying how incorrect this forecast would have been. However, the lower Brier score for Nadal winning and Sackmann’s results are just more metrics to justify the need for a better rating system for world-renowned tennis players than what is currently being used on the ATP Tour: and Elo could be the next better alternative.</p>
+                          <p><strong>Limitations of the Elo Rating System</strong></p>
+                          <p>At first glance, the Elo rating system seems too good to be true. It consistently predicted the right winner in tennis matches and by estimating the current strength of all the tennis players, it could be useful for tennis players who wish to understand and compare their level to others. Many possess this perspective of the Elo rating system because they compare it directly to the ATP ranking system, which just ranks based on a limited number of tournaments played or won during a tennis season, while not even considering the quality of the opponents faced. However, the more one contemplates and reads about Elo, the more flaws one discovers with it—especially with regard to its application in tennis</p>
+                          <p>Keen fans of tennis are aware of the fact that there are best-of-three sets matches and best-of-five sets matches in the sport: the latter happening only at Grand Slams (the biggest events). While the Elo ratings for both types of matches can be computed, combining the two to create one Elo rating is a difficult task to get correct in order to show an accurate representation of every player’s strength. Another issue that may undermine the correctness behind tennis Elo ratings is that matches are played on different surfaces (clay court, hard court, and grass court) throughout the season. Some players dominate opponents during the clay-court swing, yet struggle against the same players a few months later on grass courts. Calculating four different Elo ratings—overall, clay, grass, and hard—for each player may be the right move forward as using a strong clay-court player’s overall rating during the clay season would be unreliable as the same player might be a poor performer on hard courts.</p>
+                          <p>Next, there are assumptions made in the mathematical derivation of the Elo winning probability formula. Firstly, it is assumed that all players in the system have the same deviation from their current strength/level. This is untrue not only in tennis but also in other sports. Secondly, there is the problem of Elo inflation and deflation. Although no new points are added to the system after every match (points are transferred instead), the total number of points in the system increases once a new player enters the circuit. What is more, the mean rating of all players increases if a player with a rating below 1500 (the initial rating assigned to all players) retires (Matt). There tend to be more additions than subtractions so Elo ratings increase over a time period—clearly, not due to increased player strength (Sackmann). Finally, when a player returns to the tennis tour after an injury, his strength cannot be assumed to be the same as it was before. Whether or not the player will return stronger or worse than before or back to normal is unpredictable; hence, the amount by which the player’s Elo rating should change is unclear.</p>
+                          <p><strong>Conclusion</strong></p>
+                          <p>Nonetheless, Elo has repeatedly proven its efficacy in predicting match winners better than the ATP system and that is something that cannot be ignored. The study above demonstrated how Elo is quantitatively better than the ATP Tour’s rankings when measuring the current playing abilities of players.</p>
+                          <p><strong>Citations</strong></p>
+                          <p>ATP Tour. “ATP Rankings.” ATP Tour, 2022, <a href="https://www.atptour.com/en/rankings/rankings-faq" target="_blank">https://www.atptour.com/en/rankings/rankings-faq</a>.</p>
+                          <p>Kenton, Will. “Zero-Sum Game.” Investopedia, Investopedia, 20 Mar. 2022, <a href="https://www.investopedia.com/terms/z/zero-sumgame.asp" target="_blank">https://www.investopedia.com/terms/z/zero-sumgame.asp</a>.</p>
+                          <p>Matt. “Elo Ratings.” Terbium, 26 Nov. 2020, <a href="https://terbium.io/2020/11/elo/#the-how" target="_blank">https://terbium.io/2020/11/elo/#the-how</a>. Morse, Steven. “Elo as a Statistical Learning Model.” Elo as a Statistical Learning Model</p>
+                          <p>ReliaSoft. “Overview of the Gumbel, Logistic, Loglogistic and Gumbel Distributions.” <a href="Weibull.com" target="_blank">Weibull.com</a> -- Free Data Analysis and Modeling Resources for Reliability Engineering, 2005, <a href="https://www.weibull.com/hotwire/issue56/relbasics56.html" target="_blank">https://www.weibull.com/hotwire/issue56/relbasics56.html</a>.</p>
+                          <p>Sackmann, Jeff. “An Introduction to Tennis Elo.” Heavy Topspin, 3 Dec. 2019, <a href="http://www.tennisabstract.com/blog/2019/12/03/an-introduction-to-tennis-elo/" target="_blank">http://www.tennisabstract.com/blog/2019/12/03/an-introduction-to-tennis-elo/</a>.</p>
+                          <p>---. “Tennisabstract.com.” Tennis Abstract: ATP Elo Ratings, 21 Mar. 2022, <a href="http://tennisabstract.com/reports/atp_elo_ratings.html" target="_blank">http://tennisabstract.com/reports/atp_elo_ratings.html</a>.</p>
+                          <p>Zach. “What Is a Brier Score?” Statology, 9 May 2020, <a href="https://www.statology.org/brier-score/" target="_blank">https://www.statology.org/brier-score/</a>.</p>
+                        </article>
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
