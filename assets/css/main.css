@@ -141,6 +141,10 @@ ul {
   list-style: none;
 }
 
+.ul2 {
+  list-style: decimal;
+}
+
 blockquote,
 q {
   quotes: none;
@@ -1741,6 +1745,14 @@ dl.contact dd {
 ul.default {
   list-style: disc;
   padding-left: 1em;
+}
+
+.ul2.default {
+  padding-left: 1em;
+}
+
+.ul2.default li {
+  padding-left: 0.5em;
 }
 
 ul.default li {
