@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "jacob-article-1.html";
-article2 = "a-tale-of-two-rebounds.html";
-article3 = "does-MLB-have-an-umpire-problem.html";
-article4 = "unlucky-penny.html";
-article5 = "cj_article_1.html";
-article6 = "longhorns-vs-cornhuskers.html";
-article7 = "hands_up.html";
-article8 = "mlb-day-night.html";
-article9 = "jokic-mvp.html";
+article1 = "joe-musgrove-article.html";
+article2 = "joe-musgrove-article.html";
+article3 = "joe-musgrove-article.html";
+article4 = "joe-musgrove-article.html";
+article5 = "joe-musgrove-article.html";
+article6 = "2021-qb-class.html";
+article7 = "japan-to-mlb.html";
+article8 = "aaron-judge-article.html";
+article9 = "concussion-article.html";
 
-title1 = "Who is Better Positioned for Success in Their New Role: Scott Harris or J.J. Picollo?";
-title2 = "A Tale of Two Rebounds";
-title3 = "Does MLB Have an Umpire Problem?";
-title4 = "Unlucky Penny";
-title5 = "Does MLB Have an Umpire Problem?";
-title6 = "Best Offensive Team vs. Best Defensive Team in Women's College Volleyball: Who Should Win?";
-title7 = "Hands Up";
-title8 = "Hypothesis Testing MLB Hitters in Day and Night Games";
-title9 = "Nikola Jokic for MVP";
+title1 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title2 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title3 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title4 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title5 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title6 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
+title7 = "From Japan to MLB: The Players Before and After Signing";
+title8 = "All Rise: Judge set to Break Precedent this Offseason";
+title9 = "Don't Let it Go to Your Head ... Literally";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
