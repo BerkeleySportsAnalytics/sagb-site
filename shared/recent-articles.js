@@ -6,20 +6,20 @@ article2 = "joe-musgrove-article.html";
 article3 = "joe-musgrove-article.html";
 article4 = "joe-musgrove-article.html";
 article5 = "joe-musgrove-article.html";
-article6 = "2021-qb-class.html";
-article7 = "japan-to-mlb.html";
-article8 = "aaron-judge-article.html";
-article9 = "concussion-article.html";
+article6 = "joe-musgrove-article.html";
+article7 = "2021-qb-class.html";
+article8 = "japan-to-mlb.html";
+article9 = "aaron-judge-article.html";
 
 title1 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
 title2 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
 title3 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
 title4 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
 title5 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title6 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
-title7 = "From Japan to MLB: The Players Before and After Signing";
-title8 = "All Rise: Judge set to Break Precedent this Offseason";
-title9 = "Don't Let it Go to Your Head ... Literally";
+title6 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title7 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
+title8 = "From Japan to MLB: The Players Before and After Signing";
+title9 = "All Rise: Judge set to Break Precedent this Offseason";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
