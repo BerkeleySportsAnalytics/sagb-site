@@ -1,0 +1,172 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Clustering NBA and WNBA Players | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Clustering NBA and WNBA Players</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Nathan Mehta</a> | March 24, 2023</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/cluster-nba-wnba/main.png" alt="" /></span>
+                          <p>Any attempt by an ESPN or Sportscenter account to post WNBA highlights is routinely met with meme comments concerning the lack of entertainment value. But there’s still a ball, a hoop, and players dedicating their lives to a mastery of skills on a basketball court.</p>
+                          <p>This August was honestly the first time I’d watched the WNBA playoffs. I quickly developed a list of favorite players that had eye popping skill: Chelsea Gray, Kahleah Copper, Jewell Lloyd etc. Not only that, I found myself enjoying games of the Aces vs Storm series more than some of the NBA playoffs. Rather than watching Luka or Harden go matchup hunting for hours, I saw something with a more fluid feel to it – a lot more ball movement.</p>
+                          <p>The two leagues obviously lend themselves to different game aesthetics, but in which ways exactly do the players of the WNBA and NBA approach the game differently? A quantification of the differences in WNBA and NBA playing styles allows for identification of which attributes contribute to success in the NBA vs WNBA. Use of K-means clustering to bundle groups of players across a plethora of statistics provides a method of categorizing players in both leagues.</p>
+                          <p>Beginning with classifying across shooting stats, I clustered NBA players across two advanced metrics: Effective Field Goal % and True Shooting%. EFG% is an overall shooting efficiency statistic that gives three-pointers more value than two-pointers, and TS% is a scoring efficiency statistic that takes into account free-throw and field goal attempts. K-means clustering identifies pockets of players in these 2 dimensions that are distinct. However, how many pockets aka clusters should we seek to identify? If we ask for 20 clusters, it’s too fine grained; each group wouldn’t tell us much about how it differs from the next. If we have only 1 cluster, we have obtained no information on the types of shooters that exist in each league. Here’s where we make an inertia plot (plots the variance within clusters as we keep adding more of them) to deduce the optimum number of clusters:</p>
+                          <span class="image featured"><img src="../images/dj-pics/cluster-nba-wnba/2.png" alt="" /></span>
+                          <p>Here, the inertia plot indicates that we select 3 clusters. After 3, the rate of reduction in intra-cluster variance decreases considerably.</p>
+                          <span class="image featured"><img src="../images/dj-pics/cluster-nba-wnba/3.png" alt="" /></span>
+                          <p><i>X’s represent cluster centers</i></p>
+                          <p>What strikes you when examining the clusters of the shooting data for the NBA? For me, it’s that centers dominate shooting statistics, even stats like EFG and TS which take into account the value of three-pointers and free-throws. Luke Kornet, Brandon Clarke, and Jericho Sims, located in cluster 2, are not known as shooters, of course. Most of the shots they take are layups or dunks, skewing their efficiency statistics. Meanwhile, star guards like Paul George and Fred VanVleet fall into the middle (1) and lower (0) clusters, demonstrating that the players with more value to their team are poorly represented by these advanced shooting stats.</p>
+                          <p>Now let us identify clusters of shooters for the WNBA.</p>
+                          <span class="image featured"><img src="../images/dj-pics/cluster-nba-wnba/4.png" alt="" /></span>
+                          <p>The upper cluster of WNBA players features big names of the game. Kelsey Plum was second in scoring average, and first in 3PM in 2022 with 20.2 PPG. She was an All-Star and key contributor to a championship team. Johannes was top 10 in 3P% and 3PM, while Jonquel Jones was WNBA MVP in 2021. The lower clusters of the WNBA shooting matrix are populated with less valuable contributors.</p>
+                          <p>Kelsey Plum and Marine Johannes fall into a vastly different player profile than Luke Kornet or Jericho Sims: they are more valuable and better 3-point shooters. The WNBA shooting efficiency clusters seem to correlate much stronger than those of the NBA to value on the court, and why is that? I believe the answer lies in the same reasoning that pulled me towards watching the women’s style of basketball predicated on ball movement and quality shot selection.</p>
+                          <p>To expand on this, I needed to dig into the causes of the discrepancy in player profile between high-clustered NBA and high-clustered WNBA players. I investigated the usage rates (approximately how much of the offensive output a player is responsible for on their team), across clusters. In the NBA shooting matrix, the upper cluster of players averaged a usage rate of ~14% while the upper cluster of the WNBA averaged 6 percentage points higher at 20%. The lower cluster of the NBA sits at ~17% while the lower WNBA is 16%. So, as you move from cluster 0 to cluster 2 in the WNBA, usage increases by an average of 4 percentage points, while the opposite happens in the NBA!!</p>
+                          <span class="image featured"><img src="../images/dj-pics/cluster-nba-wnba/5.png" alt="" /></span>
+                          <p>Confirming intuition, the conventional playing style of the WNBA involves the most important, high usage players taking more quality shots.</p>
+                          <p>The appeal of the NBA is also its downfall, in the sense that much of team strategy is giving the ball to the best player, and letting them ‘cook’. This makes for a more marketable product, as fans get attached to ‘The Greek Freak’ and ‘Luka Magic’, but results in interesting findings when you try to identify the exceptional players through statistical methods as above.</p>
+                          <p>Another possible factor contributing to this discrepancy across the two leagues is the height of the basket. Of course, the average WNBA player’s height is considerably lesser than the average NBA player’s height. The average WNBA height hovers around 6 feet while the average height for an NBA player in 2022 was 6 foot 6. However, the height of the basket is constant across leagues: both play on a 10 foot tall hoop. Given this fact, it also makes sense that height has less of an impact on shooting efficiency in the WNBA than it does in the NBA, where the tallest players approach eye level with the basket. Perhaps, even with all the talk of lowering the WNBA rim to allow for more dunking, the WNBA game format isn’t the problem. Maybe the NBA rim should be heightened, to allow for the best shooters to be better represented by EFG and TS.</p>
+                          <span class="image featured"><img src="../images/dj-pics/cluster-nba-wnba/6.png" alt="" /></span>
+                          <p>The blue curve above, demonstrating the distribution of NBA usage rate, shows a glaring tail on the high end of usage, where there is no orange in sight. This portrays the outliers in usage in the NBA that are not present in the WNBA. The preeminently talented players in the NBA hijack the usage on their teams in a way not seen in the WNBA, resulting in the difference in the pockets of shooters we identified for each league. The WNBA (orange) curve shows a much more even division of usage across their players.</p>
+                          <p>Of course, the NBA stars we are talking about are the most talented basketball players in the world. (Luka, Kyrie, Dame, etc.) This analysis is not to tarnish them but to show how the style of play results in different interpretations of shooting stats for the NBA vs WNBA. When usage goes up, of course it’s understandable for efficiency to take a hit. The numbers of these high output players are still amazing given their workload. However, it’s interesting to consider whether the conventional WNBA playing style has advantages.</p>
+                          <p>Let’s zoom in on Usage vs EFG to gain some more insight:</p>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/cluster-nba-wnba/7.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/cluster-nba-wnba/8.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <p>We can see that the plots have almost an inverted shape! The WNBA’s relationship between EFG and USG is almost the opposite of that in the NBA. Overall, as usage goes up, efficiency goes up in the WNBA. Meanwhile, the opposite happens in the NBA. The NBA scatterplot shows a sort of inverse relation between EFG and USG, but the star players at the tail end of USG buck the downward trend. The graph tends to move down as we get into higher usage, but then stabilizes around 55 EFG% for the superstar players. This confirms suspicions that even though the best NBA players aren’t necessarily represented the best by advanced shooting stats, they perform well given their workload.</p>
+                          <p>In conclusion, both of these leagues play basketball, but in very different styles. The NBA revolves around individuals that control every possession for their teams. On the contrary, WNBA stars are much more integrated into an overall offensive scheme.</p>
+                          <p><i>*data from first 40 games of 2022 NBA season and the full 2022 WNBA season</i></p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/money-in-mls.html" class="image featured"><img src="../images/dj-pics/money-in-mls/main.png" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/money-in-mls.html">Does More Money Mean More Success?</a></h3>
+                          <p>Matias Alves-Nory | March 24, 2023</p>
+                        </header>
+                        <p>I love this time of year for one big reason: Major League Soccer starts up again.
+                          As someone who has been a big fan of the league for over a decade, it’s been amazing
+                          to see how much the league has evolved over the years. We have seen the league
+                          grow from 13 teams in 2007 all the way to 29 teams now. The quality of players in the
+                          league has also changed overtime with World Cup winners like Thierry Henry and
+                          Thiago Almada, UEFA Champions League winners like Frank Lampard and Steven
+                          Gerrard, and even a Ballon d’Or winner in Kaka all spending time in the league
+                          (Hopefully Messi will be added to this list very soon).</p>
+                        <footer>
+                          <a href="../articles/money-in-mls.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

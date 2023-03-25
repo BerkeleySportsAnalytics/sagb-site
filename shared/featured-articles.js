@@ -1,25 +1,25 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "2021-qb-class";
-article2 = "japan-to-mlb";
-article3 = "aaron-judge-article";
-article4 = "concussion-article"
+article1 = "money-in-mls";
+article2 = "super-seniors-and-transfers";
+article3 = "cluster-nba-wnba";
+article4 = "iga-article"
 
-title1 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
-title2 = "From Japan to MLB: The Players Before and After Signing";
-title3 = "All Rise: Judge set to Break Precedent this Offseason";
-title4 = "Don't Let it Go to Your Head ... Literally"
+title1 = "Does More Money Mean More Success?";
+title2 = "Reign of Super Seniors and Transfers in NCAA D1 Volleyball";
+title3 = "Clustering NBA and WNBA Players";
+title4 = "IGA SWIATEK: A NEW ERA OF TENNIS"
 
-date1 = "December 7, 2022";
-date2 = "November 29, 2022";
-date3 = "December 28, 2022";
-date4 = "November 22, 2022"
+date1 = "March 24, 2023";
+date2 = "March 24, 2023";
+date3 = "March 24, 2023";
+date4 = "March 24, 2023"
 
-excerpt1 = "The 2021 Quarterback class was one of the most hyped up Quarterback draft classes in recent memory. The buzz leading up to draft night last year was incredible as there were...";
-excerpt2 = "Shohei Ohtani became the “Face of Baseball” in his 2021 MVP season, where he posted elite numbers on the mound and at the plate. However, Ohtani’s success drew attention to his former league, Nippon Professional Baseball..."
-excerpt3 = "Aaron Judge put up a historic rookie season in 2017 and - after a narrow race with Jose Altuve - almost won the two most prestigious individual awards for a player, MVP and Rookie of the Year, in his first full year in the league...";
-excerpt4 = "Concussions are the most common sports injury. According to University of Michigan Health, about 3.8 million concussions occur each year in the U.S. from sports-related and recreational injuries...."
+excerpt1 = "I love this time of year for one big reason: Major League Soccer starts up again. As someone who has been a big fan of the league for over a decade, it’s been amazing to see how much the league has evolved over the years...";
+excerpt2 = "Established on October 15, 2018, the NCAA Transfer Portal is proving to be transformational in collegiate athletics on all levels. This virtual portal provides an organized system for managing athletes’ transfer processes as well as enable student-athletes to make known their desire to be a competitor for other programs..."
+excerpt3 = "Any attempt by an ESPN or Sportscenter account to post WNBA highlights is routinely met with meme comments concerning the lack of entertainment value. But there’s still a ball, a hoop, and players dedicating their lives to a mastery of skills on a basketball court...";
+excerpt4 = "Ever since the decline of the Williams sisters, women’s tennis has become an ever-changing field, with no single player being able to dominate the inconsistent tour for long periods of time..."
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";
 file2 = folder == "down" ? "articles/"+article2+".html" : article2+".html";
@@ -32,10 +32,10 @@ im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/Picture1.png` : `../i
 im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/Picture1.png` : `../images/dj-pics/`+article2+`/Image1.PNG`;
 im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/Picture1.png` : `../images/dj-pics/`+article3+`/Image1.PNG`;
 */
-im_file1 = `../images/dj-pics/`+article1+`/main.jpeg`;
-im_file2 = `../images/dj-pics/`+article2+`/main.jpg`;
-im_file3 = `../images/dj-pics/`+article3+`/main.jpg`;
-im_file4 = `../images/dj-pics/`+article4+`/main.jpeg`;
+im_file1 = `../images/dj-pics/`+article1+`/main.png`;
+im_file2 = `../images/dj-pics/`+article2+`/main.png`;
+im_file3 = `../images/dj-pics/`+article3+`/main.png`;
+im_file4 = `../images/dj-pics/`+article4+`/main.jpg`;
 
 
 

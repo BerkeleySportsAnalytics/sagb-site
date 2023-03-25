@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "joe-musgrove-article.html";
-article2 = "joe-musgrove-article.html";
-article3 = "joe-musgrove-article.html";
-article4 = "joe-musgrove-article.html";
-article5 = "joe-musgrove-article.html";
-article6 = "joe-musgrove-article.html";
-article7 = "2021-qb-class.html";
-article8 = "japan-to-mlb.html";
-article9 = "aaron-judge-article.html";
+article1 = "money-in-mls.html";
+article2 = "super-seniors-and-transfers.html";
+article3 = "cluster-nba-wnba.html";
+article4 = "iga-article.html";
+article5 = "2021-qb-class.html";
+article6 = "aaron-judge-article.html";
+article7 = "concussion-article.html";
+article8 = "a-tale-of-two-rebounds.html";
+article9 = "joe-musgrove-article.html";
 
-title1 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title2 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title3 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title4 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title5 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title6 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
-title7 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
-title8 = "From Japan to MLB: The Players Before and After Signing";
-title9 = "All Rise: Judge set to Break Precedent this Offseason";
+title1 = "Does More Money Mean More Success?";
+title2 = "Reign of Super Seniors and Transfers in NCAA D1 Volleyball";
+title3 = "Clustering NBA and WNBA Players";
+title4 = "Iga Swiatek: A New Era of Tennis";
+title5 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
+title6 = "All Rise: Judge set to Break Precedent this Offseason";
+title7 = "Don't Let it Go to Your Head ... Literally";
+title8 = "A Tale of Two Rebounds";
+title9 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
