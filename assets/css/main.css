@@ -145,6 +145,11 @@ ul {
   list-style: decimal;
 }
 
+.ul2 ul {
+  list-style: lower-alpha;
+  margin-left: 2em;
+}
+
 blockquote,
 q {
   quotes: none;

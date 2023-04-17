@@ -1,25 +1,25 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "money-in-mls";
-article2 = "super-seniors-and-transfers";
-article3 = "cluster-nba-wnba";
-article4 = "iga-article"
+article1 = "nba-roty";
+article2 = "screamers-to-tap-ins";
+article3 = "ligue-1-article";
+article4 = "two-high"
 
-title1 = "Does More Money Mean More Success?";
-title2 = "Reign of Super Seniors and Transfers in NCAA D1 Volleyball";
-title3 = "Clustering NBA and WNBA Players";
-title4 = "IGA SWIATEK: A NEW ERA OF TENNIS"
+title1 = "How Meaningful is the NBA ROTY Award?";
+title2 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
+title3 = "Is Ligue 1 Still a Top 5 League?";
+title4 = "Two High: Why didn’t it stop Mahomes?"
 
-date1 = "March 24, 2023";
-date2 = "March 24, 2023";
-date3 = "March 24, 2023";
-date4 = "March 24, 2023"
+date1 = "April 16, 2023";
+date2 = "April 16, 2023";
+date3 = "April 16, 2023";
+date4 = "April 16, 2023"
 
-excerpt1 = "I love this time of year for one big reason: Major League Soccer starts up again. As someone who has been a big fan of the league for over a decade, it’s been amazing to see how much the league has evolved over the years...";
-excerpt2 = "Established on October 15, 2018, the NCAA Transfer Portal is proving to be transformational in collegiate athletics on all levels. This virtual portal provides an organized system for managing athletes’ transfer processes as well as enable student-athletes to make known their desire to be a competitor for other programs..."
-excerpt3 = "Any attempt by an ESPN or Sportscenter account to post WNBA highlights is routinely met with meme comments concerning the lack of entertainment value. But there’s still a ball, a hoop, and players dedicating their lives to a mastery of skills on a basketball court...";
-excerpt4 = "Ever since the decline of the Williams sisters, women’s tennis has become an ever-changing field, with no single player being able to dominate the inconsistent tour for long periods of time..."
+excerpt1 = "Since the 1960s, awards have helped shape NBA history and the way fans perceive players of different generations. In most cases, an accolade in this league is a stamp that etches a player in the history books as one of the greatest to ever do it...";
+excerpt2 = "Every football (soccer) fan has, at some point, dreamed of scoring a Gerrard-esque worldie as a child. A strike from distance that would make time stop, with such fierce power, bending into the top corner to the elation of the crowd..."
+excerpt3 = "“It’s a farmers league, though.” Let’s face it. We’ve all heard the term “farmers league” thrown around to describe leagues such as Ligue 1 due to the perception that the league generally lacks the competitiveness and financial power of other top European leagues...";
+excerpt4 = "In the last three years we have seen the rise of the two high safety coverages popularized by former Denver Broncos Head Coach, Vic Fangio, which took the league by storm and earned many of his assistant coaches promotions and even a head coaching job..."
 
 file1 = folder == "down" ? "articles/"+article1+".html" : article1+".html";
 file2 = folder == "down" ? "articles/"+article2+".html" : article2+".html";
@@ -32,9 +32,9 @@ im_file1 = folder == "down" ? `images/dj-pics/`+article1+`/Picture1.png` : `../i
 im_file2 = folder == "down" ? `images/dj-pics/`+article2+`/Picture1.png` : `../images/dj-pics/`+article2+`/Image1.PNG`;
 im_file3 = folder == "down" ? `images/dj-pics/`+article3+`/Picture1.png` : `../images/dj-pics/`+article3+`/Image1.PNG`;
 */
-im_file1 = `../images/dj-pics/`+article1+`/main.png`;
-im_file2 = `../images/dj-pics/`+article2+`/main.png`;
-im_file3 = `../images/dj-pics/`+article3+`/main.png`;
+im_file1 = `../images/dj-pics/`+article1+`/main.jpg`;
+im_file2 = `../images/dj-pics/`+article2+`/main.jpeg`;
+im_file3 = `../images/dj-pics/`+article3+`/main.jpg`;
 im_file4 = `../images/dj-pics/`+article4+`/main.jpg`;
 
 

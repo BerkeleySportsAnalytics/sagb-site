@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "money-in-mls.html";
-article2 = "super-seniors-and-transfers.html";
-article3 = "cluster-nba-wnba.html";
-article4 = "iga-article.html";
-article5 = "2021-qb-class.html";
-article6 = "aaron-judge-article.html";
-article7 = "concussion-article.html";
-article8 = "a-tale-of-two-rebounds.html";
-article9 = "joe-musgrove-article.html";
+article1 = "nba-roty.html";
+article2 = "screamers-to-tap-ins.html";
+article3 = "ligue-1-article.html";
+article4 = "two-high.html";
+article5 = "homes-away-from-home.html";
+article6 = "mlb-expansion-draft.html";
+article7 = "money-and-wins.html";
+article8 = "money-in-mls.html";
+article9 = "super-seniors-and-transfers.html";
 
-title1 = "Does More Money Mean More Success?";
-title2 = "Reign of Super Seniors and Transfers in NCAA D1 Volleyball";
-title3 = "Clustering NBA and WNBA Players";
-title4 = "Iga Swiatek: A New Era of Tennis";
-title5 = "Analyzing the 2021 QB class so far: Which QB has looked the best this year and overall?";
-title6 = "All Rise: Judge set to Break Precedent this Offseason";
-title7 = "Don't Let it Go to Your Head ... Literally";
-title8 = "A Tale of Two Rebounds";
-title9 = "Higher Stakes, Higher Spin: With the season winding down, were pitchers inclined to win at any cost?";
+title1 = "How Meaningful is the NBA ROTY Award?";
+title2 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
+title3 = "Is Ligue 1 Still a Top 5 League?";
+title4 = "Two High: Why didn’t it stop Mahomes?";
+title5 = "Homes Away From Home";
+title6 = "MLB 2023 Expansion Draft: Protected Players’ Lists";
+title7 = "Does Money Equal Wins in the NFL?";
+title8 = "Does More Money Mean More Success?";
+title9 = "Reign of Super Seniors and Transfers in NCAA D1 Volleyball";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
