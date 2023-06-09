@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "nba-roty.html";
-article2 = "screamers-to-tap-ins.html";
-article3 = "ligue-1-article.html";
-article4 = "two-high.html";
-article5 = "homes-away-from-home.html";
-article6 = "mlb-expansion-draft.html";
-article7 = "money-and-wins.html";
-article8 = "money-in-mls.html";
-article9 = "super-seniors-and-transfers.html";
+article1 = "faa-article.html";
+article2 = "pl-article.html";
+article3 = "pickleball-article.html";
+article4 = "nba-roty.html";
+article5 = "screamers-to-tap-ins.html";
+article6 = "ligue-1-article.html";
+article7 = "two-high.html";
+article8 = "homes-away-from-home.html";
+article9 = "mlb-expansion-draft.html";
 
-title1 = "How Meaningful is the NBA ROTY Award?";
-title2 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
-title3 = "Is Ligue 1 Still a Top 5 League?";
-title4 = "Two High: Why didn’t it stop Mahomes?";
-title5 = "Homes Away From Home";
-title6 = "MLB 2023 Expansion Draft: Protected Players’ Lists";
-title7 = "Does Money Equal Wins in the NFL?";
-title8 = "Does More Money Mean More Success?";
-title9 = "Reign of Super Seniors and Transfers in NCAA D1 Volleyball";
+title1 = "When You Forget How to Lose";
+title2 = "Premier League Transfer Stars and Flops";
+title3 = "Invasion of the Pickleheads";
+title4 = "How Meaningful is the NBA ROTY Award?";
+title5 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
+title6 = "Is Ligue 1 Still a Top 5 League?";
+title7 = "Two High: Why didn’t it stop Mahomes?";
+title8 = "Homes Away From Home";
+title9 = "MLB 2023 Expansion Draft: Protected Players’ Lists";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;

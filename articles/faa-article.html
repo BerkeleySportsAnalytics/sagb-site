@@ -1,0 +1,206 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>When You Forget How to Lose | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>When You Forget How to Lose</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Shreyes Sridhara</a> | June 8, 2023</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/faa-article/felis-shush1-1536x864.jpg" alt="" /></span>
+                          <p>A lot of young phenoms—the likes of Carlos Alcaraz, Holger Rune, Lorenzo Musetti, and Ben Shelton—made a name for themselves on the ATP Tour last year. For the most part, Carlos “Carlitos” Alcaraz stole the show in that regard. And Carlitos' achievements may have overshadowed another player’s sudden dominance in the latter half of the 2022 tennis season.</p>
+                          <p>Felix Auger Aliassime (FAA) is an established player on the ATP Tour. The once-upon-a-time “next-gen” tennis player is now a familiar face at most tournaments. However, it took him almost four years to win his first ATP title. Besides reaching the semifinals of the 2021 US Open, Felix was a runner-up at eight consecutive finals (three finals in 2019 and 2020, and two finals in 2021). It honestly just seemed like terrible luck. And Felix became known for his finals losing streak. However, in 2022, Felix won four titles, three of which he won consecutively over a span of three weeks.</p>
+                          <p><i>What made the difference in these finals? And what explains the incredible run that he had in Florence, Antwerp, and Basel?</i></p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/felix forehand.png" alt="" /></span>
+                          <p><b>Choosing Match Determinants</b></p>
+                          <p>In order to analyze Felix’s improvement at playing finals, it is first important to pick key factors that influence the outcome of a tennis match. The factors that will be used in this study are:</p>
+                          <ul class="ul2">
+                            <li>Number of aces on serve</li>
+                            <li>Number of double faults served</li>
+                            <li>Number of second serves won</li>
+                            <li>Number of breakpoints faced on serve</li>
+                          </ul>
+                          <p>Revered tennis analyst Jeff Sackman has addressed the importance of these factors in his articles. Besides his expert opinion, here is my rationale for choosing these factors.</p>
+                          <p><b>Aces: </b>Unreturnable serves are considered a significant weapon for players as they can help them win free points easily and put pressure on their opponents. <i>More is better.</i></p>
+                          <p><b>Double faults: </b>Giving away free points without much physical and mental exertion from the opponent may also lead to a shift in momentum in the match. <i>Less is better.</i></p>
+                          <p><b>2nd serves won: </b>This is an indicator of service reliability and helps to build confidence and momentum. It results in increased pressure on the opponent as it makes it more challenging for the opponent to break serve and win games. At first glance, winning more second serves seems more intuitive. However, the more aces a player makes (which we are hoping to see in the data), the fewer 2nd serves they are likely to serve in a match. So the number of second serves won may also be lower. <i>Less is better.</i></p>
+                          <p>Ideally, it would have been better to study the percentage of second serves won. But the total number of 2nd serves served was not available in the dataset utilized for this study.</p>
+                          <p><b>Breakpoints faced (on serve): </b>Breakpoints cause momentum swings and they present an opportunity for the opponent to take control of the match. <i>Less is better.</i></p>
+                          <p><b>Breakpoints converted (while returning): </b>The opposite of the previous determinant.<i>More is better.</i></p>
+                          <p>The percentages of some of these factors will be studied too.</p>
+                          <p>Overall, it is worth noting that all the factors that were chosen deal with the serve and return aspect of a tennis match. This is because a serve (and often the return that follows) begins a point and can influence how the point is played out. Tennis players aim to better their serve and return game as it deals with fine margins. Even the slightest variation in precision, placement, speed, spin, and timing can be the difference between 0-40 and 15-30.</p>
+                          <p><b>Methods</b></p>
+                          <p>Instead of just comparing the finals Felix lost with the ones he won, this study will also compare his pre-2022 seasons to his 2022 season and examine his almost-perfect 3 weeks at Florence, Antwerp, and Basel. These will be done in order to have a more holistic view of his improvement as a tennis player. Jeff Sacksman’s “tennis_atp” GitHub repository” will be used for this study.</p>
+                          <p><b>Pre-2022 vs 2022</b></p>
+                          <p>The goal of this comparison method is to observe whether Felix became a better tennis player over the years on the tour—i.e. saw an improvement in the aforementioned determinants. The results of this comparison will be a good indicator of what we might see when the finals lost and won are analyzed next.</p>
+                          <p>When looking at the numbers, FAA’s 2022 season was stellar compared to his first year on the tour.</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/pre-2022 vs 2022.png" alt="" /></span>
+                          <p><i>#aces → Average number of aces per match</i></p> 
+                          <p><i>df → Average number of double faults per match</i></p> 
+                          <p><i>#2nd Won → Average number of second serves won per match</i></p>
+                          <p><i>#bp F → Average number of break points faced on serve per match</i></p>
+                          <p><i>#bp C → Average number of break points converted while returning per match</i></p>
+                          <p>Felix isn’t considered one of the bigger servers on tour, but to see a 75.3% increase in the number of aces he served per match goes to show his improvement at service games. As a consequence, as predicted, the number of 2nd serves won is about 1 lesser in his 2022 season compared to his first. FAA served approximately one less double fault per match during his 2022 season compared to his first year. The data also revealed that the percentage of breakpoints Felix saved per match increased from 59.8% to 63.7%. Finally, the number of breakpoints Felix converted per match increased by 8.7%. While these increments or shifts in the determinants may seem like minor improvements, tennis is a game of small margins—the scoring system in tennis is such that every point matters, which means that momentum can swing on a dime—and so these increases in numbers are significant. Not only do these statistics show serve reliability (increased number of aces, fewer double faults, and more breakpoints saved), but they also indicate an improvement in his return game and attacking his opponent's serve (increased breakpoint conversion).</p>
+                          <p>However, simply looking at the number of aces, double faults, second serve won, and breakpoints saved and converted may be misleading. These stats are not that telling without looking at them as a percentage. For instance, if Felix served 8 aces in a match in 2018 and 10 aces in another match in 2022, this may seem to support the trend in the first grouped-bar chart above. However, if Felix had a total of 24 service points in the 2018 match and 30 in the 2020 match statistically, his ace percentage would be the same (33.33%). Similarly, if Felix played longer matches or more five-set matches in 2022, he is likely to have had more service points, and hence, more aces. Hence, taking the percentages into account would be ideal in order to more accurately determine his improvement over the years.</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/_ pre-2022 vs 2022.png" alt="" /></span>
+                          <p>Examining the percentage grouped-bar chart above, we notice that it confirms most of the trends seen in the first chart before, and establishes the fact that FAA indeed became better and much more effective at his service games.</p>
+                          <p>It was surprising to see that the percentage of breakpoints converted per match had fallen by more than 3%—especially since the first chart may have led one to believe that Felix, on average, converted more breakpoints. Nevertheless, the percentage of breakpoints converted is essentially a player’s effectiveness at being able to capitalize on a set of breakpoint opportunities. Given that the highest breakpoint conversion rate on the ATP Tour is 45.73%, with Rafael Nadal himself being at 44.95%, FAA’s singular season breakpoint conversion rate is impressive.</p>
+                          <p>Thus, FAA has improved considerably since his first successful season on the ATP Tour, with 2022 being his best year—with respect to these match determinants. Now we can move from whole seasons to specific tournaments and analyze how Felix went from losing 8 consecutive finals from 2018 to 2021 to winning 4 (3 in a row) just in 2022.</p>
+                          <p><b>From Finals Losing Streak to Winning Streak</b></p>
+                          <p>After Felix Auger-Aliassime made his first ATP final at Rio de Janeiro in 2019, tennis fans were optimistic about the 18-year-old Canadian’s future. However, none would have predicted that Felix would lose another 7 finals and have to wait 3 more years before winning his first ATP title.</p>
+                          <p>This raises the question: Did Felix face tougher opponents in the finals he lost? Simply put, were Felix’s opponents ranked or seeded higher than he was? The data revealed that this was not always the case: in half the finals that he lost, Felix was ranked higher than his opponent. Nevertheless, in three out of the four times when FAA was ranked below his opponent, he was facing a top-ten player. Therefore, Felix indeed had harder opponents to beat in some finals. On the contrary, in the four times he won, three of the finals were against solid opponents (J J Wolf, Sebastian Korda, and Holger Rune) but these were players ranked lower than he was at that time.</p>
+                          <p>While there is some truth to the fact that some finals lost were against slightly more difficult opponents, it doesn’t take away anything from the great matches Felix played to win 4 ATP titles. Here’s what his consolidated statistics were for the 4 finals won and the 8 finals lost.</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/radar finals lost vs won.png" alt="" /></span>
+                          <p>Straight off the bat, we see the indicators of what makes a strong server and returner in the finals won. These were best-of-3-set matches, and, on average, Felix served almost twice as many aces in the finals that he won than in those that he lost, had twice as less double faults, faced about 6 fewer breakpoints (and therefore had fewer breakpoints to save), and converted on about an extra chance to break his opponent’s serve.</p>
+                          <p>When looking at the percentages, Felix’s true dominance in the finals of Rotterdam, Florence, Antwerp, and Basel stands out. In the finals he won, FAA served an ace on 17.5% of his service points compared to 7.6% in the finals he lost. His double-fault percentage was 3.3% compared to 6.4%. He saved an insane 72.7% of breakpoints on served compared to 61.9% in the finals lost. And finally, what’s most interesting is that he converted 41 % of breakpoints in the finals that won (which is commendable), but an outstanding 57% in the finals that he lost!</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/felix AO.jpeg" alt="" /></span>
+                          <p>Since breaking an opponent's serve is crucial to closing out sets and matches, the last two bizarre statistics could be one of the many reasons Felix lost those finals. He may have played a great return game in the finals he lost, but by not holding serve consistently, he effectively may have nullified his efforts in the previous return game, not to mention handing the momentum to his opponent. But in the finals he won, his service reliability is apparent, which just could have been the difference and edge he needed to keep his opponents at bay and win the decisive points.</p>
+                          <p><b>Triumphant Trio</b></p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/Abyg3PINefY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <p>Out of the 4 ATP titles Felix has to his name, 3 of them came from a hat trick at the end of 2022. His winning streak helped him garner enough points to qualify for the year-end ATP Finals for the very first time in his career. From the previous section, it is evident that his service and return games (his service game predominantly) had improved significantly in the finals he won to make life harder for his opponents.</p>
+                          <p>But just how much better was his level in these 3 ATP tournaments—Florence, Antwerp, and Basel—compared to his average performance until then? Here’s the answer.</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/triumphant trio.png" alt="" /></span>
+                          <p>The data revealed that his ace percentage during those 3 weeks was not just better than his average match performance until then, it was also better than his ace percentage in his incredible 2022 season. The same goes for his double-fault percentage, and the percentage of breakpoints saved. FAA’s service game was impeccable, unlike anything seen from him before. During the “Triumphant Trio” weeks, Felix had honed his game to the point where his service had become a reliable weapon. Even if his breakpoint conversion rate wasn't his best, he ensured that his opponent had no chance to gain an advantage and ran away with a set.</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/felix serving.png" alt="" /></span>
+                          <p><b>Basel Masterclass</b></p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/basel masterclass.jpeg" alt="" /></span>
+                          <p>Felix’s performance in the Swiss Indoors Basel, which was the final tournament in his streak of three consecutive wins is particularly notable. Not only did Felix dispose of Holger Rune in the finals in straight sets, but he also took out the number one seed in the draw, the favorite to win the tournament, and the phenom of the 2022 tennis season Carlos Alcaraz in the semifinals in straight sets (6-3, 6-2). Alexander Bublik received the same treatment the round before. Felix had to raise his level in order to beat these formidable opponents (players one would hope to not play at an ATP 250), and that’s exactly what the data demonstrates.</p>
+                          <span class="image centered"><img src="../images/dj-pics/faa-article/basel masterclass.png" alt="" /></span>
+                          <p>One statistic stands out the most: Felix did not let Rune convert on any breakpoint opportunity (3 in total). The ability to prevent one's opponent from breaking serve in a two-set match often secures the victory, as it puts pressure on the opponent to maintain the same level of service reliability—Rune was not able to keep up. And that’s what FAA was also able to do against Alcaraz in the semifinals. Felix was also the only person to break Rune’s service that whole tournament, something that speaks to Felix’s return game. Moreover, the graph above shows how Felix’s Basel campaign was better than his overall “Triumphant Trio” performance in a lot of aspects.</p>
+                          <p>Felix continued the momentum he built in the “Triumphant Trio” weeks to a 16-match-winning streak: until he finally lost in the semifinals of the Paris Masters. His win streak grabbed the attention of a lot of tennis fans, and rightfully so. He won 95% of his service games and saved an astonishing 79% of the breakpoints he faced.</p>
+                          <p>Here’s what former world number 4 and tennis coach Brad Gilbert had to say about Felix’s service game:</p>
+                          <p><i>“The big thing I noticed this year early in the year from Felix is he’s dramatically improved the ball toss from a few years ago when it used to go right a lot and really far forward. But now the ball toss is really improved.” His serving numbers have gone up a lot and I think it’s helped the accuracy on his serve a lot, which has led to his one-two [punches], too. That’s [had] a big effect on his serve, the ball toss.”</i> (ATP Tour)</p>
+                          <p><b>Conclusion</b></p>
+                          <p>Felix Auger-Aliassime’s surprising dominance in the latter half of the 2022 season can be attributed to the drastic improvement in his service and return game, specifically, his service game and the study above establishes this fact.</p>
+                          <p>A lot can be credited to increased confidence too. When asked about his win streak, Felix said, <i>“There’s not really a specific moment when it clicked. But I can say after the first title, I felt like, ‘If I keep playing this way, I’ll give myself a chance to win more.’.”</i> (ATP Tour)</p>
+                          <p>Felix is here to stay. From losing 8 consecutive finals to winning 3 tournaments in 3 weeks, FAA achieved a level where it seemed like he had indeed forgotten how to lose. He’s undoubtedly a player to have on your radar from now on in the later stages of a Grand Slam.</p>
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/8I1UlCRoIH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <p>It is worth noting, however, that the story of Felix Auger-Aliassime isn’t new to tennis fans. Novak Djokovic turned pro in 2003, yet it took him till 2008 to win his first Grand Slam, and he only became the Djokovic fans know him as today in 2011. Why does it take some players more time to settle into the tour and reach the top? This could be an interesting extension of the above study.</p>
+                          <p><b>Citations</b></p>
+                          <p>ATP Tour. “The Not-so-Secret Weapon behind Felix Auger-Aliassime’s Hot Streak: ATP Tour: Tennis.” ATP Tour, www.atptour.com/en/news/auger-aliassime-nitto-atp-finals-2022-serve-feature</p>
+                          <p>“Felix Auger-Aliassime: Overview: ATP Tour: Tennis.” ATP Tour, www.atptour.com/en/players/felix-auger-aliassime/ag37/overview</p>
+                          <p>JeffSackmann. “Jeffsackmann/TENNIS_ATP: ATP Tennis Rankings, Results, and Stats.” GitHub, github.com/JeffSackmann/tennis_atp</p>
+                          <p>Kelly, Cathal. “Félix Auger-Aliassime Is the Best Tennis Player in the World for the Month of October.” The Globe and Mail, 30 Oct. 2022, www.theglobeandmail.com/sports/article-felix-auger-aliassime-is-the-best-tennis-player-in-the-world-for-the/</p>
+                          <p>“What You Wanted to Know about Auger-Aliassime.” Tennis Majors, 15 Jan. 2023, www.tennismajors.com/atp/ten-questions-you-might-have-about-felix-auger-aliassime-286253.html</p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/money-and-wins/main.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Does Money Equal Wins in the NFL?</a></h3>
+                          <p>By Aakash Adhia | April 16, 2023</p>
+                        </header>
+                        <p>Another great NFL season has just come to an end, which means that we are entering into a brand new NFL offseason and free agency is just around the corner. The Chiefs winning their 2nd superbowl in 4 years is in the rearview mirror and NFL teams are now gearing up to upgrade their teams to knock the defending champs off their throne next season. Free agency is a crucial part of the NFL offseason as teams have an opportunity to address key positions of need and take chances on players who didn’t work out with their teams due to contract disputes or declining skills. We’ve seen teams like the Bucs (Brady, Gronk, AB) go all in free agency and win Super Bowls and teams like the Eagles (AJ Brown, Reddick, Bradberry) retool their rosters to make massive turnarounds. Even the Chiefs made a lot of moves in free agency to replace departures like Tyreek Hill and Tyrann Mathieu (Juju, MVS, Justin Reid).</p>
+                        <footer>
+                          <a href="../articles/money-and-wins.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
