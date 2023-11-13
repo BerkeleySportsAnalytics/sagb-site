@@ -1,0 +1,237 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Beating the Clock: Age vs Performance in Professional Tennis | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Beating the Clock: Age vs Performance in Professional Tennis</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Natalie Brewer</a> | November 12, 2023</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/beating-the-clock/Figure1-thumbnail.png" alt="" /><figcaption>Figure 1: 2023 US Open Women’s Champion, Coco Gauff, age 19. 2023 US Open Men’s Champion, Novak Djokovic,  age 36.</figcaption></span>
+                          
+                          <p>This year, the US Open winners had the unique distinction of being both the youngest since 1999 and the oldest on record - with a stunning 16 year age gap, their victories raised questions over what truly is the peak age of performance in tennis.</p>
+
+                          <p>As the echoes of the last US Open rallies fade this September and the dust settles on the 2023 Grand Slam season, tennis fans everywhere take a moment to reflect on a year of electrifying Grand Slam matches.</p>
+
+                          <p>It was a particularly riveting US Open, full of both nail-bitingly suspenseful and heartwarming storylines. Enter 20-year-old Ben Shelton, the unseeded rookie who came into the spotlight and ran through titans from Thiem to Tiafoe… cheekily “phoning in” his victories all the way to the semi finals.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure2-ben.png"/><figcaption>Figure 2: 20-year-old Ben Shelton’s iconic phone celebration at the 2023 US Open. </figcaption></span>
+
+                          <p>We also watched proudly as 19-year-old Coco Gauff not only showcased her indomitable spirit, standing up for herself in the face of unfair treatment, but also clinched that shiny silver trophy. It was an especially charming moment, as Gauff became the youngest American to do so since Serena Williams in 1999.</p>
+
+                          <p>In contrast to this pair of fresh-faced kids stood the seasoned veteran of the sport himself, Novak Djokovic, who, at age 36, rewrote a record of his own: oldest player ever to win the tournament. Further, his triumph over Daniil Medvedev raised whispers, once again, about whether the 27-year-old can ever truly step into the colossal shoes of his predecessors before age catches up with him.</p>
+
+                          <p>So what really is the relationship between age and performance in professional tennis? Inspired by these dichotomous, age-centric stories out of Queens, NY, I performed a data-driven analysis that attempts to answer some of the classic questions surrounding peak age in tennis.</p>
+                          
+                          <p><i>What is the magic age? Will it always be magic?</i></p>
+
+                          <p><b>What exactly is peak age?</b></p>
+
+                          <p>As a child who grew up watching tennis during Roger Federer’s glory days, I was astonished that someone "so old" could continue to compete at the top level. Looking back I realize that “so old” was 30. </p>
+
+                          <p>Everyone seems to have an opinion on when the human body is optimally equipped for the specific physical demands of tennis. The prevailing notion is that players have a sharp upswing in performance in their early 20s, and are already on their way to retirement–albeit more gradually– by age 30. Needless to say, the “mid-twenties peak” is so embedded in the discourse that my eight-year-old self could pick up on such perceptions about Federer.</p>
+
+                          <p>	Peak age is a complex issue, which makes it essential to turn to the data for answers. After all, the age at which athletes reach their prime results from an interplay of factors including muscle mass and composition, cardiovascular health, lung capacity, flexibility, bone density, and more. So rather than attempting to isolate and decipher any one of these tricky physiological determinants, we take a performance-driven approach. </p>
+
+                          <p>	Leveraging data sets from the Jack Sackman Tennis Database and Ultimate Tennis Statistics, we can discern the patterns surrounding the ages at which players hit their prime on paper. Unfortunately, due to the relative unavailability of clean data for the Women’s Tennis Association (WTA) historical rankings, the scope of the analysis presented in this article is limited to men’s tennis.</p>
+
+                          <p><b>Magic Number 25</b></p>
+
+                          <p>According to two separate metrics, it appears that most players reach their prime in the mid-twenties–specifically ages 24 and 25, solidly establishing Djokovic’s feat at the US Open this year as a radical outlier.</p>
+
+                          <p>We first examine the ages at which male players achieve their highest ranking on the traditional ATP scale. These rankings are determined by the number of points a player collects throughout the ATP tour. When a player participates in an event, they earn a number of points, contingent on the round they reach and the tournament's prestige. In other words, winning a final match at a Grand Slam fetches many more points than winning, say, a round of 16 match in an ATP Tour 500 event.</p>
+
+                          <p>	The following chart showcases the most common ages for players to reach their personal career-high ATP ranking since 1970.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure3-atp.png"/><figcaption>Figure 3: Most common ages to reach traditional ATP ranking.</figcaption></span>
+
+                          <p>	Examination of this histogram reveals that 24 and 25 stand out as the most common ages for players to attain their maximum ranking in the ATP system. </p>
+
+                          <p>We can also take a look at the same metric, but using the zero-sum Elo rating system, originally created for chess by a physics professor, which takes into account the rating of the opponent, thus placing higher value on victories against top-rated players compared to wins against those with lower ratings. Using Elo rating data, we see that the most common age to achieve peak performance is 25. </p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure4-Elo.png"/><figcaption>Figure 4: Most common ages to reach traditional ATP ranking</figcaption></span>
+
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/beating-the-clock/Figure5-wimbledon.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/beating-the-clock/Figure6-french.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/beating-the-clock/Figure7-usopen.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/beating-the-clock/Figure8-aus.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <p>Figures 5-8: Number of winners at each age for four Grand Slam events</p>
+
+                          <p>It's worth repeating that while these plots provide interesting insights, they can be somewhat speculative and standalone in nature. For a more comprehensive and definitive perspective, one should refer to the peak ranking analysis above or the compilation of this data below, which has a larger combined sample size. </p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure9-GS.png"/><figcaption>Figure 9: Density of ages of Grand Slam champions</figcaption></span>
+
+                          <p>This Grand Slam winners’ age analysis hammers home the previous findings, while reminding viewers of the abnormality and remarkability of the 2023 US Open Champions, aged 19 and 36.</p>
+
+                          <p><b>Is 30 the new 25?</b></p>
+
+                          <p>When mingling with tennis enthusiasts or browsing the online message forums, it's not uncommon to hear statements that sound something like “players tend to hit their prime much later these days” or “30 is the new 25”. But do these statements find support in the data?</p>
+
+                          <p>Reworking the peak Elo rating dataset to fit a more temporal basis, we can see that the answer is yes…for the most part.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure9-GS.png"/><figcaption>Figure 10: Most common ages to reach peak Elo rating, by decade.</figcaption></span>
+
+                          <p>It's clear that it was more common for players in the eighties to reach their prime before the age of 25 than it is for players today. In fact, the most common age for players to hit their Elo prime was about 23 years old. This is a whole three years younger than the prevailing peak age for players since 2010.  </p>
+
+                          <p>So, the age for players to reach their personal peak ranking has increased across the sport. Can we draw similar conclusions from the Grand Slam winner data?</p>
+
+                          <p>In the following chart, the average age of the winners from the four Grand Slams are plotted for each year. For example, the 2017 data point captures the mean age of winners from the US Open, Wimbledon, Roland Garros, and the Australian Open. That year, it happened that Rafael Nadal and Roger Federer each won two titles. They were 31 and 36 respectively, which is why the chart spikes in 2017.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure11-GSovertime.png"/><figcaption>Figure 11: Average age of Grand Slam winners by year                          </figcaption></span>
+
+                          <p>At first glance, there doesn’t initially appear to be a crystal-clear linear trend, but rather constant fluctuation. However, the absolute minimum on the graph does occur in 1953 and the absolute maximum in 2017. Furthermore, the linear regression hints at a very gradual upward trend. </p>
+
+                          <p><b>Are the GOATs skewing the data?</b></p>
+
+                          <p>Continuing our analysis of the above chart, things get particularly interesting at the turn of the century. This era was so heavily dominated by the Big Three–Federer, Nadal, and Djokovic– that the chart actually seems to follow their personal aging journeys. Between the summer of 2005 and the summer of 2012, there were thirty Grand Slam tournaments. Of those thirty, exactly one title was claimed by someone outside of the Big Three!</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/beating-the-clock/Figure12-bigthree.jpeg"/><figcaption>Figure 12: The Big Three. From left to right: Roger Federer, Rafael Nadal, Novak Djokovic.</figcaption></span>
+
+                          <p>So while it may seem like the ideal age for winning tournaments increased at a one-for-one rate during the 2000s and 2010s, this increase is owed more so to select stars adding another year to their ages.</p>
+
+                          <p><b>Technology may be driving the increase in peak performance age</b></p>
+
+                          <p>Both methods of analysis employed here suggest an increase in peak age for players in the past 40 years. Why might this be? Ultimately, we can only speculate, but it's no secret that the environment of the sport itself has had lots of time to change in the past forty years.</p>
+
+                          <p>As research grows and technology improves, fitness, training and recovery techniques have improved as well. Advancements in sports science have affected almost every part of a tennis player’s regimen, from the shoes they lace up in the morning to what they eat for breakfast. That is, everything from equipment to nutrition has improved over time. </p> 
+
+                          <p>Further, as prize pools grow and TV viewership is made increasingly accessible, players are forced to grapple with higher levels of pressure than ever before. Perhaps this high-stress atmosphere requires a mental stamina and maturity that takes time to develop.  </p>
+
+                          <p>Thus, the modern tennis player benefits from a combination of advanced training, better medical care, improved equipment, and a deeper understanding of the game's depth and psychology.</p>
+
+                          <p>Ultimately, while data suggests a "magic age" in the mid-twenties, outliers like Djokovic remind us that individual spirit and the evolving nature of tennis can redefine these boundaries. Meanwhile, outliers like Gauff and Shelton remind us that the sport's magic lies not just in its predictability, but in its capacity for surprise.</p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/money-and-wins/main.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Does Money Equal Wins in the NFL?</a></h3>
+                          <p>By Aakash Adhia | April 16, 2023</p>
+                        </header>
+                        <p>Another great NFL season has just come to an end, which means that we are entering into a brand new NFL offseason and free agency is just around the corner. The Chiefs winning their 2nd superbowl in 4 years is in the rearview mirror and NFL teams are now gearing up to upgrade their teams to knock the defending champs off their throne next season. Free agency is a crucial part of the NFL offseason as teams have an opportunity to address key positions of need and take chances on players who didn’t work out with their teams due to contract disputes or declining skills. We’ve seen teams like the Bucs (Brady, Gronk, AB) go all in free agency and win Super Bowls and teams like the Eagles (AJ Brown, Reddick, Bradberry) retool their rosters to make massive turnarounds. Even the Chiefs made a lot of moves in free agency to replace departures like Tyreek Hill and Tyrann Mathieu (Juju, MVS, Justin Reid).</p>
+                        <footer>
+                          <a href="../articles/money-and-wins.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

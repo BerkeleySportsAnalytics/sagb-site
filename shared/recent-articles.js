@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "premier-league-transfers.html";
-article2 = "penn-iowa-wrestling.html";
-article3 = "faa-article.html";
-article4 = "pl-article.html";
-article5 = "pickleball-article.html";
-article6 = "nba-roty.html";
-article7 = "screamers-to-tap-ins.html";
-article8 = "ligue-1-article.html";
-article9 = "two-high.html";
+article1 = "beating-the-clock.html";
+article2 = "premier-league-transfers.html";
+article3 = "penn-iowa-wrestling.html";
+article4 = "faa-article.html";
+article5 = "pl-article.html";
+article6 = "pickleball-article.html";
+article7 = "nba-roty.html";
+article8 = "screamers-to-tap-ins.html";
+article9 = "ligue-1-article.html";
 
-title1 = "Premier League Summer Transfer Review";
-title2 = "Penn State and Iowa: A Look at the Kings of Collegiate Wrestling";
-title3 = "When You Forget How to Lose";
-title4 = "Premier League Transfer Stars and Flops";
-title5 = "Invasion of the Pickleheads";
-title6 = "How Meaningful is the NBA ROTY Award?";
-title7 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
-title8 = "Is Ligue 1 Still a Top 5 League?";
-title9 = "Two High: Why didn’t it stop Mahomes?";
+title1 = "Beating the Clock: Age vs Performance in Professional Tennis";
+title2 = "Premier League Summer Transfer Review";
+title3 = "Penn State and Iowa: A Look at the Kings of Collegiate Wrestling";
+title4 = "When You Forget How to Lose";
+title5 = "Premier League Transfer Stars and Flops";
+title6 = "Invasion of the Pickleheads";
+title7 = "How Meaningful is the NBA ROTY Award?";
+title8 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
+title9 = "Is Ligue 1 Still a Top 5 League?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
