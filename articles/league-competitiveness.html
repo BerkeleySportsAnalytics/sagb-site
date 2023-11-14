@@ -1,0 +1,176 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Measures of League Competitiveness: What's the Real Farmer's League? | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Measures of League Competitiveness: What's the Real Farmer's League?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Ethan Wang</a> | November 14, 2023</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/league-competitiveness/Article Thumbnail.jpg" alt="" /></span>
+                          
+                          <p>It’s tough being a fan of a Ligue 1 team. Between fighting against the superclub that is PSG, watching as your best players get bought by Premier League teams for cheap, to our perennial struggle to remain a top 5 league in the UEFA coefficients table. </p>
+
+                          <p>Worst of all, though, is the stick we get from fans of other leagues for being “uncompetitive”: they claim that the league’s winner is a foregone conclusion. But over the past 5 years, it’s not like the other leagues have had much diversity in champions. The Bundesliga has had one unique winner, the Premier League and Eredivisie have had two, and LaLiga and Liga Portugal have had three. </p>
+
+                          <p>Ligue 1 fits right in with the Premier League and Eredivisie with two unique champions. And besides, plenty of these seasons have had close, nail-biting races to the title. Last season, Lens lost the league to PSG by just 1 point, which went largely unnoticed last season, while Lille actually had the highest expected points value of the season. And this season, with PSG having the worst start to the season since their Qatari takeover, who knows what could happen. So, to prove that Ligue 1 is not as uncompetitive as people say it is, I decided to take a look at how close title races actually are in the Top 5 Leagues.</p>
+
+                          <p><b><u>Examining Title Race Competitiveness</u></b></p>
+
+                          <p>To examine the competitiveness of each title race, I took the average standard deviation of points between the top 3 league positions of each league, a number chosen because there are typically around 3 teams that were close to the title at the end of the season.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/league-competitiveness/Average Standard Deviation of Title Contender Final Points.png"/></span>
+
+                          <p>It seems that the Premier League has one of the least competitive title races, despite often being touted as having one of the most competitive title races. What gives? Well, many people who claim that the Premier League has competitive title races probably point to the fact that the Premier League has a distinct “Big 6”, while other leagues usually have 1 or 2 “superclubs'' that tend to dominate the league. However, even within the “Big 6”, there are vast discrepancies in their strength: just look at Chelsea’s past season or Tottenham’s past several seasons, compared to Manchester City and Liverpool’s relatively consistent strong performances. Meanwhile, perhaps as expected, Bundesliga and Ligue 1 have less competitive title races, due to Bayern and Paris’ dominance, while Serie A and Laliga have the closest title races, likely because LaLiga has 3 competitive teams in Barcelona, Real, and Atletico, and Serie A because Juventus’ period of dominance has ended.</p>
+
+                          <p><b><u>What about the entire league table?</u></b></p>
+
+                          <p>Measures of competitiveness should be, of course, not just limited to champions—I wanted to take a look at how competitive matches were for an average mid-table club. One way of measuring the competitiveness of a league is to take the standard deviation of the points table: the more competitive a league is, the closer each team’s points should be to each other. However, this approach looks at the competitiveness of the standings, not at each individual match. These results are too easily skewed by poor refereeing, statistical anomalies, and chance. Keep in mind, too, that since the Bundesliga has less games per season, it’s expected that the standard deviations of the league points will be a bit less than other leagues.
+                          </p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/league-competitiveness/Standard Deviation of League Points.png"/></span>
+
+                          <p>To look at how competitive matches typically were in a league, I looked at individual match data from Understat. If you look at the HTML code for a match report on Understat, you can find some hidden statistics, win percentage being one of them (Understat computes these win percentages after a match by running shot data through an algorithm to find the expected goals for each shot, then by simulating the match thousands of times). </p>
+
+                          <p>I then took the absolute win percentage difference of each match in the Top 5 leagues over the course of the past 5 seasons. For instance, if Manchester City had a 50% chance of winning a particular match against Arsenal, while Arsenal had a 30% chance of winning that match, the win percentage difference would be 20%. A higher percentage indicates a less competitive match, while a lower percent difference indicates a more competitive match. Below, I have graphed the averages of each league over time.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/league-competitiveness/Expected Win Percentage Difference.png"/></span>
+
+                          <p>As shown in the graph, the Premier League has typically had less competitive matches over the past several years. At the same time, it has experienced a large overall decrease in competitiveness since the 2014-2015 season, likely due to large spending discrepancies since then. </p>
+
+                          <p>Meanwhile, the other leagues have less of a distinct competitiveness difference, with shorter periods of increased or decreased competitiveness. Many mid-table and relegation zone teams are quite similar in strength in these leagues, while for the Premier League, mid-table teams like Brentford (or Chelsea) and Burnley will have more of a distinct strength difference. </p>
+
+                          <p><b><u>Conclusions</u></b></p>
+
+                          <p>One flaw with this approach is that it is hard for this data to pass the “eye test”. We don’t see win percentage differences when we look at a league table, we only see absolute wins, losses, and draws. But I’d argue that this is the point of data analysis: to identify facts and trends, we wouldn’t be able to see normally. Plus, there are visible indications of the accuracy of these measures. When we look at Laliga, for instance, we see that from 2014-2016, there is a much lower measure of match competitiveness. This corresponds to a period where the league table looks similar to what one would expect from a league like the Premier League, where several clubs are distinctly stronger than the competition (at least in theory, based on financial muscle). </p>
+
+                          <p>Throughout all these comparisons, the Premier League has not proven to be a very competitive league. So where does its perception as one come from? Perhaps it is due to the increased media coverage of the Premier League—a plurality of soccer fans are Premier League fans, who will know about the teams fighting for 4th place and how the mid-table teams are doing. Meanwhile, they will probably only follow the winners of the other leagues, giving an impression of less competitiveness. Or perhaps it’s due to the larger stakes in the Premier League, as it is the league with the highest UEFA coefficients and has more teams to send to European competitions. Nobody cares if a team finishes 6th in the Ligue 1, because they don’t win anything for their efforts, but if a team finishes 6th in the Premier League, they get a shot in the Europa League (although this may change this season due to new European cup formats that I’m too lazy to try to understand). </p>
+
+                          <p>Perhaps this is the type of competitiveness that people like: with more European competition spots, there are more important games to look forward to. However, each game is less likely to be a close, competitive match. </p>
+
+                          <p>Ultimately, which type of competition—stakes-based or match-to-match—you prefer comes down to personal preference. Some people look forward to watching Liverpool and Manchester United battle back and forth for the 4th Champions League spot, while others look forward to those 90th minute 3-2 winners that come out of an evenly-fought match. In the end, your personal choice reflects your unique perspective on this beautifully painful sport, and perhaps we can all enjoy watching what we enjoy without letting other people take that away from us.</p>
+
+
+                          
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/money-and-wins/main.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Does Money Equal Wins in the NFL?</a></h3>
+                          <p>By Aakash Adhia | April 16, 2023</p>
+                        </header>
+                        <p>Another great NFL season has just come to an end, which means that we are entering into a brand new NFL offseason and free agency is just around the corner. The Chiefs winning their 2nd superbowl in 4 years is in the rearview mirror and NFL teams are now gearing up to upgrade their teams to knock the defending champs off their throne next season. Free agency is a crucial part of the NFL offseason as teams have an opportunity to address key positions of need and take chances on players who didn’t work out with their teams due to contract disputes or declining skills. We’ve seen teams like the Bucs (Brady, Gronk, AB) go all in free agency and win Super Bowls and teams like the Eagles (AJ Brown, Reddick, Bradberry) retool their rosters to make massive turnarounds. Even the Chiefs made a lot of moves in free agency to replace departures like Tyreek Hill and Tyrann Mathieu (Juju, MVS, Justin Reid).</p>
+                        <footer>
+                          <a href="../articles/money-and-wins.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
