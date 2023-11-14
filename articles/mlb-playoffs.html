@@ -1,0 +1,173 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Styles Make Fights: Predicting the MLB Playoffs with a New Perspective | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Styles Make Fights: Predicting the MLB Playoffs with a New Perspective</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Gordon Liang</a> | November 13, 2023</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/mlb-playoffs/article 1 thumbnail.png" alt="" /></span>
+                          
+                          <p>The 2019 World Series was supposed to be a formality. The 2019 Astros were merely putting the finishing touches on a historic season. The series had no business going to seven games let alone going to the Nationals. Yet it did. The Astros left the season stunned at the heroics of Howie Kendrick and Stephen Strasburg. Everyone else left wondering, “How did a 107-55 team just lose to a 93-69 team?”</p>
+
+                          <p>But what if that’s not the right way to look at things? Since 2016, teams with the better regular season record are 43-26 (.623) in playoff series. But records can be deceiving. The Twins won their division despite having a lower record than every American League Wild Card team. Some teams have a fantastic record vs teams above .500 whereas others mainly stack their record from sub-.500 teams. Well, playoff teams are typically comprised of .500+ teams only. What if instead of just overall W-L records, we filter records to games against teams that are similar to their opponent and make predictions off of that? In this article, I explore a new approach to predicting the unpredictable and propose ways to continue building off this foundation.</p>
+
+                          <p><b><i>The Method</i></b></p>
+
+                          <p>The first step is to find statistics that can characterize teams and their tendencies. Some teams are offensive powerhouses, others have a stacked pitching staff and the lucky ones have both. <i>Runs Scored/Game, Runs Allowed/Game</i> and <i>Outs Above Average</i> were among the 17 statistics we used. Then with that we’d like to use K-Means clustering to group similar teams together but with 17 dimensions, issues would likely arise. So we ran Principal Component Analysis (PCA) to retain variance while reducing the dimensions to make clustering a smoother process. On average, we retained 85% of the variance per year.</p>
+
+                          <p>After running PCA and taking the three highest features, we ran K-Means clustering with four clusters.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-playoffs/pic 1.png"/></span>
+
+                          <p>With the teams now grouped in their clusters, when we make a prediction, we can narrow our scope to how teams did against teams that were similar to their opponent rather than just teams that were simply on their schedule. We now have that Team A had a WA-LA record vs teams that were similar to Team B and Team B had a WB-LB record vs teams that were similar to Team A. Using this specialized record, we define P(A) to be the probability of Team A winning a game against Team B and set it to:</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-playoffs/pic 2.png"/></span>
+
+                          <p>This definition double-counts head-to-head games between Team A and Team B which is seemingly an appropriate way to weigh the fact that Team B is a closer indicator of its own performance than the other teams in the cluster. Note also that this definition of P(A) can be used for Team B and the property of P(A) + P(B) = 1 upholds.</p>
+
+                          <p>At this point, enough is available to make a prediction for the series but to account for the variance in the small sample sizes of the playoffs we use the binomial distribution to calculate the probability of each team winning the series. For a best-of-x series and given P(A), we sum up the probability of Team A winning in x to 2x-1 games to arrive at the probability of Team A winning the series. For example, in the World Series, x = 4 so we sum up the probabilities of Team A winning in 4,5,6 and 7 games. This is calculated by</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-playoffs/pic 3.png"/></span>
+
+                          <p>The first term is the probability of Team A winning the (n+1)th game (as the elimination game) and that’s multiplied by the probabilities of Team A winning x-1 games in the games before that.</p>
+
+                          <p><b><i>Moving Forward</i></b></p>
+
+                          <p>As embarrassing as it is to admit it, this method does a terrible job in predicting winners. It did a fantastic job in the 2019 World Series as Houston was 11-13 against the National’s cluster and the Nationals were 2-1 against Houston’s. But in the grand scheme of things, it typically does worse than just picking the team with the better record.</p>
+
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-playoffs/pic 4.png"/></span>
+
+                          <p>A few reasons for this and how I think we can improve upon our model involves the clustering of teams. As mentioned earlier, taking the first three principal components only maintains around 85% of the original variance on average. Taking the first four maintains 91% on average but for the sake of visualizing the clustering, we kept it at three. Another potential for improving the clustering is to utilize more reflective statistics. Due to lack of accessibility of team statistics, we were only limited to the ones provided by Baseball References and Outs Above Average from Baseball Savant. If it were to be made available, I’d seek to include more fielding metrics like Defensive Runs Saved and include batted ball tendencies from both the perspective of the hitter and when the team is pitching. Lastly, increasing the amount of clusters can give us an even more specialized record when comparing teams, especially when done alongside adding a fourth principal component to maintain more of the variance. Looking into the 2023 clusters, we notice that the Atlanta Braves– after a historic season on offense– was in a league (and cluster) of their own which is arguably justified but likely had an effect on the predictions and reduced the amount of meaningful clusters to three. </p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-playoffs/pic 5.png"/></span>
+
+                          <p>If you increase the number of clusters to eight, the Oakland A’s also found themselves in a cluster of their own after a historically obvious tanking season and may lead to more accurate groupings when predicting the playoffs off of performance against similar teams.</p>
+
+                          <span class="image centered"><img alt="" src="../images/dj-pics/mlb-playoffs/pic 6.png"/></span>
+
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/money-and-wins/main.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Does Money Equal Wins in the NFL?</a></h3>
+                          <p>By Aakash Adhia | April 16, 2023</p>
+                        </header>
+                        <p>Another great NFL season has just come to an end, which means that we are entering into a brand new NFL offseason and free agency is just around the corner. The Chiefs winning their 2nd superbowl in 4 years is in the rearview mirror and NFL teams are now gearing up to upgrade their teams to knock the defending champs off their throne next season. Free agency is a crucial part of the NFL offseason as teams have an opportunity to address key positions of need and take chances on players who didn’t work out with their teams due to contract disputes or declining skills. We’ve seen teams like the Bucs (Brady, Gronk, AB) go all in free agency and win Super Bowls and teams like the Eagles (AJ Brown, Reddick, Bradberry) retool their rosters to make massive turnarounds. Even the Chiefs made a lot of moves in free agency to replace departures like Tyreek Hill and Tyrann Mathieu (Juju, MVS, Justin Reid).</p>
+                        <footer>
+                          <a href="../articles/money-and-wins.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
