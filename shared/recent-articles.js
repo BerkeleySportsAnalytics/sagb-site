@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "league-competitiveness.html";
-article2 = "lsu-iowa.html";
-article3 = "mlb-playoffs.html";
-article4 = "volleyball-final-four.html";
-article5 = "ncaa-nfl.html";
-article6 = "beating-the-clock.html";
-article7 = "premier-league-transfers.html";
-article8 = "penn-iowa-wrestling.html";
-article9 = "faa-article.html";
+article1 = "quarterback-cost.html";
+article2 = "league-competitiveness.html";
+article3 = "lsu-iowa.html";
+article4 = "mlb-playoffs.html";
+article5 = "volleyball-final-four.html";
+article6 = "ncaa-nfl.html";
+article7 = "beating-the-clock.html";
+article8 = "premier-league-transfers.html";
+article9 = "penn-iowa-wrestling.html";
 
-title1 = "Measures of League Competitiveness: What's the Real Farmer's League?";
-title2 = "One Superstar or Five Stars?";
-title3 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
-title4 = "Predicting the Women's NCAA D1 Volleyball Final Four";
-title5 = "NCAA vs NFL: Why are NCAA fans more enthusiastic?";
-title6 = "Beating the Clock: Age vs Performance in Professional Tennis";
-title7 = "Premier League Summer Transfer Review";
-title8 = "Penn State and Iowa: A Look at the Kings of Collegiate Wrestling";
-title9 = "When You Forget How to Lose";
+title1 = "The Cost (and Dangers) of Buying a Quarterback";
+title2 = "Measures of League Competitiveness: What's the Real Farmer's League?";
+title3 = "One Superstar or Five Stars?";
+title4 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
+title5 = "Predicting the Women's NCAA D1 Volleyball Final Four";
+title6 = "NCAA vs NFL: Why are NCAA fans more enthusiastic?";
+title7 = "Beating the Clock: Age vs Performance in Professional Tennis";
+title8 = "Premier League Summer Transfer Review";
+title9 = "Penn State and Iowa: A Look at the Kings of Collegiate Wrestling";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
