@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "quarterback-cost.html";
-article2 = "league-competitiveness.html";
-article3 = "lsu-iowa.html";
-article4 = "mlb-playoffs.html";
-article5 = "volleyball-final-four.html";
-article6 = "ncaa-nfl.html";
-article7 = "beating-the-clock.html";
-article8 = "premier-league-transfers.html";
-article9 = "penn-iowa-wrestling.html";
+article1 = "kyle-shanahan.html";
+article2 = "quarterback-cost.html";
+article3 = "league-competitiveness.html";
+article4 = "lsu-iowa.html";
+article5 = "mlb-playoffs.html";
+article6 = "volleyball-final-four.html";
+article7 = "ncaa-nfl.html";
+article8 = "beating-the-clock.html";
+article9 = "premier-league-transfers.html";
 
-title1 = "The Cost (and Dangers) of Buying a Quarterback";
-title2 = "Measures of League Competitiveness: What's the Real Farmer's League?";
-title3 = "One Superstar or Five Stars?";
-title4 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
-title5 = "Predicting the Women's NCAA D1 Volleyball Final Four";
-title6 = "NCAA vs NFL: Why are NCAA fans more enthusiastic?";
-title7 = "Beating the Clock: Age vs Performance in Professional Tennis";
-title8 = "Premier League Summer Transfer Review";
-title9 = "Penn State and Iowa: A Look at the Kings of Collegiate Wrestling";
+title1 = "Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today";
+title2 = "The Cost (and Dangers) of Buying a Quarterback";
+title3 = "Measures of League Competitiveness: What's the Real Farmer's League?";
+title4 = "One Superstar or Five Stars?";
+title5 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
+title6 = "Predicting the Women's NCAA D1 Volleyball Final Four";
+title7 = "NCAA vs NFL: Why are NCAA fans more enthusiastic?";
+title8 = "Beating the Clock: Age vs Performance in Professional Tennis";
+title9 = "Premier League Summer Transfer Review";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
