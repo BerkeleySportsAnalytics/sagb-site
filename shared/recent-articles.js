@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "nfl-combine.html";
-article2 = "uswnt-struggles.html";
-article3 = "kyle-shanahan.html";
-article4 = "quarterback-cost.html";
-article5 = "league-competitiveness.html";
-article6 = "lsu-iowa.html";
-article7 = "mlb-playoffs.html";
-article8 = "volleyball-final-four.html";
-article9 = "ncaa-nfl.html";
+article1 = "fantasy-predictions.html";
+article2 = "nfl-combine.html";
+article3 = "uswnt-struggles.html";
+article4 = "kyle-shanahan.html";
+article5 = "quarterback-cost.html";
+article6 = "league-competitiveness.html";
+article7 = "lsu-iowa.html";
+article8 = "mlb-playoffs.html";
+article9 = "volleyball-final-four.html";
 
-title1 = "How Important are NFL Combine Performances?";
-title2 = "Struggles of the USWNT: A Deeper Look into the 2023 Women's Wos World Cup";
-title3 = "Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today";
-title4 = "The Cost (and Dangers) of Buying a Quarterback";
-title5 = "Measures of League Competitiveness: What's the Real Farmer's League?";
-title6 = "One Superstar or Five Stars?";
-title7 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
-title8 = "Predicting the Women's NCAA D1 Volleyball Final Four";
-title9 = "NCAA vs NFL: Why are NCAA fans more enthusiastic?";
+title1 = "Fantasy Football: Predicting Wide Receiver Perfomances with Statistics";
+title2 = "How Important are NFL Combine Performances?";
+title3 = "Struggles of the USWNT: A Deeper Look into the 2023 Women's Wos World Cup";
+title4 = "Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today";
+title5 = "The Cost (and Dangers) of Buying a Quarterback";
+title6 = "Measures of League Competitiveness: What's the Real Farmer's League?";
+title7 = "One Superstar or Five Stars?";
+title8 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
+title9 = "Predicting the Women's NCAA D1 Volleyball Final Four";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
