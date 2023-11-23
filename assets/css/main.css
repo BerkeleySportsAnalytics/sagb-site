@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,800");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,800");
 @import url("font-awesome.min.css");
 
 /*
@@ -226,7 +226,7 @@ body,
 input,
 select,
 textarea {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Futura", sans-serif;
   color: #7b818c;
   font-weight: 400;
   font-size: 11pt;
@@ -248,7 +248,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   font-weight: 800;
   letter-spacing: 0.04em;
   color: #404248;
@@ -2071,7 +2071,7 @@ ol.default li {
 }
 
 #banner p {
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   color: #fff;
   font-size: 1.6em;
   font-weight: lighter;
@@ -2080,7 +2080,7 @@ ol.default li {
   letter-spacing: 0.04em;
   float: left;
   text-align: center;
-  line-height: 1.5em;
+/*  line-height: 1.5em;*/
   margin: 0;
   padding-left: 70px;
   padding-right: 70px;
@@ -2122,7 +2122,25 @@ ol.default li {
 body.homepage #header-wrapper {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("../../images/main-banner-image.jpg");
+    url("../../images/IMG_8995.jpg");
+  background-position: top left, center center;
+  background-size: cover;
+  filter: brightness(90%);
+}
+
+body.about #header-wrapper {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../../images/IMG_5618.jpg");
+  background-position: top left, center center;
+  background-size: cover;
+  filter: brightness(90%);
+}
+
+body.our-board #header-wrapper {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../../images/boardfa23.jpg");
   background-position: top left, center center;
   background-size: cover;
   filter: brightness(90%);
@@ -2503,7 +2521,7 @@ body.homepage #header-wrapper {
     font-size: 18px;
     width: 44px;
     height: 44px;
-    line-height: 44px;
+/*    line-height: 44px;*/
     text-align: center;
     color: #fff;
     content: "\f0c9";
