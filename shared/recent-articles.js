@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "basketball-genetics.html";
-article2 = "fantasy-predictions.html";
-article3 = "nfl-combine.html";
-article4 = "uswnt-struggles.html";
-article5 = "kyle-shanahan.html";
-article6 = "quarterback-cost.html";
-article7 = "league-competitiveness.html";
-article8 = "lsu-iowa.html";
-article9 = "mlb-playoffs.html";
+article1 = "todd-boehly.html";
+article2 = "basketball-genetics.html";
+article3 = "fantasy-predictions.html";
+article4 = "nfl-combine.html";
+article5 = "uswnt-struggles.html";
+article6 = "kyle-shanahan.html";
+article7 = "quarterback-cost.html";
+article8 = "league-competitiveness.html";
+article9 = "lsu-iowa.html";
 
-title1 = "The Gender of Genetics in Basketball";
-title2 = "Fantasy Football: Predicting Wide Receiver Perfomances with Statistics";
-title3 = "How Important are NFL Combine Performances?";
-title4 = "Struggles of the USWNT: A Deeper Look into the 2023 Women's Wos World Cup";
-title5 = "Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today";
-title6 = "The Cost (and Dangers) of Buying a Quarterback";
-title7 = "Measures of League Competitiveness: What's the Real Farmer's League?";
-title8 = "One Superstar or Five Stars?";
-title9 = "Styles Make Fights: Predicting the MLB Playoffs with a New Perspective";
+title1 = "Todd Boehly's New Chelsea";
+title2 = "The Gender of Genetics in Basketball";
+title3 = "Fantasy Football: Predicting Wide Receiver Perfomances with Statistics";
+title4 = "How Important are NFL Combine Performances?";
+title5 = "Struggles of the USWNT: A Deeper Look into the 2023 Women's Wos World Cup";
+title6 = "Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today";
+title7 = "The Cost (and Dangers) of Buying a Quarterback";
+title8 = "Measures of League Competitiveness: What's the Real Farmer's League?";
+title9 = "One Superstar or Five Stars?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
