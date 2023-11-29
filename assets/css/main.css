@@ -2024,7 +2024,7 @@ ol.default li {
 
 #top-banner {
   text-align: center;
-  padding: 1em 0 1em 0;
+  padding: 13em 0 1em 0;
   color: white;
 }
 
@@ -2033,7 +2033,7 @@ ol.default li {
   width: 1000px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 13em 0 6em 0;
+  padding: 2em 0 6em 0;
 }
 
 @media screen and (max-height: 800px) {
@@ -3108,7 +3108,7 @@ body.our-board #header-wrapper {
   display: inline-block;
   font-size: 1.5em;
   font-weight: bold;
-  margin: 3em 2px;
+  margin: 2em 2px;
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: #003262;
