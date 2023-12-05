@@ -1571,8 +1571,14 @@ table.default thead {
 
 .image.half-right {
   float: right;
-  width: 45%;
-  margin: 0 0 1.5em 1.5em;
+  height: 100px;
+  margin: 0 1em 3em 3em;
+}
+
+.image.half-right-graph {
+  float: right;
+  width: 35%;
+  margin: 0 1em 3em 3em;
 }
 
 .image.centered {
@@ -2141,6 +2147,15 @@ body.our-board #header-wrapper {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url("../../images/boardfa23.jpg");
+  background-position: top left, center center;
+  background-size: cover;
+  filter: brightness(90%);
+}
+
+body.apply #header-wrapper {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../../images/IMG_0313.jpg");
   background-position: top left, center center;
   background-size: cover;
   filter: brightness(90%);
