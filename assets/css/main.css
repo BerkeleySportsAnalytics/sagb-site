@@ -2166,6 +2166,15 @@ body.our-board #header-wrapper {
   filter: brightness(90%);
 }
 
+body.apply #header-wrapper {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../../images/IMG_0313.jpg");
+  background-position: top left, center center;
+  background-size: cover;
+  filter: brightness(90%);
+}
+
 #header-wrapper {
   background: url("images/bg01.png"), url("../../images/header.jpg");
   background-position: top left, center center;
