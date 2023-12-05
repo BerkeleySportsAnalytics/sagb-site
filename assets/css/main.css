@@ -1571,13 +1571,17 @@ table.default thead {
 
 .image.half-right2 {
   float: right;
+  object-fit: contain;
   width: 15%;
+  max-width:100%;
   margin: 0 1em 3em 3em;
 }
 
 .image.half-right-graph {
   float: right;
+  object-fit: contain;
   width: 35%;
+  max-width:100%;
   margin: 0 1em 3em 3em;
 }
 
