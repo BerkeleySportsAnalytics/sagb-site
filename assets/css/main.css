@@ -1571,7 +1571,7 @@ table.default thead {
 
 .image.half-right {
   float: right;
-  height: 100px;
+  width: 12%;
   margin: 0 1em 3em 3em;
 }
 
