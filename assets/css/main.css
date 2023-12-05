@@ -1572,6 +1572,7 @@ table.default thead {
 .image.half-right2 {
   float: right;
 <<<<<<< HEAD
+<<<<<<< HEAD
   object-fit: contain;
   width: 15%;
   max-width:100%;
@@ -1584,6 +1585,10 @@ table.default thead {
   width: 35%;
   max-width:100%;
   margin: 0 1em 3em 3em;
+=======
+  width: 45%;
+  margin: 0 0 1.5em 1.5em;
+>>>>>>> parent of 435ef91 (changed join us page, added projects to Projects page, testing search bar function)
 =======
   width: 45%;
   margin: 0 0 1.5em 1.5em;
