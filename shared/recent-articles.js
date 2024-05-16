@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "todd-boehly.html";
-article2 = "basketball-genetics.html";
-article3 = "fantasy-predictions.html";
-article4 = "nfl-combine.html";
-article5 = "uswnt-struggles.html";
-article6 = "kyle-shanahan.html";
-article7 = "quarterback-cost.html";
-article8 = "league-competitiveness.html";
-article9 = "lsu-iowa.html";
+article1 = "bowl_or_not.html";
+article2 = "skating-dead-legs.html";
+article3 = "ncaa-wrapped.html";
+article4 = "TotalEclipse.html";
+article5 = "todd-boehly.html";
+article6 = "basketball-genetics.html";
+article7 = "fantasy-predictions.html";
+article8 = "nfl-combine.html";
+article9 = "uswnt-struggles.html";
 
-title1 = "Todd Boehly's New Chelsea";
-title2 = "The Gender of Genetics in Basketball";
-title3 = "Fantasy Football: Predicting Wide Receiver Perfomances with Statistics";
-title4 = "How Important are NFL Combine Performances?";
-title5 = "Struggles of the USWNT: A Deeper Look into the 2023 Women's Wos World Cup";
-title6 = "Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today";
-title7 = "The Cost (and Dangers) of Buying a Quarterback";
-title8 = "Measures of League Competitiveness: What's the Real Farmer's League?";
-title9 = "One Superstar or Five Stars?";
+title1 = "To Bowl or not to Bowl";
+title2 = "Skating on Dead Legs: Designing a Search that Prioritizes Player Health and Efficient Travel";
+title3 = "NCAA 2013 – 2023 Wrapped: The Best and Worst Games of the Past Decade";
+title4 = "The Total Eclipse has Arrived";
+title5 = "Todd Boehly's New Chelsea";
+title6 = "The Gender of Genetics in Basketball";
+title7 = "Fantasy Football: Predicting Wide Receiver Perfomances with Statistics";
+title8 = "How Important are NFL Combine Performances?";
+title9 = "Struggles of the USWNT: A Deeper Look into the 2023 Women's Wos World Cup";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
