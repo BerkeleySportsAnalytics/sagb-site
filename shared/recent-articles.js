@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "defense-strikes-harder.html";
-article2 = "transfer-values.html";
-article3 = "bowl_or_not.html";
-article4 = "skating-dead-legs.html";
-article5 = "ncaa-wrapped.html";
-article6 = "TotalEclipse.html";
-article7 = "todd-boehly.html";
-article8 = "basketball-genetics.html";
-article9 = "fantasy-predictions.html";
+article1 = "one-hand-backhand.html";
+article2 = "f1-sustainability.html";
+article3 = "fixing-manchester-united.html";
+article4 = "defense-strikes-harder.html";
+article5 = "transfer-values.html";
+article6 = "bowl_or_not.html";
+article7 = "skating-dead-legs.html";
+article8 = "ncaa-wrapped.html";
+article9 = "TotalEclipse.html";
 
-title1 = "When the Defense Strikes Harder";
-title2 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
-title3 = "To Bowl or not to Bowl";
-title4 = "Skating on Dead Legs: Designing a Search that Prioritizes Player Health and Efficient Travel";
-title5 = "NCAA 2013 – 2023 Wrapped: The Best and Worst Games of the Past Decade";
-title6 = "The Total Eclipse has Arrived";
-title7 = "Todd Boehly's New Chelsea";
-title8 = "The Gender of Genetics in Basketball";
-title9 = "Fantasy Football: Predicting Wide Receiver Perfomances with Statistics";
+title1 = "One-Handed Backhands: Endangered but not Extinct";
+title2 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
+title3 = "Fixing Manchester United: What Has Been Done And What Should Be Done";
+title4 = "When the Defense Strikes Harder";
+title5 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
+title6 = "To Bowl or not to Bowl";
+title7 = "Skating on Dead Legs: Designing a Search that Prioritizes Player Health and Efficient Travel";
+title8 = "NCAA 2013 – 2023 Wrapped: The Best and Worst Games of the Past Decade";
+title9 = "The Total Eclipse has Arrived";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;

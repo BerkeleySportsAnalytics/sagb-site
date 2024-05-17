@@ -1,0 +1,231 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>One-Handed Backhands: Endangered but not Extinct | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>One-Handed Backhands: Endangered but not Extinct</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Natalie Brewer</a> | May 17, 2024</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/1.jpg" alt="" /><figcaption>Grigor Dimitrov hitting a one-handed backhand at the 2023 Miami Open</figcaption></span>     
+                          
+                          <p>In 2023, Stefanos Tsitsipas reached a career milestone as an Australian Open finalist. Just one year later, he failed to advance past the fourth round of the same tournament. Following a 4-set loss against Taylor Fritz, he dropped down to 10th in the rankings. A week thereafter, Fritz made his way to the finals in Delray Beach and Alex De Minaur to those in Rotterdam. They stepped into the 9th and 10th ranking slots, and Tsitsipas was downgraded to 11th place.</p>
+
+                          <p>Amidst the murmurs of dissatisfaction with the Greek’s out-of-form hard court performances came a deluge of headlines about something else–something the tennis community had never seen before.</p>
+
+                          <p>For the first time ever, there was not a single player in the top ten who used a one-handed backhand.</p>
+
+                          <p><b>Beauty and the Beast</b></p>
+
+                          <p>For those new to the mechanics of hitting a backhand in tennis, there are three primary techniques: the slice, the one-hander, and the two-hander. While the slice backhand is universally executed with one hand and involves imparting backspin on the ball, the focus here will be on the latter two techniques, which are used to generate topspin. The key difference between them lies in the number of hands used to grip the racket. </p>
+
+                          <p>The two-handed backhand utilizes a continental grip, harnessing power generated from the whole body and channeling it through both arms. The shot proves effective at creating lethal amounts of depth and spin from any height and position on the court–hence our ‘Beast’. Players like Novak Djokovic and Jannik Sinner demonstrate its versatility and reliability.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/2.png" alt="" /><figcaption>Jannik Sinner hitting a two-handed backhand at the 2023 Miami Open.</figcaption></span>     
+
+                          <p>Conversely, the one-handed backhand—our 'Beauty'—requires an eastern grip and is celebrated for its elegance and power. When the ball is struck in the correct location, it is a singularly beautiful and balanced demonstration of athleticism and control, requiring more wrist coordination than the two-hander. Wawrinka, Gasquet, and Federer are just a few of the legends who exemplify this motion.</p>
+
+                          <p>From the conception of tennis, virtually all players used the single-hander. It wasn’t until the mid-seventies that the status-quo was even questioned. Only when big trophies started going to the likes of Jimmy Connors and Björn Borg, did people begin to consider that the unconventional shot might have some potential.</p>
+
+                          <p>Today, we find that one-hander potency is lagging very far behind backhand potency for the past 52-weeks if we compare tour-wide averages.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/3.png" alt="" /><figcaption>Figure 1: Backhand potency (BHP) of one-handers and two-handers.  BHP is a metric invented by Tennis Abstract based on data from the Match Charting Project. It adds points for winners and shots that set up winners and subtracts points for unforced errors. (Data: Tennis Abstract)</figcaption></span>     
+
+                          <p><b>Measuring a Shot in Decline</b></p>
+
+                          <p>Though discussed anecdotally for years, the fall of the one-handed backhand has never been precisely quantified on a tour-wide level. </p>
+
+                          <p>To accomplish this task, I leveraged the Jeff Sackmann Tennis Database, which boasts the most complete downloadable dataset for active and retired ATP players. It lacks information on backhand preference, which hints at why this project has yet to be attempted. This also points to a greater issue in tennis analytics regarding data accessibility, an area where we lag considerably behind other sports. </p>
+
+                          <p>Fortunately, the ATP tour website and Wikipedia both store this information in their player profile pages. Thus, by employing the BeautifulSoup package for Python, I was able to access and extract the backhand preference variable from the HTML content of nearly 2000 athletes’ player profiles. Correlating this information with historical data on title winners from Ultimate Tennis Statistics, I charted the decline of the one-handed backhand. The result is below:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/4.png" alt="" /><figcaption>Figure 2: Proportion of title winners using a one-handed backhand over time. Date range begins in 1968 as this roughly marks the inception of ATP rankings and the open era in tennis. (Data: Jeff Sackman Tennis Database, Association of Tennis Professionals (ATP), Ultimate Tennis Statistics)</figcaption></span>     
+  
+                          <p>	There are some important drop-offs to take note of. In 1974 Jimmy Connors won Wimbledon with his two-hander, making him the first man in history to do so. Beginning in 1976, Björn Borg and his two-hander won the same title five times back to back (Steinberger, 2014). Their success throughout the tour contributed significantly to the rise of the two-hander. We can play around with the graph to see just how much these two players contributed to the fall of the one-hander:	</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/5.png" alt="" /><figcaption>Figure 3: Removing Jimmy Connors and Björn Borg, the decline slows during the 1970s. (Data: Jeff Sackman Tennis Database, Association of Tennis Professionals (ATP), Ultimate Tennis Statistics)</figcaption></span>     
+
+                          <p>Another pivotal era was the new millennium. As shown below, Roger Federer contributed significantly to a brief comeback for the one-hander, bringing the percentage of titles won as high as 50% in 2005. As he slowed down in the late 2010s, other users of the one-hander like Wawrinka, Thiem, and Dimitrov also did their part to slow the decline.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/6.png" alt="" /><figcaption>Figure 4: Removing Roger Federer illuminates his role in keeping the one-hander alive. (Data: Jeff Sackman Tennis Database, Association of Tennis Professionals (ATP), Ultimate Tennis Statistics)</figcaption></span>     
+
+                          <p><b>Reasons for the Fall</b></p>
+
+                          <p>There are a few popular reasons cited for the tour-wide decline of this once dominant shot.</p>
+
+                          <p>Claim One: The one-handed backhand can’t keep up with the pace of the modern game.</p>
+
+                          <p>This claim surfaces from the fact that the single-hander and the two-hander have inherent differences between their strike zones. Whereas a two-hander can effectively scoop low balls from the court, hit over the top of shoulder level balls, and catch fast balls from further back, the single-hander lacks this level of versatility (Mills, 2016). As soon as the ball is not in a low, out-front zone, the one-hander sees a dip in potency.</p>
+
+                          <p>Whether or not the ball ends up in this zone depends on the opponent's shot; balls hit with high velocity and a massive amount of topspin jump up and out of the one-hander’s ideal zone. Consider Rafael Nadal, whose record-breaking spin levels consistently proved to be kryptonite for Federer’s one-handed backhand (Cambers & Graf, 2022). Unfortunately for players who use the one-hander, there is considerable evidence that tennis features more and more of these shots.</p>
+
+                          <p>Since data on groundstroke velocity is lacking, we use serve velocity as a proxy to demonstrate the increasing pace of tennis:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/7.png" alt="" /><figcaption>Figure 5: Average serve velocity for top servers over time. Running a least squares regression yields a coefficient of 0.312 for the expected increase in velocity associated with a one year increase in birth date. This coefficient is statistically significant at a 95% level, with a p-value of 0.021. (Data: “Statistics Leaders for Serve Average Speed (Career)”, Ultimate Tennis Statistics)</figcaption></span>
+                          
+                          <p>We can also credit technological advancements for increasing topspin levels. When Gustavo Kuerten won the French Open in 1997 with his new and experimental Luxilon polyester strings, he rang in a whole new era of tennis tech (Tignor, 2015). The rise of Poly strings meant that players could achieve more spin than ever:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/one-hand-backhand/8.png" alt="" /><figcaption>Figure 6: Topspin generation by string material under experimental conditions. Incoming balls were hit at 40 degrees, 56 mph, and 3820 rpm spin in. Spin out was recorded for various string brands at multiple tensions. (Data: Tennis Warehouse)</figcaption></span>
+
+                          <p>Claim Two: Coaches lack the patience to teach children single-handed backhands.</p>
+
+                          <p>	This claim explores the decision-making process in coaching young tennis players to choose between a one-handed or two-handed backhand. It suggests that in junior tennis, where winning is highly prioritized, coaches may favor quicker results over the prolonged developmental phase required to master the one-handed backhand (Mills, 2016). Because the two-hander requires less wrist strength and coordination, it is easier for children to quickly master. Coaches and players seeking early sponsorships and junior titles are reluctant to sacrifice short-term results for the steep learning curve of the single-hander. This is a pragmatic choice, considering the limited evidence of the one-hander’s superiority in modern tennis.</p>
+
+                          <p><b>Will the One-Hander ever go Extinct?</b></p>
+
+                          <p>Last Thursday, Grigor Dimitrov stunned fans everywhere as he defeated an in-form Carlos Alcaraz in the Miami Open quarter finals. Coming off of a fresh victory in Indian Wells, Alcaraz was a strong candidate for winning the Sunshine Double, a dream that Dimitrov dismantled in one and a half hours and two sets. The Bulgarian continued his performance all the way to the finals, highlighted by his flawless one-handed backhand, the shot that earned him the nickname “Baby Fed”. </p>
+
+                          <p>Dimitrov’s run in Miami propelled him back in the top ten for the first time since 2018, and just as quickly as the headlines about the death of the one-hander had come out, were they replaced with those about its triumphant resurgence.  Everyone is looking for answers: can the one-hander really die?</p>
+
+                          <p>Having witnessed in-person the grace and strength of Dimitrov’s backhand a few times myself, I can’t help but think that perhaps the future of the one-hander is not a story about statistics or data. Perhaps, it is simply about those profound moments of unquantifiable athleticism–like when young players see their idols hit a perfect one-hander on TV and are inspired to emulate them. So as long as players like Federer, Dimitrov and Tsitsipas are keeping the shot alive, it's hard to imagine that the one-hander will ever truly go extinct.</p>
+
+                          <p><b>References</b></p>
+
+                          <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Cambers, S., & Graf, S. (2022, October 29). Federer v Nadal: A great sporting rivalry rooted in mutual respect. <i>The Guardian</i>. <a href="https://www.theguardian.com/sport/2022/oct/29/federer-v-nadal-a-great-sporting-rivalry-rooted-in-mutual-respect">https://www.theguardian.com/sport/2022/oct/29/federer-v-nadal-a-great-sporting-rivalry-rooted-in-mutual-respect</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            JeffSackmann/tennis_atp: ATP Tennis Rankings, Results, and Stats. (2024, January 1). GitHub. <a href="https://github.com/JeffSackmann/tennis_atp">https://github.com/JeffSackmann/tennis_atp</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Lindsey, C. String Movement and Spin. Tennis Warehouse. <a href="https://twu.tennis-warehouse.com/learning_center/stringmovement.php">https://twu.tennis-warehouse.com/learning_center/stringmovement.php</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Match Charting Project: Men’s Rally Leaders: Last 52. (2024, April 15). Tennis Abstract. <a href="https://tennisabstract.com/reports/mcp_leaders_rally_men_last52.html">https://tennisabstract.com/reports/mcp_leaders_rally_men_last52.html</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Mills, R. (2016, February 16). Why the one-handed backhand is a dying art in tennis. <i>Sports Illustrated</i>. <a href="https://www.si.com/tennis/2016/02/16/death-of-one-handed-backhand-tennis">https://www.si.com/tennis/2016/02/16/death-of-one-handed-backhand-tennis</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Steinberger, M. (2014, August 24). The Death of the One-Handed Backhand. <i>The New York Times</i>. <a href="https://www.nytimes.com/2014/08/24/magazine/the-death-of-the-one-handed-backhand.html">https://www.nytimes.com/2014/08/24/magazine/the-death-of-the-one-handed-backhand.html</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Tignor, S. (2015, October 8). 1997: Gustavo Kuerten’s game-changing win with polyester strings. <i>Tennis.com</i>. <a href="https://www.tennis.com/news/articles/1997-gustavo-kuerten-s-game-changing-win-with-polyester-strings">https://www.tennis.com/news/articles/1997-gustavo-kuerten-s-game-changing-win-with-polyester-strings</a>
+                        </div>
+                        <div style="margin-left: 1.5em; text-indent: -1.5em;">
+                            Ultimate Tennis Statistics. (2023, December 18). <a href="https://www.ultimatetennisstatistics.com">https://www.ultimatetennisstatistics.com</a>
+                        </div>
+                        
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/kyle-shanahan/HeifetzNFCChamp_Getty_Ringer.0.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today
+                          </a></h3>
+                          <p>By Aakash Adhia | November 14, 2023</p>
+                        </header>
+                        <p>The 49ers offense has gotten off to a scorching start this season. They are averaging 30+ points a game right now and they are near the top of the league in most major statistical categories . They are littered with skill position talents from the dynamic Christian McCaffrey to Deebo Samuel , Brandon Aiyuk, and George Kittle . They have a quarterback in Brock Purdy who is like a point guard who knows how to get the ball to his playmakers . The offensive line finds a way to just open up running lanes and maul opposing defenses. And to top it all off, they have arguably the best play caller in the league in Kyle Shanahan who has an incredibly creative scheme and finds ways to get his players the ball in open space for them to wreak havoc.</p>
+                        <footer>
+                          <a href="../articles/2021-qb-class.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
