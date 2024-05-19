@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "one-hand-backhand.html";
-article2 = "f1-sustainability.html";
-article3 = "fixing-manchester-united.html";
-article4 = "defense-strikes-harder.html";
-article5 = "transfer-values.html";
-article6 = "bowl_or_not.html";
-article7 = "skating-dead-legs.html";
-article8 = "ncaa-wrapped.html";
-article9 = "TotalEclipse.html";
+article1 = "soccer-losing-excitement.html";
+article2 = "one-hand-backhand.html";
+article3 = "f1-sustainability.html";
+article4 = "fixing-manchester-united.html";
+article5 = "defense-strikes-harder.html";
+article6 = "transfer-values.html";
+article7 = "bowl_or_not.html";
+article8 = "skating-dead-legs.html";
+article9 = "ncaa-wrapped.html";
 
-title1 = "One-Handed Backhands: Endangered but not Extinct";
-title2 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
-title3 = "Fixing Manchester United: What Has Been Done And What Should Be Done";
-title4 = "When the Defense Strikes Harder";
-title5 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
-title6 = "To Bowl or not to Bowl";
-title7 = "Skating on Dead Legs: Designing a Search that Prioritizes Player Health and Efficient Travel";
-title8 = "NCAA 2013 – 2023 Wrapped: The Best and Worst Games of the Past Decade";
-title9 = "The Total Eclipse has Arrived";
+title1 = "Is Soccer Losing its Excitement?";
+title2 = "One-Handed Backhands: Endangered but not Extinct";
+title3 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
+title4 = "Fixing Manchester United: What Has Been Done And What Should Be Done";
+title5 = "When the Defense Strikes Harder";
+title6 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
+title7 = "To Bowl or not to Bowl";
+title8 = "Skating on Dead Legs: Designing a Search that Prioritizes Player Health and Efficient Travel";
+title9 = "NCAA 2013 – 2023 Wrapped: The Best and Worst Games of the Past Decade";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
