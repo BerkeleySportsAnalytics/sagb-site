@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "soccer-losing-excitement.html";
-article2 = "one-hand-backhand.html";
-article3 = "f1-sustainability.html";
-article4 = "fixing-manchester-united.html";
-article5 = "defense-strikes-harder.html";
-article6 = "transfer-values.html";
-article7 = "bowl_or_not.html";
-article8 = "skating-dead-legs.html";
-article9 = "ncaa-wrapped.html";
+article1 = "2024-nfl-draft.html";
+article2 = "nfl-kicker-problem.html";
+article3 = "handedness-comparison.html";
+article4 = "soccer-losing-excitement.html";
+article5 = "one-hand-backhand.html";
+article6 = "f1-sustainability.html";
+article7 = "fixing-manchester-united.html";
+article8 = "defense-strikes-harder.html";
+article9 = "transfer-values.html";
 
-title1 = "Is Soccer Losing its Excitement?";
-title2 = "One-Handed Backhands: Endangered but not Extinct";
-title3 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
-title4 = "Fixing Manchester United: What Has Been Done And What Should Be Done";
-title5 = "When the Defense Strikes Harder";
-title6 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
-title7 = "To Bowl or not to Bowl";
-title8 = "Skating on Dead Legs: Designing a Search that Prioritizes Player Health and Efficient Travel";
-title9 = "NCAA 2013 – 2023 Wrapped: The Best and Worst Games of the Past Decade";
+title1 = "The 2024 NFL Draft Ultimate Deep Dive: An Offensive Bonanza";
+title2 = "The NFL's Kicker Problem";
+title3 = "Handedness Comparison in Baseball";
+title4 = "Is Soccer Losing its Excitement?";
+title5 = "One-Handed Backhands: Endangered but not Extinct";
+title6 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
+title7 = "Fixing Manchester United: What Has Been Done And What Should Be Done";
+title8 = "When the Defense Strikes Harder";
+title9 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
