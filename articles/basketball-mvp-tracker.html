@@ -1,0 +1,180 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>An Analysis of Basketball Reference's MVP Tracker | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>An Analysis of Basketball Reference's MVP Tracker</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Rohan Venkateswaran</a> | September 11, 2018</h4>
+                          </header>
+                          <p><b>Background</b></p>
+
+                          <p>A very interesting part of Basketball Reference is the Frivolities section, where they have pages that house information beyond the statistics present on the player or team pages. One such page is the NBA MVP tracker, where they list the 10 players whom they think have the highest chance to win the award in a season and the probabilities of it happening. Now, I would assume they are running a regression in the background that takes in various metrics and spits out these probabilities but, unlike their Hall of Fame probability tracker, there is no formula available publicly to my knowledge. It does seem to be quite accurate though, with its only misses in recent years being 2017 when it predicted James Harden over Russell Westbrook and 2023 when it predicted Nikola Jokić over Joel Embiid.
+                          </p>
+
+                          <p>Curious, I became interested in seeing how the tracker evolved over the season, what types of players it favored, and how much it cared about team records. So, every day of the 2023-24 NBA season, I took a screenshot of the top 10 players according to the MVP tracker and put them into a dataset with their probabilities. Since many of these screenshots were on my phone, data entry was manual so I did not record anything else like stats, and I also missed around 4 days worth of screenshots in the season. One thing to note is that, if a player was mathematically ineligible from getting the award due to the 65 games played limit instituted this season, he was removed from the list entirely.
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/basketball-mvp-tracker/1.png" alt="" /><figcaption>Source: Basketball Reference</figcaption></span>
+
+                          <p>The results are quite interesting though and they seem to mostly mirror the actual voting. The top 5 players on the final day were the same 5 who made the All-NBA First Team and, out of the next 5, 3 made it to the Second Team and 2 to the Third Team.
+                          </p>
+
+                          <p><b>Analysis</b></p>
+
+                          <p>Looking at trends, however, allows us to see which players were dominating the entire season.
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/basketball-mvp-tracker/2.png" alt="" /></span>
+
+                          <p>This table shows the 21 players who were on the list at least 9 days in the season. Luka Dončić, Jokić, and Jayson Tatum were on the list every day of tracking, which highlights how dominant they were the entire season. In addition, the fact that Embiid is so high up despite missing 43 games in the season underlines how good his season was when he was healthy.
+                          </p>
+
+                          <p>The presence of Kristaps Porzingis and Derrick White and also Anthony Edwards and Rudy Gobert gives some insight into how the model works; it really seems to value wins but it also tends to like stat sheet stuffers, explaining why Jaylen Brown and Karl-Anthony Towns only appeared on the list twice each all season despite both players being voted all-stars. This is further corroborated by the fact that James Harden appeared on the list before Kawhi Leonoard despite having his lowest scoring season since his sophomore year. Eventually, Leonard overtook him, but it was certainly interesting to see Harden show up first.
+                          </p>
+
+                          <p>This year’s MVP race was perhaps one of the closest in the past few years before Jokić pulled away with the award at the end of the season, his competitors being Dončić, Shai Gilgeous-Alexander, and Giannis Antetokounmpo.
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/basketball-mvp-tracker/3.png" alt="" /></span>
+
+                          <p>While he was healthy, Embiid was considered the overwhelming favorite. The data seems to agree with this sentiment, with Embiid dominating the chart for the most part of days 40 to 80. What is intriguing is that it thinks that the race was not close at all once he got injured; Jokić has over half the percentage share every day after day 100.
+                          </p>
+
+                          <p><b>Conclusion</b></p>
+
+                          <p>It seems as though Basketball Reference’s MVP tracker model tends to really value stat sheet stuffing players on winning teams. I would also posit that it weights efficiency relatively highly as it is a common characteristic among every player who ended up in the final top 10. Overall, this was a pretty fruitful project; it was quite satisfying to see the dataset slowly build itself throughout the season. Here is the final line plot of every player who appeared on the list from day 3 (when every team had played) to day 148:
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/basketball-mvp-tracker/4.png" alt="" /></span>
+
+                          <p><b>Further Analysis</b></p>
+
+                          <p>As the season goes on, the sample size of games played for a player gets larger, making his position on the list more significant. It could be a good idea to take this into account and weigh each successive day more to display a player’s dominance throughout the season. For instance, LeBron James appeared twice on the list all year, but the second time was the last day of the season, meaning that he ranked on it when it mattered the most. We cannot say that he had a bad season just by looking at how often he was in the top 10 because of this. It would also be interesting to record more stats in the daily collection process–ideally with the help of a scraper–to potentially recreate the model.</p>
+
+
+
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/kyle-shanahan/HeifetzNFCChamp_Getty_Ringer.0.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today
+                          </a></h3>
+                          <p>By Aakash Adhia | November 14, 2023</p>
+                        </header>
+                        <p>The 49ers offense has gotten off to a scorching start this season. They are averaging 30+ points a game right now and they are near the top of the league in most major statistical categories . They are littered with skill position talents from the dynamic Christian McCaffrey to Deebo Samuel , Brandon Aiyuk, and George Kittle . They have a quarterback in Brock Purdy who is like a point guard who knows how to get the ball to his playmakers . The offensive line finds a way to just open up running lanes and maul opposing defenses. And to top it all off, they have arguably the best play caller in the league in Kyle Shanahan who has an incredibly creative scheme and finds ways to get his players the ball in open space for them to wreak havoc.</p>
+                        <footer>
+                          <a href="../articles/2021-qb-class.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

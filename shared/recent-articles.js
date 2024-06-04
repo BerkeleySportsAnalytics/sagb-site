@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "2024-nfl-draft.html";
-article2 = "nfl-kicker-problem.html";
-article3 = "handedness-comparison.html";
-article4 = "soccer-losing-excitement.html";
-article5 = "one-hand-backhand.html";
-article6 = "f1-sustainability.html";
-article7 = "fixing-manchester-united.html";
-article8 = "defense-strikes-harder.html";
-article9 = "transfer-values.html";
+article1 = "wrestling-not-dangerous.html";
+article2 = "basketball-mvp-tracker.html";
+article3 = "new-era-chess.html";
+article4 = "2024-nfl-draft.html";
+article5 = "nfl-kicker-problem.html";
+article6 = "handedness-comparison.html";
+article7 = "soccer-losing-excitement.html";
+article8 = "one-hand-backhand.html";
+article9 = "f1-sustainability.html";
 
-title1 = "The 2024 NFL Draft Ultimate Deep Dive: An Offensive Bonanza";
-title2 = "The NFL's Kicker Problem";
-title3 = "Handedness Comparison in Baseball";
-title4 = "Is Soccer Losing its Excitement?";
-title5 = "One-Handed Backhands: Endangered but not Extinct";
-title6 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
-title7 = "Fixing Manchester United: What Has Been Done And What Should Be Done";
-title8 = "When the Defense Strikes Harder";
-title9 = "Decoding TransfrMarket: Analyzing Player Values Versus Player Performance";
+title1 = "Why Wrestling is Not as Dangerous As You Think";
+title2 = "An Analysis of Basketball Reference's MVP Tracker";
+title3 = "The New Era of Chess";
+title4 = "The 2024 NFL Draft Ultimate Deep Dive: An Offensive Bonanza";
+title5 = "The NFL's Kicker Problem";
+title6 = "Handedness Comparison in Baseball";
+title7 = "Is Soccer Losing its Excitement?";
+title8 = "One-Handed Backhands: Endangered but not Extinct";
+title9 = "F1 and Sustainability - How can a Motorsport Exist in a Climate-Friendly World?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
