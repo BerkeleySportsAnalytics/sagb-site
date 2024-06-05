@@ -1,10 +1,16 @@
 import sys
 import os
+from datetime import date
 
 f= open("articles/"+sys.argv[1]+".html","w+")
 os.mkdir("images/dj-pics/"+sys.argv[1])
 
 title = input("Enter Title: ")
+author = input("Enter Author: ")
+
+today_date = date.today()
+formatted_date = today_date.strftime("%B %d, %Y")
+
 
 f.write("""
   <!DOCTYPE HTML>
@@ -58,7 +64,7 @@ f.write("""
                         <article>
                           <header class="major">
                             <h2>"""+title+"""</h2>
-                            <h4>By <a href="https://google.com" target="_blank">Rohan Narayan</a> | September 11, 2018</h4>
+                            <h4>By <a href="https://google.com" target="_blank">"""+author+"""</a> | """+formatted_date+"""</h4>
                           </header>
                           <span class="image featured"><img src="../images/dj-pics/"""+sys.argv[1]+"""/main.jpg" alt="" /></span>
                           *Article goes here*
