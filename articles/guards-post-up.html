@@ -1,0 +1,336 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Should Guards be Posting Up More Often? | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <style>
+      ul.outer-list {
+          list-style-type: disc; /* Default circular bullets */
+      }
+
+      ul.inner-list {
+          margin-left: 20px;
+          list-style-type: circle; /* Square bullets for inner list */
+      }
+
+      ul.inner-inner-list {
+          margin-left: 40px;
+          list-style-type: square;
+      }
+
+      /* Additional styling for list items */
+      li {
+          margin-bottom: 8px; /* Adds space between items */
+      }
+  </style>
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Should Guards be Posting Up More Often?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Colin Rondon</a> | December 10, 2024</h4>
+                          </header>
+                          <p><b>Introduction</b></p>
+
+                          <p>The post-up is a basketball move where the player faces their back to their defender and backs them down to create space for a close-to-the-basket hook shot or a fadeaway shot. This is often reserved for the big men like Shaquille O’Neal or Tim Duncan who are strong enough to push smaller players to get closer to the basket, and sometimes skilled shot-makers like Kobe Bryant and DeMar DeRozan.
+                          </p>
+
+                          <p>This move has seen a steep fall-off in recent years through how frequently it is done. For the previous 2023-2024 NBA season, the average frequency percentage (Freq%) for the post-up for all NBA teams was just 4.17% Analytics have proven that any shot other than the 3-point shot or a shot at the rim are inefficient and not worth shooting. We saw this almost work with the 2018-2019 Houston Rockets (James Harden & Chris Paul) who unleashed <a href="https://www.nba.com/stats/teams/shots-general?Season=2018-19&dir=D&sort=FG3A_FREQUENCY">3 pointers 52% of the time</a>, more than half of their shots, and made it to game 7 in the Western Conference Finals, where they missed 27 straight 3-pointers.
+                          </p>
+
+                          <p>However, the skillset of NBA guards has expanded since the late 2000’s when the guard position evolved from the pure John Stockton role of prioritizing running the offense and setting up teammates with good looks, to the scorer-playmaker hybrids like Russell Westbrook or the pure scorers like Derrick Rose. Prominent guards in the league today are resurrecting the once frowned-upon post-up, whether it be <a href="https://www.basketball-reference.com/awards/awards_2024.html">last season's MVP candidates</a> like Jalen Brunson, Shai Gilgeous-Alexander, Luka Doncic, or other prolific guards like Devin Booker and Anthony Edwards,. 
+                          </p>
+
+                          <p><b>This made me wonder if the post-up is a viable play for guards. </b>You often see players resort to the 10-dribble combo at the end of the shot clock, ending in a step-back or contested three, but what if they tried posting up more so they could use their strength to back down a weaker or smaller defender and create space off of a fadeaway or spin into a post hook?
+                          </p>
+
+                          <p><b>Data Exploration</b></p>
+
+                          <p>In my data investigation, I found that not many guards qualified for Synergy’s restriction of both 10 minutes played per game and 10 possessions per play type to qualify, so I combined data from the previous 4 seasons (the 2020’s) to also use a K-means clustering model and attempt to find characteristics of a good post-up guard.
+                          </p>
+
+                          <p>Let’s look at a few key statistics when it comes to efficiency for a specific play type: points per possession (PPP), frequency percentage (Freq%), and score frequency percentage (Score Freq%). The first statistic quantifies how much output a player gets from each post-up that they do, the second ensures we have some context when looking at how many points they generate through post-ups, and the third is a good summary of how much they convert on their post-ups in any way, whether it be a free-throw, and-one, or a regular 2-pointer. Keep in mind that this does NOT count assists that they may generate off of kick-outs from double-teams; the Score Freq% only considers points the player scores themselves.
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/guards-post-up/img01 - Post-Up PPP Histogram.png" alt="" /></span>
+
+                          <p>Looking at the histogram above, there are a good number of guards who can score an average of 1 point per post-up. In fact, the mean PPP of all guards in my dataset is 0.96, and that’s basically scoring on a post-up 50% of the time. That’s pretty good!
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/guards-post-up/img02 - Post-Up vs. Score Freq_ Scatter plot.png" alt="" /></span>
+
+                          <p>Although a lot of guards can score 42% of the time on post-ups, they don't do it often. We’ll look back at this later.
+                          </p>
+
+                          <p>(Note: I used 42% as my threshold of “good” because a good 3-point shooter is usually set at 39% and above. Since it is a closer shot than the 3-point shot but can be difficult on turnaround shots, the threshold is only slightly above that of 3-point shooting.)
+                          </p>
+
+                          <p><b>Characteristics of “Good” Post-up guards?</b></p>
+
+                          <p>I want to investigate if there are any characteristics that stand out from “good” post-up guards. I’ll define “good” as >= 1.0 PPP.
+                          </p>
+
+                          <p>First, we’ll look at the full distribution, then we’ll get into the K-means clustering process to look at any common characteristics.
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/guards-post-up/img03 - Post-Up Frequency Histogram.png" alt="" /></span>
+
+                          <p>Unsurprisingly, many players are not getting many post-ups. We’ll look at this with more context later.
+                          </p>
+
+                          <p><b>K-Means Clustering</b></p>
+                          
+                          <p>I decided to divide the dataset into 3 clusters, firstly because my calculations suggested it would be a good number, and secondly, because I wanted to look at 3 different groups:
+                          </p>
+
+                          <ul class = 'outer-list'>
+                            <li><b>Really short guards</b> (green cluster)
+                              <ul class = 'inner-list'>
+                                a.) height < 195cm.
+                                b.) or height < 6'4.75"
+                              </ul>
+                            </li>
+                            <li><b>The (approximately) typical-height guards</b> (blue cluster)
+                              <ul class = 'inner-list'>
+                                a.) 195cm < height < 200 cm.
+                                b.) or 6'4.75" <= height <- 6'6.75"
+                              </ul>
+                            </li>
+                            <li>And <b>the tall guards</b> (blue cluter)
+                              <ul class = 'inner-list'>
+                                a.) height >= 200cm.
+                                b.) or height > 6'6.75"
+                              </ul>
+                            </li>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img04 - K-Means Clusters of PPP vs. Height.png" alt="" /></span>
+
+                            <p>The centroids, or the black dots which represent the average of each cluster, surprisingly show that the shortest guards are best at the post-up. Interesting!
+                            </p>
+
+                            <p>Let’s look at both the blue and green clusters, the shortest guards and typical-height guards.
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img05 - Weight of More Than 1.0 PPP Guards Histogram.png" alt="" /></span>
+
+                            <p>With the average weight of guards and guard-forwards averaging out to 205.60 lbs., it is unsurprising that the majority of the high-PPP guards on the “shorter” end are heavier than average. This might explain how a lot of Cluster 3 guards, the shortest ones in our dataset, are scoring better on post-ups then Cluster 2 guards: if they don’t have the height advantage, they have the weight advantage. If they can’t tower over their defender’s contest, they can push their defender to create enough space for an easier shot.
+                            </p>
+
+                            <p>Let’s look at the top 12 PPP post-up guards <b>from the 2023-2024 season that meet the criteria of our clusters of interest, blue and green:</b></p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img06 - Top 12 PPP Guards Table.png" alt="" /></span>
+                            
+                            <p>Some expected names are here like DeMar DeRozan, whose bread-and-butter is the turnaround fadeaway, plus Devin Booker and Kyrie Irving who like that shot too. However, some surprising names pop up like De’Aaron Fox and Bradley Beal. Those guys are on the shorter end, and they aren’t first-to-mind for fadeaway or post-up shots. Unsurprisingly, a majority of these players (9 out of 12) are over 200 pounds.
+                            </p>
+
+                            <p>Now, let’s look at how often these players do the post-up compared to how much their team does, <b>with the bar chart sorted by player frequency %:</b>
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img07 - Player vs. Team Post-Up Frequency Bar Chart.png" alt="" /></span>
+
+                            <p>As expected, the majority of these players do the post-up less than their teams run it. Why might this be? Among this majority are players who are on teams that have better post-up personnel like 
+                            </p>
+
+                            <ul class = 'outer-list'>
+                              <li><b>Devin Booker and Bradley Beal:</b> the Phoenix Suns ranks 10th in the league with 5.0% post-up frequency with the help of Kevin Durant (9.2% post-up frequency, 92nd in the league)
+                              </li>
+                              <li><b>Anthony Edwards: </b>the Minnesota Timberwolves ranks 8th in the league with 5.4% post-up frequency with the help of Karl-Anthony Towns (13.6% post-up frequency, 38th in the league) and Rudy Gobert (10.2% post-up frequency, 18th in the league)
+                              </li>
+                            </ul>
+
+                            <p>Meanwhile, the other players are on teams that don’t have the personnel or have stars who the coaches think aren’t fit for the move, and therefore shy away from the post-up in general:
+                            </p>
+
+                            <ul class = 'outer-list'>
+                              <li><b>Mikal Bridges:</b> he was the first option on offense for the Brooklyn Nets, who ranked last in the league in post-up frequency with 1.5%
+                              </li>
+                            </ul>
+
+                            <p>For context. the highest post-up FREQ% is by the Denver Nuggets with 7.8%, who have Nikola Jokic, a master of the post-up.
+                            </p>
+
+                            <p>If teams don’t run the post-up so much, how much do the players value it, especially compared to other types of shots like 3-pointers, mid-rangers, and paint shots?
+                            </p>
+
+                            <p><b>Shot-Type Analysis</b></p>
+
+                            <p>Returning to the introduction, let’s do a comparison of <b>2023-2024</b> NBA guards’ post-up field goal percentage (post-up FG%) versus their 3-point field goal percentage (3FG%).
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img08 - Post-Up vs. 3-pt FG_ Scatter plot.png" alt="" /></span>
+
+                            <p>There are 4 sections in this graph divided by the 39% 3FG% and 42% post-up FG% lines, and we can see that the bottom right one, the one where 3FG% < 39% and post-up FG% > 42%, is where the majority of NBA guards fall. <b>At the surface-level, this looks like the post-up is a better option than the 3-pointer, but as proven below, because so many more players take more 3-pointers than post-ups (91 in the dataset) compared to how many take more post-ups than 3-pointers (41), we can’t conclude here just yet.</b>
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img09 - Post-Up and 3-point FGA Histograms.png" alt="" /></span>
+
+
+                            <p>Let’s do the same comparison but for the top 12 high PPP post-up guards <b>of 2023-24:</b>
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img10 - Post-Up vs. 3-Pointer FG_ Bar Chart.png" alt="" /></span>
+
+                            <p>As shown above, all of these players have a much higher post-up FG% compared to that for 3-pointers.  Does that mean the post-up is a way more viable shot than the 3-pointer? No. When we look at the chart below, we might see why there’s this disparity in field-goal percentage:
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img11 - Post-Up vs. 3-Pointer FGA Bar Chart.png" alt="" /></span>
+
+                            <p>Now, let’s look at this data together with their percentages and attempts for all other types of shots (looking at their shot diets). For context, the restricted area is the half-circle under the hoop, and above the break refers to 3-pointers taken anywhere other than the corners
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img12 - Field Goal Percentages All Over Court Bar Chart.png" alt="" /></span>
+
+                            <p>As expected, their paint field goal percentage is the highest since that is the closest shot to the hoop, but, a majority of these players have their second-best field goal percentage in their post-ups (a few only slightly higher or lower to that of non-RA paint shots). For how much they shoot 3-pointers at a lower rate, even if it’s one extra point, maybe they could diversify their shot diet more. Let’s look at their attempts all over the court:
+                            </p>
+
+                            <span class="image featured"><img src="../images/dj-pics/guards-post-up/img13 - Field Goal Attempts All Over Court Bar Chart.png" alt="" /></span>
+
+                            <p>These shot diets show that there is hope for analytics not purely dominating the NBA, since DeMar DeRozan, Shai-Gilgeous Alexander, RJ Barrett, and Devin Booker don’t have their 2nd-most shot-type attempted as the 3-pointer. But, they all still rarely rely on the post-up, with it being their least-taken shot other than the corner 3 for a few. Looking at how efficient these players are at the post-up, maybe they could diversify their shot diet.
+                            </p>
+
+                            <p><b>Implications and Possible Improvements</b></p>
+
+                            <p>Now, although we’ve proved that the post-up can be a useful skill for guards, this obviously only applies to the strong guards that have the green light from their coach. Many of the names of high-PPP post-up guards are superstars or second options that the coaches rely on to score.
+                            </p>
+
+                            <p>
+                              The post-up can slow down the game, which is what most teams might not want. However, it can generate good mismatches or kick-outs for open shots. Plus, when you see how many difficult 3-pointers players choose to take over posting up, a less predictable move that has the potential to create them more space, this is a skill that guards should develop when they develop or have the muscle. This investigation was not meant to prove the post-up should be the primary choice for the play to run every possession, but that it is a useful skill for guards to pull out of their bag when necessary, which is more often than you might think.
+                              </p>
+
+                            <p>This investigation could be improved by creating more calculated thresholds for what a “good” post-up field-goal percentage is, as well as looking into more context like the personnel and play-style that each team has that could lead to high or low post-up frequency percentages.
+                            </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                          </ul>
+
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="#" class="image featured"><img src="../images/dj-pics/kyle-shanahan/HeifetzNFCChamp_Getty_Ringer.0.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="#">Kyle Shanahan: Mastermind of the Most Electrifying Offensive Scheme in the NFL Today
+                          </a></h3>
+                          <p>By Aakash Adhia | November 14, 2023</p>
+                        </header>
+                        <p>The 49ers offense has gotten off to a scorching start this season. They are averaging 30+ points a game right now and they are near the top of the league in most major statistical categories . They are littered with skill position talents from the dynamic Christian McCaffrey to Deebo Samuel , Brandon Aiyuk, and George Kittle . They have a quarterback in Brock Purdy who is like a point guard who knows how to get the ball to his playmakers . The offensive line finds a way to just open up running lanes and maul opposing defenses. And to top it all off, they have arguably the best play caller in the league in Kyle Shanahan who has an incredibly creative scheme and finds ways to get his players the ball in open space for them to wreak havoc.</p>
+                        <footer>
+                          <a href="../articles/2021-qb-class.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
