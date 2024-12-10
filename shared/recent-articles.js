@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "set-rotate-dominate.html";
+article1 = "battle-of-surfaces.html";
 article2 = "set-rotate-dominate.html";
-article3 = "wrestling-not-dangerous.html";
-article4 = "basketball-mvp-tracker.html";
-article5 = "new-era-chess.html";
-article6 = "2024-nfl-draft.html";
-article7 = "nfl-kicker-problem.html";
-article8 = "handedness-comparison.html";
-article9 = "soccer-losing-excitement.html";
+article3 = "set-rotate-dominate.html";
+article4 = "wrestling-not-dangerous.html";
+article5 = "basketball-mvp-tracker.html";
+article6 = "new-era-chess.html";
+article7 = "2024-nfl-draft.html";
+article8 = "nfl-kicker-problem.html";
+article9 = "handedness-comparison.html";
 
-title1 = "Set, Rotate, Dominate";
+title1 = "The Battle of the Surfaces: Determining the Ideal Playstyle for each Tennis Surface";
 title2 = "Set, Rotate, Dominate";
-title3 = "Why Wrestling is Not as Dangerous As You Think";
-title4 = "An Analysis of Basketball Reference's MVP Tracker";
-title5 = "The New Era of Chess";
-title6 = "The 2024 NFL Draft Ultimate Deep Dive: An Offensive Bonanza";
-title7 = "The NFL's Kicker Problem";
-title8 = "Handedness Comparison in Baseball";
-title9 = "Is Soccer Losing its Excitement?";
+title3 = "Set, Rotate, Dominate";
+title4 = "Why Wrestling is Not as Dangerous As You Think";
+title5 = "An Analysis of Basketball Reference's MVP Tracker";
+title6 = "The New Era of Chess";
+title7 = "The 2024 NFL Draft Ultimate Deep Dive: An Offensive Bonanza";
+title8 = "The NFL's Kicker Problem";
+title9 = "Handedness Comparison in Baseball";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
