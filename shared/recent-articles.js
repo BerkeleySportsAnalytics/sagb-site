@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "scalability-ncaa-volleyball.html";
-article2 = "age-fine-wine.html";
-article3 = "guards-post-up.html";
-article4 = "defense-wins-championships.html";
-article5 = "battle-of-surfaces.html";
-article6 = "set-rotate-dominate.html";
+article1 = "womens-volleyball-engagement.html";
+article2 = "scalability-ncaa-volleyball.html";
+article3 = "age-fine-wine.html";
+article4 = "guards-post-up.html";
+article5 = "defense-wins-championships.html";
+article6 = "battle-of-surfaces.html";
 article7 = "set-rotate-dominate.html";
-article8 = "wrestling-not-dangerous.html";
-article9 = "basketball-mvp-tracker.html";
+article8 = "set-rotate-dominate.html";
+article9 = "wrestling-not-dangerous.html";
 
-title1 = "The Scalability of Women's NCAA Volleyball";
-title2 = "Aging Like Fine Wine";
-title3 = "Should Guards be Posting Up More Often?";
-title4 = "Do Defenses Really Win Championships?";
-title5 = "The Battle of the Surfaces: Determining the Ideal Playstyle for each Tennis Surface";
-title6 = "Set, Rotate, Dominate";
+title1 = "Engagement in Women's College Volleyball";
+title2 = "The Scalability of Women's NCAA Volleyball";
+title3 = "Aging Like Fine Wine";
+title4 = "Should Guards be Posting Up More Often?";
+title5 = "Do Defenses Really Win Championships?";
+title6 = "The Battle of the Surfaces: Determining the Ideal Playstyle for each Tennis Surface";
 title7 = "Set, Rotate, Dominate";
-title8 = "Why Wrestling is Not as Dangerous As You Think";
-title9 = "An Analysis of Basketball Reference's MVP Tracker";
+title8 = "Set, Rotate, Dominate";
+title9 = "Why Wrestling is Not as Dangerous As You Think";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
