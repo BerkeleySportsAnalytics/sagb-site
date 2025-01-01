@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "womens-volleyball-engagement.html";
-article2 = "scalability-ncaa-volleyball.html";
-article3 = "age-fine-wine.html";
-article4 = "guards-post-up.html";
-article5 = "defense-wins-championships.html";
-article6 = "battle-of-surfaces.html";
-article7 = "set-rotate-dominate.html";
-article8 = "set-rotate-dominate.html";
-article9 = "wrestling-not-dangerous.html";
+article1 = "secrets-cooperstown.html";
+article2 = "home-run-derby.html";
+article3 = "lefties-mlb.html";
+article4 = "womens-volleyball-engagement.html";
+article5 = "scalability-ncaa-volleyball.html";
+article6 = "age-fine-wine.html";
+article7 = "guards-post-up.html";
+article8 = "defense-wins-championships.html";
+article9 = "battle-of-surfaces.html";
 
-title1 = "Engagement in Women's College Volleyball";
-title2 = "The Scalability of Women's NCAA Volleyball";
-title3 = "Aging Like Fine Wine";
-title4 = "Should Guards be Posting Up More Often?";
-title5 = "Do Defenses Really Win Championships?";
-title6 = "The Battle of the Surfaces: Determining the Ideal Playstyle for each Tennis Surface";
-title7 = "Set, Rotate, Dominate";
-title8 = "Set, Rotate, Dominate";
-title9 = "Why Wrestling is Not as Dangerous As You Think";
+title1 = "Secrets of Cooperstown: How Underlying Advanced Stats Tell the Story of Stardom";
+title2 = "Home Run Derby or Crystal Ball?";
+title3 = "Lefties Back in Swing: Breaking Down the Impact of Infield Defensive Shifts on MLB Batting Outcomes";
+title4 = "Engagement in Women's College Volleyball";
+title5 = "The Scalability of Women's NCAA Volleyball";
+title6 = "Aging Like Fine Wine";
+title7 = "Should Guards be Posting Up More Often?";
+title8 = "Do Defenses Really Win Championships?";
+title9 = "The Battle of the Surfaces: Determining the Ideal Playstyle for each Tennis Surface";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
