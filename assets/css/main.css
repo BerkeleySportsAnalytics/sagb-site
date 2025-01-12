@@ -2160,7 +2160,7 @@ body.about #header-wrapper {
 body.our-board #header-wrapper {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("../../images/boardfa23.jpg");
+    url("../../images/boardsp25.jpg");
   background-position: top left, center center;
   background-size: cover;
   filter: brightness(90%);
