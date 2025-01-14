@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "secrets-cooperstown.html";
-article2 = "home-run-derby.html";
-article3 = "lefties-mlb.html";
-article4 = "womens-volleyball-engagement.html";
-article5 = "scalability-ncaa-volleyball.html";
-article6 = "age-fine-wine.html";
-article7 = "guards-post-up.html";
-article8 = "defense-wins-championships.html";
-article9 = "battle-of-surfaces.html";
+article1 = "databall-mvps.html";
+article2 = "secrets-cooperstown.html";
+article3 = "home-run-derby.html";
+article4 = "lefties-mlb.html";
+article5 = "womens-volleyball-engagement.html";
+article6 = "scalability-ncaa-volleyball.html";
+article7 = "age-fine-wine.html";
+article8 = "guards-post-up.html";
+article9 = "defense-wins-championships.html";
 
-title1 = "Secrets of Cooperstown: How Underlying Advanced Stats Tell the Story of Stardom";
-title2 = "Home Run Derby or Crystal Ball?";
-title3 = "Lefties Back in Swing: Breaking Down the Impact of Infield Defensive Shifts on MLB Batting Outcomes";
-title4 = "Engagement in Women's College Volleyball";
-title5 = "The Scalability of Women's NCAA Volleyball";
-title6 = "Aging Like Fine Wine";
-title7 = "Should Guards be Posting Up More Often?";
-title8 = "Do Defenses Really Win Championships?";
-title9 = "The Battle of the Surfaces: Determining the Ideal Playstyle for each Tennis Surface";
+title1 = "The NBA's Databall MVPs, Ranked";
+title2 = "Secrets of Cooperstown: How Underlying Advanced Stats Tell the Story of Stardom";
+title3 = "Home Run Derby or Crystal Ball?";
+title4 = "Lefties Back in Swing: Breaking Down the Impact of Infield Defensive Shifts on MLB Batting Outcomes";
+title5 = "Engagement in Women's College Volleyball";
+title6 = "The Scalability of Women's NCAA Volleyball";
+title7 = "Aging Like Fine Wine";
+title8 = "Should Guards be Posting Up More Often?";
+title9 = "Do Defenses Really Win Championships?";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
