@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "databall-mvps.html";
-article2 = "secrets-cooperstown.html";
-article3 = "home-run-derby.html";
-article4 = "lefties-mlb.html";
-article5 = "womens-volleyball-engagement.html";
-article6 = "scalability-ncaa-volleyball.html";
-article7 = "age-fine-wine.html";
-article8 = "guards-post-up.html";
-article9 = "defense-wins-championships.html";
+article1 = "hart-and-soul.html";
+article2 = "russell-westbrook-resurgence.html";
+article3 = "beyond-whiffs.html";
+article4 = "art-of-underdog.html";
+article5 = "cracking-nfl-offseason.html";
+article6 = "databall-mvps.html";
+article7 = "secrets-cooperstown.html";
+article8 = "home-run-derby.html";
+article9 = "lefties-mlb.html";
 
-title1 = "The NBA's Databall MVPs, Ranked";
-title2 = "Secrets of Cooperstown: How Underlying Advanced Stats Tell the Story of Stardom";
-title3 = "Home Run Derby or Crystal Ball?";
-title4 = "Lefties Back in Swing: Breaking Down the Impact of Infield Defensive Shifts on MLB Batting Outcomes";
-title5 = "Engagement in Women's College Volleyball";
-title6 = "The Scalability of Women's NCAA Volleyball";
-title7 = "Aging Like Fine Wine";
-title8 = "Should Guards be Posting Up More Often?";
-title9 = "Do Defenses Really Win Championships?";
+title1 = "Josh Hart: Hart and Soul of the New York Knicks";
+title2 = "Russell Westbrook and His Resurgence with the Denver Nuggets";
+title3 = "Beyond Whiffs: Rethinking Pitch Value with BBQ+";
+title4 = "The Art of the Underdog: Analyzing the Key Characteristics of March Madness Cinderellas";
+title5 = "Cracking the NFL Offseason";
+title6 = "The NBA's Databall MVPs, Ranked";
+title7 = "Secrets of Cooperstown: How Underlying Advanced Stats Tell the Story of Stardom";
+title8 = "Home Run Derby or Crystal Ball?";
+title9 = "Lefties Back in Swing: Breaking Down the Impact of Infield Defensive Shifts on MLB Batting Outcomes";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
