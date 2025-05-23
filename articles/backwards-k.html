@@ -1,0 +1,175 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Backwards Ks: Umpire Performances and How Catchers Change Games | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Backwards Ks: Umpire Performances and How Catchers Change Games</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Orlando Pereira</a> | May 23, 2025</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/backwards-k/boone.png" alt="" /></span>
+                          
+                          <p>On July 25th, 2019, the independent Atlantic League became the first professional baseball league to implement the Automated Ball-Strike System (ABS). Since 2021, MLB has tested both full ABS and a modified challenge system across various levels of Minor League Baseball, culminating in a trial run during MLB Spring Training in 2025. The recent MLB Spring Training trial utilized a challenge system, which gave teams two ball-strike call challenges per game, with a team retaining a challenge if their challenge was successful. These decisions have generated various debates on the effectiveness of umpires, their impact on the game, and the potential consequences of giving umpires less power. Stances range from rejecting ABS entirely to preserve baseball traditions to a complete implementation of ABS to create a perfectly called strike zone. Luckily, access to data around umpires and their performances has greatly expanded in the last decade, allowing for insight into how they affect the game.
+                          </p>
+
+                          <p><b>Umpire Performance since 2015</b></p>
+                          
+                          <p>Thanks to Umpire Scorecards <a href="https://www.umpscorecards.com">(umpscorecards.com)</a>, it is now easy to analyze umpire performances across nearly all MLB games since 2015. For each game, UmpScorecard calculates a total run impact (totRI) for the home plate umpire, based on the run value of each of their missed calls. Taking the average totRI (avgRI) per year since 2015 shows some interesting results:
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/backwards-k/avgRI.png" alt="" /></span>
+
+                          <p>There has been a clear decrease in run impact per game over the past 9 years, dropping almost every year with the exception of a slight increase in 2024. However, the overall trend shows around a half run decrease in run impact since 2015. One factor in this trend could be the replacement of umpires over the last couple of years. Two notable retirements include Joe West and Angel Hernandez, both of whom trended above the average avgRI for most of the year with available data. More specifically, Joe West had an above average avgRI every year from 2015 until his retirement at the end of 2021, while Angel Hernandez was above the average avgRI in eight of his ten seasons between 2015 and 2024. On the other hand, MLB’s two most recently promoted umpires (as of 2024), Dan Merzel and Nate Tomlinson, were both below the average avgRI in all but one year (Tomlinson in 2020) in MLB action before being promoted full-time. This shows a potential effort on the behalf of MLB to decrease the overall run impact of umpires. Despite continued frustration from fans and players alike over the performance of umpires, statistics show that umpires have in fact been improving.
+                          </p>
+
+                          <p><b>Catcher Framing</b></p>
+
+                          <p>Often overlooked when exploring individual umpire performances, a catcher’s ability to effectively frame pitches influences an umpire’s decision to call particular pitches in a particular way. UmpScorecards provides data on how much each team is favored by umpires by summing the positive run impact a team receives on missed calls with the negative run impact they receive, being able to isolate the sum of run favor specifically while a team is pitching. Looking at the total favor for teams in 2024, the New York Yankees led MLB with a +29.6 total run impact, while the formerly Oakland Athletics were in last place with -15 total run impact. Focusing on catcher framing, Baseball Savant provides data on a catcher’s ability to get strikes called around the edge of the strike zone. They give a stat called Catcher Framing Runs, which approximates the run value that each catcher generates based on how many strike calls they get within a ball’s diameter of the edge of the strike zone, both inside and outside. In 2024, the Yankees also had the highest Catcher Framing Runs with a combined +22 split between Austin Wells (+12) and Jose Trevino (+10), Comparing all teams’ total umpire run impact and their Catcher Framing Runs showed the following:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/backwards-k/favor24.png" alt="" /></span>
+
+                          <p>Similarly to the Yankees, the majority of teams seemed to have a relatively strong correlation between how umpires called their games and their catcher’s framing ability. The R^2 value of approximately 0.776 indicated that 77.6% of the variance in Total Umpire Favor can be explained by differences in Catcher Framing Runs. This is quite a strong correlation, indicating a strong influence of catchers over umpire decisions. Expanding to the full dataset of games since 2015 yields a similar result:
+                          </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/backwards-k/favor1524.png" alt="" /></span>
+
+                          <p>The strong correlative trend continues when expanding the scope of comparison to the last 10 MLB seasons, with the R^2 value growing even larger. This correlation between umpires and catchers broadens the scope of what a move towards ABS would signify. While correcting umpire mistakes, ABS would also completely eliminate framing from the sport. Whether that is good or bad is a matter of personal opinion, but it would also drastically change the value that some catchers provide over others.
+                          </p>
+
+                          <p><b>Conclusion</b></p>
+
+                          <p>As the sports landscape continues to modernize with more and more technological assistance, it is important to reflect on where the limits lie and what changes are truly necessary. With seemingly improving umpire performances and the strong ties between catcher framing and ball-strike decisions, the introduction of ABS may be where the water gets too deep. If all decisions can be made by a computer, umpires become obsolete and would have absolutely no business being on the field. Also, while an automated strike zone would benefit hitters, it could be costly to the careers of defense-oriented catchers who gain a lot of value from being elite framers. This dilemma will likely play an important role in the upcoming Collective Bargaining Agreement (CBA) negotiations, set to take place after the 2026 season. While MLB is eager to implement ABS, the MLB Players Association (MLBPA) has expressed hesitance to embrace it, citing the aforementioned effect such a system will have on the future of catching. All of this is without mentioning the margin of error within ABS, which is still capable of making mistakes. Perhaps the challenge system represents a happy medium, but only time will really be able to tell. 
+                          </p>
+
+                          <p><b>Credits</b></p>
+                          <p>AP Photo/Charles Rex Arbogast
+                          </p>
+                          <p>Umpire Scorecards <a href="https://www.umpscorecards.com">(umpscorecards.com)</a></p>
+                          <p>Baseball Savant <a href="https://baseballsavant.mlb.com">(baseballsavant.mlb.com)</a></p>
+
+                      
+
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                    <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <span href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></span>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
