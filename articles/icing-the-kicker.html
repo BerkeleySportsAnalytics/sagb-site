@@ -1,0 +1,192 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Does Icing the Kicker Even Work? | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Does Icing the Kicker Even Work?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Zack Bukovec</a> | May 27, 2025</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/01 Cover.png" alt="" /></span>
+                          
+                          <p><b>Introduction:</b></p>
+
+                          <p>In football, “icing the kicker” refers to a coach calling a timeout just before the long snapper snaps the ball for a field goal attempt. Coaches use this tactic to shake up the kicker, disrupting their rhythm before they kick. Many kickers follow a strict pre-kick ritual they believe enhances their success. However, since icing the kicker involves using a timeout, coaches will only employ this tactic in close games or end-of-half scenarios where they have extra timeouts. This raises a critical question: Does icing the kicker even work?</p>
+
+                          <p><b>Icing by the Numbers:</b></p>
+
+                          <p>To address this question, I utilized the NFLfastR dataset to examine icing over the past 25 years in the NFL, commonly referred to as the modern era. First, I compared the success rate for field goal attempts that were iced versus those that were not. The raw results reveal a noticeable disparity between the two variables; kicks attempted following icing are successful approximately five percentage points less often than regular kicks. This difference is illustrated in the bar graph below.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/02 Iced.png" alt="" /></span>
+
+                          <p>It may seem like the data supports the idea that icing the kicker is effective; however, this simply doesn’t tell the whole story. One must account for the fact that coaches often ice the kicker only for more difficult kicks, most commonly high-pressure plays that directly affect the game's outcome. In other words, the 5% disparity can be attributed to the fact that almost all attempted iced kicks are difficult or high-stakes, a selection bias that makes icing seem more effective than it actually is.</p>
+
+                          <p><b>Embracing the Clutch Gene:</b></p>
+
+                          <p>Icing occurs most frequently in high-pressure situations, typically during game-tying or game-winning moments. Let’s examine which NFL kickers perform best under such immense pressure. The table below depicts the kickers with the most iced-game-winning field goals in the modern era, where “Game Winners” are kicks that we go-ahead scores in the game's final minutes.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/03 Kickers.png" alt="" /></span>
+
+                          <p>Topping the table is the Ravens' Justin Tucker, who many consider the G.O.A.T. kicker, with six iced game-winners. While that alone is remarkable, it becomes even more impressive when you realize he has made 24 out of 26 (92.3%) of the field goals iced in his career, which is a true testament to his consistency. Another kicker to note is Chris Boswell, a 10-year veteran with the Pittsburgh Steelers who had a historic 2024 season, finishing as the #1 kicker for fantasy football, making his fantasy owners, including me, ecstatic.</p>
+
+                          <p>This table reveals that many of the top kickers in the modern era can perform well even after being iced, and they may not be fazed by icing at all. However, gauging how much additional stress icing actually places on kickers is challenging since their situations are often already high-stakes. Nevertheless, the data indicate that the most elite thrive under pressure. There isn’t a single bad kicker on this list, as all of these names spent at least nine years in the league as starting kickers.</p>
+
+                          <p><b>The Effect of Experience:</b></p>
+
+                          <p>One may assume that experience is a key variable for performance under icing, with more experienced kickers having an edge in such situations. It makes sense; with years of experience under their belts, one would expect the veteran kicker to be less fazed by distractions like icing. To investigate this, I divided the dataset into two categories: Less Experienced (under 200 NFL FGs attempted) and Veteran (200+ NFL FGs attempted). As expected, veteran kickers were about 4 percent more successful than less experienced kickers when iced. This difference can be seen in the bar chart below.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/04 Rookie-Vet.png" alt="" /></span>
+
+                          <p>This 4 percent gap may seem small, but it reveals the significance of experience. In fact, experience is one of the strongest performance indicators when under pressure— veterans are simply harder to faze. We can also examine which kickers have historically struggled the most with being iced. The table below shows the kickers with the lowest success rates while being iced (minimum five iced attempts) and their status (Less Experienced vs. Veteran).</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/05 Kickers.png" alt="" /></span>
+
+                          <p>Unsurprisingly, the two worst icing kickers on the list are less experienced. The lowest of them all is Blair Walsh, infamous for his 27-yard field goal miss against the Seahawks in 2016, eliminating the Minnesota Vikings from the playoffs. However, it is essential to note that Adam Vinatieri, Matt Prater, and Sebastian Janikowski are all on this table, all three being in the discussion for the top five kickers of the modern era. Specifically, Vinatieri’s presence on this list may catch some avid fans off guard, as many know him for his two Super Bowl-winning kicks in the early 2000s. The truth is that Vinatieri wasn’t the best kicker when being iced. However, it's important to consider that both of the most high-stakes kicks of his career were not iced, and he made them both. This shows how, in the end, the fans will only remember and cherish you if you make the kick when it matters most.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/06 Scatter.png" alt="" /></span>
+
+                          <p>Something else we can observe is the impact of missed iced field goals on the longevity of a kicker's career. Above, I’ve plotted every kicker in the modern era with at least five iced attempts in a scatter plot. The key takeaway from this plot is the abundance of red dots in the bottom left corner, indicating that the least successful kickers under icing often lose their jobs and never have the opportunity to establish themselves as veterans in the league.</p>
+
+                          <p><b>The Impact of Venue for Iced Kicks:</b></p>
+
+                          <p>Another factor to consider is the venue. Is the kicker at their home stadium, where they have practiced kicks hundreds of times, or are they playing away? It seems reasonable to assume that kickers would perform worse in foreign territory. However, the data indicates the opposite.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/icing-the-kicker/07 Home-Away.png" alt="" /></span>
+
+                          <p>Above, it can be observed that iced field goals attempted at home are approximately six percent less successful than those attempted away. But why is that? Pinpointing the exact cause of this gap between venues is challenging. However, one could argue that a kicker is comfortable in their home stadium, meaning they might be more fazed than if they were in an unfamiliar stadium, where they are already under adverse conditions. This finding was highly unexpected as “away field advantage” was my only statistically significant causal factor related to icing.</p>
+
+                          <p><b>Conclusions via Regression:</b></p>
+
+                          <p>Beyond my visualizations, I employed a regression analysis controlling for crucial variables like distance, experience, venue, etc. This deeper analysis helped me find how different variables interact under icing conditions, revealing some surprising outcomes.</p>
+
+                          <p>The most significant predictor for iced kick success was, unexpectedly, distance. This isn’t too hard to grasp; the further away the kick is, the harder it is to make. Following distance, kicker experience had a strong correlation with iced kick success. However, this relationship is purely predictive and not causal, as better kickers naturally tend to have longer careers, presenting a barrier when establishing a definitive claim regarding experience and iced kick success. Nevertheless, the data still suggests that more experienced kickers are likelier to be better when iced.</p>
+
+                          <p>The crucial and most surprising part of my regression analysis came when analyzing home-field conditions. Specifically, I discovered that icing was more effective for kickers at home than away. The relationship between icing and home-field “advantage” revealed a causal relationship (P-value of 0.0073), even after controlling for distance and kicker experience. This seemingly counterintuitive discovery may be a broader reflection of the psychological effects of a home stadium. Are kickers “too comfortable” at home?</p>
+
+                          <p>Conversely, the actual icing variable was not statistically significant, with a p-value of 0.5058. This indicates that the effect of icing alone, ignoring significant variables like distance and experience, is highly unpredictable as a tactic.</p>
+
+                          <p>What does this really mean? Coaches shouldn’t expect much when icing a kicker; kickers are just too volatile. In general, icing isn’t too impactful on a kicker's performance, especially for veterans. However, it could change the odds in some situations, such as a less-experienced kicker kicking at home from a longer distance. To sum it all up, icing the kicker is more of a mind game than a statistically reliable strategy for coaches. While icing may not necessarily change the outcome of a kick, my findings suggest that in the right circumstances, and especially at home, it could be the difference between victory and defeat.</p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

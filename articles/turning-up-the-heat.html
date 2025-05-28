@@ -1,0 +1,208 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher? | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">William Lee</a> | May 27, 2025</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Cover.png" alt="" /></span>
+                          
+                          <p><b>Introduction</b></p>
+
+                          <p>A couple months ago, I came across an interesting video by Foolish Bailey titled “Shohei Ohtani’s Most Important Skill.” This video details how Shohei Ohtani has mastered the skill of “energy allocation,” or how Ohtani allocates more of his “energy” as a pitcher towards throwing harder in higher leverage moments - such as third time through the order or runners in scoring position. </p>
+
+                          <p>When Ohtani is playing as a two-way player, it makes sense that he needs to effectively allocate his energy towards these more important moments, considering he plays so much more baseball than anyone in the sport.</p>
+
+                          <p>This video got me thinking about whether other pitchers similarly allocate their “energy” to higher leverage moments.</p>
+
+                          <p><b>Heat, Heat, Heat</b></p>
+
+                          <p>It is no secret that pitchers today throw harder than ever before, as the league average fastball velocity has increased by 2.3 MPH since just 2008. But interestingly enough, only since the 2020 pandemic season have starters begun throwing fewer innings and pitches per start.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Fangraphs Screenshot.png" alt="" /></span>
+
+                          <a href="https://blogs.fangraphs.com/the-state-of-starters-in-2024/">(Source: https://blogs.fangraphs.com/the-state-of-starters-in-2024/)</a>
+
+                          <p></p>
+
+                          <p>Considering this recent decrease in starting pitcher usage, it becomes more apparent how “energy allocation” can be a useful skill, as saving your energy for when you need it may allow you to go deeper into games or be more durable as a pitcher.</p>
+
+                          <p>So is “energy allocation” a league-wide trend that pitchers will utilize in order to conserve their arms and lengthen their starts, or are pitchers just going all out on every pitch trying to be as effective as possible all the time? And if this skill does exist, are those that utilize it more valuable than those who do not?</p>
+
+                          <p><b>Qualifications</b></p>
+
+                          <p>To explore this idea, I decided to analyze only starting pitchers, since relief pitchers do not have the same incentive to pace themselves as they only throw an inning or two opposed to five or six innings. Furthermore, I decided to only analyze seasons from 2020-2024, since the pandemic season appears to have been a catalyst for lower starting pitcher usage.</p>
+
+                          <p><b>The Stuff+ Approach</b></p>
+
+                          <p>When I originally formulated this idea, I decided to use a FanGraphs metric called Stuff+, which assesses only the physical characteristics of a pitch such as release point, velocity, movement, and spin rate to score pitches on a scale where 100 is average. This metric would serve as the quantification for “energy” per pitch, since a pitcher who uses more “energy” would likely throw a ball with more velocity or movement than normal.</p>
+
+                          <p>To quantify leverage, I used another FanGraphs metric called player leverage index (pLI), which uses the current base-out state, inning, and score to assess the possible changes in Win Expectancy for a plate appearance and provide a measure of how high the stakes are in a particular plate appearance. pLI is scaled where 1.0 is average, so I classified any game a starter threw in as “high-leverage” if the pLI was greater than 1.0.</p>
+
+                          <p>To analyze whether starting pitchers used more “energy” in high leverage situations, I isolated high-leverage games where pLI > 1. I then calculated the average Stuff+ in these high-leverage games and subtracted the average overall Stuff+ for all games, creating a mean Stuff+ difference measure. I repeated this process for the top 100 starting pitchers sorted by innings pitched from 2020-2024.</p>
+
+                          <p><b>Un-Clutch Gene?</b></p>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Stuff+ Differences Histogram.png" alt="" /></span>
+
+                          <p>Interestingly, the above histogram shows that pitchers seem to pitch with less “energy” in high leverage games as compared to all games.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Stuff+ and fWAR.png" alt="" /></span>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Stuff+ and IP.png" alt="" /></span>
+
+                          <p>Furthermore, there does not seem to be any strong correlation between Average Stuff+ Difference and either fWAR (r = -0.0395) or innings pitched (r = 0.3513).</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/chart.png" alt="" /></span>
+
+                          <p>When you dive deeper into the top 10 worst pitchers by average Stuff+ difference, you find that Shohei Ohtani lands on this list, which directly contradicts what Foolish Bailey says about Shohei Ohtani’s energy allocation.</p>
+
+                          <p><b>A New Approach</b></p>
+                          
+                          <p>I originally planned on using only Stuff+ and pLI to complete this analysis, but I worried that what pLI quantified was not specific enough to a “high-leverage” situation, since pLI measures are averaged for an entire game and not for specific high-leverage situations. Perhaps Stuff+ and pLI combined to show that pitchers get in worse situations when they throw with worse stuff, which is not a very helpful finding. Thus, I used Baseball Savant to corroborate the findings of the Stuff+ Approach.</p>
+
+                          <p>To quantify “energy”, I analyzed only velocity and ignored other physical characteristics such as spin rate or movement. Furthermore, I limited this analysis to only fastballs for the sake of simplicity, since breaking and offspeed pitches would require an analysis of other characteristics like vertical/horizontal movement and spin rate that would complicate the analysis.</p>
+
+                          <p>To quantify leverage, I filtered Baseball Savant for pitches thrown when there were runners in scoring position (RISP), since RISP is the highest-leverage independent situation for a pitcher over count or time through the order.</p>
+
+                          <p>To analyze whether starting pitchers used more “energy” in these high-leverage situations, I calculated the average fastball velocity during RISP situations and subtracted the overall average fastball velocity to obtain a mean difference in velocity. I similarly repeated this process for all qualified starting pitchers from 2020-2024.</p>
+
+                          <p><b>Empty Effort</b></p>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Savant Velo Histogram.png" alt="" /></span>
+
+                          <p>As the above histogram shows, there seems to be a slight uptick in fastball velocity when pitchers are in higher leverage situations. But as displayed in the scatterplots below (separated by fastball types: FF = four-seam, SI = sinker, and FC = cutter) there appears to be no significant correlation between Fastball Velocity Difference and either fWAR (r = 0.1948) or innings pitched (r = 0.1704).</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Savant Velo Differences and WAR.png" alt="" /></span>
+
+                          <span class="image featured"><img src="../images/dj-pics/turning-up-the-heat/Savant Velo Differences and IP.png" alt="" /></span>
+
+                          <p><b>Conclusion and Future Directions</b></p>
+
+                          <p>Although there is a disagreement between the conclusions of the Stuff+ Approach and the Savant Approach when it comes to a velocity difference between high-leverage and overall situations, I trust the results of the Savant Approach more, since the ability to specify RISP situations better captures what a truly high-leverage situation is more than pLI. As expected, the data shows that most pitchers increase their velocity in high leverage situations. As to whether this increase is useful, however, neither metric indicated a correlation between “energy” differences and value or longevity statistics. Perhaps this increase’s usefulness can be further explored by analyzing wOBA or OPS outcomes in specifically high-leverage situations. But my final conclusion is that this uptick in velocity for high-leverage situations is not generally useful for MLB pitchers.</p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

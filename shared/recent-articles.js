@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "backwards-k.html";
-article2 = "hart-and-soul.html";
-article3 = "russell-westbrook-resurgence.html";
-article4 = "beyond-whiffs.html";
-article5 = "art-of-underdog.html";
-article6 = "cracking-nfl-offseason.html";
-article7 = "databall-mvps.html";
-article8 = "secrets-cooperstown.html";
-article9 = "home-run-derby.html";
+article1 = "icing-the-kicker.html";
+article2 = "american-dream.html";
+article3 = "framing-the-zone.html";
+article4 = "free-throw-factor.html";
+article5 = "turning-up-the-heat.html";
+article6 = "backwards-k.html";
+article7 = "hart-and-soul.html";
+article8 = "russell-westbrook-resurgence.html";
+article9 = "beyond-whiffs.html";
 
-title1 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
-title2 = "Josh Hart: Hart and Soul of the New York Knicks";
-title3 = "Russell Westbrook and His Resurgence with the Denver Nuggets";
-title4 = "Beyond Whiffs: Rethinking Pitch Value with BBQ+";
-title5 = "The Art of the Underdog: Analyzing the Key Characteristics of March Madness Cinderellas";
-title6 = "Cracking the NFL Offseason";
-title7 = "The NBA's Databall MVPs, Ranked";
-title8 = "Secrets of Cooperstown: How Underlying Advanced Stats Tell the Story of Stardom";
-title9 = "Home Run Derby or Crystal Ball?";
+title1 = "Does Icing the Kicker Even Work?";
+title2 = "Swinging into the American Dream: Latin America's WAR at Bat";
+title3 = "Framing the Zone: Who, What, Where, and Why";
+title4 = "The Free Throw Factor: Is it the Key to Success on the Floor?";
+title5 = "Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?";
+title6 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
+title7 = "Josh Hart: Hart and Soul of the New York Knicks";
+title8 = "Russell Westbrook and His Resurgence with the Denver Nuggets";
+title9 = "Beyond Whiffs: Rethinking Pitch Value with BBQ+";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
