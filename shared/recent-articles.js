@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "icing-the-kicker.html";
-article2 = "american-dream.html";
-article3 = "framing-the-zone.html";
-article4 = "free-throw-factor.html";
-article5 = "turning-up-the-heat.html";
-article6 = "backwards-k.html";
-article7 = "hart-and-soul.html";
-article8 = "russell-westbrook-resurgence.html";
-article9 = "beyond-whiffs.html";
+article1 = "bottom-to-glory.html";
+article2 = "icing-the-kicker.html";
+article3 = "american-dream.html";
+article4 = "framing-the-zone.html";
+article5 = "free-throw-factor.html";
+article6 = "turning-up-the-heat.html";
+article7 = "backwards-k.html";
+article8 = "hart-and-soul.html";
+article9 = "russell-westbrook-resurgence.html";
 
-title1 = "Does Icing the Kicker Even Work?";
-title2 = "Swinging into the American Dream: Latin America's WAR at Bat";
-title3 = "Framing the Zone: Who, What, Where, and Why";
-title4 = "The Free Throw Factor: Is it the Key to Success on the Floor?";
-title5 = "Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?";
-title6 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
-title7 = "Josh Hart: Hart and Soul of the New York Knicks";
-title8 = "Russell Westbrook and His Resurgence with the Denver Nuggets";
-title9 = "Beyond Whiffs: Rethinking Pitch Value with BBQ+";
+title1 = "From Bottom to Glory: LA Galaxy’s 1-Year Turnaround from 13th to Champions";
+title2 = "Does Icing the Kicker Even Work?";
+title3 = "Swinging into the American Dream: Latin America's WAR at Bat";
+title4 = "Framing the Zone: Who, What, Where, and Why";
+title5 = "The Free Throw Factor: Is it the Key to Success on the Floor?";
+title6 = "Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?";
+title7 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
+title8 = "Josh Hart: Hart and Soul of the New York Knicks";
+title9 = "Russell Westbrook and His Resurgence with the Denver Nuggets";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
