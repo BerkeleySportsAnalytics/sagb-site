@@ -3461,7 +3461,7 @@ body.apply #header-wrapper {
 * {box-sizing:border-box}
 
 /* Slideshow container */
-.slideshow-container {
+.slideshow {
   max-width: 1000px;
   position: relative;
   margin: auto;

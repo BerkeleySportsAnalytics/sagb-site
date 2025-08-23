@@ -1,10 +1,34 @@
-var slideIndex = [1,1,1];
-var slideId = ["slide", "slide2", "slide3"];
+var slideIndex = [];
+var slideGroups = [];
 
 window.onload = function() {
-  showSlides(1, 0);
-  showSlides(1, 1);
-  showSlides(1, 2);
+  // Find all slideshow containers
+  var groups = document.querySelectorAll(".slideshow");
+
+  groups.forEach((group, idx) => {
+    // Store reference for later
+    slideGroups[idx] = group;
+
+    // Start each slideshow at index 1
+    slideIndex[idx] = 1;
+
+    // ✅ Inject Prev/Next buttons automatically
+    let prevBtn = document.createElement("a");
+    prevBtn.className = "prev";
+    prevBtn.innerHTML = "&#10094;";
+    prevBtn.onclick = () => plusSlides(-1, idx);
+
+    let nextBtn = document.createElement("a");
+    nextBtn.className = "next";
+    nextBtn.innerHTML = "&#10095;";
+    nextBtn.onclick = () => plusSlides(1, idx);
+
+    group.appendChild(prevBtn);
+    group.appendChild(nextBtn);
+
+    // Show the first slide
+    showSlides(1, idx);
+  });
 };
 
 function plusSlides(n, no) {
@@ -12,27 +36,23 @@ function plusSlides(n, no) {
 }
 
 function showSlides(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
+  var slides = slideGroups[no]?.getElementsByClassName("slide");
 
-  // Skip if no slides exist for this group
-  if (!x || x.length === 0) {
-    console.warn("No slides found for:", slideId[no]);
+  // Guard if no slides
+  if (!slides || slides.length === 0) {
+    console.warn("No slides found for group", no);
     return;
   }
 
-  // Wrap around if n is out of bounds
-  if (n > x.length) { slideIndex[no] = 1; }    
-  if (n < 1) { slideIndex[no] = x.length; }
+  // Wrap index
+  if (n > slides.length) { slideIndex[no] = 1; }
+  if (n < 1) { slideIndex[no] = slides.length; }
 
   // Hide all slides in this group
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
   }
 
-  // Double-check index safety before showing
-  var current = x[slideIndex[no]-1];
-  if (current) {
-    current.style.display = "block";
-  }
+  // Show current slide
+  slides[slideIndex[no] - 1].style.display = "block";
 }
