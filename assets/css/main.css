@@ -3462,23 +3462,21 @@ body.apply #header-wrapper {
 
 /* Slideshow container */
 .slideshow {
-  max-width: 1000px;
-  position: relative;
+  position: relative;  /* Makes absolutely positioned children align correctly */
+  max-width: 100%;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: block;
+.slide {
+  display: none;
 }
 
-/* Next & previous buttons */
+/* Navigation buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  margin-top: -22px;
+  transform: translateY(-50%);  /* vertical centering */
   padding: 16px;
   color: rgb(123, 123, 123);
   font-weight: bold;
@@ -3488,13 +3486,11 @@ body.apply #header-wrapper {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
