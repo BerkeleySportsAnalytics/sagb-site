@@ -1,0 +1,220 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>What is More Important to Winning: Perimeter or Interior Defense? | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>What is More Important to Winning: Perimeter or Interior Defense?</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Praneel Chellapilla</a> | August 15, 2025</h4>
+                          </header>
+                          <!-- span class="image featured"><img src="../images/dj-pics/perimeter-or-interior/main.jpg" alt="" /></span -->
+                          <p>Throughout the history of the NBA, rim protection has been considered the most important  skill for building an elite NBA defense. Across the nearly 80 years of the league’s existence , having an elite anchor big man is regarded as the most important piece to an elite NBA defense. The art of deterring attempts at the rim and rejecting shots close to the basket is highly valued and widely thought to be the most important defensive skill to winning a championship. In fact, in the last 25 years, 20 of the DPOYs were primarily rim-protecting centers, with most of the teams that employed them being quality playoff teams. However, in the last 10 years, with the rise of perimeter shooting and more teams struggling to win games in the playoffs without switchable wings who can defend the perimeter, how we view defense as analysts has changed. We find ourselves with a new question: What is more important to winning: perimeter or interior defense?</p>
+
+                          <p><b>Ideation:</b></p>
+
+                          <p>To determine whether perimeter or interior defense affects winning more, we need to do two main things. The first is to understand the relationship between winning and perimeter and interior defense. The second is to classify teams as strong interior defensive teams, strong perimeter defensive teams, a combination of both, or neither. By completing these two tasks, we will understand how team-building constraints may affect a team’s style of defense and the relationship between each defense type and winning. To complete the first task, we need to quantify perimeter and interior defense with analytics and relate them to winning. To complete the second, we need to combine the standardized metric into an individual perimeter and defense score, and group each team's scores using a cluster classifier.</p>
+
+                          <p><b>Perimeter Defense Metrics:</b></p>
+
+                          <p>Perimeter defense is the act of defending or preventing shots at the perimeter. This means allowing a lower percentage of shots at the perimeter, a lower percentage of makes at the perimeter, and causing turnover-worthy plays near the perimeter. Considering this, there are 3 metrics I chose to quantify perimeter defense. The first is deflections, which quantify turnover-worthy plays at the perimeter. Deflections are the number of times a team deflects the ball within a given game, and while this can happen inside the paint, it is far more attributed to quantifying perimeter disruptivity, with many of the higher ranking players being point of attack defenders. The second is opponent 's 3-point percentage. This is fairly self-explanatory, quantifying the percentage shots made outside the perimeter. The 3rd is a stat I call 3PUE, or 3-pointers under expected. It is meant to quantify the number of points allowed from 3-pointers (or behind the perimeter) a team allows below the league average (which is the expected mark for each team). A higher number signifies a worse defense, and a lower number signifies a better defense. This stat is meant to both quantify frequency and accuracy allowed by an NBA perimeter defense in one statistic.</p>
+
+                          <p><b>Interior Defense Metrics:</b></p>
+
+                          <p>Below are 3 scatter plots that chart the relationship of the 3 chosen perimeter defensive metrics to win percentage. All 3 metrics had a fairly low correlation with winning, with 3PUE being the highest. It is interesting to see a team like Sacramento rank as the worst team in our 3PUE metric, despite having two stellar perimeter defenders in Keon Ellis and Keegan Murray. Also, OKC’s defense is in a league of its own, ranking incredibly high in deflections and opponent 3-point percentage. Surprisingly, Chicago is right with them, being amongst the lowest in 3PUE and opponent 3-point percentage. Their slew of defensive guards and wings, lack of rim protection, and penchant to play with pace point to a perimeter defensive style that looks to limit points from outside.</p>
+
+                          <div class="slideshow-container">
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides slide">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="../images/dj-pics/perimeter-or-interior/01 Wins vs. Threes.png" alt="" style="width:100%">
+                            </div>
+
+                            <div class="mySlides slide">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="../images/dj-pics/perimeter-or-interior/02 Wins vs. Opp Threes.png" alt="" style="width:100%">
+                            </div>
+
+                            <div class="mySlides slide">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="../images/dj-pics/perimeter-or-interior/03 Wins vs Deflections.png" alt="" style="width:100%">
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                          </div>
+                          <br>
+
+                          <p><b>Interior Defense vs. Winning:</b></p>
+
+                          <p>The 3 scatter plots that display the relationship between interior defense and winning are below. RPUE and opponent rim field goal percentage had fairly high correlation coefficients, and there is a clear relationship between the 2 and win percentage. These charts also help us answer the question we raised about the Sacramento Kings. They rank very high in RPUE, which points to Keegan and Keon playing a lot of help for Sabonis, selling out to protect and prevent rim attempts opposed to 3 pointers. Under Mike Brown, it was known that the Kings didn’t allow drives down the middle, but were susceptible to corner 3s, a strategy that has seemed to continue under Doug Christie. Again, OKC is a complete outlier in all 3 metrics, which is more evidence of their complete outlier defensive season. The Magic and Golden State are also dominant in these statistics, with the Magic being a small outlier in the positive correlation of BLK% and win percentage.</p>
+
+                          <div class="slideshow-container">
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides slide2">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="../images/dj-pics/perimeter-or-interior/04 Wins vs Rim.png" alt="" style="width:100%">
+                            </div>
+
+                            <div class="mySlides slide2">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="../images/dj-pics/perimeter-or-interior/05 Wins vs Blocks.png" alt="" style="width:100%">
+                            </div>
+
+                            <div class="mySlides slide2">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="../images/dj-pics/perimeter-or-interior/06 Wins vs Opp Rim.png" alt="" style="width:100%">
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                          </div>
+                          <br>
+
+                          <p><b>Findings:</b></p>
+
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/perimeter-or-interior/07 Cluster Analysis.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/perimeter-or-interior/08 Chart.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+
+                          <p>After constructing the clustering algorithm and generating the above scatter plots, one takeaway is apparent at the surface: the interior defense metrics had a higher correlation to winning than the interior defense metrics. With a pure correlation view, interior defense is more important. On average, the interior defense metrics had a higher correlation coefficient with win percentage than the perimeter defensive metric. Our clustering algorithm also makes it apparent that generally, the better NBA teams possess a slightly better interior defense than perimeter defense (look at OKC and Boston, for example).</p>
+
+                          <p>However, this is still very surface level, and once we look at the cluster graph and the list of teams that fit into our “King of All Trades” green tier, it is clear that proficiency in both generally leads to winning games. 9 of the 12 teams in the “King of All Trades” tier made the playoffs, with 6 of them making the 2nd round. Of those 6, OKC stands out as a complete. Their defense was generational, and their outlier performance in both metrics furthers their unbelievable defense this year.</p>
+
+                          <p>For the teams that specialized in one or the other, only two made the playoffs, both of which got bounced in the first round. The film backs up their classification, too, building confidence in the clustering model. The Clippers boast many elite perimeter defenders, such as Kris Dunn, Derrick Jones Jr, and Kawhi Leonard, to name a few. The Pistons, on the other hand, tend to rely heavily on rim protectors Isiah Stewart and Jalen Duren, given their lack of elite perimeter defenders.</p>
+
+                          <p>If we consider the playoff teams in the red category, “The Misfits”, 5 of the 14 made the playoffs. All 5 of those teams possess exceptional coaches who have built schemes that mitigate a lack of elite defensive talent, with defenses that can scrap and play hard. The Heat, Lakers, and Knicks, in particular, were limited by their star pieces' defensive capabilities or health, and still ended up with solid NBA defense because of coaching. The Knicks and Lakers, in particular, were heavily limited by their stars being below average defenders (which affected their defensive style, since they had to work to hide their stars on the other end), had elite complementary defenders, and great schemes that held their respective defenses together.</p>
+
+                          <p>Given this analysis and the clustering model below in mind, the final takeaway is clear. To build a good NBA defense and win in the NBA, without exceptional coaching or a generational talent, an NBA team needs to have both an elite perimeter and interior defense. However, with all this considered, interior defense is slightly more important than perimeter defense and more correlated to winning. The better teams were more interior defense-oriented than perimeter defense-oriented, with the 3 60-win teams ranking higher in the interior defense standardized score than the perimeter defense standardized score. The importance of having a buzzsaw down low still slightly outweighs an elite shield on the perimeter.</p>
+
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <<section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+      <script src="../assets/js/slides.js"></script>
+
+  </body>
+</html>

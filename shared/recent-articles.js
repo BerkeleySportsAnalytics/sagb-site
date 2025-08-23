@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "perimeter-problem.html";
-article2 = "bottom-to-glory.html";
-article3 = "icing-the-kicker.html";
-article4 = "american-dream.html";
-article5 = "framing-the-zone.html";
-article6 = "free-throw-factor.html";
-article7 = "turning-up-the-heat.html";
-article8 = "backwards-k.html";
-article9 = "hart-and-soul.html";
+article1 = "perimeter-or-interior.html";
+article2 = "perimeter-problem.html";
+article3 = "bottom-to-glory.html";
+article4 = "icing-the-kicker.html";
+article5 = "american-dream.html";
+article6 = "framing-the-zone.html";
+article7 = "free-throw-factor.html";
+article8 = "turning-up-the-heat.html";
+article9 = "backwards-k.html";
 
-title1 = "The NBA's Perimeter Problem";
-title2 = "From Bottom to Glory: LA Galaxy’s 1-Year Turnaround from 13th to Champions";
-title3 = "Does Icing the Kicker Even Work?";
-title4 = "Swinging into the American Dream: Latin America's WAR at Bat";
-title5 = "Framing the Zone: Who, What, Where, and Why";
-title6 = "The Free Throw Factor: Is it the Key to Success on the Floor?";
-title7 = "Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?";
-title8 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
-title9 = "Josh Hart: Hart and Soul of the New York Knicks";
+title1 = "What is More Important to Winning: Perimeter or Interior Defense?";
+title2 = "The NBA's Perimeter Problem";
+title3 = "From Bottom to Glory: LA Galaxy’s 1-Year Turnaround from 13th to Champions";
+title4 = "Does Icing the Kicker Even Work?";
+title5 = "Swinging into the American Dream: Latin America's WAR at Bat";
+title6 = "Framing the Zone: Who, What, Where, and Why";
+title7 = "The Free Throw Factor: Is it the Key to Success on the Floor?";
+title8 = "Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?";
+title9 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
