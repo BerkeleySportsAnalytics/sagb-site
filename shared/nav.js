@@ -21,7 +21,7 @@ var business_file = folder == "up" ? "../business.html" : "business.html"
 // var blog_file = folder == "up" ? "../blog.html" : "blog.html"
 // var nbaprojs_file = folder == "up" ? "../statlineprojections.html" : "statlineprojections.html"
 var board_file = folder == "up" ? "../board.html" : "board.html"
-var contact_file = folder == "up" ? "../contact-us.html" : "apply.html"
+var contact_file = folder == "up" ? "../apply.html" : "apply.html"
 
 //Added NBA Projections
 var string =
