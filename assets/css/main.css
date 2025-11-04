@@ -1575,6 +1575,7 @@ table.default thead {
 <<<<<<< HEAD
   object-fit: contain;
   width: 15%;
+  height: auto;.box.card-list
   max-width:100%;
   margin: 0 1em 3em 3em;
 }
