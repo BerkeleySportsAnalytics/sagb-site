@@ -1,0 +1,246 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>League and Positional Bias in Transfermarkt Player Market Values | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>League and Positional Bias in Transfermarkt Player Market Values</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Chloe Xiao</a> | January 09, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/transfermarkt-positional-bias/main.jpg" alt="" /></span>
+                          
+                          <p>In the soccer fans community, many discussions surround Transfermarkt, an online platform that estimates player market values as a measure of their overall ability, giving players with similar ability different market values depending on which league they play. This has sparked endless quarrels between fans defending their players and clubs. Rivals of the claimed “favored” leagues argue that these teams gain an unfair advantage in publicity and marketing, while their supporters counter that the supposed bias is exaggerated and can be explained by factors like league difficulty.</p>
+
+                          <p>Still, Transfermarkt’s market values remain one of the most common ways fans judge how “good” a player is. That makes it important to ask responsibly whether such bias or deviation actually exists.</p>
+
+                          <p>Many analyses on social media have tried to answer that question, but most rely on a narrow set of stats that oversimplify performance. For instance, some argue that Transfermarkt overrates a striker simply because he scores fewer goals than a cheaper player. However, they neglected that goals are only one part of a striker’s overall ability.</p>
+
+                          <p>In this article, we used a more data-driven and comprehensive analysis. We construct an adjusted performance index that controls for minutes played and league strength, enabling fair cross-league comparisons. Using this framework, we can not only see whether bias exists, but also answer questions like which league gets favored the most? And what position of players experiences greater biases?</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/transfermarkt-positional-bias/avg MV vs UEFA coeff.png" alt="" />  <figcaption>(All market values are in million euros)</figcaption></span>
+
+                          <p>To start off, we first look at how market values relate to the overall strength of each league. The scatter plot above shows the average player market value against the UEFA country coefficient, which reflects the general level of competition in each league. The English Premier League and France’s Ligue 1 both appear above the trendline, suggesting players there are valued higher than their league performance alone would predict. Germany’s Bundesliga and Spain’s La Liga fall close to the trend, while Italy’s Serie A sits slightly below it. This serves as an initial overview of how league reputation might influence value. However, since it compares leagues as a whole rather than individual players, it doesn’t yet responsibly answer whether Transfermarkt systematically favors certain leagues.</p>
+
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/CF PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Winger PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/AM PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/CM PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/DM PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/CB PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Fullback PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/GK PPI vs MV.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          
+                          <p>To compare players fairly across different leagues, we built an adjusted player performance index (PPI) that accounts for both individual performance and the difficulty of competition. For each position, we selected a set of key stats, such as goals and xG(expected goals) per shot for forwards or tackles and interceptions for defensive midfielders, and combined them into a single weighted score. Players who played fewer minutes had their scores scaled down to prevent short-term performances from skewing the results. We then adjusted these scores using each player’s Opponent Strength Index (OSI), which reflects how difficult their league and European opponents were. The amount of this adjustment, called alpha, varies by position because some roles are more affected by opponent strength than others. This method ensures that players in tougher leagues are not penalized for facing stronger competition and that PPI reflects performance on an even playing field.</p>
+
+                          <p>We created scatter plots that compare the adjusted player performance index with market value for each position. Each point represents a player, with color indicating their league, and the line showing the overall relationship between performance and valuation. The slope of the line is much steeper for attacking players such as forwards and wingers, meaning that improvements in performance have a larger impact on their market value. For center backs and goalkeepers, the line is almost flat, suggesting that their values depend less on measurable performance. The dots also cluster more tightly around the trend line in forward and midfield positions, while defensive roles display a wider spread. This shows a clearer link between how well forwards and midfielders play and their market value compared to that of defensive players.</p>
+
+                          <p>Across all positions, Premier League players often appear above the line, while Ligue 1 players frequently fall below it. La Liga also has more outliers in attacking and midfield roles, where several players are valued much higher than what the trendline predicts. Together, these patterns reveal that both position and league play an important role in shaping how market value aligns with on-field performance.</p>
+
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev CF.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev winger.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev AM.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev CM.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev DM.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev CB.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+                          <div class="row-article">
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev fullback.png" alt="" style="width:100%">
+                            </div>
+                            <div class="column-article">
+                              <img src="../images/dj-pics/transfermarkt-positional-bias/Avg dev GK.png" alt="" style="width:100%">
+                            </div>
+                          </div>
+
+                          <p>To better understand how league bias appears in different positions, we calculated the average deviation from the trend line by league for each position. Each bar represents how far, on average, a league’s players deviate from the expected market value predicted by their performance index. Positive bars mean the players in that league are valued higher than expected, while negative bars indicate undervaluation.</p>
+
+                          <p>The bias in market value clearly exists, but it varies across both leagues and positions. The bar charts reveal that the English Premier League consistently overvalues its players across all roles. The difference is most visible in defensive positions, where English defenders and goalkeepers are valued far higher than performance would predict. The Spanish La Liga presents a more complex pattern. Players in forward and midfield roles are generally overvalued, but defenders and goalkeepers show undervaluation. This imbalance hints that attacking and creative players receive more recognition in this league, especially. The French Ligue 1 stands at the opposite end of the spectrum, showing widespread undervaluation across nearly every position. However, surprisingly, their goalkeepers have a significant amount of overevaluation. Serie A and the Bundesliga are the most balanced, with mild and relatively consistent undervaluation across all roles. Players in these two leagues have less distortion caused by perception or exposure.</p>
+
+                          <p>Overall, these results confirm that bias in market value is not uniform. It changes not only from league to league but also from one position to another. Attacking players, especially those in leagues with higher visibility, receive the largest boosts relative to performance, while defenders and goalkeepers are priced more conservatively.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/transfermarkt-positional-bias/overall league bias.png" alt="" /></span>
+
+                          <p>Now we look at the broader picture of how each league performs on average across all roles. The bar chart above summarizes this overall league bias, showing whether players tend to be valued higher or lower than their performance would predict. The English Premier League stands far above all others, confirming a consistent overvaluation across positions. La Liga shows only a slight positive deviation, while Bundesliga, Serie A, and especially Ligue 1 fall below the expected line, indicating systematic undervaluation. This pattern reinforces the earlier findings that bias in player market value not only exists within positions but also extends to entire leagues. After accounting for performance and competition strength, Transfermarkt still assigns unequal value across Europe’s top divisions.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/transfermarkt-positional-bias/heat map.png" alt="" /></span>
+
+                          <p>This heatmap confirms the patterns seen in the bar charts. Each cell represents the average deviation from the expected market value for a given league and position, with red indicating overvaluation and blue indicating undervaluation. This graph confirms similar patterns as the above barcharts.</p>
+
+                          <p>There are several factors that explain these bias patterns. Leagues differ significantly in global visibility, and players in more widely watched competitions naturally receive higher recognition and valuation. League environments also vary in pace, tactics, and defensive structure, meaning that the skills required to succeed can differ across competitions. Using a single evaluation scale across all leagues can therefore lead to overgeneralization. Financial dynamics play a role as well. Some leagues regularly pay higher transfer fees than others. These prices influence future valuations, keeping player values elevated regardless of recent performance.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/transfermarkt-positional-bias/bias range of positions.png" alt="" /></span>
+
+                          <p>This chart compares how consistent the relationship between performance and market value is across different positions. A taller bar means that players in that position experience a wider spread in how their performance translates into value. This means less agreement among leagues and fans about what defines quality for that role. Attacking midfielders stand out with the largest range, reflecting how creativity, playmaking, and style are more subjective instead of being based solely on stats. Forwards and wingers also show significant variation, as scoring and dribbling ability often depend on team systems. On the other hand, defenders and goalkeepers have much smaller ranges, indicating clearer and more uniform standards for evaluating their performance. Overall, the chart shows that the further forward a position is on the field, the less consensus there is on how performance should be priced.</p>
+
+                          <p>From our analysis, it is clear that bias in market value does exist. Premier League players tend to be valued higher than their performance suggests, while Ligue 1 players are often valued lower. The extent of this bias also depends on position. Attacking players, especially attacking midfielders, show the greatest variation between performance and valuation, while defenders and goalkeepers show much smaller differences. These patterns indicate that Transfermarkt may be weighing league strength more heavily than the actual league difficulty difference. A more accurate adjustment framework and clearer position-based criteria would bring valuations more reflective of on-field performance.</p>
+
+                          <p>The pattern of bias within each league also varies by position. For instance, in La Liga, forwards and midfielders tend to be overvalued, while defensive players are undervalued. In Ligue 1, most positions fall below the expected trend, yet goalkeepers stand out as slightly overvalued. Therefore, evaluations can improve by recognizing the same position and can emphasize different skills across leagues. Taking these stylistic differences into account would lead to more balanced and accurate assessments.</p>
+
+                          <p>In addition, it’s important to note that this article does not aim to criticize Transfermarkt. Our adjusted player performance index is an estimated model that depends on the choice of statistics and weighting, which inevitably reflects subjective judgment. In addition, market value is not meant to capture performance alone. It incorporates factors such as growth potential, scarcity of the position, reputation, and media visibility. A player’s tactical role can also make their contribution appear greater or smaller than what statistics reveal.</p>
+
+                          <p>The key takeaway is not that market values are wrong, but to interpret them with a more critical perspective. Market value should not be seen as a pure measure of ability, but rather as a reflection of performance, perception, and market forces combined. When forming opinions about players, it’s helpful to look at the raw stats, and more importantly, watch the games, besides taking insights from Transfermarkt or any other rating sites.</p>
+                          
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

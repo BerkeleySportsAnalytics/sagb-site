@@ -1,0 +1,246 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Redefining the NHL's Special Teams Metrics | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Redefining the NHL's Special Teams Metrics</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Matthew Takagi</a> | January 09, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/main.jpg" alt="" /></span>
+                          
+                          <p>For decades, the National Hockey League has relied on a simple, binary metric to evaluate power plays and penalty kills: PP% and PK%. A team either scores on a power play, or they don’t. Likewise, a team either kills a penalty, or they don’t. On a broadcast, or perhaps the NHL website, these are the only special teams statistics you’ll see.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/01.png" alt="" /><figcaption>Credits: MSG Networks, TSN, FanDuel Sports Network, NESN, TNT Sports</figcaption></span>
+
+                          <p><b>The Traditionsal Metrics' Flaws</b></p>
+
+                          <p>The calculation of PP% and PK% is rooted in the “opportunity” as the base unit of measurement.</p>
+
+                          <ol>
+                            <li><b>- Power Play Percentage (PP%)</b> is simply the ratio of goals scored to power play opportunities received:</li>
+                            <li><b>- Penalty Kill Percentage (PK%)</b> is the inverse, measuring the ratio of opportunities successfully defended:</li>
+                          </ol>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/02.png" alt="" /></span>
+
+                          <p>These numbers are certainly straightforward for the average fan to interpret, but they’re certainly far from the entire story. These traditional metrics hide important context and ignore important events that take place, thus having the effect of misleading us about a team’s true effectiveness on special teams. Using data from the 2024-25 NHL regular season (sourced through Evolving Hockey), here are four reasons why:</p>
+
+                          <p>1. Not all power play opportunities are created equal. Traditional PP% treats every power play opportunity the same, whether it’s 20 seconds of 5-on-4 or 100 seconds of 5-on-3 power play; traditional PP% cannot distinguish between different scenarios, even though these scenarios have drastically different scoring rates. </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/03.png" alt="" /></span>
+
+                          <p>Context matters. A team may excel at 5-on-3, but struggle at 5-on-4, even though 5-on-4 situations make up the vast majority of power play time. Teams that succeed in different situations may have similar PP% or PK% numbers, but they may also have very different special teams capabilities.</p>
+
+                          <p>2. Traditional metrics only look at goals scored and goals allowed. They cannot distinguish between the sustainability of the overall process and the random variance naturally occurring with the small sample sizes that these statistics are forced to work with. By investigating expected goals (xG), we can see the difference between earned results and puck luck.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/04.png" alt="" /></span>
+
+                          <p>The green dots in the above visualization show teams overperforming their expected goals; this may represent a team riding unsustainable shooting percentage on the power play, or a team relying on hot goaltending on the penalty kill. On the flip side, the red dots show teams underperforming; teams may create quality chances on their power plays but get unlucky with finishing or facing hot goaltenders, for example.</p>
+
+                          <p>A team with a 20% PP% might be generating high-danger chances that will eventually convert (projecting sustainability), or they might be scoring on low-quality shots at an unsustainable rate (projecting regression). However, this isolated percentage cannot inform us of the likelihood of these two possibilities.</p>
+
+                          <p>3. Shorthanded goals are completely ignored. Modern power plays and penalty kills are increasingly aggressive, using special teams structures such as the five-forward power play and “Power Kill” penalty kill. While a five-forward power play may indeed generate goals at a higher rate, it may also give up goals at a higher rate. The reality is that shorthanded goals happen regularly, and yet, traditional PP% and PK% both completely ignore this aspect of special teams play.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/05.png" alt="" /></span>
+
+                          <p>Two teams could both have a 20% PP%, but if one allows twice as many shorthanded goals as the other, which power play is actually more valuable? Traditional PP% says they are equal.</p>
+
+                          <p>4. Percentage variance reveals heavy amounts of randomness. If skill were the only factor contributing to special teams performance, we would expect to see tight clustering around the mean. Instead, the numbers reveal that there exists a wide variance in shooting and save percentages.</p>
+
+                          <p><b>A Better Way: Calculating PP+ and PK+</b></p>
+
+                          <p>Taking inspiration from baseball’s methodology of standardizing statistics (take wRC+, for instance), we can make interpretations of special teams units intuitive using the PP+ and PK+ metrics, where 100 is always league average.</p>
+
+                          <p>The philosophy behind PP+ and PK+ is simple: address the flaws that exist in the current methodologies of evaluating special teams units in the present-day NHL.</p>
+
+                          <ol>
+                            <li>1. Weigh different contexts and situations (5v4, 5v3, 4v3, etc.) by their expected scoring rates.</li>
+                            <li>2. Combine the process and actual results of a special teams situation, where expected goals have a slightly higher weight than actual goals.</li>
+                            <li>3. Hold special teams units accountable for shorthanded goals by factoring them into calculations of both PP+ and PK+</li>
+                            <li>4. Standardize the scale for both metrics, so that the league average is 100 and standard deviation is approximately 15.</li>
+                          </ol>
+
+                          <p>With these holes addressed, we can now move on to calculating the metrics for teams during the NHL’s 2024-25 regular season.</p>
+
+                          <p><b>The Math</b></p>
+
+                          <p><b>Step 1: Calculate Situational Weights</b></p>
+
+                          <p>In order to standardize this part of the calculation, we can weigh each manpower situation based on league-average expected goals rates:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/06.png" alt="" /></span>
+
+                          <p>Using 2024-25 data, we come up with the following weights:</p>
+                          <p>Power Play: 5v3–1.000; 4v3–0.509; 5v4–0.297</p>
+                          <p>Penalty Kill: 4v5–0.028; 3v4–0.007; 3v5–0.000</p>
+
+                          <p><b>Step 2: Calculate Composite Score for Each Situation</b></p>
+
+                          <p>For each team and situation, we create a composite metric that takes into account both the special teams process and special teams results.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/07.png" alt="" /></span>
+
+                          <p>We use a 60/40 split for expected and actual goals, the former of which representing the process and the latter representing the results. Research shows that xG can be more predictive than actual goals, but at the same time, the results do matter, and it is actual goals that ultimately matter for wins. Likewise, a 0.5 penalty/bonus is applied for shorthanded goals; although they are impactful events in any hockey game, full weighting in this scenario would be an overreaction to what is inevitably a small sample.</p>
+
+                          <p><b>Step 3: Weight by Situation and Time</b></p>
+
+                          <p>Then, for each team, we must ensure that they are each evaluated based on the actual mix of their special teams opportunities. We create a weighted score using the numbers calculated from the previous two steps in order to do so.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/08.png" alt="" /></span>
+
+                          <p><b>Step 4: Normalize to Standardized Scale</b></p>
+
+                          <p>Finally, we can use this team score to normalize the metric and present PP+ and PK+ on the aforementioned scale.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/09.png" alt="" /></span>
+
+                          <p>By multiplying by 15, we create a standard deviation of approximately 15 points, making the scale easily interpretable and ensuring that 100 is exactly league average, 115 is one standard above average, and 85 is one standard deviation below average. </p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/10.png" alt="" /></span>
+
+                          <p>Unlike traditional percentages, PP+ and PK+ are directly comparable across seasons and eras, as they account for league-wide trends (specifically, scoring rates).</p>
+
+                          <p><b>The Results</b></p>
+
+                          <p>Examining the leaguewide data, the math comes out as expected: both metrics are centered at 100, with a standard deviation of 15.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/11.png" alt="" /></span>
+
+                          <p>A closer look at individual teams’ results reveals four distinct categories of teams, but a more telling conclusion. Of the 16 teams that qualified for the 2025 Stanley Cup Playoffs, 14 of them had an above average PP+ or PK+, with 8 of those being above average in both metrics. The two remaining teams, St. Louis and Minnesota, were the two wild card teams in the Western Conference; they were eliminated in the first round by Winnipeg and Vegas, respectively.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/12.png" alt="" /></span>
+
+                          <p>Here’s a complete look at the calculated metrics for each team, ranked by PP+ and PK+.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/13.png" alt="" /></span>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/14.png" alt="" /></span>
+
+                          <span class="image featured"><img src="../images/dj-pics/redefining-nhl-special-teams/15.png" alt="" /></span>
+
+                          <p>With a high correlation between PP+/PK+ and their traditional counterparts, there’s certainly some sort of similarity between the traditional statistics and our new metrics. However, with the additional factors that our new metrics take into account, we are able to turn a one-zone statistic into a more complete, three-zone metric.</p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

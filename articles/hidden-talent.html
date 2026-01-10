@@ -1,0 +1,290 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues</h2>
+                            <p><i>A professional scouting feature blending soccer intelligence with modern data science</i></p>
+                            <h4>By <a href="https://google.com" target="_blank">Michael Strommer</a> | January 09, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/main.jpg" alt="" /></span>
+
+                          <p><b>Abstract</b></p>
+
+                          <p>Lamine Yamal, Jamal Musiala, Jude Bellingham — these names define a generation of footballers who seem to have been at the top forever, yet all three are still 23 or younger. Their market values rise at an astonishing pace, often outpacing what they presently deliver on the pitch. The real question for scouts and analysts is not whether they’re good — they obviously are — but whether their valuations reflect fundamentals or simply narrative momentum. And more importantly: are there lesser-known U23 players whose performances mirror these stars, but whose price tags remain within reach?</p>
+
+                          <p>In this article, I merge season-level performance data from FBref with market valuations from Transfermarkt, apply machine learning to estimate “Expected Market Values” for U23 players in Europe’s top five leagues, and identify where the market is mispricing talent. The goal is not to replace scouts; rather, it is to give them an evidence-based reference point for separating hype from production and surfacing players who deserve closer attention.</p>
+
+                          <p><b>The Problem with Hype</b></p>
+
+                          <p>The 2024–25 season provides a striking example of the disconnect between narrative and output. Lamine Yamal, still only 17, carried a Transfermarkt valuation of €180 million while contributing 9 goals and 13 assists in just over 30 league games. Michael Olise, newly arrived in Munich, posted 12 goals and 15 assists in just 26 matches — yet his valuation sat around €80 million.</p>
+
+                          <p>By pure per-90 production, Olise outperformed Yamal, but the market placed a €100 million premium on the Barcelona winger. This kind of discrepancy is increasingly common. Modern transfer valuations behave much like a sentiment-driven stock market: prices swing not only with performance but with storyline, media exposure, league strength, and perceived potential. One highlight reel can move a player’s price more than a month of steady contribution.</p>
+
+                          <p>For clubs, this volatility is a threat and an opportunity. The only way to navigate it responsibly is to anchor evaluations in fundamentals — just as value investors do in financial markets. With the right tools, a club can distinguish between brilliance that already exists and brilliance the world simply hopes will appear.</p>
+
+                          <p><b>Building a Data-Driven Talent Lens</b></p>
+
+                          <p>To counteract the noise, I constructed a player-level dataset of U23 footballers in the European Big 5 Leagues (<i>Premier League, La Liga, Bundesliga, Serie A, and Ligue 1</i>). After filtering for players with at least 400 league minutes and merging FBref performance statistics with Transfermarkt valuations, the final sample consisted of 834 outfield players. All production metrics were standardized on a per-90 minutes basis, and contextual variables such as league and usage were included to reflect differences in competitive environment and managerial trust.</p>
+
+                          <p>Using this data, I applied t-SNE to compress each player’s multidimensional performance profile into a two-dimensional map. Even though t-SNE is primarily a visualization tool rather than a clustering algorithm, the resulting landscape naturally revealed four archetypes.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure 1_tSNE_clusters_top_players_per_cluster.png" alt="" /></span>
+
+                          <ol>
+                            <li>1. <b>Cluster 0 – “Developmental Prospects” (purple)</b>
+                              <ul>
+                                <li style="padding: 0px 0px 0px 30px;">• Younger players with limited minutes and relatively muted per-90 production</li>
+                                <li style="padding: 0px 0px 0px 30px;">• A wide base of the talent pyramid; many may still be adjusting to the league</li>
+                                <li style="padding: 0px 0px 0px 30px;">• Not “wonderkids” yet, but fertile ground for future break-outs</li>
+                              </ul>
+                            </li>
+                            <li>2. <b>Cluster 1 – “Creators / Technical Playmakers” (red)</b>
+                              <ul>
+                                <li style="padding: 0px 0px 0px 30px;">• High values in xA, xG and progressive metrics (PrgP, PrgC, PrgR)</li>
+                                <li style="padding: 0px 0px 0px 30px;">• Includes elite wingers and attacking midfielders like <b>Lamine Yamal</b> or <b>Jude Bellingham</b></li>
+                                <li style="padding: 0px 0px 0px 30px;">• These are the “magicians” and primary chance-creators in possession</li>
+                              </ul>
+                            </li>
+                            <li>3. <b>Cluster 2 – “Finishers / Direct Attackers” (green)</b>
+                              <ul>
+                                <li style="padding: 0px 0px 0px 30px;">• High Gls/xG per 90 with relatively lower creative metrics</li>
+                                <li style="padding: 0px 0px 0px 30px;">• Classic 9s and direct wide forwards such as <b>Nicolas Jackson</b> or <b>Benjamin Šeško</b></li>
+                                <li style="padding: 0px 0px 0px 30px;">• Their job is to attack space and finish moves</li>
+                              </ul>
+                            </li>
+                            <li>4. <b>Cluster 3 – “Defensive Anchors (CB/DM)” (orange)</b>
+                              <ul>
+                                <li style="padding: 0px 0px 0px 30px;">• Very low direct goal contributions, but high tactical value</li>
+                                <li style="padding: 0px 0px 0px 30px;">• Center-backs and defensive midfielders responsible for buildup, rest-defense and stability</li>
+                                <li style="padding: 0px 0px 0px 30px;">• Includes players on the trajectory of <b>William Saliba</b> or <b>Moisés Caicedo</b></li>
+                              </ul>
+                            </li>
+                          </ol>
+
+                          <p>These archetypes matter because they allow us to compare players within the roles they actually play. A direct attacker should not be compared to a deep-lying playmaker, and a center-back should not be judged on the same scoring expectations as a winger. Clustering organizes the landscape so we can ask: within each role, who is delivering the most value per minute? And who is being priced as if they belong to another universe entirely?</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_2_radar_plot_player_archetypes.png" alt="" /></span>
+
+                          <p><b>Predicting Fair Value</b></p>
+
+                          <p>With the positional archetypes established, I trained an XGBoost regression model to predict market value directly from performance and contextual features. On a held-out validation set, the model explained roughly 57 percent of the variation in market values — not perfect, but respectably strong in a domain where narrative can overwhelm logic.</p>
+
+                          <p>The model generates an Expected Market Value (EMV) for every player. Comparing this expected value to the actual Transfermarkt valuation reveals where the market is misaligned. Positive residuals indicate players whose public valuations exceed what their performance warrants; negative residuals point toward players whose contributions are being undervalued by the market.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_3_xgb_emv_scatter_mispricing.png" alt="" /></span>
+
+                          <p>This simple idea — the gap between expected and actual price — becomes a powerful scouting signal. In financial terms, it identifies the overbought and the oversold.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_4_xgb_undervalued_overvalued_players.png" alt="" /></span>
+
+                          <p><b>Case Studies: Yamal, Greenwood, and Olise</b></p>
+
+                          <p>The valuation map brings <b>Lamine Yamal</b> back into focus. According to the model, an appropriate valuation for his current production is roughly €96 million — an enormous figure for a 17-year-old, but still €84 million below his actual valuation. The market is paying heavily for expected future greatness rather than for his current outputs.</p>
+
+                          <p>On the opposite extreme lies <b>Mason Greenwood</b> at Marseille. With 22 goals and 5 assists in a little over 30 matches, his EMV rises to nearly €73 million, compared with an actual valuation of €35 million. The model flags him as one of the most undervalued U23s in Europe, while also reminding us that it evaluates only on-pitch performance. Off-field risk, which can dramatically affect real-world value, sits outside the scope of this analysis.</p>
+
+                          <p>Then there is <b>Michael Olise</b>. His numbers and style of play have electrified Bayern, and the model agrees: it estimates an EMV of roughly €81 million, almost exactly matching his actual €80 million valuation. </p>
+
+                          <p>This near-perfect alignment places him in a rare group of fairly valued elite U23 talents with EMVs greater than €81 million, alongside <b> Rodrygo, Pedri, Cole Palmer, Florian Wirtz, Jamal Musiala, Bukayo Saka,</b> and <b>Jude Bellingham</b>.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_5_xgb_emv_zoom_high_value.png" alt="" /></span>
+
+                          <p>Bellingham, for instance, does not lead the sample in goals or assists. Yet, his exceptional progressive passing and carrying metrics elevate his EMV to €179 million — almost identical to his real-world valuation. In such cases, the market appears remarkably efficient.</p>
+
+                          <p><b>Value at Realistic Budgets</b></p>
+
+                          <p>While nine-digit valuations capture headlines, most clubs operate in the €10–30 million range. To explore that band, I isolated players with expected values below €30 million but whose residuals exceeded €10 million in either direction.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_6_xgb_emv_zoom_overvalued_high_emv.png" alt="" /></span>
+
+                          <p><b>Piero Hincapié</b> emerges as one of the most overvalued players in this zone according to the model. His defensive influence for Bayer Leverkusen is significant, but his goal contributions and progressive numbers are relatively muted. This disconnect is less an indictment of his ability and more a reminder that conventional event data does not fully capture defensive quality.</p>
+
+                          <p><b>Joshua Zirkzee</b>, now at Manchester United, is another example of a talented forward whose valuation appears to lean more on potential and stylistic appeal than on immediate output. With limited goals and assists in his first fifteen league matches, the model prices him below the market’s expectations.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_7_xgb_emv_zoom_undervalued.png" alt="" /></span>
+
+                          <p>The undervalued side offers more encouraging findings. <b>Nicolò Cambiaghi</b> stands out as a player whose progressive carrying and receiving numbers at Bologna far exceed what his valuation implies.</p>
+
+                          <p><b>Eric García</b>, thriving as a defensive midfielder at Barcelona, also appears significantly underpriced relative to his contributions in buildup and field progression</p>
+
+                          <p>These are precisely the kinds of players for whom a data-driven model can open a door. It doesn’t declare them automatic transfer targets, but it does signal that a club should take a closer look — ideally through film study, live scouting, biomechanics, and character assessment.</p>
+
+                          <p><b>What Drives Market Value?</b></p>
+
+                          <p>To understand why certain players receive higher EMVs than others, I examined the model using SHAP value analysis. The results paint a clear picture of how modern football rewards skill sets.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_8_xgb_shap_summary.png" alt="" /></span>
+
+                          <p><b>Progressive passing</b> (prgp_per90) emerges as the single most influential driver of valuation. Players who regularly break lines and advance possession through incisive passes are consistently priced higher. <b>Minutes played</b> (90s) and appearances also matter greatly, serving as proxies for reliability, tactical fit, and managerial trust.</p>
+
+                          <p><b>League effects</b> are pronounced as well. Playing in the Premier League carries a distinct premium, reflecting both commercial visibility and the league’s depth of competition. Ligue 1 players tend to face a mild discount, while La Liga offers a small bump.</p>
+
+                          <p><b>Scoring and creative metrics</b> behave as expected: goals (gls_per90), expected goals (xg_per90), assists (ast_per90), and expected assists (xa_per90) all raise EMV, capturing both current output and underlying process. </p>
+
+                          <p><b>Age</b> (age) within the U23 group has a slight negative trend, reinforcing the idea that younger players carry resale value and development upside.</p>
+
+                          <p>Taken together, these findings show that the model values players much like modern recruitment departments do: progress the ball, create chances, accumulate minutes, and do it in a demanding league, and your valuation rises steeply.</p>
+
+                          <p><b>Hidden Talent Shortlist Within Each Archetype</b></p>
+
+                          <p>Because the analysis combines clustering with valuation modeling, it allows us to surface undervalued players not only in general but within their specific functional roles. </p>
+
+                          <p><b>Creators</b> who are producing at elite levels:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_9_xgb_top5undervalued_creators.png" alt="" /></span>
+
+                          <p><b>Finishers</b> whose xG numbers exceed their goal totals:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_10_xgb_top5undervalued_attackers.png" alt="" /></span>
+
+                          <p><b>Defensive midfielders</b> who drive buildup:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_11_xgb_top5undervalued_defensiveanchors.png" alt="" /></span>
+
+                          <p><b>Developmental prospects</b> logging promising per-90 numbers</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/hidden-talent/Figure_12_xgb_top5undervalued_developmentalprospects.png" alt="" /></span>
+
+                          <p>This role-specific perspective is particularly useful for scouts. Instead of asking “Who are the top undervalued U23 players?”, the better question becomes “Who are the undervalued creators?”, “Who are the undervalued center-backs?”, or “Which low-minute prospects might break out next season?” The model creates a framework for answering those questions with discipline and consistency.</p>
+
+                          <p><b>Using This Tool the Right Way</b></p>
+
+                          <p>An EMV model is not a crystal ball. It should be treated as a secondary layer of evaluation rather than as the foundation for transfer decisions. Any serious scouting department will complement it with extensive film analysis, live observation, medical records, psychological evaluation, and background checks. It is also important to acknowledge the model’s limitations: single-season data, imperfect valuation sources, and incomplete defensive metrics can distort the picture in some instances.</p>
+
+                          <P>Yet when used correctly, the model offers meaningful leverage. It can reveal where the market appears inflated, where underappreciated quality lies, and where a club might find bargains others overlook. It helps separate what a player has done from what the world wishes he will become.</P>
+
+                          <p><b>Conclusion</b></p>
+
+                          <p>Lamine Yamal is a phenomenon whose valuation is fueled as much by imagination as by current contribution. Michael Olise is an example of a star whose production earns every euro of his price tag. And throughout Europe, a layer of undervalued talent waits beneath the surface, particularly in roles where output is less visible but impact is profound.</p>
+
+                          <p>In an era where transfer fees behave like volatile equities, the combination of statistical modeling and football expertise provides a powerful way to stay anchored. The best scouts, much like the best investors, ignore noise, trust fundamentals, and are willing to discover value before the rest of the world notices.</p>
+
+                          <p><b>References</b></p>
+
+                          <p>GitHub: <a href="https://github.com/auntiepersilla/hidden-talent-u23">https://github.com/auntiepersilla/hidden-talent-u23</a></p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

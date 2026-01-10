@@ -1,0 +1,172 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Clutch and Leverage in the NBA Playoffs | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Clutch and Leverage in the NBA Playoffs</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Jack Bruvold</a> | January 09, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/1.png" alt="" /></span>
+                          
+                          <p>The 2024-25 Playoffs have been marked by some high-leverage shots, like Tyreese Haliburton’s or Aaron Gordon's. Aside from how clutch these shots were, the Pacers made one of these important shots in every playoff round. While the highlights speak for themselves, I thought it would be interesting to look at this level of clutch from a statistical point of view. One thing that stands out about each of these games, and something that adds to the memorability of each moment, is what the Pacers had to overcome to reach this game-winning moment. In other words, how much of a comeback the Pacers had to put on to win this game. According to Inpredictable, three of the Pacers’ playoff games(05/21 against the Knicks, 05/06 against the Cavs, and 04/29 against the Bucks) are the top 3 games by Comeback rating since 2020, and #4,5, and #7 since 2000.</p>
+
+                          <p>The high comeback rating is due to the larger point differential between the two teams at the start of the fourth quarter. During the 2024-25 season, the losing team is losing by roughly 13% of the total points scored by the end of the game. Below is the same stat for the playoffs of each season since 2000.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/2.png" alt="" /></span>
+
+                          <p>We see that the 2024-25 season has the losing team losing by the greatest margin since 2007, and the second greatest margin overall.</p>
+
+                          <p>It becomes even clearer when plotting these relative margins as a histogram, where we see that the lead in 2024-25 is greater than in previous seasons. Importantly, this is relative to the average points scored per game in each season, which helps adjust for the increase in scoring over the years.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/3.png" alt="" /></span>
+
+                          <p>One would expect a greater lead would lead to fewer comebacks(a larger lead is harder to overcome); however, last year’s playoffs stayed close. Looking at the difference in the scoring margin at the beginning of the fourth quarter compared to the last 4 minutes, we see that last year, more teams mitigated the increase of the lead or even cut the lead compared to the previous postseasons.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/4.png" alt="" /></span>
+
+                          <p>This means that teams were doing a better job of “staying in” a game compared to previous years, and some even ended up completing the comeback(like the Pacers). This is reflected in the Clutch +/-  measure, which takes the expected Win Probability Added(WPA) for a given player and subtracts that from the actual WPA, which gives a measure of clutch.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/5.png" alt="" /></span>
+
+                          <p>This year, the players had WPA similar to what was expected of them, differing by less than 1% of a win. Of all the teams in this year's postseason, the Pacers and the Nuggets’ players performed(the teams with multiple clutch moments this year), on average, better than expected when it mattered the most. This implies that the clutch moments we witnessed only came about because of the teams being clutch. What's even more interesting is that the team that actually won everything, the Thunder, actually underperformed in the clutch, but despite this were able to go all the way, a pattern I revisit later.</p>
+
+                          <p>Compounding this is that the leverage that each play had in the fourth quarter was higher in 2024-25, meaning that not only were some players performing better in the clutch, but this performance would matter more than it would in other years.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/6.png" alt="" /></span>
+
+                          <P>Looking at another year, 2017-18, which saw Lebron hit two buzzer beaters, we see a similar pattern, where the Cavaliers, not just Lebron, all performed above expected in the clutch, especially compared to the league average.</P>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/7.png" alt="" /></span>
+
+                          <p>And again, we see that the team that won it all, this time the Warriors, actually performed below expected(-0.0206 cWPA), but were still able to win it all. In general, the teams that end up going all the way performed average or slightly below average in their cWPA compared to all other teams in the playoffs. This indicates that clutch rating isn’t necessarily tied to winning, which I examined further by taking the cWPA for players on the Championship team and the runner-up team for the past 20 years, and plotted a histogram below.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/clutch-and-leverage/8.png" alt="" /></span>
+
+                          <p>We see that players on the losing team often perform above their expected WPA in moments where it matters the most, but that team still ends up losing.</p>
+
+                          <p>All in all, the 2024-2025 postseason was marked by teams that overcame differences in scores far higher than many other postseasons, which was because of many players overperforming during clutch moments(instead of just the star player). In looking at this, we also realized that these clutch moments, while good for highlights, do not necessarily correspond to winning. </p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

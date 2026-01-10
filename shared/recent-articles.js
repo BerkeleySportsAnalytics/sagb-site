@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "perimeter-or-interior.html";
-article2 = "perimeter-problem.html";
-article3 = "bottom-to-glory.html";
-article4 = "icing-the-kicker.html";
-article5 = "american-dream.html";
-article6 = "framing-the-zone.html";
-article7 = "free-throw-factor.html";
-article8 = "turning-up-the-heat.html";
-article9 = "backwards-k.html";
+article1 = "ap-poll-hype-train.html";
+article2 = "bringing-the-boom.html";
+article3 = "beyond-the-hero-moment.html";
+article4 = "anatomy-nhl-rebuild.html";
+article5 = "hidden-talent.html";
+article6 = "chaos-opportunity-podium.html";
+article7 = "redefining-nhl-special-teams.html";
+article8 = "humanity-in-umpiring.html";
+article9 = "tottenhams-rollercoaster.html";
 
-title1 = "What is More Important to Winning: Perimeter or Interior Defense?";
-title2 = "The NBA's Perimeter Problem";
-title3 = "From Bottom to Glory: LA Galaxy’s 1-Year Turnaround from 13th to Champions";
-title4 = "Does Icing the Kicker Even Work?";
-title5 = "Swinging into the American Dream: Latin America's WAR at Bat";
-title6 = "Framing the Zone: Who, What, Where, and Why";
-title7 = "The Free Throw Factor: Is it the Key to Success on the Floor?";
-title8 = "Turning Up the Heat: Does Saving Your Best for the Biggest Moments Make You a Better Pitcher?";
-title9 = "Backwards Ks: Umpire Performances and How Catchers Change Games";
+title1 = "The AP Poll is a Hype Train";
+title2 = "Bringing the Boom: Analyzing the Long-Term Effects of Torpedo Bat Usage";
+title3 = "Beyond the Hero Moment";
+title4 = "The Anatomy of an NHL Rebuild: What Actually Creates a Champion?";
+title5 = "Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues";
+title6 = "Chaos, Opportunity, and the Podium No One Predicted";
+title7 = "Redefining the NHL's Special Teams Metrics";
+title8 = "Exploring the Humanity in MLB Umpiring";
+title9 = "17th place &amp; 1st trophy in 17 years: Tottenham's Rollercoaster of a Season";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;

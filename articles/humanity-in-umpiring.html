@@ -1,0 +1,202 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Exploring the Humanity in MLB Umpiring | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>Exploring the Humanity in MLB Umpiring</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Makena Reiss</a> | January 09, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/humanity-in-umpiring/Image 1.jpg" alt="" /></span>
+
+                          <p><b>Introduction:</b></p>
+
+                          <p>Back when I was a 17-year-old girl umpiring baseball, there were always a million different ideas floating in my mind every pitch. I was <i>always</i> aware of that one parent screaming lines that really just did not make sense, catchers muttering to themselves about the call, or the not so sly unprofessional comments from coaches. My mother always asked me how I ignored the unruly crowd and remained unbiased and professional while doing my job. The honest answer to that question: I tried my very best, but there were many moments where being human shone through and influenced my calls.</p>
+
+                          <p>Imagine you are the home plate umpire, umpiring a game with two teams: the Rascals (a team that heckles and disrespects you throughout the entire game) and the Angels (a team that is respectful and asks questions instead).</p>
+
+                          <p>The Rascals are the home team, Angels up by one run, bottom of the ninth inning, bases loaded, the batter has 3 balls and 2 strikes. The Angels’ pitcher throws an outside pitch where you are unsure if it was in or out of the strike zone. There is no doubt in my mind that in that moment of uncertainty, your humanity kicks in and gives it to the Angels. If this was me, I would shout “STRIKE THREE” loudly with absolutely no regrets. Even though this decision might be subconscious for some, being human still causes errors.</p>
+
+                          <p>This makes me wonder, in professional baseball, how much these external factors like how loud the crowd is or how high the stakes in the game affect umpires’ decision making, and if this difference is enough to finally make the switch to robotic umpires.</p>
+
+                          <p><b>What factors influence umpires more? Talk about high stakes and decibel range </b></p>
+
+                          <p>In this article I will explore first how umpire errors are correlated with average decibel level in each team’s stadium and then how umpire errors have looked in each World Series game compared to the rest of the season. Lastly, I will explore the confidence interval of error in the World Series and if it is enough to make the switch to robotic umpires.</p>
+
+                          <p><b>Data Analysis between residual umpire error accuracy:</b></p>
+
+                          <p>In order to see if louder stadiums cause more umpire errors, there should be a positive relationship between the two variables, meaning as decibel range increases within each stadium the mean umpire error should increase as well.</p>
+
+                          <p>I’ve taken data from 100 random games for each MLB team within the 2025 regular season and have filtered the accuracy percentage for home games at each stadium. This resulted in calculating the mean umpire error in the 100 games and plotting them against the decibel average for each team.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/humanity-in-umpiring/Image 2.png" alt="" /></span>
+
+                          <p><b>Analysis:</b></p>
+
+                          <p>In the plot, you can see there really is not a correlation. The R^2 statistic is approximately 0, meaning that approximately 0% of the data can be explained by this linear correlation.</p>
+
+                          <p>Does this mean that there is 0 correlation between umpire error and the stadium and crowd noise? Not necessarily. There are many things that could be going on here. (1) The data measures the average decibel level, so for each play, there could be a potential correlation between each umpire call and the decibel level before each one. For example, the crowd is screaming, then resulting in a bad call, versus this plot shows the average, not singular moments.  (2) I treat umpires as a unit, there could be a correlation for individual umpires. (3) MLB umpires are a lot more professional than a 17-year-old umpire.</p>
+
+                          <p>Therefore, there could be many things going on here, but this plot shows that there is no correlation between average umpire errors and average stadium decibel level. This plot suggests that my original idea that a loud stadium would trigger errors is not the truth. The truth could be that the major league umpires have many years of experience, dealing with all sorts of crowds, and they eventually learn how to deal with distractions. The MLB is a whole different ball game than 14U baseball.</p>
+
+                          <p><b>Data Analysis for World Series:</b></p>
+
+                          <p>What about when the stakes are higher? We saw that noise might not be a large factor, but what about pressure? In order to answer this question, I have measured the difference between the error observed in each of the World Series games and the mean of the error throughout the entire season (averaging out the mean of the errors for the Dodgers and Blue Jays).</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/humanity-in-umpiring/Image 3.png" alt="" /></span>
+
+                          <p><b>Analysis:</b></p>
+
+                          <p>This plot measures differences, so in order to read this: when a bar is <b>below 0</b> (green bars), that means that the error observed in the World Series game was <i>less</i> than the mean throughout the season, meaning that the umpires were <i>more accurate</i> than the average error throughout the season! If the bar is <b>above 0</b> (red bars), then the error in the World Series was larger than the mean error throughout the season, signaling <i>more fault</i> in this higher stakes game.</p>
+
+                          <p>You can see that the bars are a bit all over the place, with games 1,3,5, and 6 being more accurate and games 2,4, and 7 being less so. This variation could be due to many factors, including that there was a different home plate umpire for each game, meaning that their resistance to high pressure scenarios vary.</p>
+
+                          <p>A couple points I find interesting are (1) that the umpire in game 3 was more accurate than the average, even though it was an 18 inning game that resulted in over 6 hours of play, which intuitively, I would assume would make the calls a little less accurate due to fatigue. (2) The last game’s calls were less accurate, which is to be as expected in my opinion due to the fact that it was Game 7, the highest pressure scenario in the entirety of the World Series.</p>
+
+                          <p><b>Goodbye to human umpires?</b></p>
+
+                          <p>Lastly, using the same dataset I have constructed a 95% confidence interval of error during the World Series. The interval is [3.689763, 6.641666]%, meaning that if we repeatedly took samples and constructed 95% confidence intervals, then 95% of those intervals would contain the true mean error. This interval does not include 0, meaning that there is a statistically significant difference between mean human umpire error and robotic umpire error(0).</p>
+
+                          <p>Is this amount of error enough to say goodbye to human umpires? In my opinion, no. Yes, this percentage error matters, but umpires are fundamentally part of the game. The tradeoff is too large. If robotic umpires were enforced into the MLB, baseball would be an entirely different game, especially for the catchers. The years of learning how to frame a ball renders completely useless.</p>
+
+                          <p>After every World Series or every game I always hear, “well if this one player didn’t drop the ball we would’ve won.” No, every single play, every single pitch, every single at bat is what defines the game and the victors, not one play. 3-6% error does not define the winners, and is not enough to completely change the entire sport of baseball. The beauty of baseball comes from the normalization of error. A .300 batting average is considered good, which is not even a third! Baseball is a game of humanity and mental strength, which should be thought about while considering switching to robotic umpires.</p>
+
+                          <p><b>Conclusion:</b></p>
+
+                          <p>Overall, there are so many factors that affect umpire errors, but we must take in account all the other variables. I must acknowledge it is difficult to find statistics on singular moments within the MLB, but from the plots I have created, it seems like higher stakes is a more meaningful statistic affecting umpire errors than average decibel range.</p>
+
+                          <p>In conclusion, umpires are still human beings that make mistakes, but it seems to have a negligible effect on the game overall, based on the 0% correlation and the volatility of the accuracy in the World Series games.</p>
+
+                          <p>Sources:</p>
+
+                          <p><a href="https://umpscorecards.com/data/games">https://umpscorecards.com/data/games</a></p>
+
+                          <p><a href="https://www.soundprint.co/">https://www.soundprint.co/</a></p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

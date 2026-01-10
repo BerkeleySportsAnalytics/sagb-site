@@ -1,0 +1,307 @@
+
+  <!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>No Grit. No Grind. No Greatness | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>No Grit. No Grind. No Greatness</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Eliza Morgan</a> | January 09, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/1.png" alt="" /></span>
+                          
+                          <p>No Grit. No Grind. No Greatness, read the slogan the Toronto Maple Leafs displayed on the back wall of their press conference. It’s a long-held belief in the NHL that without grit and grind—without players willing to put their bodies on the line and play a physical style—come playoffs, a team will fall apart.</p>
+
+                          <p>Since the creation of the President’s Trophy in the 1985-86 NHL season (given to the team with the best regular-season record), only 8 teams have won both the President’s Trophy and the Stanley Cup in the same season over that 39-year timeframe, or about 20% of the time. This number might seem low; in the NBA, with a similar number of teams, the team with the best regular-season record has won the championship about 60% of the time.</p>
+
+                          <p>Facially, this suggests that in the NHL there might be some difference between regular season success and playoff success, a sentiment often expressed by those across the league. The Stanley Cup playoffs are widely considered more physical due to their 7-game-per-series format and increased intensity. “When the stakes get raised, the physical intensity of the games increases significantly…over time, if you constantly are being physical on your opponent, it adds up,” Washington Capitals coach Spencer Carbery has said.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/2.png" alt="" /></span>
+
+                          <p>One wonders if that’s true—if teams that play a grittier, in-your-face style might have some sort of advantage during the playoffs, when the game and strategy changes to which team can grind the other down faster.</p>
+
+                          <p><b>Getting Into Grit</b></p>
+
+                          <p>I began by taking data from the 2016-2017 NHL season up until the most recent 2024-2025 one. I used regular-season data to construct a per minute “grit score” for each player.</p>
+
+                          <p>
+                            <math display="block">
+                              <mfrac>
+                                <mrow>
+                                  <mi>H</mi><mi>i</mi><mi>t</mi><mi>s</mi>
+                                  <mo>+</mo>
+                                  <mi>H</mi><mi>i</mi><mi>t</mi><mi>s</mi><mspace width="0.3em"/><mi>T</mi><mi>a</mi><mi>k</mi><mi>e</mi><mi>n</mi>
+                                  <mo>+</mo>
+                                  <mi>S</mi><mi>h</mi><mi>o</mi><mi>t</mi><mi>s</mi><mspace width="0.3em"/><mi>B</mi><mi>l</mi><mi>o</mi><mi>c</mi><mi>k</mi><mi>e</mi><mi>d</mi>
+                                  <mo>+</mo>
+                                  <mi>P</mi><mi>e</mi><mi>n</mi><mi>a</mi><mi>l</mi><mi>t</mi><mi>i</mi><mi>e</mi><mi>s</mi>
+                                  <mo>+</mo>
+                                  <mi>M</mi><mi>a</mi><mi>j</mi><mi>o</mi><mi>r</mi><mspace width="0.3em"/><mi>P</mi><mi>e</mi><mi>n</mi><mi>a</mi><mi>l</mi><mi>t</mi><mi>i</mi><mi>e</mi><mi>s</mi><mo>&lowast;</mo><mn>2.5</mn>
+                                  <mo>+</mo>
+                                  <mi>M</mi><mi>i</mi><mi>s</mi><mi>c</mi><mi>o</mi><mi>n</mi><mi>d</mi><mi>u</mi><mi>c</mi><mi>t</mi><mi>s</mi><mo>&lowast;</mo><mn>5</mn>
+                                </mrow>
+                                <mrow>
+                                  <mi>T</mi><mi>O</mi><mi>I</mi>
+                                </mrow>
+                              </mfrac>
+                            </math>
+                          </p>
+
+                          <p>While it’s quantitatively different to measure exactly what “grit” is—or, as some like to call it, dawg per 60—taking hits, receiving hits, blocking shots, and accruing penalties are signs of a player that is physically involved in the game. Players who battle more along the boards, or punish other players that do, are more likely to hit and receive hits as well as accrue penalties. Additionally, a willingness to block shots indicates a willingness to risk injury and a disposition towards using one’s body as a physical tool.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/3.png" alt="" /></span>
+
+                          <p>I then used these grit scores per minute to build ice-time composites of each team, each year, with the assumption that players with under 300 minutes of ice time per season might be at risk of a skewed statistic, where either they perform too many grit-creating events, or fail to produce enough. To get around this, I treated players with under 300 minutes as at replacement; I took an average grit per minute of both forwards and defensemen on that team with over 300 minutes of ice time, and then, based on the position of that under-300 player, treated that average as their grit per minute.</p>
+
+                          <p>I treated multiple-team players as having split their minutes equally between games; i.e., if they played 20 games with Team 1 and 40 with Team 2, and had 60 total minutes of ice time, I assigned 20 minutes to Team 1 and 40 to Team 2. I took individual grit scores per minute and multiplied it by ice time for the team to get a total grit contribution for each player, which I then converted into a team metric of grit per 60, and additionally broke that out by forwards and defensemen.</p>
+
+                          <p>Here, for example, is what the Anaheim Ducks’ total grit contribution looked like in the 2016-2017 season:</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/4.png" alt="" /></span>
+
+                          <p>And, after converting those back to per-minute, grit scores, creating a team average, and standardizing to per-60, here are their team statistics:</p>
+
+                          <table style="border: 1px solid #404248; border-collapse: collapse;">
+                            <caption><b>2016-2017, ANA</b></caption>
+                            <tr>
+                              <th style="border: 1px solid #404248; padding: 5px;"><b>FWD GRIT/60</b></th>
+                              <th style="border: 1px solid #404248; padding: 5px;"><b>DEF GRIT/60</b></th>
+                              <th style="border: 1px solid #404248; padding: 5px;"><b>TEAM GRIT/60</b></th>
+                            </tr>
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">14.12239161</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">16.21489833</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">14.96023105</td>
+                            </tr>
+                          </table>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/5.png" alt="" /></span>
+
+                          <p>The way I constructed grit scores for each team resulted in most teams most years scoring between 11 and 18, with a higher grit score resulting in a more grindier team.</p>
+
+                          <p>Regular season grit did not have a significant effect on playoff outcome; teams that had a more gritty style did not tend to make nor win playoffs as a result of their grittiness.</p>
+
+                          <p><b>Getting Into Corsi</b></p>
+
+                          <p>However, I wanted to look at relative performance; do teams with a higher grit level tend to perform <i>better</i> in the playoffs, assuming that they’ve made it, than they do in the regular season? To analyze this, I used team-level 5-on-5 Corsi.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/6.png" alt="" /></span>
+
+                          <p>Corsi is a metric named after former Buffalo Sabres coach Jim Corsi that measures shot attempt differential; it is calculated as Corsi For, or CF</p>
+
+                          <p>
+                            <math display="block">
+                              <mi>C</mi><mi>F</mi>
+                              <mo>=</mo>
+                              <mi>S</mi><mi>h</mi><mi>o</mi><mi>t</mi><mi>s</mi>
+                              <mo>+</mo>
+                              <mi>B</mi><mi>l</mi><mi>o</mi><mi>c</mi><mi>k</mi><mi>s</mi>
+                              <mo>+</mo>
+                              <mi>M</mi><mi>i</mi><mi>s</mi><mi>s</mi><mi>e</mi><mi>s</mi>
+                            </math>
+                          </p>
+
+                          <p>subtracted from Corsi Against, or CA</p>
+
+                          <p>
+                            <math display="block">
+                              <mi>C</mi><mi>F</mi>
+                              <mo>=</mo>
+                              <mi>S</mi><mi>h</mi><mi>o</mi><mi>t</mi><mi>s</mi><mspace width="0.3em"/><mi>a</mi><mi>g</mi><mi>a</mi><mi>i</mi><mi>n</mi><mi>s</mi><mi>t</mi>
+                              <mo>+</mo>
+                              <mi>B</mi><mi>l</mi><mi>o</mi><mi>c</mi><mi>k</mi><mi>s</mi><mspace width="0.3em"/><mi>a</mi><mi>g</mi><mi>a</mi><mi>i</mi><mi>n</mi><mi>s</mi><mi>t</mi>
+                              <mo>+</mo>
+                              <mi>M</mi><mi>i</mi><mi>s</mi><mi>s</mi><mi>e</mi><mi>s</mi><mspace width="0.3em"/><mi>a</mi><mi>g</mi><mi>a</mi><mi>i</mi><mi>n</mi><mi>s</mi><mi>t</mi>
+                            </math>
+                          </p>
+
+                          <p>such that Corsi C is equal to CF - CA.</p>
+
+                          <P>Additionally, Corsi can be converted into a Corsi For percentage, using the formula</P>
+                          <p>
+                            <math display="block">
+                              <mi>C</mi><mi>F</mi><mi>%</mi>
+                              <mo>=</mo>
+                              <mi>C</mi><mi>F</mi>
+                              <mo>/</mo>
+                              <mo>(</mo>
+                              <mi>C</mi><mi>F</mi>
+                              <mo>+</mo>
+                              <mi>C</mi><mi>A</mi>
+                              <mo>)</mo>
+                            </math>
+                          </p>
+
+                          <p>which is what I used as the metric to measure team performance. I subtracted regular season Corsi For percentage from playoff Corsi For percentage to find the differential.</p>
+
+                          <p>I had expected that, given the perceived grittier nature of playoff hockey, that teams with a higher grit score would also have a positive Corsi differential; ideally, they should do comparatively better in an environment more suited to their play style.</p>
+
+                          <p>Additionally, we should expect Corsi on average to decrease as during playoffs teams are playing against other highly skilled teams. Over the course of the regular season, top teams benefit from playing against relatively less skilled teams; this increases their Corsi For from what it would be playing only against other playoff-calibre teams.</p>
+
+                          <p>But is this actually the case?</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/7.png" alt="" /></span>
+
+                          <p>The answer, unfortunately, is no. Although this graph might visually indicate a slight positive correlation, regressing the grit score against the CF% differential does not yield a significant relationship between the two variables.</p>
+
+                          <table style="border: 1px solid #404248; border-collapse: collapse;">
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">Multiple R</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">0.06092857</td>
+                            </tr>
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">R Square</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">0.003712291</td>
+                            </tr>
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">Adjusted R Square</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">-0.00340405</td>
+                            </tr>
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">Standard Error</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">0.056287558</td>
+                            </tr>
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">Intercept P-value</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">0.223612838</td>
+                            </tr>
+                            <tr>
+                              <td style="border: 1px solid #404248; padding: 5px;">X-var 1 P-value</td>
+                              <td style="border: 1px solid #404248; padding: 5px;">0.471340313</td>
+                            </tr>
+                          </table>
+
+                          <p><b>Conclusions</b></p>
+
+                          <p>While this particular test failed to indicate a connection between grit and playoff performance, that does not mean that there isn’t one.</p>
+
+                          <p>For one, my measurement of grit is extremely subjective, as might any measurement be. Often it’s considered an attitude towards play rather than the actions of the player themself, or it’s a function of coaches choosing to run systems that favor more player-on-player interaction, like a 2-1-2 forecheck. There might be other ways to measure or quantify grit, or it might not be something that is quantifiable at all; one issue with hockey statistics in general is that hockey is characterized by a lot of concurrent, multiple-person events such that it’s difficult if not impossible to dilute player performance and contribution to statistical models.</p>
+
+                          <p>Analysis of playoff performance can also be difficult to quantitatively evaluate. Some playoff teams are eliminated in the first round, meaning that they could play as little as four games, and those four games are all against the same opponent. Since metrics generally take a while to stabilize, and since different opponents and situations are important to establishing a league-wide metric, any level of playoff performance analysis is necessarily limited by these factors.</p>
+
+                          <span class="image featured"><img src="../images/dj-pics/grit-grind-greatness/8.png" alt="" /></span>
+
+                          <p>Coaches, players, and broadcasters around the league have commented on the grittiness of playoff hockey and the relative success of teams that can play a grittier style. Teams that are considered gritty—for example, the Florida Panthers—tend to win Stanley Cups (with the Panthers winning back-to-back recent titles) and perform well in the playoffs. There might never be the ability to build a model that confirms this; nonetheless, its absence does nothing to diminish the role grit has in winning a Stanley Cup.</p>
+
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                      <h2 class="icon fa-file-text-o">Spotlight</h2>
+                      <article>
+                        <a href="../articles/hart-and-soul.html" class="image featured"><img src="../images/dj-pics/hart-and-soul/jh.jpg" alt=""></a>
+                        <header>
+                          <h3><a href="../articles/hart-and-soul.html">Josh Hart: Hart and Soul of the New York Knicks
+                          </a></h3>
+                          <p>By Gabriel Adorable | May 22, 2025</p>
+                        </header>
+                        <p>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart. This took me aback, as I had never heard anyone, let alone myself, having their game and skillset compared to the Knicks guard/forward. Then I took a step back and realized he was right...</p>
+                        <footer>
+                          <a href="../articles/hart-and-soul.html" class="button alt icon fa-file-o">Continue Reading</a>
+                        </footer>
+                      </article>
+                    </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
