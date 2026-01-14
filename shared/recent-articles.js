@@ -1,25 +1,25 @@
 var el = document.getElementById("recent-articles-src");
 var folder = el.getAttribute("folder");
 
-article1 = "ap-poll-hype-train.html";
-article2 = "bringing-the-boom.html";
-article3 = "beyond-the-hero-moment.html";
-article4 = "anatomy-nhl-rebuild.html";
-article5 = "hidden-talent.html";
-article6 = "chaos-opportunity-podium.html";
-article7 = "redefining-nhl-special-teams.html";
-article8 = "humanity-in-umpiring.html";
-article9 = "tottenhams-rollercoaster.html";
+article1 = "extraordinary-cal-raleigh.html";
+article2 = "ap-poll-hype-train.html";
+article3 = "bringing-the-boom.html";
+article4 = "beyond-the-hero-moment.html";
+article5 = "anatomy-nhl-rebuild.html";
+article6 = "hidden-talent.html";
+article7 = "chaos-opportunity-podium.html";
+article8 = "redefining-nhl-special-teams.html";
+article9 = "humanity-in-umpiring.html";
 
-title1 = "The AP Poll is a Hype Train";
-title2 = "Bringing the Boom: Analyzing the Long-Term Effects of Torpedo Bat Usage";
-title3 = "Beyond the Hero Moment";
-title4 = "The Anatomy of an NHL Rebuild: What Actually Creates a Champion?";
-title5 = "Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues";
-title6 = "Chaos, Opportunity, and the Podium No One Predicted";
-title7 = "Redefining the NHL's Special Teams Metrics";
-title8 = "Exploring the Humanity in MLB Umpiring";
-title9 = "17th place &amp; 1st trophy in 17 years: Tottenham's Rollercoaster of a Season";
+title1 = "Just How Extraordinary Was Cal Raleigh's 2025 Season?";
+title2 = "The AP Poll is a Hype Train";
+title3 = "Bringing the Boom: Analyzing the Long-Term Effects of Torpedo Bat Usage";
+title4 = "Beyond the Hero Moment";
+title5 = "The Anatomy of an NHL Rebuild: What Actually Creates a Champion?";
+title6 = "Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues";
+title7 = "Chaos, Opportunity, and the Podium No One Predicted";
+title8 = "Redefining the NHL's Special Teams Metrics";
+title9 = "Exploring the Humanity in MLB Umpiring";
 
 article1 = folder == "down" ? "articles/"+article1 : article1;
 article2 = folder == "down" ? "articles/"+article2 : article2;
