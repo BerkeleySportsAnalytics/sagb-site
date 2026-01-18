@@ -16,10 +16,15 @@
             opacity: 0;
             filter: blur(50px);
             transform: translateX(-100%);
-            transition: all 1.5s;
         }
 
-        .show {
+        .js-ready .hidden {
+          transition: opacity 1.5s ease,
+                      filter 1.5s ease,
+                      transform 1.5s ease;
+        }
+
+        .hidden.show {
             opacity: 1;
             filter: blur(0);
             transform: translateX(0);
@@ -50,7 +55,7 @@
         </div> -->
       <!-- Header -->
         <div id="header-wrapper">
-          <div class="container">
+          <div class="container hidden" style="transition-delay: 1s">
 
             <!-- Header -->
               <header id="header">
@@ -97,10 +102,12 @@
                           
               </div>
             <!-- Banner -->
-              <div id="banner" class="hidden">
-                <h2>Sports Analytics Group at Berkeley</h2>
-                <p>A student-run organization aimed to provide students a gateway into the field of sports analytics</p>
-                <a href="apply.html" class="button2-banner">Apply Now!</a>
+              <div id="banner">
+                <a href="" class="image featured hidden" style="transform: translateY(0)">
+                  <img src="images/logo1.png" alt="" style="vertical-align: middle; display:inline; width: 60%"/>
+                </a>
+                <p class="hidden" style="transition-delay: 1s">A student-run organization aimed to provide students a gateway into the field of sports analytics</p>
+                <a href="apply.html" class="button2-banner hidden" style="transition-delay: 1.2s">Apply Now!</a>
               </div>
               <br>
           </div>
@@ -133,6 +140,7 @@
                         <header class="second icon fa-pie-chart">
                           <h3>Data Journalism</h3>
                         </header>
+                        <!--p style="padding-top: 3em;">The Data Journalism team creates short-form articles that are grounded in data and data visualization.</p-->
                       </section>
                     </div>
                     
@@ -144,16 +152,18 @@
                         <header class="second icon fa-bar-chart-o">
                           <h3>Projects</h3>
                         </header>
+                        <!--p style="padding-top: 3em;">The Projects Team focuses on consulting for sports teams, and long term research projects.</p-->
                       </section>
                     </div>
                     <div class="col-4 col-12-medium hidden">
                       <section>
-                        <a href="#" class="image featured">
+                        <a href="business.html" class="image featured">
                           <img src="images/business-main.png" alt=""/>
                         </a>
                         <header class="second icon fa-user">
                           <h3>Business</h3>
                         </header>
+                        <!--p style="padding-top: 3em;">The Business Team gives members experience with hosting speaker events, industry panels, and more!</p-->
                       </section>
                     </div>
                     <div class="col-12 hidden">
@@ -238,6 +248,12 @@
       <script src="assets/js/breakpoints.min.js"></script>
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
-      <script defer src="assets/js/app.js"></script>
+      <script src="assets/js/app.js"></script>
+      <script>
+        window.addEventListener('load', () => {
+          document.body.classList.remove('is-preload');
+          document.body.classList.add('js-ready');
+        });
+      </script>
   </body>
 </html>
