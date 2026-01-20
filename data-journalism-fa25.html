@@ -7,49 +7,345 @@
   Created By Rohan Narayan @rrnarayan1
   This is the left-sidebar template
 --><html><head>
-    <link href="images/logo.png" rel="icon" type="image/x-icon"/>
-    <title>Data Journalism – Sports Analytics Group at Berkeley</title>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
-    <link href="assets/css/main.css" rel="stylesheet"/>
-    <style>
-        #main-wrapper {
+  <link href="images/logo.png" rel="icon" type="image/x-icon"/>
+  <title>Data Journalism – Sports Analytics Group at Berkeley</title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+  <link href="assets/css/main.css" rel="stylesheet"/>
+  <style>
+
+   .vertical-center {
+  position: absolute;
+	top: 127%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+      /* Basic */
+    
+      html,
+      body {
+        overflow-x: hidden;
+      }
+    
+      .hide-mobile {
+        display: none !important;
+      }
+    
+      /* Box */
+    
+      .box.feature2 section {
+        margin: 1em 0;
+      }
+    
+      /* Nav */
+    
+      #page-wrapper {
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-transition: -moz-transform 0.5s ease;
+        -webkit-transition: -webkit-transform 0.5s ease;
+        -ms-transition: -ms-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        padding-bottom: 1px;
+      }
+      
+      #top-banner {
+        margin-top: 44px;
+      }
+    
+      #titleBar {
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-image: -moz-linear-gradient(
+            top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.35)
+          ),
+          url("images/bg02.png");
+        background-image: -webkit-linear-gradient(
+            top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.35)
+          ),
+          url("images/bg02.png");
+        background-image: -ms-linear-gradient(
+            top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.35)
+          ),
+          url("images/bg02.png");
+        background-image: linear-gradient(
+            top,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.35)
+          ),
+          url("images/bg02.png");
+        -moz-transition: -moz-transform 0.5s ease;
+        -webkit-transition: -webkit-transform 0.5s ease;
+        -ms-transition: -ms-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        background-color: rgba(59, 62, 69, 0.9);
+        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5),
+          inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075),
+          0px 1px 6px 0px rgba(0, 0, 0, 0.35);
+        display: block;
+        height: 44px;
+        left: 0;
+        position: fixed;
+        text-shadow: -1px -1px 0 black;
+        top: 0;
+        width: 100%;
+        z-index: 10001;
+      }
+    
+      #titleBar .title {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        color: #fff;
+        line-height: 44px;
+        text-align: center;
+      }
+    
+      #titleBar .toggle {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 60px;
+        height: 44px;
+        opacity: 0.25;
+      }
+    
+      #titleBar .toggle:before {
+        display: inline-block;
+        font-family: FontAwesome;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 18px;
+        width: 44px;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        color: #fff;
+        content: "\f0c9";
+      }
+    
+      #titleBar .toggle:active {
+        opacity: 0.5;
+      }
+    
+      #navPanel {
+        -moz-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-image: -moz-linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.35)
+          ),
+          url("images/bg01.png");
+        background-image: -webkit-linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.35)
+          ),
+          url("images/bg01.png");
+        background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)),
+          url("images/bg01.png");
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)),
+          url("images/bg01.png");
+        -moz-transform: translateX(-275px);
+        -webkit-transform: translateX(-275px);
+        -ms-transform: translateX(-275px);
+        transform: translateX(-275px);
+        -moz-transition: -moz-transform 0.5s ease;
+        -webkit-transition: -webkit-transform 0.5s ease;
+        -ms-transition: -ms-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        background-color: #303238;
+        box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.5),
+          inset -2px 0px 0px rgba(255, 255, 255, 0.15),
+          inset -2px 0px 10px 0px rgba(0, 0, 0, 0.35);
+        display: block;
+        height: 100%;
+        left: 0;
+        overflow-y: auto;
+        position: fixed;
+        top: 0;
+        width: 275px;
+        z-index: 10002;
+      }
+    
+      #navPanel .link {
+        display: block;
+        color: #aaa;
+        text-decoration: none;
+        height: 44px;
+        line-height: 44px;
+        border-top: solid 1px rgba(255, 255, 255, 0.05);
+        border-bottom: solid 1px rgba(0, 0, 0, 0.15);
+        padding: 0 1em 0 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.95em;
+        letter-spacing: 0.075em;
+      }
+    
+      #navPanel .link:first-child {
+        border-top: 0;
+      }
+    
+      #navPanel .link:last-child {
+        border-bottom: 0;
+      }
+    
+      #navPanel .indent-1 {
+        display: inline-block;
+        width: 1em;
+      }
+    
+      #navPanel .indent-2 {
+        display: inline-block;
+        width: 2em;
+      }
+    
+      #navPanel .indent-3 {
+        display: inline-block;
+        width: 3em;
+      }
+    
+      #navPanel .indent-4 {
+        display: inline-block;
+        width: 4em;
+      }
+    
+      #navPanel .indent-5 {
+        display: inline-block;
+        width: 5em;
+      }
+    
+      #navPanel .depth-0 {
+        color: #fff;
+      }
+    
+      body.navPanel-visible #page-wrapper {
+        -moz-transform: translateX(275px);
+        -webkit-transform: translateX(275px);
+        -ms-transform: translateX(275px);
+        transform: translateX(275px);
+      }
+    
+      body.navPanel-visible #titleBar {
+        -moz-transform: translateX(275px);
+        -webkit-transform: translateX(275px);
+        -ms-transform: translateX(275px);
+        transform: translateX(275px);
+      }
+    
+      body.navPanel-visible #navPanel {
+        -moz-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+      }
+    
+      /* Header */
+    
+      #header,
+      #nav {
+        display: none;
+      }
+    
+      /* Wrappers */
+    
+      #header-wrapper {
+        display: none;
+      }
+    
+      .homepage #header-wrapper {
+        display: block;
+        padding-top: 44px;
+      }
+    
+      #main-wrapper {
+        padding-top: 45px;
           padding-bottom: 50px;
-        }
-
-        .secondary-article-title {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        }
+      }
+    
+      .homepage #main-wrapper {
+        padding-top: 10;
+      }
+    
+      /* Banner */
+    
+      #banner {
+        padding: 8em 0 4em 0;
+      }
+    
+      #banner br {
+        display: none;
+      }
+    
+      #banner h2 {
+        font-size: 2.35em;
+        margin: 0 0 1.5em 0;
+      }
+    
+      /* Sidebar */
+    
+      #sidebar {
+        margin-top: 1em;
+      }
+    
+    .secondary-article-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+   
+    
     </style>
-  </head>
-  <body class="left-sidebar is-preload">
-    <div id="page-wrapper">
 
-      <!-- Header Wrapper -->
-        <div id="header-wrapper">
-          <div class="container">
+  
+</head>
+<body class="left-sidebar is-preload">
+  <div id="page-wrapper">
 
-            <!-- Header -->
-              <header id="header">
-                <div class="inner">
+    <!-- Header Wrapper -->
+   
+      <div class="container">
 
-                  <!-- Logo -->
-                    <h1><a href="index.html" id="logo"><img src="images/logo1.png"/></a></h1>
+        <!-- Header -->
+        <header id="header">
+          <div class="inner">
 
-                  <!-- Nav -->
-                <nav id="nav">
-                </nav>
-                <script curr="dj" id="nav-src" src="shared/nav.js"></script>
+            <!-- Logo -->
+            <h1><a href="index.html" id="logo"><img src="images/logo1.png"/></a></h1>
 
-                </div>
-              </header>
+            <!-- Nav -->
+            <nav id="nav">
+            </nav>
+            <script curr="dj" id="nav-src" src="shared/nav.js"></script>
 
           </div>
-        </div>
 
-        <!-- Main Wrapper -->
+          
+        </header>
+
+        
+
+      </div>
+
+
+    <!-- Main Wrapper -->
 
 
    
@@ -70,13 +366,13 @@
 
               <div class="leading-story-container">
                 <a href="articles/hart-and-soul.html">
-                <img alt="" class="leading-story-image" src="images/dj-pics/hart-and-soul/1484593478.jpg"/>
+                  <img alt="" class="leading-story-image" src="images/dj-pics/hart-and-soul/1484593478.jpg"/>
                 </a>
                 <div class="leading-story-title-container"> 
-                <a href="articles/hart-and-soul.html">
-                <h2 class="leading-story-title">Josh Hart: Hart and Soul of the New York Knicks</h2>
-                </a>    
-                <p class="leading-story-subtitle"> <b style="color: white;">Gabriel Adorable</b> <br/>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart... <a href="articles/hart-and-soul.html"><i><u>Continue Reading</u></i></a></p>
+                  <a href="articles/hart-and-soul.html">
+                  <h2 class="leading-story-title">Josh Hart: Hart and Soul of the New York Knicks</h2>
+                  </a>    
+                  <p class="leading-story-subtitle"> <b style="color: white;">Gabriel Adorable</b> <br/>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart... <a href="articles/hart-and-soul.html"><i><u>Continue Reading</u></i></a></p>
                 </div>
               </div>
 
@@ -274,7 +570,6 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
-  <script src="../assets/js/slides.js"></script>
 
 
 

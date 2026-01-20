@@ -7,345 +7,49 @@
   Created By Rohan Narayan @rrnarayan1
   This is the left-sidebar template
 --><html><head>
-  <link href="images/logo.png" rel="icon" type="image/x-icon"/>
-  <title>Data Journalism – Sports Analytics Group at Berkeley</title>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
-  <link href="assets/css/main.css" rel="stylesheet"/>
-  <style>
-
-   .vertical-center {
-  position: absolute;
-	top: 127%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-      /* Basic */
-    
-      html,
-      body {
-        overflow-x: hidden;
-      }
-    
-      .hide-mobile {
-        display: none !important;
-      }
-    
-      /* Box */
-    
-      .box.feature2 section {
-        margin: 1em 0;
-      }
-    
-      /* Nav */
-    
-      #page-wrapper {
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -moz-transition: -moz-transform 0.5s ease;
-        -webkit-transition: -webkit-transform 0.5s ease;
-        -ms-transition: -ms-transform 0.5s ease;
-        transition: transform 0.5s ease;
-        padding-bottom: 1px;
-      }
-      
-      #top-banner {
-        margin-top: 44px;
-      }
-    
-      #titleBar {
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-        background-image: -moz-linear-gradient(
-            top,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.35)
-          ),
-          url("images/bg02.png");
-        background-image: -webkit-linear-gradient(
-            top,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.35)
-          ),
-          url("images/bg02.png");
-        background-image: -ms-linear-gradient(
-            top,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.35)
-          ),
-          url("images/bg02.png");
-        background-image: linear-gradient(
-            top,
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.35)
-          ),
-          url("images/bg02.png");
-        -moz-transition: -moz-transform 0.5s ease;
-        -webkit-transition: -webkit-transform 0.5s ease;
-        -ms-transition: -ms-transform 0.5s ease;
-        transition: transform 0.5s ease;
-        background-color: rgba(59, 62, 69, 0.9);
-        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5),
-          inset 0px 0px 0px 2px rgba(255, 255, 255, 0.075),
-          0px 1px 6px 0px rgba(0, 0, 0, 0.35);
-        display: block;
-        height: 44px;
-        left: 0;
-        position: fixed;
-        text-shadow: -1px -1px 0 black;
-        top: 0;
-        width: 100%;
-        z-index: 10001;
-      }
-    
-      #titleBar .title {
-        display: block;
-        text-transform: uppercase;
-        font-weight: 800;
-        letter-spacing: 0.04em;
-        color: #fff;
-        line-height: 44px;
-        text-align: center;
-      }
-    
-      #titleBar .toggle {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 60px;
-        height: 44px;
-        opacity: 0.25;
-      }
-    
-      #titleBar .toggle:before {
-        display: inline-block;
-        font-family: FontAwesome;
-        text-decoration: none;
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        font-size: 18px;
-        width: 44px;
-        height: 44px;
-        line-height: 44px;
-        text-align: center;
-        color: #fff;
-        content: "\f0c9";
-      }
-    
-      #titleBar .toggle:active {
-        opacity: 0.5;
-      }
-    
-      #navPanel {
-        -moz-backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        -ms-backface-visibility: hidden;
-        backface-visibility: hidden;
-        background-image: -moz-linear-gradient(
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.35)
-          ),
-          url("images/bg01.png");
-        background-image: -webkit-linear-gradient(
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0.35)
-          ),
-          url("images/bg01.png");
-        background-image: -ms-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)),
-          url("images/bg01.png");
-        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)),
-          url("images/bg01.png");
-        -moz-transform: translateX(-275px);
-        -webkit-transform: translateX(-275px);
-        -ms-transform: translateX(-275px);
-        transform: translateX(-275px);
-        -moz-transition: -moz-transform 0.5s ease;
-        -webkit-transition: -webkit-transform 0.5s ease;
-        -ms-transition: -ms-transform 0.5s ease;
-        transition: transform 0.5s ease;
-        background-color: #303238;
-        box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.5),
-          inset -2px 0px 0px rgba(255, 255, 255, 0.15),
-          inset -2px 0px 10px 0px rgba(0, 0, 0, 0.35);
-        display: block;
-        height: 100%;
-        left: 0;
-        overflow-y: auto;
-        position: fixed;
-        top: 0;
-        width: 275px;
-        z-index: 10002;
-      }
-    
-      #navPanel .link {
-        display: block;
-        color: #aaa;
-        text-decoration: none;
-        height: 44px;
-        line-height: 44px;
-        border-top: solid 1px rgba(255, 255, 255, 0.05);
-        border-bottom: solid 1px rgba(0, 0, 0, 0.15);
-        padding: 0 1em 0 1em;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-size: 0.95em;
-        letter-spacing: 0.075em;
-      }
-    
-      #navPanel .link:first-child {
-        border-top: 0;
-      }
-    
-      #navPanel .link:last-child {
-        border-bottom: 0;
-      }
-    
-      #navPanel .indent-1 {
-        display: inline-block;
-        width: 1em;
-      }
-    
-      #navPanel .indent-2 {
-        display: inline-block;
-        width: 2em;
-      }
-    
-      #navPanel .indent-3 {
-        display: inline-block;
-        width: 3em;
-      }
-    
-      #navPanel .indent-4 {
-        display: inline-block;
-        width: 4em;
-      }
-    
-      #navPanel .indent-5 {
-        display: inline-block;
-        width: 5em;
-      }
-    
-      #navPanel .depth-0 {
-        color: #fff;
-      }
-    
-      body.navPanel-visible #page-wrapper {
-        -moz-transform: translateX(275px);
-        -webkit-transform: translateX(275px);
-        -ms-transform: translateX(275px);
-        transform: translateX(275px);
-      }
-    
-      body.navPanel-visible #titleBar {
-        -moz-transform: translateX(275px);
-        -webkit-transform: translateX(275px);
-        -ms-transform: translateX(275px);
-        transform: translateX(275px);
-      }
-    
-      body.navPanel-visible #navPanel {
-        -moz-transform: translateX(0);
-        -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-        transform: translateX(0);
-      }
-    
-      /* Header */
-    
-      #header,
-      #nav {
-        display: none;
-      }
-    
-      /* Wrappers */
-    
-      #header-wrapper {
-        display: none;
-      }
-    
-      .homepage #header-wrapper {
-        display: block;
-        padding-top: 44px;
-      }
-    
-      #main-wrapper {
-        padding-top: 45px;
+    <link href="images/logo.png" rel="icon" type="image/x-icon"/>
+    <title>Data Journalism – Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="assets/css/main.css" rel="stylesheet"/>
+    <style>
+        #main-wrapper {
           padding-bottom: 50px;
-      }
-    
-      .homepage #main-wrapper {
-        padding-top: 10;
-      }
-    
-      /* Banner */
-    
-      #banner {
-        padding: 8em 0 4em 0;
-      }
-    
-      #banner br {
-        display: none;
-      }
-    
-      #banner h2 {
-        font-size: 2.35em;
-        margin: 0 0 1.5em 0;
-      }
-    
-      /* Sidebar */
-    
-      #sidebar {
-        margin-top: 1em;
-      }
-    
-    .secondary-article-title {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-   
-    
+        }
+
+        .secondary-article-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
     </style>
+  </head>
+  <body class="left-sidebar is-preload">
+    <div id="page-wrapper">
 
-  
-</head>
-<body class="left-sidebar is-preload">
-  <div id="page-wrapper">
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
 
-    <!-- Header Wrapper -->
-   
-      <div class="container">
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
 
-        <!-- Header -->
-        <header id="header">
-          <div class="inner">
+                  <!-- Logo -->
+                    <h1><a href="index.html" id="logo"><img src="images/logo1.png"/></a></h1>
 
-            <!-- Logo -->
-            <h1><a href="index.html" id="logo"><img src="images/logo1.png"/></a></h1>
+                  <!-- Nav -->
+                <nav id="nav">
+                </nav>
+                <script curr="dj" id="nav-src" src="shared/nav.js"></script>
 
-            <!-- Nav -->
-            <nav id="nav">
-            </nav>
-            <script curr="dj" id="nav-src" src="shared/nav.js"></script>
+                </div>
+              </header>
 
           </div>
+        </div>
 
-          
-        </header>
-
-        
-
-      </div>
-
-
-    <!-- Main Wrapper -->
+        <!-- Main Wrapper -->
 
 
    
@@ -365,55 +69,55 @@
             
 
               <div class="leading-story-container">
-                <a href="articles/hart-and-soul.html">
-                  <img alt="" class="leading-story-image" src="images/dj-pics/hart-and-soul/1484593478.jpg"/>
+                <a href="articles/g-league-call-ups.html">
+                <img alt="" class="leading-story-image" src="images/dj-pics/g-league-call-ups/01_cover_image.png"/>
                 </a>
-                <div class="leading-story-title-container"> 
-                  <a href="articles/hart-and-soul.html">
-                  <h2 class="leading-story-title">Josh Hart: Hart and Soul of the New York Knicks</h2>
-                  </a>    
-                  <p class="leading-story-subtitle"> <b style="color: white;">Gabriel Adorable</b> <br/>When playing public runs, people often like to draw comparisons between themselves and their NBA counterparts. Some people say they play like Kyrie Irving, others may say they play like Klay Thompson, but one of my friends had an interesting player comparison for me: Josh Hart... <a href="articles/hart-and-soul.html"><i><u>Continue Reading</u></i></a></p>
+                <div class="leading-story-title-container" style="height: 33%;"> 
+                <a href="articles/g-league-call-ups.html">
+                <h2 class="leading-story-title">G-League Call-Ups: A Way to Find Hidden Gems?</h2>
+                </a>    
+                <p class="leading-story-subtitle"> <b style="color: white;">Colin Rondon</b> <br/>As teams nowadays look to shake up their rosters much more than back in the days, one of their sources for finding players to add is the G-League, the NBA’s developmental league. Used to develop young players, give practice runs to their recently rehabbed veterans, or just scout for good young players... <a href="articles/g-league-call-ups.html"><i><u>Continue Reading</u></i></a></p>
                 </div>
               </div>
 
             <div class="secondary_article_cols">
               <div class="secondary-col-1">
                 <div class="secondary-image-container">
-                  <a href="articles/beyond-whiffs.html">
-                    <img alt="" class="leading-story-image" src="images/dj-pics/beyond-whiffs/Chris Song Sp25 Article Final Draft.jpg"/>
+                  <a href="articles/grit-grind-greatness.html">
+                    <img alt="" class="leading-story-image" src="images/dj-pics/grit-grind-greatness/1.png"/>
                   </a>
                   <div class="secondary-article-title-container">
-                    <a href="articles/beyond-whiffs.html">
-                      <h2 class="secondary-article-title">Beyond Whiffs: Rethinking Pitch Value with BBQ+</h2>
+                    <a href="articles/grit-grind-greatness.html">
+                      <h2 class="secondary-article-title">No Grit. No Grind. No Greatness</h2>
                     </a>
-                      <h4 class="secondary-article-author">By Chris Song | May 22, 2025</h4>
+                      <h4 class="secondary-article-author">By Eliza Morgan | January 9, 2026</h4>
                   </div>
                 </div>
               </div>
               <div class="secondary-col-2">
                 <div class="secondary-image-container">
-                  <a href="articles/perimeter-problem.html">
-                    <img alt="" class="leading-story-image" src="images/dj-pics/perimeter-problem/image4.png"/>
+                  <a href="articles/tottenhams-rollercoaster.html">
+                    <img alt="" class="leading-story-image" src="images/dj-pics/tottenhams-rollercoaster/1.png"/>
                   </a>
                   <div class="secondary-article-title-container">
-                    <a href="articles/perimeter-problem.html">
-                    <h2 class="secondary-article-title">Handedness Comparison in Baseball</h2>
+                    <a href="articles/tottenhams-rollercoaster.html">
+                    <h2 class="secondary-article-title">17th place & 1st trophy in 17 years: Tottenham's Rollercoaster of a Season</h2>
                     </a>
-                    <h4 class="secondary-article-author">By Jack Bruvold</a> | June 2, 2025</h4>
+                    <h4 class="secondary-article-author">By London Lopez</a> | January 9, 2026</h4>
                   </div>
                 </div>
               </div>
               <div class="secondary-col-3">
                 <div class="secondary-image-container">
-                  <a href="articles/framing-the-zone.html">
-                    <img alt="" class="leading-story-image" src="images/dj-pics/framing-the-zone/01 Bailey.png"/>
+                  <a href="articles/redefining-nhl-special-teams.html">
+                    <img alt="" class="leading-story-image" src="images/dj-pics/redefining-nhl-special-teams/01.png"/>
                   </a>
                   <div class="secondary-article-title-container">
-                    <a href="articles/framing-the-zone.html">
-                      <h2 class="secondary-article-title">Framing the Zone: Who, What, Where, and Why?</h2>
+                    <a href="articles/redefining-nhl-special-teams.html">
+                      <h2 class="secondary-article-title">Redefining the NHL's Special Teams Metrics</h2>
                       
                     </a>
-                    <h4 class="secondary-article-author">By Madison Heath | May 27, 2025</h4>
+                    <h4 class="secondary-article-author">By Matthew Takagi |January 9, 2026</h4>
                   </div>
                 </div>
               </div>
@@ -436,13 +140,13 @@
            <div>
             <header>
              <span class="date">
-              April 11, 2024
+              December 29, 2025
              </span>
              <h3>
-              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3we034hXvMLN9yqkxue6Mr?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4ja9jCZnSFLEQw4QB93uL4?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
              </h3>
                  <p>
-                  Sara Miller and Aroan Saha recap the Australian Open and the Indian Wells.
+                  In this episode, analysts London Lopez and Anderson Lin examine newly promoted Sunderland FC’s success in the Premier League through three lenses of analysis: significant spending, forgiving matchups, and the club’s tactical approach to signing players, before wrapping up with key takeaways and predictions. We hope you enjoy!
                 </p>
             </header>
            </div>
@@ -452,13 +156,13 @@
            <div>
             <header>
              <span class="date">
-              March 22, 2024
+              December 10, 2025
              </span>
              <h3>
-              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7yNW3UdAS09zdoanS5yIF5?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1WyCOrTgxeNZCCd1YwUDlX?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
              </h3>
                  <p>
-                  Jacob Siegel and Noe Leon recap the slow offseason that still features stars on the market and looks ahead to the 2024 MLB Season.
+                  Makena Reiss, a member of the Cal Lightweight Rowing team, sits down with fellow rower Chance Quarry, who is also a para-rower, to talk about his journey to the Paralympics and what his training looks like.
                 </p>
             </header>
                
@@ -469,30 +173,46 @@
            <div>
             <header>
              <span class="date">
-              December 17, 2023
+              November 27, 2025
              </span>
              <h3>
-              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3zs62VVHi3S4p1jbkjixNp?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>           
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4LrOO4OqvLUif641MWzXMV?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>           
              </h3>
                  <p>
-                  Sara Miller, Shreyes Sridhara and Aroan Saha discuss the past year in the tennis world, players who made a breakout impact and preview storylines for the next year.
+                  Rohan Baxi and Colin Rondon recap an eventful first month in the National Basketball Association, sharing their biggest surprises and disappointments from players and teams, as well as a way-too-early awards list that includes some unexpected names!
                 </p>
             </header>
            </div>
           </article>
              
              
-             <article class="box excerpt">
+          <article class="box excerpt">
            <div>
             <header>
              <span class="date">
-              November 27, 2023
+              November 23, 2025
              </span>
              <h3>
-              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6lfeXFO3HHGn6XIdTe3EQu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6jW2MPf1PGGWztsBD4MV5r?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
              </h3>
                  <p>
-                  Noe Leon and Jacob Siegel recap the 2023 World Series and look ahead to the impending offseason stacked with starting arms.
+                  Former ATP #25 and M22 founder Mischa Zverev beat World #1 Andy Murray with a "dead" strategy—serve-and-volley. He reveals how he disrupted opponents, his comeback from ranking #1,067, the analytics behind unconventional tactics, neuroathletics, working with Alexander Zverev, and why making your opponent play worse matters more than maximizing your own stats. Hosts: Shreyes Sridhara, Adrian Nguyen, Viviana Park, Stefan Perokovic, and Kartik Pandian | Edited by Alp Senay
+                </p>
+            </header>
+           </div>
+          </article>
+          
+          <article class="box excerpt">
+           <div>
+            <header>
+             <span class="date">
+              March 19, 2025
+             </span>
+             <h3>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6nTQIH0tW2MDwXahlZPArC?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                 
+             </h3>
+                 <p>
+                  Listen to our analysts Rohan, Colin, and Praneel as they discuss the 2025 NBA season so far including the crazy trade deadline, the MVP race, playoff predictions and more.
                 </p>
             </header>
            </div>
@@ -502,9 +222,10 @@
                 
                 
                 
+                
         
                <footer>
-                    <a class="button alt icon fa-file-o" href="podcasts.html">All Podcasts</a>
+                    <a class="button alt icon fa-file-o" href="https://open.spotify.com/show/0UjvQbMmT42mbcvTycWaNR?si=8822ab0332404a11">All Podcasts</a>
                   </footer>
                    
                 
@@ -523,23 +244,23 @@
                         
 
 <article>
-<a class="image featured" href="articles/one-hand-backhand.html"><img alt="" src="images/dj-pics/one-hand-backhand/1.jpg"/></a>
+<a class="image featured" href="articles/hidden-talent.html"><img alt="" src="images/dj-pics/hidden-talent/michael_cover.webp"/></a>
 <header>
-<h3><a href="#">One-Handed Backhands: Endangered but not Extinct</a></h3>
-<p>By <a href="https://google.com" target="_blank">Natalie Brewer</a> | May 17, 2024</p>
+<h3><a href="articles/hidden-talent.html">Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues</a></h3>
+<p>By <a href="https://google.com" target="_blank">Michael Strommer</a> | January 9, 2026</p>
 </header>
-<p>In 2023, Stefanos Tsitsipas reached a career milestone as an Australian Open finalist. Just one year later, he failed to advance past the fourth round of the same tournament. Following a 4-set loss against Taylor Fritz, he dropped down to 10th in the rankings. A week thereafter, Fritz made his way to the finals in Delray Beach and Alex De Minaur to those in Rotterdam. They stepped into the 9th and 10th ranking slots, and Tsitsipas was downgraded to 11th place...</p>
+<p>Lamine Yamal, Jamal Musiala, Jude Bellingham — these names define a generation of footballers who seem to have been at the top forever, yet all three are still 23 or younger. Their market values rise at an astonishing pace, often outpacing what they presently deliver on the pitch. The real question for scouts and analysts is not whether they’re good — they obviously are — but whether their valuations reflect fundamentals or simply narrative momentum. And more importantly...</p>
 <footer>
-<a class="button alt icon fa-file-o" href="articles/one-hand-backhand.html">Continue Reading</a>
+<a class="button alt icon fa-file-o" href="articles/hidden-talent.html">Continue Reading</a>
 </footer>
 </article>
 <article>
-<a class="image featured" href="articles/nfl-kicker-problem.html"><img alt="" src="images/dj-pics/nfl-kicker-problem/1.jpg"/></a>
+<a class="image featured" href="articles/extraordinary-cal-raleigh.html"><img alt="" src="images/dj-pics/extraordinary-cal-raleigh/zack_cover.jpg"/></a>
 <header>
-<h3><a href="#">The NFL's Kicker Problem</a></h3>
-<p>By <a href="https://google.com" target="_blank">Alex Laughlin</a> | May 19, 2024</p>
+<h3><a href="articles/extraordinary-cal-raleigh.html">Just How Extraordinary Was Cal Raleigh's 2025 Season?</a></h3>
+<p>By <a href="https://google.com" target="_blank">Zack Bukovec</a> | January 13, 2026</p>
 </header>
-<p>In the NFL, the margin for error is incredibly small. The outcome of every tight game can be traced back to the results of just a few plays. Part of what makes the NFL so great is its parity, as any team can win or lose on a given day depending on how closely they fly to the sun. Because of this small gap separating wins and losses, the kicker has become one of the most scrutinized positions in football. Field goal and extra point kicking plays a significant role in deciding games, and can make or break entire seasons...</p>
+<p>Since the genesis of the modern Major League Baseball in 1901, there have only been 125 home-run champions crowned. Out of those 125, only two have been switch-hitters, and only one catcher, Cincinnati Reds' Johnny Bench in 1970 and 1972, led the MLB in home runs. That is a remarkable achievement, even more so when you look at the numbers for other catchers. Todd Hundley, a catcher for the Mets, came close in 1996 with 41 dingers, but still only ranked 11th overall in home runs that year...</p>
 <footer>
 <a class="button alt icon fa-file-o" href="articles/nfl-kicker-problem.html">Continue Reading</a>
 </footer>
@@ -570,6 +291,7 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="../assets/js/slides.js"></script>
 
 
 
