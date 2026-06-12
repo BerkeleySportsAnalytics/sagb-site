@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>When the Ball Changes, So Does the Pitcher | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <!-- Content -->
+
+                        <article>
+                          <header class="major">
+                            <h2>When the Ball Changes, So Does the Pitcher</h2>
+                            <h4>By <a href="https://google.com" target="_blank">David Euan Kim</a> | June 11, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/the-ball-changes-the-pitcher/main.jpg" alt="" /></span>
+                          
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Coverimage.jpeg" alt="Roki Sasaki MLB Debut" />
+                            <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 0.5em;">Roki Sasaki pulled from his MLB debut in the 2nd inning</p>
+                          </div>
+
+                          <p>The SoCal sun smears itself over the light beige of the mound as beads of sweat droop at his chin and dive one by one, speckling the dirt in sporadic triplets. Number 11 wavers at the center of Dodger Stadium and emerges as the ephemeral epitome of Los Angeles. Trey Sweeney rides the smooth rhythm of his bat and glares him down. In the rookie’s mind, memories of Chiba come funneling back: the gamble, the weight of everything it took to be here, to stand here now, for all watching him at home, clasping their hands together. He must prevail. Bases loaded. Full Count. The crowd swells into a singular sound, shrieking with anticipation, the tension stretched thin as a wire. “Roki, Roki, Roki, Roki.” Just one more out. All that remains is the release. He lets the ball go and watches it slip from him, tailing, rolling, darting, vanishing far to the right. Later, his tears join the same streams of sweat.</p>
+
+                          <p>It’s easy to flatten that scene into a familiar explanation. Rookie nerves against Better hitters, all consolidated into what we call big league pressure. But for pitchers arriving from Nippon Professional Baseball (NPB) and the Korean Baseball Organization (KBO), there is another variable hiding in plain sight, snug inside the clasped glove. It is the baseball itself.</p>
+
+                          <p>A pitcher transitioning from NPB or KBO into MLB is not just entering into a stronger offensive environment. It is also grasping a different manufactured ball with different physical characteristics. In an unforgiving sport like baseball, built around repeatable feel and practice, tiny physical alterations will affect the playing field. It can alter everything from how a pitcher trusts a slider, how a splitter droops, how a fastball rises, and most importantly, how confidently a ball releases from the hand in a full-count moment under the blaring sun or stark stadium lights.</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Image 2.png" alt="Baseball Comparison Chart" />
+                          </div>
+
+                          <p>The baseball-comparison chart makes it clear that the leagues do not operate with identical balls. MLB baseballs feature higher seams, while NPB and KBO baseballs use lower seams with slightly different stitch dimensions. However, the most technical difference is the Coefficient of Restitution (COR). This is a measure of how much energy a ball retains following a collision. Essentially, COR indicates how bouncy or lively the baseball is.</p>
+
+                          <p>MLB balls have a COR range of 0.3860 - 0.4005, while both NPB and KBO balls are listed at 0.4034 - 0.4234. Although it may be understandable to assume that pitchers from the NPB and KBO, used to pitching with a more lively ball, may perform better in the MLB, the real difference maker is the difference in seam and stitch profiles. MLB baseballs hold a higher stitch height (1.0 - 1.2mm) with a narrower stitch width (0.75 - 0.8mm). Although these differences may seem literally minuscule, they can affect how the fingers sit on the ball and how much friction a pitcher gets to release. A higher-seam MLB ball offers a more aggressive seam and stitch profile that may blur pitch execution and command for interleague pitchers.</p>
+
+                          <p>To track how that disruption appears in pitching performance, this study used K-BB%+ rather than surface-level statistics such as ERA.</p>
+
+                          <p>First, K-BB% (without the +) is calculated as a pitcher’s strikeout rate minus his walk rate.</p>
+                          
+                          <p style="text-align: center; font-weight: bold; margin: 1.5em 0;">K-BB% = K% - BB%</p>
+
+                          <p>Now, league context matters as the study focuses on inter-league pitchers. The league average K-BB% is calculated the same way.</p>
+                          
+                          <p style="text-align: center; font-weight: bold; margin: 1.5em 0;">League K-BB% = League K% - League BB%</p>
+
+                          <p>The pitcher’s league-adjusted score is K-BB%+, and it is calculated by combining both pitcher and league metrics.</p>
+                          
+                          <p style="text-align: center; font-weight: bold; margin: 1.5em 0;">K-BB%+ = (Pitcher K-BB%) / (League K-BB%) x 100</p>
+
+                          <p>A score of 100 is the league average. A score above 100 means that the pitcher was above the league average at throwing strikeouts with walk avoidance. K-BB%+ is a much stronger summary metric than just K%+ or BB%+ because it portrays pitcher control and dominance in the same number. In simpler terms, just looking at strikeouts can commend a pitcher with shaky control, while the walk rate alone can flatter a pitcher who can throw frequent strikes but can not dominate.</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Image 3.jpg" alt="Combined Starting Pitcher Trajectory" />
+                          </div>
+
+                          <p>The broadest transition pattern appears in the combined starting-pitcher average. Across the NPB and KBO starter sample above, the average K-BB%+ is 172.09 three years before MLB entry, rises to 180.10, then peaks at 199.14 in the final pre-MLB season, often explaining why the pitcher was drafted to MLB. Then the rupture takes place. In the first MLB event year, the average falls to 116.43, a drop of more than 82 points from the peak. The average rebounds to 139.55 in event year 2 and settles at 117.39 in event year 3. The shape of the Average (NPB & KBO) line matters as it explains a trajectory that imported starting pitchers do not simply deteriorate in MLB. Instead, they experience an early rise in league-adjusted dominance, then an uneven recovery. The graph ultimately portrays interleague adaptation of pitchers.</p>
+
+                          <p>Connecting back to the shape of the baseball itself, regarding the differences in seam and stitch profiles from the earlier table, the three years following entrance into MLB can be seen as a period of familiarization with the new baseball. Of course, the difference in offensive performance implicates this data; however, the physical change in the baseball provides a plausible mechanical explanation for why that post-entry volatility occurs.</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Image 4.jpg" alt="NPB Pitcher Adjustment Trajectories" />
+                          </div>
+
+                          <p>The NPB starting pitcher sample further defines this adjustment process. Yu Darvish is one of the clearest examples of disruption followed by recovery. His K-BB%+ peaks at an insane 237.85 at event year-1, then drops hard to 137.19 in his first MLB event year. However, he rebounds to 196.22 in year 2 and settles at 172.64. His transition path shows that elite pre-MLB dominance can survive in the long term and that it is essential to understand that there will most likely be a temporary performance hiccup in the first event year.</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Image 5.png" alt="Yu Darvish Mechanics Comparison" />
+                            <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 0.5em;">Yu Darvish (Left: NPB 2011) (Right: MLB 2026)</p>
+                          </div>
+
+                          <p>Yusei Kikuchi shows the much harsher side of transition volatility. His pre-MLB path is already uneven, moving from 100.08 at event year -3 to 204.29 at event year -2 before slipping to 159.54 at event year -1. After his MLB entry, he experienced one of the most severe drops at 63.40 in year 1, followed by partial recovery steps that culminated in a 104.54 in year 3. His trajectory, although more intense, supports the same understanding that pre-MLB dominance can persist in the long term and that there will likely be a drop in the first year, followed by gradual adaptation.</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Image 6.jpg" alt="KBO Pitcher Transition Sample" />
+                          </div>
+
+                          <p>Similarly, the KBO-to-MLB starting pitcher sample becomes easier to understand when the individual pitcher paths are highlighted. Hyun Jin Ryu perfectly represents the same trajectory seen with NPB starting pitchers. His K-BB%+ is extraordinary, with a 304.47 at event year -1. However, once he entered MLB, that dominance contracts to 112.33 in event year 1, before recovering to 136.90 in year 2, and resting close to average at 100.18 in year 3. Kwang Hyun Kim shows an even harsher version of the same pattern with a 207.38 at event year -1 and a subsequent post-transition 54.58 in year 1. There is only a modest recovery to 62.59 in year 2. However, again, what is important to note is the presence of a recovery, even in dire circumstances.</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/the-ball-changes-the-pitcher/Image 7.jpg" alt="Roki Sasaki Projected Path" />
+                          </div>
+
+                          <p>K-BB%+ is not only useful for explanation, but also for estimation. To approximate Roki Sasaki’s likely transition path, the average NPB starter trajectory was used as the baseline. This was the cleaner choice as a single-player comparison introduces external factors of one career, while the NPB starter average provides a broader historical illustration of how Japanese starters have tended to adjust after entering MLB. Within the framework, Sasaki’s pre-transition K-BB%+ is extremely high at 245.69 at event year -3, 292.18 at event year -2, and 188.21 at event year -1. These stats place him well above the NPB average.</p>
+
+                          <p>However, what matters more is what happens after entry. Sasaki’s K-BB%+ falls to 26.98 in event year 1, which is an extreme low considering it was at an astounding 188.21 at event year -1. The score of 26.98 would represent an extreme variation of first-wave compression of his pre-MLB dominance. From there, the path begins to recovery. It is projected that his K-BB%+ score will elevate to 76.71 in event year 2 and 99.80 in event year 3. Those two values are projected, not observed. They are not certain. The model implies that Sasaki’s early MLB period could be defined by a dramatic dip, a dip faced by many NPB and even KBO starting pitchers. However, this would be followed by a climb toward league-average performance as adaptation takes hold.</p>
+
+                          <h3>Conclusion</h3>
+                          <p>The NPB and KBO transition data indicate that post-MLB-entry decline is not the end of the story. More often, it is the beginning of pitcher recalibration. Under that interpretation, the first MLB event year serves less as a final verdict than as a shock point where the efforts to adjust to a new offensive environment and an unfamiliar baseball register at once. The projected rebound in event years 2 and 3 then reflects the opposite process, as the pitcher re-establishes a sense of pitching control and even dominance.</p>
+
+                          <p>This brings us back to Roki Sasaki on the mound at Dodger Stadium, sweat streaming, the crowd suffocating him, the ball slipping loose far to the right. That moment should not just be seen as a case of the yips or a failed rookie. It should be rather seen as the edge of a larger transition where inter-league pitchers experiment with batters and a physically different baseball. For pitchers in transition, performance depends on making the old game feel familiar again. It comes down to the specifics, even to how each seam rises beneath the fingertips.</p>
+                        </article>
+
+                    </div>
+                  </div>
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                    <!-- <div id="sidebar-sticky"> -->
+
+                      <!-- Sidebar -->
+
+                        <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <!-- Article list -->
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <!-- Spotlight -->
+                      <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
