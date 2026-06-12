@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Medals, Not Scandals: How Countries Framed the 2026 Winter Olympics | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <div id="header-wrapper">
+          <div class="container">
+
+            <header id="header">
+                <div class="inner">
+
+                  <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <article>
+                          <header class="major">
+                            <h2>Medals, Not Scandals: How Countries Framed the 2026 Winter Olympics</h2>
+                            <p>Data-driven insights into global media narratives at Milano Cortina 2026</p>
+                            <h4>By <a href="https://google.com" target="_blank">Michael Strommer</a> | June 11, 2026</h4>
+                          </header>
+                          
+                          <span class="image featured">
+                            <img src="../images/dj-pics/medals-not-scandals-2026-olympics/hero_image.png" alt="Milano Cortina 2026 Winter Olympics Media Landscape Overview" />
+                          </span>
+
+                          <p style="text-align: right; margin-top: -1em; margin-bottom: 2em;">
+                            <a href="https://github.com/auntiepersilla/NLP_Analysis_2026_Winter_Olympics/" target="_blank" class="button alt icon fa-github">Project on GitHub</a>
+                          </p>
+
+                          <h3>Introduction</h3>
+                          <p>When the world watches the Olympics, it feels like a shared experience. The same races, the same podiums, the same moments of triumph and heartbreak. But the stories people read about those moments are far from uniform.</p>
+                          <p>From Milan to Tokyo, from New York to Istanbul, media outlets across the world covered the same Winter Games—yet told strikingly different stories. Some emphasized medal counts and national victories. Others focused on athletes’ personal journeys, political tensions, or logistical challenges surrounding the event.</p>
+                          <p>That raises a deeper question: <strong>Are countries simply reporting the Olympics—or are they framing them in fundamentally different ways?</strong></p>
+                          <p>To answer this, we analyzed tens of thousands of global news articles from the Milano Cortina 2026 Winter Olympics (February 6–22), using natural language processing (NLP) to classify narratives and measure sentiment across countries.</p>
+                          <p>What emerged was a surprisingly clear pattern: <strong>The more a country focused on medals, the more positive its Olympic coverage became.</strong></p>
+
+                          <h3>Turning Global News into Structured Narratives</h3>
+                          <p>To compare how countries covered the Games, we built a multilingual analysis pipeline using global news data from GDELT through Google BigQuery. We collected articles published throughout February 2026—capturing the lead-up, the Games themselves, and the immediate aftermath.</p>
+                          <p>Each article was processed and assigned to one of several narrative categories—ranging from <em>medal results</em> and <em>athlete profiles</em> to <em>controversy</em>, <em>politics</em>, and *infrastructure*. At the same time, we measured the tone of each article using GDELT’s sentiment scoring system.</p>
+                          <p>Rather than relying on subjective interpretation, this allowed us to quantify two key dimensions of media coverage:</p>
+                          <ul>
+                            <li>What stories were being told (narrative framing)</li>
+                            <li>How those stories were told (emotional tone)</li>
+                          </ul>
+                          <p>By aggregating these measures at the country level, we could compare national media ecosystems on equal footing.</p>
+                          <p>To make the classification interpretable, we used a multilingual DeBERTa model in a zero-shot setting. Instead of training a custom classifier, we asked the model to evaluate how likely each article belonged to predefined narrative categories.</p>
+                          <p>The table below shows examples of URL-based article summaries and how the model assigns probabilities across different narrative frames:</p>
+                          
+                          <div class="image main">
+                            <img src="../images/dj-pics/medals-not-scandals-2026-olympics/table1.png" alt="Zero-Shot Classification Narrative Framing Probabilities" />
+                          </div>
+                          
+                          <p>This approach allowed us to translate raw news coverage into structured, comparable narratives.</p>
+
+                          <h3>A Patchwork of Olympic Narratives</h3>
+                          <p>The results show that while the Olympics may be global, the way they are covered is deeply local.</p>
+                          <p>Some countries leaned heavily into competition-driven storytelling. In Turkey and Malaysia, for example, nearly 40 percent of coverage centered on medal victories and results. In these cases, the Olympics were framed primarily as a contest—who won, who lost, and how nations performed.</p>
+                          <p>Other countries took a different approach. Canada and Mexico devoted a much larger share of coverage to athlete-focused stories, highlighting personal journeys, struggles, and human interest angles rather than outcomes alone.</p>
+                          <p>Meanwhile, countries like Italy—the host nation—showed a more balanced narrative mix, incorporating not only competition but also political, logistical, and institutional perspectives on the Games.</p>
+                          
+                          <div class="image main">
+                            <img src="../images/dj-pics/medals-not-scandals-2026-olympics/1.png" alt="Distribution of Narrative Categories Across Studied Nations" />
+                          </div>
+
+                          <h3>The Medal Effect</h3>
+                          <p>These differences in framing are not just stylistic—they have measurable consequences.</p>
+                          <p>When we compared each country’s narrative mix with the overall tone of its coverage, a strong relationship emerged. Countries that devoted more attention to medal outcomes tended to produce significantly more positive reporting.</p>
+                          
+                          <div class="image main">
+                            <img src="../images/dj-pics/medals-not-scandals-2026-olympics/2.png" alt="Correlation of Medal Coverage vs Sentiment Tone" />
+                          </div>
+
+                          <p>Statistically, the relationship is striking:</p>
+                          <ul>
+                            <li>About <strong>60% of the variation in tone across countries</strong> can be explained by how much coverage focuses on medals</li>
+                            <li>The relationship is <strong>statistically significant</strong></li>
+                          </ul>
+                          <p style="margin-bottom: 2em;">In practical terms, this means that even modest differences in framing can have large effects. A country that emphasizes medal results just 10 to 15 percentage points more than another is likely to produce noticeably more positive coverage overall.</p>
+
+                          <h3>What About Controversy?</h3>
+                          <p>If medal coverage drives positivity, it would be natural to expect the opposite effect from controversy. More scandals, disputes, or rule violations should lead to a more negative tone.</p>
+                          <p>But the data tells a more nuanced story. While some countries do feature higher shares of controversy-related coverage, this does not translate into systematically more negative reporting. Instead, the overall tone remains broadly positive across all countries, suggesting that even “controversial” Olympic narratives are often framed within the competitive context of the Games. A closer look at the distribution of sentiment reveals this clearly.</p>
+                          
+                          <div class="image main">
+                            <img src="../images/dj-pics/medals-not-scandals-2026-olympics/3.png" alt="Controversy Share vs Negative Sentiment Distribution Analysis" />
+                          </div>
+
+                          <p>Across all countries, the majority of articles fall into neutral or mildly positive categories. Even countries with relatively higher shares of controversy coverage do not exhibit a significant increase in negative tone. Instead, the dominant pattern holds: <strong>Positive narratives—particularly those tied to competition and performance—consistently outweigh negative ones</strong></p>
+                          <p>To better understand how tone varies within each country, we can look beyond averages and examine full distributions.</p>
+                          
+                          <div class="image main">
+                            <img src="../images/dj-pics/medals-not-scandals-2026-olympics/4.png" alt="Full Country-by-Country Sentiment Tone Density Ridges" />
+                          </div>
+
+                          <p>This view highlights an important nuance: while average tone differs across countries, the overall distribution is remarkably similar. Most coverage clusters in the neutral-to-positive range, with only small tails extending into strongly negative territory.</p>
+                          <p>Notably, countries that emphasize medal-driven narratives—such as Turkey and Malaysia—show heavier positive tails, reinforcing the link between competition-focused framing and higher sentiment.</p>
+
+                          <h3>Framing the Games: A Mirror of Media Systems</h3>
+                          <p>Taken together, these findings point to a broader insight: the tone of Olympic coverage is shaped less by the events themselves and more by how those events are framed.</p>
+                          <p>When media outlets focus on medals and results, they emphasize clear outcomes—victory, achievement, and national pride. These narratives naturally lend themselves to more positive sentiment. By contrast, coverage that expands beyond competition—to politics, logistics, or broader context—introduces more ambiguity and complexity, resulting in a more neutral tone.</p>
+                          <p>This pattern reveals something deeper about global media. The Olympics are often described as a unifying event, bringing the world together around sport. But in practice, they also act as a mirror—reflecting how different countries choose to tell stories.</p>
+                          <p>Some emphasize competition and national success. Others highlight individual athletes and human experience. Still others situate the Games within a broader political or global context. Each perspective offers a different lens on the same event.</p>
+                          <p>Yet across all of these narratives, one pattern remains consistent: <strong>Where medals dominate the story, positivity follows.</strong></p>
+                          <p>In that sense, the Olympics are not just a global sporting event—they are a global storytelling exercise, shaped as much by media framing as by the performances themselves.</p>
+
+                          <h3>The Limits of Global News Data</h3>
+                          <p>Analyzing global media at scale comes with challenges. Multilingual data, in particular, introduces noise and inconsistencies. In our case, some countries—most notably Japan—produced large amounts of garbled or poorly translated text, which distorted narrative classification. After identifying these issues, we excluded such cases from the final analysis to ensure reliable comparisons.</p>
+                          <p>These limitations highlight an important reality of modern data journalism: Even with advanced NLP tools, understanding global narratives requires careful validation and interpretation.</p>
+                        </article>
+                    </div>
+                  </div>
+                  
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                      <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>How the ABS Challenge System Punishes the Hitter's Ego | Sports Analytics Group at Berkeley</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+  </head>
+  <body class="right-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <div id="header-wrapper">
+          <div class="container">
+
+            <header id="header">
+                <div class="inner">
+
+                  <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+
+                  <nav id="nav">
+                    </nav>
+                    <script id="nav-src" curr="dj" folder="up" src="../shared/nav.js"></script>
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <div id="content">
+
+                      <article>
+                          <header class="major">
+                            <h2>How the ABS Challenge System Punishes the Hitter's Ego</h2>
+                            <h4>By <a href="https://google.com" target="_blank">Makena Reiss</a> | June 11, 2026</h4>
+                          </header>
+                          <span class="image featured"><img src="../images/dj-pics/abs-punishes-hitter-ego/1.jpg" alt="Automated Ball-Strike System Graphic" /></span>
+                          
+                          <h3>Introduction</h3>
+                          <p>The beauty of baseball comes from the normalization of error. For example, a batting average of over .300 is considered amazing, yet, a .300 average means failing to get a hit 70% of the time. No other sport celebrates a 70% failure rate as elite. As baseball evolves and becomes more automated, I wonder: Are we losing the humanity in the game?</p>
+                          <p>In my previous article, <a href="https://sportsanalytics.studentorg.berkeley.edu/articles/humanity-in-umpiring.html" target="_blank">“Exploring the Humanity in MLB Umpiring”</a> I explored how human umpires are influenced by crowd noise and high-pressure scenarios. That research led me to question if MLB’s Automated Ball-Strike (ABS) Challenge System was going to remove humanity from baseball. ABS is not removing humanity; it redefines it. ABS encourages discipline when challenging calls and patience when it comes to strategy.</p>
+                          <p>In this article I will explore how the 30 MLB teams are currently performing with the ABS system so far in the 2026 season. I will then dive into the strategy when it comes to challenging as either a batter or fielder.</p>
+
+                          <h3>What is ABS?</h3>
+                          <p>MLB’s Automated Ball-Strike (ABS) Challenge System is a system allowing players to challenge the umpire’s call in real time. After a call is made, either the batter, pitcher, or catcher can tap their helmet to signal that they will be questioning the umpire’s pitch call. Each team starts with two challenges per game. If a player challenges a call and is successful, they keep their challenge, but if they are not successful, they lose it, which makes it very strategic. This system was tested in thousands of Minor League games before being implemented into the MLB regular season.</p>
+
+                          <h3>Teams’ Strategy: Accuracy or Aggression?</h3>
+                          <p>How have teams been doing so far in the season?</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/abs-punishes-hitter-ego/2.png" alt="Total Challenges vs Overturn Success Rate Map" />
+                          </div>
+                          
+                          <p class="caption" style="margin-top: -1em; margin-bottom: 1.5em; font-style: italic;"><strong>How to read this plot:</strong> On the x-axis are total challenges attempted so far in the 2026 season for each MLB team. On the y-axis is the success rate of overturning an umpire’s call. The larger the circle, the more wasted challenges. The green zone shows the higher number of challenges and the higher success rate, while the red zone shows the higher number of challenges and the lower success rate. The different quadrants of this plot reveal stories for each team.</p>
+
+                          <p>In this case, I am using total challenges as a measurement for being more aggressive and success rate as a measurement for being more accurate.</p>
+                          <p>In the high volume, low accuracy quadrant we have teams like the Rockies (110 challenges, 52% accuracy) and the White Sox (97 challenges, 42% accuracy). These teams seem to be jumping too quickly to conclusions, not using their challenges as efficiently as other teams.</p>
+                          <p>The most interesting point we see is the Detroit Tigers. The Tigers are in the high success rate, low volume quadrant, meaning they have the highest success rate in the league, but also with a smaller amount of challenges. Their batters have around 48% success rate, but their fielders (pitchers and catchers) have an 81% success rate! The Tigers use their catchers to their advantage because they know they make the most accurate calls.</p>
+
+                          <h3>Fielders vs. Batters</h3>
+                          <p>Using the Tigers as an example, is the strategy to just let your fielders use the challenges?</p>
+
+                          <div class="image main">
+                            <img src="../images/dj-pics/abs-punishes-hitter-ego/3.png" alt="Boxplot Comparison: Fielder vs Batter Success Rates" />
+                          </div>
+
+                          <p>I have created a side-by-side boxplot comparison, comparing the success rates of each team between batters and fielders. As you can see, the mean success rate is significantly higher when challenged by a fielder versus a batter. I ran a paired t-test to test if fielders are better than batters across the league. This test looks at the difference between the two roles within every team to see if fielders having a better success rate is not just random. I ended up getting a p-value of $4.95 \times 10^{-7}$, which makes this result statistically significant. This is evidence to claim that the perspective from behind the plate is superior to being a batter. On average, fielders are 12.87% more likely to win a challenge than their hitting counterparts. The mean success rate for batters is 46.5%, while fielders are 59.37%!</p>
+                          <p>Intuitively, it makes sense that the fielders’ accuracy is statistically significant from the batters’ accuracy. Batting is emotional. A hitter sees the ball from a perpendicular angle, under extreme physical pressure, and with very few repetitions compared to a catcher. This is where humanity intersects with ABS. As a batter you have to restrain yourself from using one of the challenges if there is too much pressure or emotion. ABS is about discipline and patience, not a decision made in the heat of a moment.</p>
+                          <p>Before ABS, in many games there is almost always a negative interaction between the batter and the umpire over a strike call. The batter was always on the defense, but now ABS acts as an offensive weapon. Hitters are more likely to challenge a pitch based on the feeling that they have been “wronged,” versus pitch location. On the other hand, catchers are looking at efficiency not vindication.</p>
+
+                          <h3>Conclusion</h3>
+                          <p>In conclusion, there are many strategies being used throughout the MLB, either being more aggressive with the calls or more patient. The most strategic teams seem to be those that can manage the human element. I have found that teams like the Tigers, Reds, and Dodgers have the highest challenge success.</p>
+
+                          <div class="row">
+                            <div class="col-6 col-12-medium">
+                              <span class="image fit"><img src="../images/dj-pics/abs-punishes-hitter-ego/4.png" alt="Total Accuracy Rankings" /></span>
+                            </div>
+                            <div class="col-6 col-12-medium">
+                              <span class="image fit"><img src="../images/dj-pics/abs-punishes-hitter-ego/5.png" alt="Fielder Accuracy Metrics" /></span>
+                            </div>
+                          </div>
+
+                          <p>What is interesting here is that the Tigers lead in total accuracy and in fielder accuracy, clearly using ABS more efficiently. Looking at the Twins, there is a different story. They are number two in fielder accuracy, but not even making the top ten for overall success because their batters’ challenge accuracy tanks their overall score.</p>
+                          <p>Ultimately, I have found there is a statistically significant difference between catchers’ and batters’ accuracy, and that should be taken into consideration when creating a strategy for one’s team. The decision making should be left in the hands of the catcher, not the batter. ABS does not eliminate the humanity of the game, just redirects it into a new type of strategy of when and how to use challenges.</p>
+                        </article>
+                    </div>
+                  </div>
+                  
+                  <div class="col-4 col-12-medium">
+                    <div id="sidebar">
+                      <section>
+                          <header class="major">
+                            <h2>Related Articles</h2>
+                          </header>
+                          <ul id="recent-articles" class="style2">
+                          </ul>
+                          <script id="recent-articles-src" src="../shared/recent-articles.js"></script>
+                        </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="wrapper style3">
+            <div class="inner">
+              <div class="container">
+                <div class="row">
+                  <div class="col-8 col-12-medium">
+                    <section id="featured-articles" class="box article-list">
+                    </section>
+                    <script id="featured-article-src" src="../shared/featured-articles.js"></script>
+                  </div>
+                  <div class="col-4 col-12-medium">
+
+                    <section class="box spotlight">
+                        <h2 class="icon fa-file-text-o">Spotlight</h2>
+                        <article>
+                          <a href="#" class="image featured"><img src="images/pic07.jpg" alt=""></a>
+                          <header>
+                            <h3><a href="#">Neural Implants</a></h3>
+                            <p>The pros and cons. Mostly cons.</p>
+                          </header>
+                          <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper mod
+                          quisturpis nisi consequat ornare in, hendrerit in lectus semper mod quis eget mi quat etiam
+                          lorem. Phasellus quam turpis, feugiat sed et lorem ipsum dolor consequat dolor feugiat sed
+                          et tempus consequat etiam.</p>
+                          <p>Lorem ipsum dolor quam turpis, feugiat sit amet ornare in, hendrerit in lectus semper
+                          mod quisturpis nisi consequat etiam lorem sed amet quam turpis.</p>
+                          <footer>
+                            <a href="#" class="button alt icon fa-file-o">Continue Reading</a>
+                          </footer>
+                        </article>
+                      </section>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" folder="up" src="../shared/footer.js"></script>
+
+    </div>
+
+    <script src="../assets/js/jquery.min.js"></script>
+      <script src="../assets/js/jquery.dropotron.min.js"></script>
+      <script src="../assets/js/browser.min.js"></script>
+      <script src="../assets/js/breakpoints.min.js"></script>
+      <script src="../assets/js/util.js"></script>
+      <script src="../assets/js/main.js"></script>
+
+  </body>
+</html>
