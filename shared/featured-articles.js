@@ -1,21 +1,23 @@
 var el = document.getElementById("featured-article-src");
 var folder = el.getAttribute("folder");
 
-article1 = "nba-roty";
-article2 = "screamers-to-tap-ins";
+article1 = "medals-not-scandals-2026-olympics";
+article2 = "medals-not-scandals-2026-olympics";
 article3 = "ligue-1-article";
 article4 = "two-high"
-
-title1 = "How Meaningful is the NBA ROTY Award?";
-title2 = "From Screamers to Tap-Ins: The Truth Behind the Evolution of Shot Positioning in Football";
+title1 = "Medals, Not Scandals: How Countries Framed the 2026 Winter Olympics";
+title1 = "Medals, Not Scandals: How Countries Framed the 2026 Winter Olympics";
 title3 = "Is Ligue 1 Still a Top 5 League?";
-title4 = "Two High: Why didn’t it stop Mahomes?"
-
-date1 = "April 16, 2023";
+date1 = "June 12, 2026";
+date1 = "June 11, 2026";
+= "Two  "June 11, 2026";
 date2 = "April 16, 2023";
-date3 = "April 16, 2023";
-date4 = "April 16, 2023"
+excerpt1 = ""When the world watches the Olympics, it feels like a shared experience. The same races, the same podiums, the same moments of triumph and heartbreak. But the stories people read about those moments are far from uniform."";
+excerpt1 = ""When the world watches the Olympics, it feels like a shared experience. The same races, the same podiums, the same moments of triumph and heartbreak. But the stories people read about those moments are far from uniform."";
 
+ "When the world watches the Olympics, it feels like a shared experience. The same races, the same podiums, the same moments of triumph and heartbreak. But the stories people read about those moments are far from uniform.";
+ "When the world watches the Olympics, it feels like a shared experience. The same races, the same podiums, the same moments of triumph and heartbreak. But the stories people read about those moments are far from uniform.";
+ "";
 excerpt1 = "Since the 1960s, awards have helped shape NBA history and the way fans perceive players of different generations. In most cases, an accolade in this league is a stamp that etches a player in the history books as one of the greatest to ever do it...";
 excerpt2 = "Every football (soccer) fan has, at some point, dreamed of scoring a Gerrard-esque worldie as a child. A strike from distance that would make time stop, with such fierce power, bending into the top corner to the elation of the crowd..."
 excerpt3 = "“It’s a farmers league, though.” Let’s face it. We’ve all heard the term “farmers league” thrown around to describe leagues such as Ligue 1 due to the perception that the league generally lacks the competitiveness and financial power of other top European leagues...";
