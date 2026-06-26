@@ -67,122 +67,157 @@
 
                           <p class="small">Sources: Wikipedia “List of NBA players with 500 consecutive games played”, Statmuse</p>
                           
-                          <div class="table-wrapper">
-                            <table class="default">
-                              <thead>
-                                <tr>
-                                  <th>Rank</th>
-                                  <th>Name</th>
-                                  <th># of Consecutive Games Played</th>
-                                  <th>Streak Start</th>
-                                  <th>Streak End</th>
-                                  <th>Minutes Per Game During Streak</th>
-                                  <th>How Streak Ended</th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                <tr>
-                                  <td>1</td>
-                                  <td>A.C. Green</td>
-                                  <td>1,192</td>
-                                  <td>November 19, 1986</td>
-                                  <td>April 18, 2001</td>
-                                  <td>29.3</td>
-                                  <td>Retirement (Never missed a game due to injury)</td>
-                                </tr>
-                                <tr>
-                                  <td>2</td>
-                                  <td>Randy Smith</td>
-                                  <td>906</td>
-                                  <td>February 18, 1972</td>
-                                  <td>March 13, 1983</td>
-                                  <td>28.2</td>
-                                  <td>Retirement</td>
-                                </tr>
-                                <tr>
-                                  <td>3</td>
-                                  <td>Red (Johnny) Kerr</td>
-                                  <td>844</td>
-                                  <td>October 31, 1954</td>
-                                  <td>November 4, 1965</td>
-                                  <td>N/A**</td>
-                                  <td>Retirement</td>
-                                </tr>
-                                <tr>
-                                  <td>4</td>
-                                  <td>Michael Cage</td>
-                                  <td>736</td>
-                                  <td>April 23, 1989</td>
-                                  <td>April 14, 1998</td>
-                                  <td>24.7</td>
-                                  <td>Hamstring injury</td>
-                                </tr>
-                                <tr>
-                                  <td>5</td>
-                                  <td>Dolph Schayes^</td>
-                                  <td>706</td>
-                                  <td>February 17, 1952</td>
-                                  <td>December 26, 1961</td>
-                                  <td>N/A**</td>
-                                  <td>Shattered cheek bone</td>
-                                </tr>
-                                <tr>
-                                  <td>6</td>
-                                  <td>Bill Laimbeer</td>
-                                  <td>685</td>
-                                  <td>October 24, 1980</td>
-                                  <td>January 27, 1989</td>
-                                  <td>33.0</td>
-                                  <td>Suspension</td>
-                                </tr>
-                                <tr>
-                                  <td>7</td>
-                                  <td>Harry Gallatin^</td>
-                                  <td>682</td>
-                                  <td>November 20, 1948</td>
-                                  <td>March 9, 1958</td>
-                                  <td>N/A*</td>
-                                  <td>Retirement</td>
-                                </tr>
-                                <tr>
-                                  <td>8</td>
-                                  <td>Mikal Bridges</td>
-                                  <td>638</td>
-                                  <td>October 17, 2018</td>
-                                  <td>Present</td>
-                                  <td>33.3</td>
-                                  <td>N/A (ongoing)</td>
-                                </tr>
-                                <tr>
-                                  <td>9</td>
-                                  <td>Andre Miller</td>
-                                  <td>632</td>
-                                  <td>January 26, 2003</td>
-                                  <td>December 5, 2010</td>
-                                  <td>35.0</td>
-                                  <td>Suspension</td>
-                                </tr>
-                                <tr>
-                                  <td>10</td>
-                                  <td>John Stockton^</td>
-                                  <td>609</td>
-                                  <td>February 13, 1990</td>
-                                  <td>April 20, 1997</td>
-                                  <td>36.1</td>
-                                  <td>Knee injury</td>
-                                </tr>
-                                <tr>
-                                  <td>-</td>
-                                  <td>Jack Twyman^</td>
-                                  <td>-</td>
-                                  <td>November 5, 1955</td>
-                                  <td>October 29, 1963</td>
-                                  <td>N/A**</td>
-                                  <td>Broke two bones in his hand</td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
+                          <style>
+  .clean-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  
+  /* Clear borders for headers and cells */
+  .clean-table th, 
+  .clean-table td {
+    border: 1px solid #d1d5db; /* Distinct, clear borders */
+    padding: 12px 10px;
+    text-align: left;
+  }
+  
+  /* Header styling */
+  .clean-table th {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    font-weight: bold;
+  }
+  
+  /* Zebra striping for easy reading */
+  .clean-table tr:nth-child(even) {
+    background-color: #f9fafb;
+  }
+  
+  /* Highlight on hover */
+  .clean-table tr:hover {
+    background-color: #f1f5f9;
+  }
+</style>
+
+<div class="table-wrapper">
+  <table class="clean-table">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Consecutive Games</th>
+        <th>Streak Start</th>
+        <th>Streak End</th>
+        <th>MPG During Streak</th>
+        <th>How Streak Ended</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>A.C. Green</td>
+        <td>1,192</td>
+        <td>November 19, 1986</td>
+        <td>April 18, 2001</td>
+        <td>29.3</td>
+        <td>Retirement (Never missed a game due to injury)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Randy Smith</td>
+        <td>906</td>
+        <td>February 18, 1972</td>
+        <td>March 13, 1983</td>
+        <td>28.2</td>
+        <td>Retirement</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Red (Johnny) Kerr</td>
+        <td>844</td>
+        <td>October 31, 1954</td>
+        <td>November 4, 1965</td>
+        <td>N/A**</td>
+        <td>Retirement</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Michael Cage</td>
+        <td>736</td>
+        <td>April 23, 1989</td>
+        <td>April 14, 1998</td>
+        <td>24.7</td>
+        <td>Hamstring injury</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Dolph Schayes^</td>
+        <td>706</td>
+        <td>February 17, 1952</td>
+        <td>December 26, 1961</td>
+        <td>N/A**</td>
+        <td>Shattered cheek bone</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Bill Laimbeer</td>
+        <td>685</td>
+        <td>October 24, 1980</td>
+        <td>January 27, 1989</td>
+        <td>33.0</td>
+        <td>Suspension</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Harry Gallatin^</td>
+        <td>682</td>
+        <td>November 20, 1948</td>
+        <td>March 9, 1958</td>
+        <td>N/A*</td>
+        <td>Retirement</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Mikal Bridges</td>
+        <td>638</td>
+        <td>October 17, 2018</td>
+        <td>Present</td>
+        <td>33.3</td>
+        <td>N/A (ongoing)</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Andre Miller</td>
+        <td>632</td>
+        <td>January 26, 2003</td>
+        <td>December 5, 2010</td>
+        <td>35.0</td>
+        <td>Suspension</td>
+      </tr>
+      <tr>
+        <td>T-10</td>
+        <td>John Stockton^</td>
+        <td>609</td>
+        <td>February 13, 1990</td>
+        <td>April 20, 1997</td>
+        <td>36.1</td>
+        <td>Knee injury</td>
+      </tr>
+      <tr>
+        <td>T-10</td>
+        <td>Jack Twyman^</td>
+        <td>609</td>
+        <td>November 5, 1955</td>
+        <td>October 29, 1963</td>
+        <td>N/A</td>
+        <td>Broke two bones in his hand</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
                           <p class="small">
                             ^has been inducted into the Naismith Memorial Basketball Hall of Fame <br />
                             *(total minutes not tracked before 1951-1952 season) <br />
