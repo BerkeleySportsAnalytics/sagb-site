@@ -15,6 +15,7 @@ const navItems = [
   // { id: "board", label: "Our Board", file: "board.html" },
   { id: "conference", label: "Conference", file: "conference.html" },
   { id: "apply", label: "Apply", file: "apply.html" },
+  { id: "coffeechats", label: "☕", file: "coffee-chats.html"}
 ];
 
 const menuMarkup = navItems
