@@ -1,46 +1,23 @@
-var el = document.getElementById("recent-articles-src");
-var folder = el.getAttribute("folder");
+/* "Related Articles" sidebar: newest articles sharing a sport with this one, topped up with the newest overall. */
+(function () {
+  const list = document.getElementById("recent-articles");
+  const articles = window.SAGB_ARTICLES;
+  if (!list || !articles) return;
 
-article1 = "extraordinary-cal-raleigh.html";
-article2 = "ap-poll-hype-train.html";
-article3 = "bringing-the-boom.html";
-article4 = "beyond-the-hero-moment.html";
-article5 = "anatomy-nhl-rebuild.html";
-article6 = "hidden-talent.html";
-article7 = "chaos-opportunity-podium.html";
-article8 = "redefining-nhl-special-teams.html";
-article9 = "humanity-in-umpiring.html";
+  const el = document.getElementById("recent-articles-src");
+  const prefix = el && el.getAttribute("folder") === "down" ? "" : "../";
+  const LIMIT = 9;
 
-title1 = "Just How Extraordinary Was Cal Raleigh's 2025 Season?";
-title2 = "The AP Poll is a Hype Train";
-title3 = "Bringing the Boom: Analyzing the Long-Term Effects of Torpedo Bat Usage";
-title4 = "Beyond the Hero Moment";
-title5 = "The Anatomy of an NHL Rebuild: What Actually Creates a Champion?";
-title6 = "Hidden Talent: Using Data to Find Undervalued U23s in Europe's Big 5 Soccer Leagues";
-title7 = "Chaos, Opportunity, and the Podium No One Predicted";
-title8 = "Redefining the NHL's Special Teams Metrics";
-title9 = "Exploring the Humanity in MLB Umpiring";
+  const here = window.location.pathname.split("/").pop();
+  const sportsMeta = document.querySelector('meta[name="sagb:sports"]');
+  const sports = sportsMeta ? sportsMeta.content.split(",").map((s) => s.trim()) : [];
 
-article1 = folder == "down" ? "articles/"+article1 : article1;
-article2 = folder == "down" ? "articles/"+article2 : article2;
-article3 = folder == "down" ? "articles/"+article3 : article3;
-article4 = folder == "down" ? "articles/"+article4 : article4;
-article5 = folder == "down" ? "articles/"+article5 : article5;
-article6 = folder == "down" ? "articles/"+article6 : article6;
-article7 = folder == "down" ? "articles/"+article7 : article7;
-article8 = folder == "down" ? "articles/"+article8 : article8;
-article9 = folder == "down" ? "articles/"+article9 : article9;
+  const others = articles.filter((a) => a.url.split("/").pop() !== here);
+  const related = others.filter((a) => a.sports.some((s) => sports.includes(s))).slice(0, LIMIT);
+  const picks = related.concat(others.filter((a) => !related.includes(a)).slice(0, LIMIT - related.length));
 
-string = `
-<li><a href=`+article1+`>`+title1+`</a></li>
-<li><a href=`+article2+`>`+title2+`</a></li>
-<li><a href=`+article3+`>`+title3+`</a></li>
-<li><a href=`+article4+`>`+title4+`</a></li>
-<li><a href=`+article5+`>`+title5+`</a></li>
-<li><a href=`+article6+`>`+title6+`</a></li>
-<li><a href=`+article7+`>`+title7+`</a></li>
-<li><a href=`+article8+`>`+title8+`</a></li>
-<li><a href=`+article9+`>`+title9+`</a></li>
-`;
+  const escapeHtml = (value) =>
+    String(value).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-document.getElementById("recent-articles").innerHTML = string;
+  list.innerHTML = picks.map((a) => `<li><a href="${prefix}${a.url}">${escapeHtml(a.title)}</a></li>`).join("\n");
+})();

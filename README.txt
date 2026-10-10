@@ -6,20 +6,27 @@ How To Set Up Git:
 How to Set Up Website:
 	1. Should be able to open up any site and view it `open index.html`
 
+How Articles Are Organized:
+	- Every article and blog post lives in `articles/`. Images live in `images/dj-pics/<article-name>/` (older blog posts use `images/blog-pics/`).
+	- Each article lists its authors, date, semester, sport(s), and thumbnail in `<meta name="sagb:...">` tags at the top of the file.
+	- `python3 scripts/build_articles.py` reads those tags and regenerates:
+		- the byline (with links to author pages) and sport/semester tags on each article
+		- `shared/articles-data.js`, which powers the DJ Archive page (dj-archive.html) and the article sidebars
+		- the author pages in `authors/`
+	- Author bios, roles, photos, and LinkedIn links are in `authors/authors.json`. Edit that file, then re-run the build.
+		- If one person has been credited under two names, add the other spelling to their "aliases" list.
+	- Never edit `shared/articles-data.js` or `authors/*.html` by hand; they are overwritten by the build.
+
 How to Add a New Article:
-	1. `python new_dj_article.py article-file-name`
-		1. Enter Title of Article: `The Evolution of the NBA`
+	1. `python3 scripts/new_article.py article-file-name`
+		1. Answer the prompts (title, authors, sports, date, semester).
 	2. This creates a new html file and a folder for images: `open articles/article-file-name.html`
-	3. Edit HTML file to put in the article!
-	4. As of now, make sure you copy over "Spotlight" Article from a previous article. "Recent Articles" and "Featured Articles" should be loaded already.
-	5. ONLY PROCEED UNTIL YOU ARE SURE THE ARTICLE LOOKS COMPLETLY READY! YES, CHECK AGAIN!
-	6. Add to All Articles List: `python update_article_lists.py article-file-name`
-		1. Make sure the DATE, AUTHOR, and TITLE are final before you run this!
-		1. If you see a `html5lib` error, you may need to `pip install html5lib`
-		2. If you see a `pip` error, you may need to `sudo brew install pip`
-	7. Add to Recent Articles Lists: `python update_recent_articles_list.py article-file-name`
-	8. OPTIONAL: add to featured articles: `python update_featured_articles.py article-file-name`
-	9. OPTIONAL: change the spotlight article: `python update_spotlight_article.py article-file-name`
+	3. Edit HTML file to put in the article! Name the cover image `main.jpg`, or change the `sagb:image` tag.
+	4. ONLY PROCEED UNTIL YOU ARE SURE THE ARTICLE LOOKS COMPLETLY READY! YES, CHECK AGAIN!
+	5. Publish it: `python3 scripts/build_articles.py`
+		1. It now shows up in the DJ Archive, its author's page, and the "Related Articles" sidebars.
+		2. New authors are added to `authors/authors.json` automatically. Fill in their bio there and re-run the build.
+	6. OPTIONAL: change the spotlight article: `python3 scripts/update_spotlight_article.py article-file-name`
 	
 How to Edit The Actual Article:
 	1. Paragraphs are wrapped in p tags: <p>paragraph</p>

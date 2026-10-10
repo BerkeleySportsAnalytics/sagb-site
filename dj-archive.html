@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+  ZeroFour by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <link href="images/logos_2026/bear_white.png" rel="icon" type="image/x-icon"/>
+    <title>DJ Archive – SAGB</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="assets/css/main.css" rel="stylesheet"/>
+  </head>
+  <body class="no-sidebar is-preload">
+    <div id="page-wrapper">
+
+      <!-- Header Wrapper -->
+        <div id="header-wrapper">
+          <div class="container">
+
+            <!-- Header -->
+              <header id="header">
+                <div class="inner">
+
+                  <!-- Logo -->
+                    <h1><a href="index.html" id="logo"><img src="images/logos_2026/bear_white.png"/></a></h1>
+
+                  <!-- Nav -->
+                    <nav id="nav">
+                    </nav>
+                    <script curr="dj-archive" id="nav-src" src="shared/nav.js"></script>
+
+                </div>
+              </header>
+
+          </div>
+        </div>
+
+      <!-- Main Wrapper -->
+        <div id="main-wrapper">
+          <div class="wrapper style2">
+            <div class="inner">
+              <div class="container">
+
+                <div class="articles-hero">
+                  <h2 class="articles-hero-title">DJ Archive</h2>
+                  <p class="articles-hero-subtitle">Every data journalism article written by SAGB Data Journalism members, past and present. Meet <a href="authors/index.html">our writers</a>.</p>
+                </div>
+
+                <section class="articles-filters" aria-label="Filter articles">
+                  <div class="filter-group filter-sports">
+                    <span class="filter-label">Sport</span>
+                    <div class="chip-list" id="sport-filters"></div>
+                  </div>
+                  <div class="filter-group">
+                    <label class="filter-label" for="semester-filter">Semester</label>
+                    <select class="filter-select" id="semester-filter"></select>
+                  </div>
+                  <div class="filter-group">
+                    <label class="filter-label" for="search-filter">Search</label>
+                    <input class="filter-search" id="search-filter" type="search" placeholder="Title or author"/>
+                  </div>
+                </section>
+
+                <div class="articles-status">
+                  <span id="articles-count"></span>
+                  <button class="articles-clear" id="articles-clear" type="button" hidden>Clear filters</button>
+                </div>
+
+                <div class="article-grid" id="article-grid"></div>
+                <p class="articles-empty" id="articles-empty" hidden>No articles match those filters.</p>
+                <div class="articles-more">
+                  <button class="button alt" id="articles-more" type="button" hidden>Show more</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Footer Wrapper -->
+      <div id="footer-wrapper">
+      </div>
+      <script id="footer-src" src="shared/footer.js"></script>
+
+    </div>
+
+    <!-- Scripts -->
+      <script src="shared/articles-data.js"></script>
+      <script src="assets/js/dj-archive.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.dropotron.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+  </body>
+</html>
