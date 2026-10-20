@@ -13,8 +13,8 @@ How Articles Are Organized:
 		- the byline (with links to author pages) and sport/semester tags on each article
 		- `shared/articles-data.js`, which powers the DJ Archive page (dj-archive.html) and the article sidebars
 		- the author pages in `authors/`
-	- Author bios, roles, photos, and LinkedIn links are in `authors/authors.json`. Edit that file, then re-run the build.
-		- If one person has been credited under two names, add the other spelling to their "aliases" list.
+	- Author bios, roles, class years, photos, emails, and LinkedIn links are in `authors/authors.csv`. Edit that file (Excel, Google Sheets, or a text editor), then re-run the build.
+		- If one person has been credited under two names, add the other spelling to the "aliases" column, separated by " | ".
 	- Never edit `shared/articles-data.js` or `authors/*.html` by hand; they are overwritten by the build.
 
 How to Add a New Article:
@@ -25,8 +25,14 @@ How to Add a New Article:
 	4. ONLY PROCEED UNTIL YOU ARE SURE THE ARTICLE LOOKS COMPLETLY READY! YES, CHECK AGAIN!
 	5. Publish it: `python3 scripts/build_articles.py`
 		1. It now shows up in the DJ Archive, its author's page, and the "Related Articles" sidebars.
-		2. New authors are added to `authors/authors.json` automatically. Fill in their bio there and re-run the build.
+		2. New authors are added to `authors/authors.csv` automatically. Fill in their bio, email, and photo there and re-run the build.
 	6. OPTIONAL: change the spotlight article: `python3 scripts/update_spotlight_article.py article-file-name`
+
+How to Add a New Podcast Episode to the DJ Archive:
+	1. Add an entry to the top of `podcasts/podcasts.json`, copying the format of the others.
+		1. "spotify" is the episode ID from its link: open.spotify.com/episode/<this part>
+		2. "series" is optional ("Cover 3", "Give and Go"); leave it out and the card says "SAGB Podcast".
+	2. Run `python3 scripts/build_articles.py`. The episode shows up in the DJ Archive with a "Podcast" tag.
 	
 How to Edit The Actual Article:
 	1. Paragraphs are wrapped in p tags: <p>paragraph</p>

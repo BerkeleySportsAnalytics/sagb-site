@@ -36,10 +36,8 @@ def main():
     sports = ask(f"Sport(s), comma-separated ({SPORTS_HINT})")
     published = date.fromisoformat(ask("Publish date (YYYY-MM-DD)", date.today().isoformat()))
     semester = ask("Semester", semester_for(published))
-    is_blog = ask("Is this a blog post? (y/n)", "n").lower().startswith("y")
 
     esc = lambda value: html.escape(value, quote=True)
-    type_meta = '\n    <meta name="sagb:type" content="blog">' if is_blog else ""
 
     article_path.write_text(
         f"""<!DOCTYPE HTML>
@@ -58,7 +56,7 @@ def main():
     <meta name="sagb:date" content="{published.isoformat()}">
     <meta name="sagb:semester" content="{esc(semester)}">
     <meta name="sagb:sports" content="{esc(sports)}">
-    <meta name="sagb:image" content="../images/dj-pics/{slug}/main.jpg">{type_meta}
+    <meta name="sagb:image" content="../images/dj-pics/{slug}/main.jpg">
     <script src="../shared/articles-data.js"></script>
   </head>
   <body class="right-sidebar is-preload">
@@ -73,7 +71,7 @@ def main():
                 <div class="inner">
 
                   <!-- Logo -->
-                    <h1><a href="../index.html" id="logo"><img src="../images/logo1.png" /></a></h1>
+                    <h1><a href="../index.html" id="logo"><img src="../images/logos_2026/bear_white.png" /></a></h1>
 
                   <!-- Nav -->
                     <nav id="nav">

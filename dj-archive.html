@@ -45,7 +45,7 @@
 
                 <div class="articles-hero">
                   <h2 class="articles-hero-title">DJ Archive</h2>
-                  <p class="articles-hero-subtitle">Every data journalism article written by SAGB Data Journalism members, past and present. Meet <a href="authors/index.html">our writers</a>.</p>
+                  <p class="articles-hero-subtitle">Every data journalism article and podcast episode from SAGB Data Journalism members, past and present. Meet <a href="authors/index.html">our writers</a>.</p>
                 </div>
 
                 <section class="articles-filters" aria-label="Filter articles">
@@ -54,12 +54,16 @@
                     <div class="chip-list" id="sport-filters"></div>
                   </div>
                   <div class="filter-group">
+                    <label class="filter-label" for="type-filter">Format</label>
+                    <select class="filter-select" id="type-filter"></select>
+                  </div>
+                  <div class="filter-group">
                     <label class="filter-label" for="semester-filter">Semester</label>
                     <select class="filter-select" id="semester-filter"></select>
                   </div>
                   <div class="filter-group">
                     <label class="filter-label" for="search-filter">Search</label>
-                    <input class="filter-search" id="search-filter" type="search" placeholder="Title or author"/>
+                    <input class="filter-search" id="search-filter" type="search" placeholder="Title, author, or host"/>
                   </div>
                 </section>
 
@@ -69,7 +73,7 @@
                 </div>
 
                 <div class="article-grid" id="article-grid"></div>
-                <p class="articles-empty" id="articles-empty" hidden>No articles match those filters.</p>
+                <p class="articles-empty" id="articles-empty" hidden>Nothing matches those filters.</p>
                 <div class="articles-more">
                   <button class="button alt" id="articles-more" type="button" hidden>Show more</button>
                 </div>
@@ -88,6 +92,7 @@
 
     <!-- Scripts -->
       <script src="shared/articles-data.js"></script>
+      <script src="shared/podcasts-data.js"></script>
       <script src="assets/js/dj-archive.js"></script>
       <script src="assets/js/jquery.min.js"></script>
       <script src="assets/js/jquery.dropotron.min.js"></script>

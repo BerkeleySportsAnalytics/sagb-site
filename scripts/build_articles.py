@@ -10,17 +10,21 @@ Every page in articles/ declares its info with meta tags in <head>:
     <meta name="sagb:semester" content="Fall 2025">
     <meta name="sagb:sports" content="Basketball">
     <meta name="sagb:image" content="../images/dj-pics/my-article/main.jpg">
-    <meta name="sagb:type" content="blog">          (optional, defaults to "article")
+    <meta name="sagb:type" content="podcast">       (optional; "blog" is treated as "article")
     <meta name="sagb:listed" content="no">          (optional, keeps drafts/duplicates off listings)
 
 From those, this script:
   - rewrites each article's byline (<h4 class="byline">) with links to author pages
   - rewrites each article's tag links (<div class="article-tags">)
   - writes shared/articles-data.js, which powers dj-archive.html and article sidebars
-  - adds any new authors to authors/authors.json (fill in their bios there)
+  - adds any new authors to authors/authors.csv (fill in their bios there)
   - regenerates authors/<author>.html and authors/index.html
+  - writes shared/podcasts-data.js from podcasts/podcasts.json, which adds podcast
+    episodes to dj-archive.html (each entry: spotify episode id, title, date,
+    duration, sports, description, and optionally series and semester)
 """
 
+import csv
 import html
 import json
 import re
@@ -33,8 +37,12 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_DIR = ROOT / "articles"
 AUTHORS_DIR = ROOT / "authors"
-AUTHORS_JSON = AUTHORS_DIR / "authors.json"
+AUTHORS_CSV = AUTHORS_DIR / "authors.csv"
+AUTHOR_FIELDS = ("slug", "name", "role", "class_year", "email", "linkedin", "photo", "aliases", "bio")
 DATA_JS = ROOT / "shared" / "articles-data.js"
+PODCASTS_JSON = ROOT / "podcasts" / "podcasts.json"
+PODCASTS_JS = ROOT / "shared" / "podcasts-data.js"
+PODCAST_IMAGE = "images/podcasts/sagb-podcast.jpg"
 FALLBACK_IMAGE = "images/dj-main.png"
 GENERATOR_TAG = '<meta name="generator" content="scripts/build_articles.py">'
 
@@ -111,8 +119,25 @@ def join_names(parts):
 class AuthorRegistry:
     def __init__(self, path):
         self.path = path
-        self.data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        self.data = {}
         self.alias_to_slug = {}
+        if path.exists():
+            with path.open(encoding="utf-8", newline="") as handle:
+                for row in csv.DictReader(handle):
+                    slug = (row.get("slug") or "").strip()
+                    if not slug:
+                        continue
+                    aliases = [part.strip() for part in (row.get("aliases") or "").split("|") if part.strip()]
+                    self.data[slug] = {
+                        "name": (row.get("name") or slug).strip(),
+                        "role": (row.get("role") or "").strip(),
+                        "class_year": (row.get("class_year") or "").strip(),
+                        "email": (row.get("email") or "").strip(),
+                        "linkedin": (row.get("linkedin") or "").strip(),
+                        "photo": (row.get("photo") or "").strip(),
+                        "bio": (row.get("bio") or "").strip(),
+                        "aliases": aliases,
+                    }
         for slug, info in self.data.items():
             self.alias_to_slug[info["name"].lower()] = slug
             for alias in info.get("aliases", []):
@@ -125,14 +150,37 @@ class AuthorRegistry:
             return slug
         slug = slugify(name)
         if slug not in self.data:
-            self.data[slug] = {"name": name, "role": "", "bio": "", "photo": "", "linkedin": ""}
-            print(f"  new author added to authors.json: {name}")
+            self.data[slug] = {
+                "name": name,
+                "role": "",
+                "class_year": "",
+                "email": "",
+                "linkedin": "",
+                "photo": "",
+                "bio": "",
+                "aliases": [],
+            }
+            print(f"  new author added to authors.csv: {name}")
         self.alias_to_slug[name.lower()] = slug
         return slug
 
     def save(self):
-        ordered = {slug: self.data[slug] for slug in sorted(self.data)}
-        self.path.write_text(json.dumps(ordered, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        with self.path.open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=AUTHOR_FIELDS, lineterminator="\n")
+            writer.writeheader()
+            for slug in sorted(self.data):
+                info = self.data[slug]
+                writer.writerow({
+                    "slug": slug,
+                    "name": info.get("name", ""),
+                    "role": info.get("role", ""),
+                    "class_year": info.get("class_year", ""),
+                    "email": info.get("email", ""),
+                    "linkedin": info.get("linkedin", ""),
+                    "photo": info.get("photo", ""),
+                    "aliases": " | ".join(info.get("aliases") or []),
+                    "bio": info.get("bio", ""),
+                })
 
 
 def load_article(path, authors):
@@ -161,7 +209,7 @@ def load_article(path, authors):
         "dateLabel": short_date(published),
         "semester": meta.get("semester") or semester_for(published),
         "sports": split_list(meta["sports"]),
-        "type": meta.get("type", "article"),
+        "type": "article" if meta.get("type", "article") in ("", "article", "blog") else meta["type"],
         "image": image,
         "excerpt": excerpt_from(text),
         "listed": meta.get("listed", "yes").lower() != "no",
@@ -185,8 +233,8 @@ def render_tags(article):
         f'<a class="tag tag-semester" href="../dj-archive.html?semester={quote(article["semester"])}">'
         f'{html.escape(article["semester"])}</a>'
     )
-    if article["type"] == "blog":
-        tags.append('<span class="tag tag-type">Blog</span>')
+    if article["type"] == "podcast":
+        tags.append('<a class="tag tag-type" href="../dj-archive.html?type=podcast">Podcast</a>')
     return '<div class="article-tags">' + "".join(tags) + "</div>"
 
 
@@ -209,8 +257,8 @@ def card_html(article, prefix):
         f'<a class="tag tag-semester" href="{prefix}dj-archive.html?semester={quote(article["semester"])}">'
         f'{html.escape(article["semester"])}</a>'
     )
-    if article["type"] == "blog":
-        tags += '<span class="tag tag-type">Blog</span>'
+    if article["type"] == "podcast":
+        tags += f'<a class="tag tag-type" href="{prefix}dj-archive.html?type=podcast">Podcast</a>'
     names = join_names(
         [f'<a href="{prefix}authors/{a["slug"]}.html">{html.escape(a["name"])}</a>' for a in article["authors"]]
     )
@@ -227,7 +275,7 @@ def card_html(article, prefix):
 
 def page_html(title, body, body_class="no-sidebar"):
     return f"""<!DOCTYPE HTML>
-<!-- Generated by scripts/build_articles.py. Edit authors/authors.json instead of this file. -->
+<!-- Generated by scripts/build_articles.py. Edit authors/authors.csv instead of this file. -->
 <html>
   <head>
     <link href="../images/logos_2026/bear_white.png" rel="icon" type="image/x-icon"/>
@@ -290,14 +338,27 @@ def author_page(slug, info, articles):
         if info.get("photo")
         else f'<div class="author-photo author-photo-placeholder">{html.escape(initials(info["name"]))}</div>'
     )
-    role = f'<p class="author-role">{html.escape(info["role"])}</p>' if info.get("role") else ""
-    bio = html.escape(info["bio"]) if info.get("bio") else "Bio coming soon."
-    linkedin = (
-        f'<a class="author-link" href="{html.escape(info["linkedin"])}" target="_blank" rel="noopener noreferrer">'
-        f'<i class="fa fa-linkedin"></i> LinkedIn</a>'
-        if info.get("linkedin")
+    class_year = (
+        f'<p class="author-class">Class of {html.escape(info["class_year"])}</p>'
+        if info.get("class_year")
         else ""
     )
+    roles = [part.strip() for part in (info.get("role") or "").split("|") if part.strip()]
+    role = "".join(f'<p class="author-role">{html.escape(part)}</p>' for part in roles)
+    bio = html.escape(info["bio"]) if info.get("bio") else "Bio coming soon."
+    contacts = []
+    if info.get("linkedin"):
+        contacts.append(
+            f'<a class="author-link" href="{html.escape(info["linkedin"])}" target="_blank" rel="noopener noreferrer">'
+            f'<i class="fa fa-linkedin"></i> LinkedIn</a>'
+        )
+    if info.get("email"):
+        email = info["email"]
+        contacts.append(
+            f'<a class="author-link" href="mailto:{html.escape(email, quote=True)}">'
+            f'<i class="fa fa-envelope"></i> {html.escape(email)}</a>'
+        )
+    contact_links = f'<p class="author-links">{"".join(contacts)}</p>' if contacts else ""
     sports = sorted({s for a in articles for s in a["sports"]})
     stats = " · ".join([f'{len(articles)} article{"s" if len(articles) != 1 else ""}'] + ([", ".join(sports)] if sports else []))
     cards = "\n".join(card_html(a, "../") for a in articles)
@@ -306,10 +367,11 @@ def author_page(slug, info, articles):
                   {photo}
                   <div class="author-details">
                     <h2 class="author-name">{html.escape(info["name"])}</h2>
+                    {class_year}
                     {role}
                     <p class="author-bio">{bio}</p>
                     <p class="author-stats">{html.escape(stats)}</p>
-                    {linkedin}
+                    {contact_links}
                   </div>
                 </section>
                 <h3 class="author-articles-heading">Articles by {html.escape(info["name"])}</h3>
@@ -343,6 +405,30 @@ def authors_index_page(authors, by_author):
     return page_html("Our Writers", body)
 
 
+def load_podcasts():
+    if not PODCASTS_JSON.exists():
+        return []
+    podcasts = []
+    for entry in json.loads(PODCASTS_JSON.read_text(encoding="utf-8")):
+        published = date.fromisoformat(entry["date"])
+        podcasts.append({
+            "slug": "podcast-" + entry["spotify"],
+            "url": "https://open.spotify.com/episode/" + entry["spotify"],
+            "title": entry["title"],
+            "series": entry.get("series", "SAGB Podcast"),
+            "duration": entry.get("duration", ""),
+            "date": published.isoformat(),
+            "dateLabel": short_date(published),
+            "semester": entry.get("semester") or semester_for(published),
+            "sports": entry["sports"],
+            "type": "podcast",
+            "image": entry.get("image", PODCAST_IMAGE),
+            "excerpt": entry.get("description", ""),
+        })
+    podcasts.sort(key=lambda p: (p["date"], p["title"]), reverse=True)
+    return podcasts
+
+
 def write_if_changed(path, content):
     if path.exists() and path.read_text(encoding="utf-8") == content:
         return False
@@ -351,7 +437,7 @@ def write_if_changed(path, content):
 
 
 def main():
-    authors = AuthorRegistry(AUTHORS_JSON)
+    authors = AuthorRegistry(AUTHORS_CSV)
     articles = []
     bylined = set()
     changed = 0
@@ -369,6 +455,10 @@ def main():
     data = "window.SAGB_ARTICLES = [\n" + ",\n".join(json.dumps(a, ensure_ascii=False) for a in articles) + "\n];\n"
     write_if_changed(DATA_JS, "// Generated by scripts/build_articles.py. Do not edit by hand.\n" + data)
 
+    podcasts = load_podcasts()
+    podcast_data = "window.SAGB_PODCASTS = [\n" + ",\n".join(json.dumps(p, ensure_ascii=False) for p in podcasts) + "\n];\n"
+    write_if_changed(PODCASTS_JS, "// Generated by scripts/build_articles.py from podcasts/podcasts.json.\n" + podcast_data)
+
     by_author = {}
     for article in articles:
         for a in article["authors"]:
@@ -385,7 +475,10 @@ def main():
             print(f"  removed author page with no articles: {page.name}")
 
     semesters = sorted({a["semester"] for a in articles}, key=semester_sort_key, reverse=True)
-    print(f"{len(articles)} articles, {len(by_author)} authors, {len(semesters)} semesters; {changed} article files updated.")
+    print(
+        f"{len(articles)} articles, {len(podcasts)} podcasts, {len(by_author)} authors, "
+        f"{len(semesters)} semesters; {changed} article files updated."
+    )
 
 
 if __name__ == "__main__":

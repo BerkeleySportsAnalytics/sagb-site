@@ -41,3 +41,14 @@ const navContainer = document.getElementById("nav");
 if (navContainer) {
   navContainer.innerHTML = `\n  <ul>\n${menuMarkup}\n  </ul>`;
 }
+
+const logo = document.getElementById("logo");
+if (logo) {
+  let img = logo.querySelector("img");
+  if (!img) {
+    img = document.createElement("img");
+    logo.replaceChildren(img);
+  }
+  img.src = getPath("images/logos_2026/bear_white.png");
+  if (!img.getAttribute("alt")) img.alt = "Sports Analytics Group at Berkeley";
+}

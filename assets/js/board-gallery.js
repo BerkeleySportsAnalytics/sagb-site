@@ -30,7 +30,14 @@
     var nameEl = front.querySelector(".head3");
     var roleEl = front.querySelector(".title2");
     var name = nameEl.textContent.trim();
-    var role = roleEl ? roleEl.textContent.trim() : "";
+    var roles = roleEl
+      ? roleEl.innerHTML
+          .replace(/<br\s*\/?>/gi, "\n")
+          .replace(/<[^>]+>/g, "")
+          .split(/\n/)
+          .map(function (line) { return line.replace(/\s+/g, " ").trim(); })
+          .filter(Boolean)
+      : [];
 
     var photo = el("div", "bb-photo");
     front.insertBefore(photo, img);
@@ -47,7 +54,14 @@
     banner.appendChild(nameEl);
     photo.appendChild(banner);
 
-    if (roleEl) roleEl.classList.add("bb-position");
+    if (roleEl) {
+      roleEl.classList.add("bb-position");
+      roleEl.innerHTML = roles
+        .map(function (line) {
+          return line.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        })
+        .join("<br>");
+    }
 
     var foot = el("div", "bb-foot");
     foot.appendChild(el("span", "bb-branch", branch));
@@ -65,7 +79,11 @@
 
     var rows = el("div", "bb-rows");
     rows.appendChild(infoRow("Branch", branch));
-    rows.appendChild(infoRow("Position", role));
+    roles.forEach(function (line, i) {
+      rows.appendChild(infoRow(i === 0 ? "Position" : "", line));
+    });
+    var classYear = card.getAttribute("data-class");
+    if (classYear) rows.appendChild(infoRow("Class", "Class of " + classYear));
     back.insertBefore(rows, header.nextSibling);
 
     var heading = back.querySelector(".head2");
